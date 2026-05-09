@@ -1,6 +1,6 @@
-import { eq } from "drizzle-orm";
+import { eq, desc, and } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { InsertUser, users, InsertContactSubmission, contactSubmissions, articles } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,129 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+/**
+ * Create a new contact submission.
+ * Stores the submission in the database and returns the created record.
+ */
+export async function createContactSubmission(submission: InsertContactSubmission) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot create contact submission: database not available");
+    throw new Error("Database not available");
+  }
+
+  try {
+    const result = await db.insert(contactSubmissions).values(submission);
+    console.log("[Database] Contact submission created:", result);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to create contact submission:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get all contact submissions (for admin dashboard).
+ */
+export async function getAllContactSubmissions() {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get contact submissions: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db.select().from(contactSubmissions);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get contact submissions:", error);
+    throw error;
+  }
+}
+
+
+/**
+ * Create a new article.
+ */
+export async function createArticle(article: any) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+
+  try {
+    const result = await db.insert(articles).values(article);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to create article:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get all published articles, ordered by published date (newest first).
+ */
+export async function getPublishedArticles() {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get articles: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db
+      .select()
+      .from(articles)
+      .where(eq(articles.published, 1))
+      .orderBy(desc(articles.publishedAt))
+      .limit(100);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get articles:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get a single article by slug.
+ */
+export async function getArticleBySlug(slug: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get article: database not available");
+    return undefined;
+  }
+
+  try {
+    const result = await db
+      .select()
+      .from(articles)
+      .where(and(eq(articles.slug, slug), eq(articles.published, 1)))
+      .limit(1);
+    return result.length > 0 ? result[0] : undefined;
+  } catch (error) {
+    console.error("[Database] Failed to get article:", error);
+    throw error;
+  }
+}
+
+/**
+ * Update an article.
+ */
+export async function updateArticle(id: number, updates: any) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+
+  try {
+    const result = await db
+      .update(articles)
+      .set({ ...updates, updatedAt: new Date() })
+      .where(eq(articles.id, id));
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to update article:", error);
+    throw error;
+  }
+}
