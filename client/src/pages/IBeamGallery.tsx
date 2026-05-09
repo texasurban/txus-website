@@ -27,13 +27,13 @@ export default function IBeamGallery() {
           {/* Left Image - Table in Workshop */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab.jpg"
+              href="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab_f0ccafa1.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab.jpg"
+                src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab_f0ccafa1.jpg"
                 alt="I-Beam Walnut Table in Workshop"
                 className="w-full h-auto object-contain"
               />
@@ -43,13 +43,13 @@ export default function IBeamGallery() {
           {/* Center Image - Finished Table Close-up */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-58_98b79a8f.jpg"
+              href="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-58_98b79a8f_09cba683.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-58_98b79a8f.jpg"
+                src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-58_98b79a8f_09cba683.jpg"
                 alt="Bookmatched Walnut Table Detail"
                 className="w-full h-auto object-contain"
               />
@@ -59,13 +59,13 @@ export default function IBeamGallery() {
           {/* Right Image - Table in Conference Room */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-94_ccd49edc.jpg"
+              href="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-94_ccd49edc_39c96252.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Texas_Urban_Sawmill_Billet_OmegaWalnut-94_ccd49edc.jpg"
+                src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-94_ccd49edc_39c96252.jpg"
                 alt="I-Beam Walnut Table in Conference Room"
                 className="w-full h-auto object-contain"
               />

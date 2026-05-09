@@ -33,39 +33,39 @@ export default function PecanTrestleGallery() {
           <div className="w-full max-w-6xl grid grid-cols-3 gap-8">
             {/* Left Image */}
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable47_94111cec.jpg"
+              href="/manus-storage/Brad&KerryPecanTrestleTable47_94111cec_bebd8d24.jpg"
               target="_blank"
               rel="noreferrer"
               className="overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable47_94111cec.jpg"
+                src="/manus-storage/Brad&KerryPecanTrestleTable47_94111cec_bebd8d24.jpg"
                 alt="Pecan Trestle Table - Team installation"
                 className="w-full h-full object-cover"
               />
             </a>
             {/* Center Image - Brad & Kerry */}
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable45_17014b2e.jpg"
+              href="/manus-storage/Brad&KerryPecanTrestleTable45_17014b2e_280733e2.jpg"
               target="_blank"
               rel="noreferrer"
               className="overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable45_17014b2e.jpg"
+                src="/manus-storage/Brad&KerryPecanTrestleTable45_17014b2e_280733e2.jpg"
                 alt="Pecan Trestle Table - Brad and Kerry with finished piece"
                 className="w-full h-full object-cover"
               />
             </a>
             {/* Right Image */}
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable18_1856bb6b.jpg"
+              href="/manus-storage/Brad&KerryPecanTrestleTable18_1856bb6b_3275a96b.jpg"
               target="_blank"
               rel="noreferrer"
               className="overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable18_1856bb6b.jpg"
+                src="/manus-storage/Brad&KerryPecanTrestleTable18_1856bb6b_3275a96b.jpg"
                 alt="Pecan Trestle Table - Installation in timber frame home"
                 className="w-full h-full object-cover"
               />

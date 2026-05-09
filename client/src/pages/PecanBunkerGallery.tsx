@@ -28,13 +28,13 @@ export default function PecanBunkerGallery() {
         {/* Gallery - Full Width Composite */}
         <div className="flex justify-center mb-12">
           <a
-            href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/PecanBunkerComposite_4d5f2f52.jpg"
+            href="/manus-storage/PecanBunkerComposite_4d5f2f52_35f6af16.jpg"
             target="_blank"
             rel="noreferrer"
             className="w-full max-w-5xl overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/PecanBunkerComposite_4d5f2f52.jpg"
+              src="/manus-storage/PecanBunkerComposite_4d5f2f52_35f6af16.jpg"
               alt="24ft Pecan Bunker Conference Table - Executive furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
             />

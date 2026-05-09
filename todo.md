@@ -24,7 +24,10 @@
 - [x] Update Services dropdown to link Custom Heirloom Furniture to /portfolio
 
 ## Phase 3: Re-upload and Wire All Manus-Storage Assets
-- [ ] Migrate remaining 41 external CloudFront URLs from gallery/portfolio pages to Manus storage
+- [x] Migrate remaining 24 unique external CloudFront URLs from gallery/portfolio pages to Manus storage
+- [x] Download all 24 CloudFront images
+- [x] Upload all 24 images to Manus storage
+- [x] Update 9 gallery/portfolio files with new Manus storage paths
 - [ ] Create placeholder hero images for the 3 missing blog articles (Climate-Smart, Tree Reuse, Sustainable Furniture)
 - [ ] Upload placeholder images to project storage
 - [ ] Update blog article components to reference new storage paths
@@ -46,8 +49,8 @@
 - [ ] Ensure all blog articles have proper hero images and metadata
 
 ## Phase 6: Fix Services Dropdown Navigation and Verify All Routes
-- [ ] Test Services dropdown menu opens/closes correctly
-- [ ] Verify each Services menu item links to correct individual service page
+- [x] Test Services dropdown menu opens/closes correctly
+- [x] Verify each Services menu item links to correct individual service page
 - [ ] Test all navigation links across the entire site
 - [ ] Verify back navigation works on all subpages
 - [ ] Test breadcrumb navigation (if applicable)
@@ -71,8 +74,10 @@
 - [ ] Publish to production
 
 ## Notes
-- All images have been successfully uploaded to the new project (71/76 - 3 blog hero images pending)
+- All images have been successfully uploaded to the new project (71 Phase 1 images + 3 hero images + 24 gallery images = 98 total)
 - All Phase 1 source files have been copied and integrated
 - Dev server is running with 0 TypeScript errors
 - All dependencies have been installed and configured
 - Navigation and Footer components are rendering correctly
+- All external CloudFront URLs have been migrated to Manus storage
+- Custom Heirloom Furniture now links directly to Portfolio page

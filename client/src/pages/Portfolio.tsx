@@ -30,7 +30,7 @@ export default function Portfolio() {
   const hero = {
     title: "Rooted in Heritage. Crafted for Legacy.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/portfolio-hero-cropped_a8f3310a.webp",
+      "/manus-storage/portfolio-hero-cropped_a8f3310a_9061f348.webp",
     description:
       "We turn rescued Texas trees into statement tables and heirloom pieces—each one shaped by time, nature, family, and skilled hands. No two are alike. They're made to be lived with, enjoyed daily, and passed down to live for generations.",
   };
@@ -39,49 +39,49 @@ export default function Portfolio() {
     {
       name: 'Stinson "S-Base" Walnut Table',
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/stinson-s-base-walnut-table-clean_48bfa6d4.png",
+        "/manus-storage/stinson-s-base-walnut-table-clean_48bfa6d4_ca819d59.png",
       clickImage: "/stinson-gallery?from=portfolio",
     },
     {
       name: "Stainless Omega Walnut",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/stainless-omega-walnut-clean_37eab0f9.png",
+        "/manus-storage/stainless-omega-walnut-clean_37eab0f9_dbbb06b3.png",
       clickImage: "/omega-gallery?from=portfolio",
     },
     {
       name: "Modern I-Beam Conference Table",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/modern-i-beam-conference-table-clean_57d6a49e.png",
+        "/manus-storage/modern-i-beam-conference-table-clean_57d6a49e_1b5b0ec2.png",
       clickImage: "/ibeam-gallery?from=portfolio",
     },
     {
       name: "24ft Pecan Bunker Conference Table",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/pecan-bunker-conference-table-clean_e24a8899.png",
+        "/manus-storage/pecan-bunker-conference-table-clean_e24a8899_ca056166.png",
       clickImage: "/pecan-bunker-gallery?from=portfolio",
     },
     {
       name: "Family Legacy: Pecan Kitchen Island & Bar Back",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/womack-pecan-ranch-island-bar-back-clean_5b997e1c.png",
+        "/manus-storage/womack-pecan-ranch-island-bar-back-clean_5b997e1c_dd6b032e.png",
       clickImage: "/family-legacy-gallery?from=portfolio",
     },
     {
       name: "1-Ton Gold Walnut Table",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/one-ton-gold-walnut-table-clean_63acf842.png",
+        "/manus-storage/one-ton-gold-walnut-table-clean_63acf842_487bad0d.png",
       clickImage: "/gold-walnut-gallery?from=portfolio",
     },
     {
       name: "Hillco Quad Matched Pecan Table",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936.jpg",
+        "/manus-storage/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936_1099e1d3.jpg",
       clickImage: "/hillco-gallery?from=portfolio",
     },
     {
       name: "Pecan Trestle Table",
       image:
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/Brad&KerryPecanTrestleTable45_17014b2e.jpg",
+        "/manus-storage/Brad&KerryPecanTrestleTable45_17014b2e_280733e2.jpg",
       clickImage: "/pecan-trestle-gallery?from=portfolio",
     },
   ];
@@ -204,7 +204,7 @@ export default function Portfolio() {
               <div className="mt-8 mb-12">
                 <div className="overflow-hidden rounded-lg shadow-lg">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/TXUS-Devin&SarahASHDelivery_24b29f79.webp"
+                    src="/manus-storage/TXUS-Devin&SarahASHDelivery_24b29f79_810cf8a5.webp"
                     alt="Owners, Devin and Sarah Ginther standing next to kilned dried pecan boules"
                     className="w-full h-auto object-cover"
                     loading="lazy"
@@ -249,7 +249,7 @@ export default function Portfolio() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/20190523_150303_c7919b73.webp"
+                  src="/manus-storage/20190523_150303_c7919b73_d01738ed.webp"
                   alt="Custom furniture craftsmanship detail"
                   className="w-full h-auto object-cover"
                   loading="lazy"

@@ -27,13 +27,13 @@ export default function HillcoGallery() {
           {/* Left Image - Workshop/Production */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch75_10aeadf3.jpg"
+              href="/manus-storage/HillcoPartners-17FootPecanQuadMatch75_10aeadf3_86caba2b.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch75_10aeadf3.jpg"
+                src="/manus-storage/HillcoPartners-17FootPecanQuadMatch75_10aeadf3_86caba2b.jpg"
                 alt="Hillco Pecan Slabs in Workshop - Production Process"
                 className="w-full h-auto object-contain"
               />
@@ -43,13 +43,13 @@ export default function HillcoGallery() {
           {/* Center Certificate */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch1_c07b8296.jpg"
+              href="/manus-storage/HillcoPartners-17FootPecanQuadMatch1_c07b8296_50946ead.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch1_c07b8296.jpg"
+                src="/manus-storage/HillcoPartners-17FootPecanQuadMatch1_c07b8296_50946ead.jpg"
                 alt="Certificate of Authenticity - Hillco Partners"
                 className="w-full h-auto object-contain"
               />
@@ -59,13 +59,13 @@ export default function HillcoGallery() {
           {/* Right Image */}
           <div className="flex justify-center">
             <a
-              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch89_512f043c.jpg"
+              href="/manus-storage/HillcoPartners-17FootPecanQuadMatch89_512f043c_6b483791.jpg"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch89_512f043c.jpg"
+                src="/manus-storage/HillcoPartners-17FootPecanQuadMatch89_512f043c_6b483791.jpg"
                 alt="Hillco Table in Conference Room"
                 className="w-full h-auto object-contain"
               />
@@ -76,13 +76,13 @@ export default function HillcoGallery() {
         {/* Bottom Image - Full Width */}
         <div className="mt-12 flex justify-center">
           <a
-            href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936.jpg"
+            href="/manus-storage/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936_1099e1d3.jpg"
             target="_blank"
             rel="noreferrer"
             className="w-full max-w-4xl overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936.jpg"
+              src="/manus-storage/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936_1099e1d3.jpg"
               alt="Hillco Table with Team Members"
               className="w-full h-auto object-contain"
             />

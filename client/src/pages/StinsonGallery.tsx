@@ -28,13 +28,13 @@ export default function StinsonGallery() {
         {/* Gallery - Full Width Composite */}
         <div className="flex justify-center mb-12">
           <a
-            href="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/StinsonWalnutComposite_e04c8d8a.jpg"
+            href="/manus-storage/StinsonWalnutComposite_e04c8d8a_49846453.jpg"
             target="_blank"
             rel="noreferrer"
             className="w-full max-w-5xl overflow-hidden shadow-2xl border-4 border-[#d7a469] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 cursor-pointer block"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/V2neQFy7ZU5AwL5qB2Dckt/StinsonWalnutComposite_e04c8d8a.jpg"
+              src="/manus-storage/StinsonWalnutComposite_e04c8d8a_49846453.jpg"
               alt="Stinson S-Base Walnut Table - Rescued wood furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
             />
