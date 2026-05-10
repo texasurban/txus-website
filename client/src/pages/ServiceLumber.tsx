@@ -58,12 +58,12 @@ export default function ServiceLumber() {
 
         <main>
           {/* HERO BANNER SECTION - CORRECT SPECIFICATION */}
-          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
-            <img
-              src="/manus-storage/placeholder-hero.webp"
-              alt="Lumber, Beams, Mantels & Slabs - Texas Urban Sawmill"
-              className="absolute inset-0 h-full w-full object-cover object-center"
-            />
+        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+          <img
+            src="/manus-storage/TXUSHeroBannerWebsite1920x600_a3cb474e.png"
+            alt="Lumber Milling Services - Texas Urban Sawmill"
+            className="absolute inset-0 h-full w-full object-cover object-center"
+          />
 
             <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
               <motion.div
