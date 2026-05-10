@@ -213,7 +213,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Walnut cross-sectional rounds showcasing natural growth rings and character
+                      Rare Mesquite cookie burls being finished out for display and functional use
                     </p>
                   </div>
                   <div className="mt-8">
