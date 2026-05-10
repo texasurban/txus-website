@@ -92,9 +92,9 @@ export default function ServiceTreeReuse() {
         {/* HERO BANNER SECTION */}
         <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
           <img
-            src="/manus-storage/placeholder-hero.webp"
+            src="/manus-storage/20200427_142407_4fffcc85.webp"
             alt="Climate-Smart Tree Re-Use Construction Projects - Texas Urban Sawmill"
-            className="absolute inset-0 h-full w-full object-cover object-center"
+            className="absolute inset-0 h-full w-full object-cover object-bottom"
           />
 
           <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
@@ -105,9 +105,14 @@ export default function ServiceTreeReuse() {
               transition={{ duration: 0.6 }}
               className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
             >
-              <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
-                Climate-Smart Construction Projects
-              </h1>
+              <div>
+                <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+                  Adaptive Tree Re-Use Projects
+                </h1>
+                <p className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl mt-2">
+                  Climate-Smart Construction
+                </p>
+              </div>
             </motion.div>
           </div>
         </section>
@@ -123,9 +128,25 @@ export default function ServiceTreeReuse() {
               variants={fadeUp}
               className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
             >
-              <p className="text-lg text-[#6d5d50] mb-8 leading-relaxed max-w-4xl mx-auto">
+              <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                 TXUS specializes in providing Climate Smart Project™ solutions for construction and land improvement projects. Our work delivers measurable sustainability outcomes, including net-negative carbon impacts that help accelerate environmental goals. To date, we have helped save Texans over 1,000,000 lbs of CO₂e — making TXUS one of the few carbon-negative businesses in Texas.
               </p>
+            </motion.div>
+
+            {/* Large CTA to Process Section */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+              className="mb-20"
+            >
+              <Button asChild className="w-full bg-[#217938] text-white hover:bg-[#1a5a2a] py-8 lg:py-12 text-lg lg:text-2xl font-bold rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-black">
+                <a href="#adaptive-process" className="flex items-center justify-center gap-3">
+                  View Our Process
+                  <ArrowRight className="h-6 w-6 lg:h-8 lg:w-8" />
+                </a>
+              </Button>
             </motion.div>
 
             {/* Featured Services - Two Column Layout */}
@@ -200,19 +221,8 @@ export default function ServiceTreeReuse() {
         </section>
 
         {/* SECTION 1.5: PMP PROCESS TIMELINE */}
-        <section className="bg-[#2a3a4a] px-6 py-16 lg:px-8 lg:py-24">
+        <section id="adaptive-process" className="bg-[#2a3a4a] px-6 py-8 lg:px-8 lg:py-12">
           <div className="mx-auto max-w-7xl">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.25 }}
-              variants={fadeUp}
-              className="text-center mb-12"
-            >
-              <h2 className="text-4xl font-bold mb-4 text-white">Adaptive Tree Re-Use Process</h2>
-              <p className="text-[#d7a469] text-lg">A thoughtful, sustainable process from tree to timeless product</p>
-            </motion.div>
-
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -228,78 +238,6 @@ export default function ServiceTreeReuse() {
           </div>
         </section>
 
-        {/* SECTION 2: ADDITIONAL SERVICES - CREAM */}
-        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
-          <div className="mx-auto max-w-7xl">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.25 }}
-              variants={fadeUp}
-            >
-              <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
-                Additional Value-Added Services
-              </h3>
-              <div className="space-y-12">
-                {/* Heirloom Furniture */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Locally Crafted Heirloom Furniture</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We offer locally made, net-carbon negative furniture products that bring the history of our fallen trees into your home. Our furniture collection comprises stunning heirloom pieces made from Climate Smart Wood™, locally handcrafted in Dripping Springs, TX. Every piece can be traced back to the rescued trees' original location with a certificate of authenticity.
-                  </p>
-                </div>
-
-                {/* Sawmill Services */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Neighborhood Sawmill Services</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We offer top-quality wood milling services to the general public with state-of-the-art sawmills. Our Baker Sawmill has a cutting capacity of up to 28" x 20' at $200/hour, and our Woodmizer WM-1000 has a cutting capacity of up to 72" x 18' at $300/hour. Turnaround time is usually 1-2 weeks.
-                  </p>
-                </div>
-
-                {/* Crane Pick-Up and Log Transport */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Crane Pick-Up and Log Transport</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    The removal and transportation of logs is a significant challenge that prevents many people from salvaging fallen trees. We offer assistance in salvaging, transporting, and milling logs. Service fees are typically $7/mile round-trip, including up to 45 minutes of loading time. For large-scale projects, we offer project-based quotes with long-distance mileage discounts available.
-                  </p>
-                </div>
-
-                {/* Kiln Drying */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Kiln Drying & Sterilized Lumber</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We offer kiln drying that produces properly dried (8-10% MC) and sterilized lumber. We sterilize our kiln dried lumber at 155 degrees for a minimum of 72 hours. We operate a traditional Nyle dehumidification kiln and are the only business in the southern United States offering a high frequency vacuum kiln for drying beams, mantles, and extremely thick timber that cannot typically be dried using traditional means.
-                  </p>
-                </div>
-
-                {/* Sustainable Land Services */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Sustainable Land Services</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We provide the most sustainable land services in Texas that prioritize environmental preservation and responsible land management practices. We specialize in sustainable forestry and tree removal practices that reduce waste, protecting local ecosystems. Our approach to selective land clearing involves careful planning to ensure preservation of natural habitats while maximizing wood utilization.
-                  </p>
-                </div>
-
-                {/* CNC Routing */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">CNC Routing, Surfacing, & Signs</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We own a custom built digital CNC router that can surface slabs up to 72 inches wide and 16 feet long. Typical surfacing charge is $10/SF, with 30-50% discount for our customers. We also offer prototyping, custom signage, woodworking, 3D carving, and laser cutting and engraving services.
-                  </p>
-                </div>
-
-                {/* Tree Care & Removals */}
-                <div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Tree Care & Removals</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    We believe in a full-circle approach to forestry management. We have a certified arborist on our team and a specialized tree crew that handles removals, ensuring the highest and best utilization of the wood. We offer the most competitive rates in Texas without compromising on quality or service.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
 
         {/* CTA SECTION */}
         <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
