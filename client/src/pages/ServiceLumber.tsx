@@ -147,7 +147,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Post Oak beam—we mill up to 28-foot-long beams
+                      Post Oak beam—milled up to 28 feet long with tight grain and exceptional stability
                     </p>
                   </div>
                   <div className="mt-8">
