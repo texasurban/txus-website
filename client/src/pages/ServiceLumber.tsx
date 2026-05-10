@@ -137,8 +137,8 @@ export default function ServiceLumber() {
                       We can mill virtually any fractional dimension to meet your project's needs. The most common thicknesses are 4/4, 6/4, 8/4, and 10/4, which equate to approximately 1 inch, 1.5 inches, 2 inches, and 3 inches respectively. Each board is precisely sawn, and we can also offer kiln‑drying services.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
-                      <a href="/contact">
-                        Request Quote
+                      <a href="/shop">
+                        Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
@@ -170,8 +170,8 @@ export default function ServiceLumber() {
                       Our beams are milled from locally reclaimed logs and cut to nearly any size or profile. Whether structural or decorative, we produce solid timbers with tight grain and excellent stability. Each beam undergoes secondary millwork and can be planed flat or shaped with CNC profiles. Ideal for exposed framing, trusses, pergolas, and architectural accents.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
-                      <a href="/contact">
-                        Request Quote
+                      <a href="/shop">
+                        Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
@@ -203,8 +203,8 @@ export default function ServiceLumber() {
                       We craft fireplace mantles from select slabs and beams chosen for their grain and figure. Each mantle is flattened, sanded, and finished to your specifications for a precise fit. Options include live‑edge, squared, or custom profiles. Every mantle is built as a standout feature in your space.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
-                      <a href="/contact">
-                        Request Quote
+                      <a href="/shop">
+                        Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
@@ -236,8 +236,8 @@ export default function ServiceLumber() {
                       Cookies (also called rounds) are cross‑sectional slices cut from logs, showing the full growth‑ring pattern of the tree. We cut cookies perpendicular to the trunk to produce clean, stable rounds in a variety of diameters. Each piece can be flattened, stabilized, and sanded to your specifications for display or functional use.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
-                      <a href="/contact">
-                        Request Quote
+                      <a href="/shop">
+                        Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
@@ -302,8 +302,8 @@ export default function ServiceLumber() {
                       Live edge slabs preserve the natural contours of the tree, showcasing the full grain structure and organic edge profile. Cut in common thicknesses—4/4, 6/4, 8/4, and 10/4 (approximately 1", 1.5", 2", and 3")—each slab is flattened, sanded, and finished to your specifications.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
-                      <a href="/contact">
-                        Request Quote
+                      <a href="/shop">
+                        Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
