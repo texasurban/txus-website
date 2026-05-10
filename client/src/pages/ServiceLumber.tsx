@@ -313,39 +313,6 @@ export default function ServiceLumber() {
             </div>
           </section>
 
-          {/* SECTION 2: DETAILS - CREAM */}
-          <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl">
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
-                variants={fadeUp}
-              >
-                <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
-                  [Placeholder: Section Title]
-                </h3>
-                <p className="text-[#6d5d50] mb-6 text-center">
-                  [Placeholder: Detailed content section]
-                </p>
-              </motion.div>
-            </div>
-          </section>
-
-          {/* CTA SECTION */}
-          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl text-center">
-              <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
-                Ready to Start Your Project?
-              </h3>
-              <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] px-8 py-3">
-                <a href="/contact">
-                  Contact Us Today
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-            </div>
-          </section>
         </main>
 
         <Footer />
