@@ -180,7 +180,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      English Walnut fireplace mantle with precision finishing and custom profiles
+                      English Walnut mantle milled to reveal the most appealing grains and natural shapes
                     </p>
                   </div>
                   <div className="mt-8">

@@ -33,13 +33,13 @@
 - [ ] Update blog article components to reference new storage paths
 
 ## Phase 4: Complete Placeholder Service Pages
-- [ ] Complete ServiceLumber.tsx (Lumber, Beams, Mantels & Slabs) using ServiceSawmilling.tsx as template
+- [x] Complete ServiceLumber.tsx (Lumber, Beams, Mantels & Slabs) using ServiceSawmilling.tsx as template
 - [x] Remove ServiceFurniture.tsx and redirect /services/furniture to /portfolio
 - [x] Complete ServiceTreeReuse.tsx (Tree Re-Use Construction) with full copy and imagery
-- [ ] Complete ServiceLogTransport.tsx (Log Transport & Crane Services) with full copy and imagery
-- [ ] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
-- [ ] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery
-- [ ] Verify all 6 service pages render correctly with consistent styling
+- [x] Complete ServiceLogTransport.tsx (Log Transport & Crane Services) with full copy and imagery
+- [x] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
+- [x] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery
+- [x] Verify all 6 service pages render correctly with consistent styling
 
 ## Phase 5: Finalize Remaining Blog Articles
 - [ ] Complete ClimateSmartProjects.tsx blog article with full content
