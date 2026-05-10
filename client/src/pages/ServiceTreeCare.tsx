@@ -89,9 +89,9 @@ export default function ServiceTreeCare() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-white px-8 py-6 rounded-lg shadow-lg border-2 border-[#1b1612]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
               >
-                <p className="text-base lg:text-lg text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
+                <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   We are paving the way for change in Texas and believe in a full-circle approach to forestry management and urban tree care. That means we take part in all aspects, from plantings to sustainable reuse of woody materials. We have a certified arborist on our team and a specialized tree crew that handles removals, ensuring the highest and best utilization of the wood.
                 </p>
               </motion.div>

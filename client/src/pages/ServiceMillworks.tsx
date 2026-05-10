@@ -57,45 +57,48 @@ export default function ServiceMillworks() {
         <Navigation />
 
         <main>
-          {/* HERO BANNER */}
-          <section className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center" 
-               style={{backgroundImage: `url('/manus-storage/placeholder-hero.webp')`}}>
-            <div className="absolute inset-0 bg-black/30"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
+          {/* HERO BANNER SECTION */}
+          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+            <img
+              src="/manus-storage/placeholder-hero.webp"
+              alt="Millworks, CNC & Laser Services - Texas Urban Sawmill"
+              className="absolute inset-0 h-full w-full object-cover object-center"
+            />
+
+            <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
               <motion.div
                 initial="hidden"
                 animate="visible"
                 variants={fadeUp}
                 transition={{ duration: 0.6 }}
-                className="text-center max-w-4xl px-6"
+                className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
               >
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+                <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
                   Millworks, CNC & Laser Services
                 </h1>
-                <p className="text-lg md:text-xl text-white mt-4">
-                  Precision Craftsmanship & Digital Fabrication
+              </motion.div>
+            </div>
+          </section>
+
+          {/* INTRO TEXT SECTION */}
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+            <div className="mx-auto max-w-7xl">
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.25 }}
+                variants={fadeUp}
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
+              >
+                <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
+                  Transform your vision into reality with our state-of-the-art CNC routing and laser engraving capabilities. From intricate woodworking details to custom signage and personalized gifts, we combine precision technology with expert craftsmanship to deliver exceptional results on every project.
                 </p>
               </motion.div>
             </div>
           </section>
 
-          {/* INTRO TEXT BOX */}
-          <section className="px-6 py-16 lg:px-8 lg:py-24">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.25 }}
-              variants={fadeUp}
-              className="max-w-6xl mx-auto my-10 border-2 border-[#1b1612] p-6 bg-white"
-            >
-              <p className="text-base lg:text-lg font-bold text-[#1b1612] text-center leading-relaxed">
-                Transform your vision into reality with our state-of-the-art CNC routing and laser engraving capabilities. From intricate woodworking details to custom signage and personalized gifts, we combine precision technology with expert craftsmanship to deliver exceptional results on every project.
-              </p>
-            </motion.div>
-          </section>
-
           {/* SERVICE CARDS SECTION */}
-          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
             <div className="mx-auto max-w-7xl">
               <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
                 {/* Service 1: CNC Routing */}
