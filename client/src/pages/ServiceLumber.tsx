@@ -117,7 +117,7 @@ export default function ServiceLumber() {
                       Milled Ashe Juniper for Austin Habitat for Humanity ReStore—USDA FS Wood Innovations Project
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Lumber</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       We can mill virtually any fractional dimension to meet your project's needs. The most common thicknesses are 4/4, 6/4, 8/4, and 10/4, which equate to approximately 1 inch, 1.5 inches, 2 inches, and 3 inches respectively. Each board is precisely sawn, and we can also offer kiln‑drying services.
@@ -150,7 +150,7 @@ export default function ServiceLumber() {
                       Post Oak beam—milled up to 28 feet long with tight grain and exceptional stability
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Beams</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       Our beams are milled from locally reclaimed logs and cut to nearly any size or profile. Whether structural or decorative, we produce solid timbers with tight grain and excellent stability. Each beam undergoes secondary millwork and can be planed flat or shaped with CNC profiles. Ideal for exposed framing, trusses, pergolas, and architectural accents.
@@ -183,7 +183,7 @@ export default function ServiceLumber() {
                       English Walnut mantle milled to reveal the most appealing grains and natural shapes
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Mantles</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       We craft fireplace mantles from select slabs and beams chosen for their grain and figure. Each mantle is flattened, sanded, and finished to your specifications for a precise fit. Options include live‑edge, squared, or custom profiles. Every mantle is built as a standout feature in your space.
@@ -216,7 +216,7 @@ export default function ServiceLumber() {
                       Rare Mesquite cookie burls being finished out for display and functional use
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Cookies</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       Cookies (also called rounds) are cross‑sectional slices cut from logs, showing the full growth‑ring pattern of the tree. We cut cookies perpendicular to the trunk to produce clean, stable rounds in a variety of diameters. Each piece can be flattened, stabilized, and sanded to your specifications for display or functional use.
@@ -249,7 +249,7 @@ export default function ServiceLumber() {
                       Custom milled components—CNC shaping, surfacing, and specialty cuts
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Custom</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       For projects beyond standard milling, we offer full custom processing for any log you bring us. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, and custom molding. Profiles can be matched, replicated, or designed from scratch using precision tooling. We excel at turning irregular or meaningful logs into functional, one‑of‑a‑kind components.
@@ -282,7 +282,7 @@ export default function ServiceLumber() {
                       Live edge slabs preserving natural contours, grain, and organic edge profiles
                     </p>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Slabs</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
                       Live edge slabs preserve the natural contours of the tree, showcasing the full grain structure and organic edge profile. Cut in common thicknesses—4/4, 6/4, 8/4, and 10/4 (approximately 1", 1.5", 2", and 3")—each slab is flattened, sanded, and finished to your specifications.
