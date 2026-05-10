@@ -139,14 +139,12 @@ export default function ServiceTreeReuse() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="mb-20"
+              className="mb-10 mt-10"
             >
-              <Button asChild className="w-full bg-[#217938] text-white hover:bg-[#1a5a2a] py-8 lg:py-12 text-lg lg:text-2xl font-bold rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-black">
-                <a href="#adaptive-process" className="flex items-center justify-center gap-3">
-                  View Our Process
-                  <ArrowRight className="h-6 w-6 lg:h-8 lg:w-8" />
-                </a>
-              </Button>
+              <a href="#adaptive-process" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-black">
+                View Our Process
+                <ArrowRight className="h-4 w-4" />
+              </a>
             </motion.div>
 
             {/* Featured Services - Two Column Layout */}
@@ -170,17 +168,15 @@ export default function ServiceTreeReuse() {
                     What was once cleared is now preserved. TXUS rescues and reuses trees from the Austin State Hospital project, turning local urban wood into lasting value.
                   </p>
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                   <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">PMP Project Management</h3>
-                  <p className="text-[#6d5d50] mb-6">
-                    The Texas Urban Sawmill stands as the sole business in Texas and one of the rare enterprises in North America dedicated to providing comprehensive support for adaptive tree re-use projects from start to finish. Our Project Management Professional (PMP) oversees every facet of these endeavors, having over 20 years of global commercialization project experience. We prioritize meticulous planning, effective scope management, efficient scheduling, prudent cost management, and rigorous quality assurance.
+                  <p className="text-[#6d5d50] mb-4">
+                    The Texas Urban Sawmill is the only business in Texas and among the few in North America providing complete start-to-finish support for Adaptive Tree ReUse projects. Led by a certified Project Management Professional with over 20 years of global commercialization experience, TXUS delivers expert planning, scope management, scheduling, cost control, and quality assurance to help clients successfully execute complex, sustainability-driven projects.
                   </p>
-                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                    <a href="/contact">
-                      Request Project Quote
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    Request Project Quote
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
                 </div>
               </motion.div>
 
@@ -203,17 +199,15 @@ export default function ServiceTreeReuse() {
                     In the heart of the Austin State Hospital redevelopment, Devin Ginther is helping preserve the story of Central Texas trees through urban wood recovery and reuse.
                   </p>
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                   <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Adaptive Tree Re-Use Projects</h3>
-                  <p className="text-[#6d5d50] mb-6">
+                  <p className="text-[#6d5d50] mb-4">
                     These Adaptive Tree ReUse projects offer a unique opportunity for clients to make a significant impact on environmental sustainability. By using trees that would typically be part of the waste stream or chipped or mulched, clients can create powerful and meaningful experiences for residents and customers. From these rescued trees, we produce Climate Smart Wood™ for our clients—the most sustainable form of lumber with net negative carbon benefits.
                   </p>
-                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                    <a href="/contact">
-                      Request Project Quote
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    Request Project Quote
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
                 </div>
               </motion.div>
             </div>
@@ -245,12 +239,10 @@ export default function ServiceTreeReuse() {
             <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
               Partner with us to become part of the solution to a greener future!
             </h3>
-            <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] px-8 py-3">
-              <a href="/contact">
-                Contact Us Today
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
+            <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+              Contact Us Today
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </section>
       </main>

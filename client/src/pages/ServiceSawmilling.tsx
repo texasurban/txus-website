@@ -176,17 +176,15 @@ export default function ServiceSawmilling() {
                     Sarah Ginther is the Lead Sawyer and stands ready to mill on the Woodmizer WM1000, one of the largest sawmills in Texas built in Poland. It can mill a 67" diameter log with a length up to 25 feet.
                   </p>
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                   <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Custom Sawmilling</h3>
-                  <p className="text-[#6d5d50] mb-6">
+                  <p className="text-[#6d5d50] mb-4">
                     We mill logs of all sizes with precision and consistency. Our Baker industrial sawmill is built for production, while the Wood-Mizer WM1000 allows us to process large-diameter logs and specialized cuts others can't. With capacity up to 50,000 board feet per month, we handle everything from one-off jobs to large-scale commercial orders. Powered by 480V electric industrial sawmills, our operation delivers high-efficiency, zero-emission processing at scale.
                   </p>
-                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                    <a href="/contact">
-                      Request Sawmilling Quote
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    Request Sawmilling Quote
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
                 </div>
               </motion.div>
 
@@ -209,24 +207,22 @@ export default function ServiceSawmilling() {
                     Our traditional dehumidification (DH) kiln can dry up to 6,000 board feet of lumber per cycle, with sterilization temperatures exceeding 180°F to ensure quality, stability, and pest-free material.
                   </p>
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                   <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Kiln Drying Services</h3>
-                  <p className="text-[#6d5d50] mb-6">
-                    Texas Urban Sawmill operates two advanced kiln systems to match performance with application. Our Nyle dehumidification (DH) kiln ensures consistent, controlled drying for general lumber, while our high-frequency (HF) vacuum kiln significantly reduces drying time for higher-value material. Turnaround typically ranges from 2–6 weeks in the HF vacuum kiln and 2–3 months in the DH kiln, depending on species and thickness.
+                  <p className="text-[#6d5d50] mb-4">
+                    We operate two advanced kiln systems for efficient, high-quality lumber drying. Our Nyle dehumidification (DH) kiln provides consistent, controlled drying for general lumber, while the high-frequency (HF) vacuum kiln rapidly dries higher-value material with reduced turnaround times. Depending on species and thickness, drying cycles range from 2–6 weeks in the HF kiln and 2–3 months in the DH kiln, allowing us to balance speed, stability, and craftsmanship across projects of all sizes.
                   </p>
-                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                    <a href="/contact">
-                      Request Kiln Drying Quote
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    Request Kiln Drying Quote
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
                 </div>
               </motion.div>
             </div>
           </div>
         </section>
 
-        {/* SECTION 2: SAWMILLING SERVICES & PRICING - TAN */}
+        {/* SECTION 1.5: SAWMILL SPECIFICATIONS - PRICING - TAN */}
         <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-7xl">
             <motion.div
@@ -244,7 +240,7 @@ export default function ServiceSawmilling() {
                   <h4 className="text-xl font-bold mb-6 text-[#1b1612]">480V Electric Baker Sawmill</h4>
                   
                   <p className="font-bold text-[#1b1612] mb-3">Capacity:</p>
-                  <p className="text-[#6d5d50] mb-6">Maximum diameter: 32" | Maximum length: 28 feet</p>
+                  <p className="text-[#6d5d50]">Maximum diameter: 32" | Maximum length: 28 feet</p>
 
                   <p className="font-bold text-[#1b1612] mb-3">Pricing:</p>
                   <ul className="space-y-2 text-[#6d5d50] mb-6">
@@ -277,7 +273,7 @@ export default function ServiceSawmilling() {
                   <h4 className="text-xl font-bold mb-6 text-[#1b1612]">480V Electric Wood-Mizer WM1000</h4>
                   
                   <p className="font-bold text-[#1b1612] mb-3">Capacity:</p>
-                  <p className="text-[#6d5d50] mb-6">Maximum diameter: 67" | Maximum length: 24 feet</p>
+                  <p className="text-[#6d5d50]">Maximum diameter: 67" | Maximum length: 24 feet</p>
 
                   <p className="font-bold text-[#1b1612] mb-3">Pricing:</p>
                   <ul className="space-y-2 text-[#6d5d50] mb-6">
