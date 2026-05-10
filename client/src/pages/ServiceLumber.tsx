@@ -266,7 +266,7 @@ export default function ServiceLumber() {
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Custom</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
-                      For projects beyond standard milling, we provide custom processing tailored to the unique character and purpose of each log. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, custom molding, and precision profile matching or replication. We work with irregular, oversized, or meaningful material to create functional, one-of-a-kind components with lasting value.
+                      For projects beyond standard milling, we provide custom processing tailored to the character and purpose of each log. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, custom molding, and precision profile matching or replication. We work with irregular or meaningful material to create functional, one-of-a-kind components with lasting value.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/contact">
