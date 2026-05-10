@@ -94,7 +94,7 @@ export default function ServiceTreeReuse() {
           <img
             src="/manus-storage/20200427_142407_4fffcc85.webp"
             alt="Climate-Smart Tree Re-Use Construction Projects - Texas Urban Sawmill"
-            className="absolute inset-0 h-full w-full object-cover object-top"
+            className="absolute inset-0 h-full w-full object-cover object-center"
           />
 
           <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
