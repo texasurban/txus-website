@@ -167,7 +167,7 @@ export default function ServiceLumber() {
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Beams</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
-                      Our beams are milled from locally reclaimed logs and cut to nearly any size or profile. Whether structural or decorative, we produce solid timbers with tight grain and excellent stability. Each beam undergoes secondary millwork and can be planed flat or shaped with CNC profiles. Ideal for exposed framing, trusses, pergolas, and architectural accents.
+                      Our beams are milled from locally reclaimed logs and cut to a wide range of sizes and profiles. Whether structural or decorative, we produce solid timbers with exceptional character, stability, and craftsmanship. Each beam can undergo secondary millwork, planing, or CNC shaping for custom architectural applications and exposed timber features.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/shop">
@@ -266,7 +266,7 @@ export default function ServiceLumber() {
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Custom</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
-                      For projects beyond standard milling, we offer full custom processing for any log you bring us. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, and custom molding. Profiles can be matched, replicated, or designed from scratch using precision tooling. We excel at turning irregular or meaningful logs into functional, one‑of‑a‑kind components.
+                      For projects beyond standard milling, we provide custom processing tailored to the unique character and purpose of each log. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, custom molding, and precision profile matching or replication. We work with irregular, oversized, or meaningful material to create functional, one-of-a-kind components with lasting value.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/contact">
