@@ -20,7 +20,7 @@ const navItems = [
     submenu: [
       { label: "Lumber, Beams, Mantels & Slabs", href: "/services/lumber" },
       { label: "Sawmilling & Kiln Drying", href: "/services/sawmilling" },
-      { label: "Custom Furniture", href: "/services/furniture" },
+      { label: "Custom Furniture", href: "/portfolio" },
       { label: "Tree Re-Use Construction", href: "/services/tree-reuse" },
       { label: "Log Transport & Crane", href: "/services/log-transport" },
       { label: "Tree Care & Removals", href: "/services/tree-care" },

@@ -31,7 +31,7 @@ const services = [
     description:
       "Heirloom-quality furniture and one-of-a-kind architectural products from rescued trees, designed and crafted to last generations.",
     icon: Hammer,
-    href: "/services/furniture",
+    href: "/portfolio",
     image: "/manus-storage/service-card-custom-furniture_90b44b13_cc2509b2.webp",
   },
   {

@@ -34,8 +34,8 @@
 
 ## Phase 4: Complete Placeholder Service Pages
 - [ ] Complete ServiceLumber.tsx (Lumber, Beams, Mantels & Slabs) using ServiceSawmilling.tsx as template
-- [ ] Complete ServiceFurniture.tsx (Custom Furniture) with full copy and imagery
-- [ ] Complete ServiceTreeReuse.tsx (Tree Re-Use Construction) with full copy and imagery
+- [x] Remove ServiceFurniture.tsx and redirect /services/furniture to /portfolio
+- [x] Complete ServiceTreeReuse.tsx (Tree Re-Use Construction) with full copy and imagery
 - [ ] Complete ServiceLogTransport.tsx (Log Transport & Crane Services) with full copy and imagery
 - [ ] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
 - [ ] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery

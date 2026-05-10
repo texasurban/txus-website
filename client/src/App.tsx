@@ -1,13 +1,13 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import ServiceSawmilling from "./pages/ServiceSawmilling";
 import ServiceLumber from "./pages/ServiceLumber";
-import ServiceFurniture from "./pages/ServiceFurniture";
+
 import ServiceTreeReuse from "./pages/ServiceTreeReuse";
 import ServiceLogTransport from "./pages/ServiceLogTransport";
 import ServiceTreeCare from "./pages/ServiceTreeCare";
@@ -63,7 +63,7 @@ function Router() {
       <Route path={"/services"} component={Services} />
       <Route path={"/services/lumber"} component={ServiceLumber} />
       <Route path={"/services/sawmilling"} component={ServiceSawmilling} />
-      <Route path={"/services/furniture"} component={ServiceFurniture} />
+      <Route path={"/services/furniture"} component={() => <Redirect to="/portfolio" />} />
       <Route path={"/services/tree-reuse"} component={ServiceTreeReuse} />
       <Route path={"/services/log-transport"} component={ServiceLogTransport} />
       <Route path={"/services/tree-care"} component={ServiceTreeCare} />
