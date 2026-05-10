@@ -3,7 +3,17 @@ import { Button } from "@/components/ui/button";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { ArrowRight } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronDown,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  Youtube,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { useMemo, useState } from "react";
 
@@ -18,18 +28,40 @@ const navItems = [
     label: "Services",
     href: "/services",
     submenu: [
-      { label: "Lumber, Beams, Mantels & Slabs", href: "/services/lumber" },
-      { label: "Sawmilling & Kiln Drying", href: "/services/sawmilling" },
-      { label: "Custom Furniture", href: "/services/furniture" },
-      { label: "Tree Re-Use Construction", href: "/services/tree-reuse" },
-      { label: "Log Transport & Crane", href: "/services/log-transport" },
-      { label: "Tree Care & Removals", href: "/services/tree-care" },
-      { label: "Millworks, CNC, & Laser", href: "/services/millworks" },
+      { label: "Custom Furniture", href: "/services#custom-furniture" },
+      { label: "Sawmilling & Kiln Drying", href: "/services#sawmilling" },
+      { label: "Tree Re-Use Construction", href: "/services#tree-reuse" },
+      { label: "Log Transport & Crane", href: "/services#log-transport" },
+      { label: "Tree Care & Removals", href: "/services#tree-care" },
+      { label: "Millworks, CNC, & Laser", href: "/services#millworks" },
     ],
   },
   { label: "Learn More", href: "/learn-more" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
+];
+
+const socialLinks = [
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/txurbansawmill",
+    icon: Instagram,
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/c/TexasUrbanSawmillLLC",
+    icon: Youtube,
+  },
+  {
+    label: "Facebook",
+    href: "http://facebook.com/texasurbansawmill",
+    icon: Facebook,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/devin-ginther",
+    icon: Linkedin,
+  },
 ];
 
 const fadeUp = {
@@ -54,155 +86,238 @@ export default function ServiceTreeReuse() {
         url="https://txsawmill-hnwf9q8m.manus.space/services/tree-reuse"
       />
       <div className="min-h-screen bg-background text-foreground">
-        <Navigation />
+      <Navigation />
 
-        <main>
-          {/* HERO BANNER SECTION - CORRECT SPECIFICATION */}
-          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
-            <img
-              src="/manus-storage/placeholder-hero.webp"
-              alt="Climate-Smart Construction Projects - Texas Urban Sawmill"
-              className="absolute inset-0 h-full w-full object-cover object-center"
-            />
+      <main>
+        {/* HERO BANNER SECTION */}
+        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+          <img
+            src="/manus-storage/placeholder-hero.webp"
+            alt="Climate-Smart Tree Re-Use Construction Projects - Texas Urban Sawmill"
+            className="absolute inset-0 h-full w-full object-cover object-center"
+          />
 
-            <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
-              <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={fadeUp}
-                transition={{ duration: 0.6 }}
-                className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
-              >
-                <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
-                  Climate-Smart Construction Projects
-                </h1>
-              </motion.div>
-            </div>
-          </section>
+          <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={fadeUp}
+              transition={{ duration: 0.6 }}
+              className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
+            >
+              <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+                Climate-Smart Construction Projects
+              </h1>
+            </motion.div>
+          </div>
+        </section>
 
-          {/* SECTION 1: FEATURED SERVICES - WHITE */}
-          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl">
-              {/* Section Description */}
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
-                variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
-              >
-                <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
-                  [Placeholder: Tree Re-Use Construction Introduction]
-                </p>
-              </motion.div>
+        {/* SECTION 1: FEATURED SERVICES - WHITE */}
+        <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl">
+            {/* Section Description */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
+            >
+              <p className="text-lg text-[#6d5d50] mb-8 leading-relaxed max-w-4xl mx-auto">
+                TXUS specializes in providing Climate Smart Project™ solutions for construction and land improvement projects. Our work delivers measurable sustainability outcomes, including net-negative carbon impacts that help accelerate environmental goals. To date, we have helped save Texans over 1,000,000 lbs of CO₂e — making TXUS one of the few carbon-negative businesses in Texas.
+              </p>
+            </motion.div>
 
-              {/* Featured Services - Two Column Layout */}
-              <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
-                {/* Service 1 */}
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.25 }}
-                  variants={fadeUp}
-                >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
-                    <img
-                      src="/manus-storage/placeholder-image.webp"
-                      alt="Tree Re-Use Service 1"
-                      className="w-full h-96 object-cover"
-                    />
-                  </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
-                    <p className="italic text-sm">
-                      [Placeholder: Image caption]
-                    </p>
-                  </div>
-                  <div className="mt-8">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Service Title</h3>
-                    <p className="text-[#6d5d50] mb-6">
-                      [Placeholder: Service description]
-                    </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                      <a href="/contact">
-                        Request Quote
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                      </a>
-                    </Button>
-                  </div>
-                </motion.div>
-
-                {/* Service 2 */}
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.25 }}
-                  variants={fadeUp}
-                >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
-                    <img
-                      src="/manus-storage/placeholder-image.webp"
-                      alt="Tree Re-Use Service 2"
-                      className="w-full h-96 object-cover"
-                    />
-                  </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
-                    <p className="italic text-sm">
-                      [Placeholder: Image caption]
-                    </p>
-                  </div>
-                  <div className="mt-8">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Service Title</h3>
-                    <p className="text-[#6d5d50] mb-6">
-                      [Placeholder: Service description]
-                    </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
-                      <a href="/contact">
-                        Request Quote
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                      </a>
-                    </Button>
-                  </div>
-                </motion.div>
-              </div>
-            </div>
-          </section>
-
-          {/* SECTION 2: DETAILS - CREAM */}
-          <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl">
+            {/* Featured Services - Two Column Layout */}
+            <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
+              {/* Service 1: PMP Project Management */}
               <motion.div
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
-                  [Placeholder: Section Title]
-                </h3>
-                <p className="text-[#6d5d50] mb-6 text-center">
-                  [Placeholder: Detailed content section]
-                </p>
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <img
+                    src="/manus-storage/AustinStateHospital-TreeSurvey35_cab1ad1f.webp"
+                    alt="PMP Project Management - Tree Survey"
+                    className="w-full h-96 object-cover"
+                  />
+                </div>
+                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <p className="italic text-sm">
+                    What was once cleared is now preserved. TXUS rescues and reuses trees from the Austin State Hospital project, turning local urban wood into lasting value.
+                  </p>
+                </div>
+                <div className="mt-8">
+                  <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">PMP Project Management</h3>
+                  <p className="text-[#6d5d50] mb-6">
+                    The Texas Urban Sawmill stands as the sole business in Texas and one of the rare enterprises in North America dedicated to providing comprehensive support for adaptive tree re-use projects from start to finish. Our Project Management Professional (PMP) oversees every facet of these endeavors, having over 20 years of global commercialization project experience. We prioritize meticulous planning, effective scope management, efficient scheduling, prudent cost management, and rigorous quality assurance.
+                  </p>
+                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
+                    <a href="/contact">
+                      Request Project Quote
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
+              </motion.div>
+
+              {/* Service 2: Adaptive Tree Re-Use */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.25 }}
+                variants={fadeUp}
+              >
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <img
+                    src="/manus-storage/AustinStateHospital-TreeSurvey60_31935268.webp"
+                    alt="Adaptive Tree Re-Use Projects - Log Processing"
+                    className="w-full h-96 object-cover"
+                  />
+                </div>
+                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <p className="italic text-sm">
+                    In the heart of the Austin State Hospital redevelopment, Devin Ginther is helping preserve the story of Central Texas trees through urban wood recovery and reuse.
+                  </p>
+                </div>
+                <div className="mt-8">
+                  <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Adaptive Tree Re-Use Projects</h3>
+                  <p className="text-[#6d5d50] mb-6">
+                    These Adaptive Tree ReUse projects offer a unique opportunity for clients to make a significant impact on environmental sustainability. By using trees that would typically be part of the waste stream or chipped or mulched, clients can create powerful and meaningful experiences for residents and customers. From these rescued trees, we produce Climate Smart Wood™ for our clients—the most sustainable form of lumber with net negative carbon benefits.
+                  </p>
+                  <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
+                    <a href="/contact">
+                      Request Project Quote
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
               </motion.div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA SECTION */}
-          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl text-center">
-              <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
-                Ready to Start Your Project?
+        {/* SECTION 1.5: PMP PROCESS TIMELINE */}
+        <section className="bg-[#2a3a4a] px-6 py-16 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+              className="text-center mb-12"
+            >
+              <h2 className="text-4xl font-bold mb-4 text-white">Adaptive Tree Re-Use Process</h2>
+              <p className="text-[#d7a469] text-lg">A thoughtful, sustainable process from tree to timeless product</p>
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+            >
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/CAHtb59ZUNY7YiqafFtZ8m/pmp-process-mockup-9YWVpCJLpB26SD93nPkMUA.webp"
+                alt="Adaptive Tree Re-Use Process Timeline"
+                className="w-full rounded-lg shadow-2xl"
+              />
+            </motion.div>
+          </div>
+        </section>
+
+        {/* SECTION 2: ADDITIONAL SERVICES - CREAM */}
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+            >
+              <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
+                Additional Value-Added Services
               </h3>
-              <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] px-8 py-3">
-                <a href="/contact">
-                  Contact Us Today
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-            </div>
-          </section>
-        </main>
+              <div className="space-y-12">
+                {/* Heirloom Furniture */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Locally Crafted Heirloom Furniture</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We offer locally made, net-carbon negative furniture products that bring the history of our fallen trees into your home. Our furniture collection comprises stunning heirloom pieces made from Climate Smart Wood™, locally handcrafted in Dripping Springs, TX. Every piece can be traced back to the rescued trees' original location with a certificate of authenticity.
+                  </p>
+                </div>
 
-        <Footer />
+                {/* Sawmill Services */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Neighborhood Sawmill Services</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We offer top-quality wood milling services to the general public with state-of-the-art sawmills. Our Baker Sawmill has a cutting capacity of up to 28" x 20' at $200/hour, and our Woodmizer WM-1000 has a cutting capacity of up to 72" x 18' at $300/hour. Turnaround time is usually 1-2 weeks.
+                  </p>
+                </div>
+
+                {/* Crane Pick-Up and Log Transport */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Crane Pick-Up and Log Transport</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    The removal and transportation of logs is a significant challenge that prevents many people from salvaging fallen trees. We offer assistance in salvaging, transporting, and milling logs. Service fees are typically $7/mile round-trip, including up to 45 minutes of loading time. For large-scale projects, we offer project-based quotes with long-distance mileage discounts available.
+                  </p>
+                </div>
+
+                {/* Kiln Drying */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Kiln Drying & Sterilized Lumber</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We offer kiln drying that produces properly dried (8-10% MC) and sterilized lumber. We sterilize our kiln dried lumber at 155 degrees for a minimum of 72 hours. We operate a traditional Nyle dehumidification kiln and are the only business in the southern United States offering a high frequency vacuum kiln for drying beams, mantles, and extremely thick timber that cannot typically be dried using traditional means.
+                  </p>
+                </div>
+
+                {/* Sustainable Land Services */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Sustainable Land Services</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We provide the most sustainable land services in Texas that prioritize environmental preservation and responsible land management practices. We specialize in sustainable forestry and tree removal practices that reduce waste, protecting local ecosystems. Our approach to selective land clearing involves careful planning to ensure preservation of natural habitats while maximizing wood utilization.
+                  </p>
+                </div>
+
+                {/* CNC Routing */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">CNC Routing, Surfacing, & Signs</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We own a custom built digital CNC router that can surface slabs up to 72 inches wide and 16 feet long. Typical surfacing charge is $10/SF, with 30-50% discount for our customers. We also offer prototyping, custom signage, woodworking, 3D carving, and laser cutting and engraving services.
+                  </p>
+                </div>
+
+                {/* Tree Care & Removals */}
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-[#1b1612]">Tree Care & Removals</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    We believe in a full-circle approach to forestry management. We have a certified arborist on our team and a specialized tree crew that handles removals, ensuring the highest and best utilization of the wood. We offer the most competitive rates in Texas without compromising on quality or service.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* CTA SECTION */}
+        <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl text-center">
+            <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
+              Partner with us to become part of the solution to a greener future!
+            </h3>
+            <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] px-8 py-3">
+              <a href="/contact">
+                Contact Us Today
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+            </Button>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
       </div>
     </>
   );

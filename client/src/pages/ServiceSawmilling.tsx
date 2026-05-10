@@ -226,72 +226,7 @@ export default function ServiceSawmilling() {
           </div>
         </section>
 
-        {/* SECTION 2: KILN TECHNOLOGY - CREAM */}
-        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
-          <div className="mx-auto max-w-7xl">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.25 }}
-              variants={fadeUp}
-            >
-              <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
-                Kiln Technology
-              </h3>
-              <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
-                {/* Vacuum High Frequency Kiln */}
-                <div>
-                  <h4 className="text-xl font-bold mb-4 text-[#1b1612]">Vacuum High Frequency (VHF) Kiln Drying</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    For our thickest slabs and most challenging timbers, we utilize Vacuum High Frequency (VHF) technology. This advanced system dries wood from the inside out, combining a vacuum environment with radio-frequency energy to deliver rapid, uniform results with virtually no defects. It is the most sophisticated way to stabilize "heavy" timber while preserving its natural beauty.
-                  </p>
-                  <p className="font-bold text-[#1b1612] mb-3">The VHF Advantage</p>
-                  <ul className="space-y-3 text-[#6d5d50] mb-6">
-                    <li><strong>The Vacuum:</strong> By reducing internal air pressure, we lower the boiling point of water. This allows moisture to evaporate at much lower temperatures, protecting the wood from heat-related stress.</li>
-                    <li><strong>High Frequency (HF):</strong> Much like a microwave, radio waves excite water molecules directly in the core of the timber. This ensures that even the thickest beams heat evenly from the inside out, rather than relying on surface-level air temperature.</li>
-                  </ul>
-                  <p className="font-bold text-[#1b1612] mb-3">The Process</p>
-                  <ol className="space-y-3 text-[#6d5d50]">
-                    <li><strong>Sealing:</strong> Timbers are loaded into a specialized, airtight pressure chamber.</li>
-                    <li><strong>Depressurizing:</strong> The vacuum system pulls the air out, creating a low-pressure environment.</li>
-                    <li><strong>Molecular Heating:</strong> High-frequency energy penetrates the wood, vaporizing internal moisture at a gentle, low temperature.</li>
-                    <li><strong>Extraction:</strong> The vacuum system continuously draws out the vaporized moisture.</li>
-                    <li><strong>Completion:</strong> The cycle repeats with technical precision until the core reaches its target moisture content—leaving the timber stable and ready for any application.</li>
-                  </ol>
-                </div>
-
-                {/* Dehumidification Kiln */}
-                <div>
-                  <h4 className="text-xl font-bold mb-4 text-[#1b1612]">Dehumidification (DH) Kiln Drying</h4>
-                  <p className="text-[#6d5d50] mb-4">
-                    Unlike traditional steam kilns that vent heat, our Dehumidification (DH) Kiln uses a sophisticated closed-loop system. By removing moisture internally, this energy-efficient process gently stabilizes the unique character of our reclaimed Texas timber.
-                  </p>
-                  <p className="font-bold text-[#1b1612] mb-3">The DH Advantage</p>
-                  <ul className="space-y-3 text-[#6d5d50] mb-6">
-                    <li><strong>Lower Operating Costs:</strong> DH kilns generally have lower energy requirements and maintenance costs compared to the complex radio-frequency and vacuum systems of a VHF kiln.</li>
-                    <li><strong>Setup Simplicity:</strong> The technology is less specialized, making it a more cost-effective solution for standard-thickness lumber (1" to 3") without the high overhead of vacuum technology.</li>
-                  </ul>
-                  <p className="font-bold text-[#1b1612] mb-3">The Process</p>
-                  <ul className="space-y-3 text-[#6d5d50] mb-6">
-                    <li><strong>The Stack:</strong> Lumber is layered with "stickers" to ensure 360-degree airflow.</li>
-                    <li><strong>The Warm-Up:</strong> Steady heat (90–160°F) draws moisture from the heart of the wood to the surface.</li>
-                    <li><strong>The Extraction:</strong> Our industrial system condenses air-bound moisture into liquid and drains it away.</li>
-                    <li><strong>The Recirculation:</strong> Instead of wasting energy, dry air is reheated and recirculated back through the load.</li>
-                    <li><strong>The Target:</strong> The cycle continues until we reach the perfect moisture content—ensuring stable, furniture-ready lumber.</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="mt-12 text-center">
-                <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
-                  Get Your Kiln Drying Quote
-                  <ArrowRight className="h-4 w-4" />
-                </a>
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
-        {/* SECTION 3: SAWMILLING SERVICES & PRICING - TAN */}
+        {/* SECTION 2: SAWMILLING SERVICES & PRICING - TAN */}
         <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-7xl">
             <motion.div
@@ -374,6 +309,71 @@ export default function ServiceSawmilling() {
           </div>
         </section>
 
+        {/* SECTION 3: KILN TECHNOLOGY - CREAM */}
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.25 }}
+              variants={fadeUp}
+            >
+              <h3 className="text-3xl font-bold mb-12 text-center text-[#1b1612]">
+                Kiln Technology
+              </h3>
+              <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
+                {/* Vacuum High Frequency Kiln */}
+                <div>
+                  <h4 className="text-xl font-bold mb-4 text-[#1b1612]">Vacuum High Frequency (VHF) Kiln Drying</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    For our thickest slabs and most challenging timbers, we utilize Vacuum High Frequency (VHF) technology. This advanced system dries wood from the inside out, combining a vacuum environment with radio-frequency energy to deliver rapid, uniform results with virtually no defects. It is the most sophisticated way to stabilize "heavy" timber while preserving its natural beauty.
+                  </p>
+                  <p className="font-bold text-[#1b1612] mb-3">The VHF Advantage</p>
+                  <ul className="space-y-3 text-[#6d5d50] mb-6">
+                    <li><strong>The Vacuum:</strong> By reducing internal air pressure, we lower the boiling point of water. This allows moisture to evaporate at much lower temperatures, protecting the wood from heat-related stress.</li>
+                    <li><strong>High Frequency (HF):</strong> Much like a microwave, radio waves excite water molecules directly in the core of the timber. This ensures that even the thickest beams heat evenly from the inside out, rather than relying on surface-level air temperature.</li>
+                  </ul>
+                  <p className="font-bold text-[#1b1612] mb-3">The Process</p>
+                  <ol className="space-y-3 text-[#6d5d50]">
+                    <li><strong>Sealing:</strong> Timbers are loaded into a specialized, airtight pressure chamber.</li>
+                    <li><strong>Depressurizing:</strong> The vacuum system pulls the air out, creating a low-pressure environment.</li>
+                    <li><strong>Molecular Heating:</strong> High-frequency energy penetrates the wood, vaporizing internal moisture at a gentle, low temperature.</li>
+                    <li><strong>Extraction:</strong> The vacuum system continuously draws out the vaporized moisture.</li>
+                    <li><strong>Completion:</strong> The cycle repeats with technical precision until the core reaches its target moisture content—leaving the timber stable and ready for any application.</li>
+                  </ol>
+                </div>
+
+                {/* Dehumidification Kiln */}
+                <div>
+                  <h4 className="text-xl font-bold mb-4 text-[#1b1612]">Dehumidification (DH) Kiln Drying</h4>
+                  <p className="text-[#6d5d50] mb-4">
+                    Unlike traditional steam kilns that vent heat, our Dehumidification (DH) Kiln uses a sophisticated closed-loop system. By removing moisture internally, this energy-efficient process gently stabilizes the unique character of our reclaimed Texas timber.
+                  </p>
+                  <p className="font-bold text-[#1b1612] mb-3">The DH Advantage</p>
+                  <ul className="space-y-3 text-[#6d5d50] mb-6">
+                    <li><strong>Lower Operating Costs:</strong> DH kilns generally have lower energy requirements and maintenance costs compared to the complex radio-frequency and vacuum systems of a VHF kiln.</li>
+                    <li><strong>Setup Simplicity:</strong> The technology is less specialized, making it a more cost-effective solution for standard-thickness lumber (1" to 3") without the high overhead of vacuum technology.</li>
+                  </ul>
+                  <p className="font-bold text-[#1b1612] mb-3">The Process</p>
+                  <ul className="space-y-3 text-[#6d5d50] mb-6">
+                    <li><strong>The Stack:</strong> Lumber is layered with "stickers" to ensure 360-degree airflow.</li>
+                    <li><strong>The Warm-Up:</strong> Steady heat (90–160°F) draws moisture from the heart of the wood to the surface.</li>
+                    <li><strong>The Extraction:</strong> Our industrial system condenses air-bound moisture into liquid and drains it away.</li>
+                    <li><strong>The Recirculation:</strong> Instead of wasting energy, dry air is reheated and recirculated back through the load.</li>
+                    <li><strong>The Target:</strong> The cycle continues until we reach the perfect moisture content—ensuring stable, furniture-ready lumber.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-12 text-center">
+                <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                  Get Your Kiln Drying Quote
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* SECTION 4: PROCESS STEPS - WHITE */}
         <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-7xl">
@@ -435,22 +435,22 @@ export default function ServiceSawmilling() {
         </section>
 
         {/* SECTION 6: CALL TO ACTION - GREEN */}
-        <section className="bg-[#217938] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="text-center text-white"
+              className="text-center"
             >
-              <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
-              <p className="text-lg mb-8 max-w-2xl mx-auto">
-                Contact us today to discuss your sawmilling and kiln drying needs. We're ready to transform your vision into reality.
+              <h3 className="text-3xl font-bold mb-4 text-[#d7a469]">Ready to Learn More?</h3>
+              <p className="text-lg mb-8 max-w-2xl mx-auto text-white">
+                Explore our sawmilling and kiln drying services, and discover how we can transform your logs into premium lumber.
               </p>
-              <Button asChild className="bg-white text-[#217938] hover:bg-gray-100 px-8 py-3 font-bold">
+              <Button asChild className="bg-[#d7a469] text-[#2a2a2a] hover:bg-[#e8b87a] px-8 py-3 font-bold">
                 <a href="/contact">
-                  Request a Quote
+                  Contact Us
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>

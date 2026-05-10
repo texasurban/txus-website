@@ -175,7 +175,7 @@ export default function Blog() {
             <div className="container py-12 sm:py-14">
               {/* Section Label */}
               <div className="text-center mb-8">
-                <p className="font-sans text-sm sm:text-base font-bold uppercase tracking-[0.34em] text-[#1b1612] mb-2">
+                <p className="text-sm sm:text-base font-bold uppercase tracking-[0.34em] text-[#1b1612] mb-2">
                   Explore by Category
                 </p>
               </div>
@@ -217,10 +217,10 @@ export default function Blog() {
                 } rounded-lg p-8 sm:p-12 scroll-mt-20`}
               >
                 <div className="mb-12">
-                  <h2 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-4">
+                  <h2 className="text-4xl sm:text-5xl font-bold uppercase tracking-[0.04em] text-[#1b1612] mb-4">
                     {category.title}
                   </h2>
-                  <p className="font-sans text-lg text-[#666666] max-w-2xl">
+                  <p className="text-lg text-[#666666] max-w-2xl">
                     {category.description}
                   </p>
                 </div>
@@ -242,10 +242,10 @@ export default function Blog() {
                         />
                       </div>
                       <div className="p-6 bg-white">
-                        <h3 className="font-display text-lg sm:text-xl font-semibold text-[#1b1612] mb-2 group-hover:text-[#d7a469] transition-colors">
+                        <h3 className="text-lg sm:text-xl font-bold text-[#1b1612] mb-2 group-hover:text-[#d7a469] transition-colors">
                           {article.title}
                         </h3>
-                        <p className="font-sans text-sm text-[#666666] mb-4 line-clamp-2">
+                        <p className="text-sm text-[#666666] mb-4 line-clamp-2">
                           {article.excerpt}
                         </p>
                         <div className="flex items-center text-[#d7a469] font-semibold text-sm group-hover:gap-2 transition-all">
@@ -262,22 +262,17 @@ export default function Blog() {
           </div>
 
           {/* CTA Section */}
-          <section className="bg-[#1b1612] text-white py-16 sm:py-20 lg:py-24">
-            <div className="container">
-              <div className="max-w-2xl mx-auto text-center">
-                <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl uppercase tracking-[0.04em] mb-6">
-                  Ready to Learn More?
-                </h2>
-                <p className="font-sans text-lg sm:text-xl text-white/90 mb-10">
+          <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24">
+            <div className="mx-auto max-w-7xl">
+              <div className="text-center">
+                <h3 className="text-3xl font-bold mb-4 text-[#d7a469]">Ready to Learn More?</h3>
+                <p className="text-lg mb-8 max-w-2xl mx-auto text-white">
                   Explore our projects, services, and expertise in sustainable wood utilization and custom craftsmanship.
                 </p>
-                <Button
-                  asChild
-                  className="bg-[#d7a469] hover:bg-[#c4934d] text-[#1b1612] font-semibold px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-lg uppercase tracking-[0.08em] rounded-none"
-                >
+                <Button asChild className="bg-[#d7a469] text-[#2a2a2a] hover:bg-[#e8b87a] px-8 py-3 font-bold">
                   <a href="/contact">
                     Contact Us
-                    <ArrowRight className="ml-3 h-5 w-5" />
+                    <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
               </div>
