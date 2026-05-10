@@ -96,6 +96,20 @@ export default function ServiceLumber() {
                 </p>
               </motion.div>
 
+              {/* Large CTA to Shop */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.25 }}
+                variants={fadeUp}
+                className="mb-10 mt-10"
+              >
+                <a href="/shop" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-black">
+                  Shop Now
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              </motion.div>
+
               {/* Featured Services - Three Column Layout (2 Rows) */}
               <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20">
                 {/* Service 1: Lumber */}
