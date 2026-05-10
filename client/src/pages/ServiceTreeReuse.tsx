@@ -92,7 +92,7 @@ export default function ServiceTreeReuse() {
         {/* HERO BANNER SECTION */}
         <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
           <img
-            src="/manus-storage/20200427_142407_4fffcc85.webp"
+            src="/manus-storage/20200427_123813_d1beef85.webp"
             alt="Climate-Smart Tree Re-Use Construction Projects - Texas Urban Sawmill"
             className="absolute inset-0 h-full w-full object-cover object-center"
           />
