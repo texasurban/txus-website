@@ -71,9 +71,9 @@ export default function ServiceLumber() {
                 animate="visible"
                 variants={fadeUp}
                 transition={{ duration: 0.6 }}
-                className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
+                className="border-2 border-white px-3 py-5 lg:px-9 lg:py-14 text-center max-w-sm lg:max-w-3xl bg-black/[0.10] backdrop-blur-sm"
               >
-                <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+                <h1 className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl">
                   Lumber, Beams, Mantels & Slabs
                 </h1>
               </motion.div>
@@ -92,13 +92,13 @@ export default function ServiceLumber() {
                 className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
-                  [Placeholder: Lumber, Beams, Mantels & Slabs Introduction]
+                  Texas Urban Sawmill provides precision‑milled lumber, beams, mantles, cookies, and fully custom milling solutions for any log brought to our facility. With advanced CNC capabilities and specialty processing, we transform reclaimed Texas hardwoods into high‑quality, project‑ready materials tailored to exact specifications.
                 </p>
               </motion.div>
 
-              {/* Featured Services - Two Column Layout */}
-              <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
-                {/* Service 1 */}
+              {/* Featured Services - Three Column Layout (2 Rows) */}
+              <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20">
+                {/* Service 1: Lumber */}
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -107,31 +107,31 @@ export default function ServiceLumber() {
                 >
                   <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
-                      src="/manus-storage/placeholder-image.webp"
-                      alt="Lumber Service 1"
-                      className="w-full h-96 object-cover"
+                      src="/manus-storage/TXUSSarah&Dogs-AsheJuniper-AusinHabitatforHumanity_00a231bf.jpg"
+                      alt="Lumber"
+                      className="w-full h-64 object-cover"
                     />
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      [Placeholder: Image caption]
+                      Precision-milled lumber in various thicknesses
                     </p>
                   </div>
                   <div className="mt-8">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Service Title</h3>
-                    <p className="text-[#6d5d50] mb-6">
-                      [Placeholder: Service description]
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Lumber</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      We can mill virtually any fractional dimension to meet your project's needs. The most common thicknesses are 4/4, 6/4, 8/4, and 10/4, which equate to approximately 1 inch, 1.5 inches, 2 inches, and 3 inches respectively. Each board is precisely sawn, and we can also offer kiln‑drying services.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/contact">
                         Request Quote
-                        <ArrowRight className="ml-2 h-4 w-4" />
+                        <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
                   </div>
                 </motion.div>
 
-                {/* Service 2 */}
+                {/* Service 2: Beams */}
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -140,25 +140,157 @@ export default function ServiceLumber() {
                 >
                   <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
-                      src="/manus-storage/placeholder-image.webp"
-                      alt="Lumber Service 2"
-                      className="w-full h-96 object-cover"
+                      src="/manus-storage/TXUSOakBeam_f9cc7e55.webp"
+                      alt="Beams"
+                      className="w-full h-64 object-cover"
                     />
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      [Placeholder: Image caption]
+                      Reclaimed timber beams for structural and decorative use
                     </p>
                   </div>
                   <div className="mt-8">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Service Title</h3>
-                    <p className="text-[#6d5d50] mb-6">
-                      [Placeholder: Service description]
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Beams</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      Our beams are milled from locally reclaimed logs and cut to nearly any size or profile. Whether structural or decorative, we produce solid timbers with tight grain and excellent stability. Each beam undergoes secondary millwork and can be planed flat or shaped with CNC profiles. Ideal for exposed framing, trusses, pergolas, and architectural accents.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/contact">
                         Request Quote
-                        <ArrowRight className="ml-2 h-4 w-4" />
+                        <ArrowRight className="ml-2 h-3 w-3" />
+                      </a>
+                    </Button>
+                  </div>
+                </motion.div>
+
+                {/* Service 3: Mantles */}
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.25 }}
+                  variants={fadeUp}
+                >
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                    <img
+                      src="/manus-storage/TXUSEnglishWalnutMantle5_d288d81d.jpg"
+                      alt="Mantles"
+                      className="w-full h-64 object-cover"
+                    />
+                  </div>
+                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                    <p className="italic text-sm">
+                      Custom fireplace mantles with precision finishing
+                    </p>
+                  </div>
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Mantles</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      We craft fireplace mantles from select slabs and beams chosen for their grain and figure. Each mantle is flattened, sanded, and finished to your specifications for a precise fit. Options include live‑edge, squared, or custom profiles. Every mantle is built as a standout feature in your space.
+                    </p>
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
+                      <a href="/contact">
+                        Request Quote
+                        <ArrowRight className="ml-2 h-3 w-3" />
+                      </a>
+                    </Button>
+                  </div>
+                </motion.div>
+
+                {/* Service 4: Cookies */}
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.25 }}
+                  variants={fadeUp}
+                >
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                    <img
+                      src="/manus-storage/TXUS-CindyWalnutGoldOBase16_41c05dce.jpg"
+                      alt="Cookies"
+                      className="w-full h-64 object-cover"
+                    />
+                  </div>
+                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                    <p className="italic text-sm">
+                      Cross-sectional rounds showing natural growth rings
+                    </p>
+                  </div>
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Cookies</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      Cookies (also called rounds) are cross‑sectional slices cut from logs, showing the full growth‑ring pattern of the tree. We cut cookies perpendicular to the trunk to produce clean, stable rounds in a variety of diameters. Each piece can be flattened, stabilized, and sanded to your specifications for display or functional use.
+                    </p>
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
+                      <a href="/contact">
+                        Request Quote
+                        <ArrowRight className="ml-2 h-3 w-3" />
+                      </a>
+                    </Button>
+                  </div>
+                </motion.div>
+
+                {/* Service 5: Custom */}
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.25 }}
+                  variants={fadeUp}
+                >
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                    <img
+                      src="/manus-storage/CustomMilled_03fc4026.webp"
+                      alt="Custom"
+                      className="w-full h-64 object-cover"
+                    />
+                  </div>
+                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                    <p className="italic text-sm">
+                      Custom milled components for unique projects
+                    </p>
+                  </div>
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Custom</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      For projects beyond standard milling, we offer full custom processing for any log you bring us. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, and custom molding. Profiles can be matched, replicated, or designed from scratch using precision tooling. We excel at turning irregular or meaningful logs into functional, one‑of‑a‑kind components.
+                    </p>
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
+                      <a href="/contact">
+                        Request Quote
+                        <ArrowRight className="ml-2 h-3 w-3" />
+                      </a>
+                    </Button>
+                  </div>
+                </motion.div>
+
+                {/* Service 6: Slabs */}
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.25 }}
+                  variants={fadeUp}
+                >
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                    <img
+                      src="/manus-storage/Texas_Urban_Sawmilll_31_6a41e9b9.webp"
+                      alt="Slabs"
+                      className="w-full h-64 object-cover"
+                    />
+                  </div>
+                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                    <p className="italic text-sm">
+                      Live edge slabs showcasing natural grain and character
+                    </p>
+                  </div>
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Slabs</h3>
+                    <p className="text-[#6d5d50] mb-6 text-sm">
+                      Live edge slabs preserve the natural contours of the tree, showcasing the full grain structure and organic edge profile. Cut in common thicknesses—4/4, 6/4, 8/4, and 10/4 (approximately 1", 1.5", 2", and 3")—each slab is flattened, sanded, and finished to your specifications.
+                    </p>
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
+                      <a href="/contact">
+                        Request Quote
+                        <ArrowRight className="ml-2 h-3 w-3" />
                       </a>
                     </Button>
                   </div>

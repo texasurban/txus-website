@@ -41,7 +41,7 @@ export function FancyHeroBanner({
           animate="visible"
           variants={fadeUp}
           transition={{ duration: 0.6 }}
-          className={`${hideBackground ? '' : 'border-2 border-white bg-black/[0.15] backdrop-blur-sm'} px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl`}
+          className={`${hideBackground ? '' : 'border-2 border-white bg-black/[0.10] backdrop-blur-sm'} px-3 py-5 lg:px-9 lg:py-14 text-center max-w-sm lg:max-w-3xl`}
         >
           {bannerTextImage ? (
             <img
@@ -52,7 +52,7 @@ export function FancyHeroBanner({
             />
           ) : (
             <div className="flex flex-col gap-3">
-              <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+              <h1 className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl">
                 {mainTitle}
               </h1>
               {subtitle && (
