@@ -167,7 +167,7 @@ export default function ServiceLumber() {
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Beams</h3>
                     <p className="text-[#6d5d50] mb-6 text-sm">
-                      Our beams are milled from locally reclaimed logs and cut to a wide range of sizes and profiles. Whether structural or decorative, we produce solid timbers with exceptional character, stability, and craftsmanship. Each beam can undergo secondary millwork, planing, or CNC shaping for custom architectural applications and exposed timber features.
+                      Our beams are milled from reclaimed logs and cut to a wide range of sizes and profiles. Whether structural or decorative, we produce solid timbers with exceptional character, stability, and craftsmanship. Each beam can undergo millwork, planing, or CNC shaping for custom architectural applications and exposed timber features.
                     </p>
                     <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs">
                       <a href="/shop">
