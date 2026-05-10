@@ -114,7 +114,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Precision-milled lumber in various thicknesses
+                      Milled Ashe Juniper for Austin Habitat for Humanity ReStore—USDA FS Wood Innovations Project
                     </p>
                   </div>
                   <div className="mt-8">
@@ -147,7 +147,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Reclaimed timber beams for structural and decorative use
+                      Post Oak beam—we mill up to 28-foot-long beams
                     </p>
                   </div>
                   <div className="mt-8">
@@ -180,7 +180,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Custom fireplace mantles with precision finishing
+                      English Walnut fireplace mantle with precision finishing and custom profiles
                     </p>
                   </div>
                   <div className="mt-8">
@@ -213,7 +213,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Cross-sectional rounds showing natural growth rings
+                      Walnut cross-sectional rounds showcasing natural growth rings and character
                     </p>
                   </div>
                   <div className="mt-8">
@@ -246,7 +246,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Custom milled components for unique projects
+                      Custom milled components—CNC shaping, surfacing, and specialty cuts
                     </p>
                   </div>
                   <div className="mt-8">
@@ -279,7 +279,7 @@ export default function ServiceLumber() {
                   </div>
                   <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
-                      Live edge slabs showcasing natural grain and character
+                      Live edge slabs preserving natural contours, grain, and organic edge profiles
                     </p>
                   </div>
                   <div className="mt-8">
