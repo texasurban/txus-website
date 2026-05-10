@@ -103,13 +103,13 @@ export default function ServiceTreeReuse() {
               animate="visible"
               variants={fadeUp}
               transition={{ duration: 0.6 }}
-              className="border-2 border-white px-5 py-7 lg:px-14 lg:py-22 text-center max-w-xl lg:max-w-4xl bg-black/[0.15] backdrop-blur-sm"
+              className="border-2 border-white px-3 py-5 lg:px-9 lg:py-14 text-center max-w-sm lg:max-w-3xl bg-black/[0.10] backdrop-blur-sm"
             >
               <div>
-                <h1 className="font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+                <h1 className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl">
                   Adaptive Tree Re-Use Projects
                 </h1>
-                <p className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl mt-2">
+                <p className="font-display text-lg font-semibold leading-tight text-white sm:text-xl lg:text-2xl mt-2">
                   Climate-Smart Construction
                 </p>
               </div>
