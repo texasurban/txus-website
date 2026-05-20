@@ -49,6 +49,8 @@ const serviceImages = [
 const furnitureImages = [
   "/manus-storage/pasted_file_lClGnM_HillcoPartners-17FootPecanQuadMatch,16to9Ratio_8f1e82c8_61a620aa.jpg",
   "/manus-storage/pasted_file_gYqAxa_image_e82365df_9673f804.png",
+  "/manus-storage/WomackIsland&BarBack_bbc26660_fc14df84.webp",
+  "/manus-storage/Stinsonwalnuttable(1)_a5cacfd6.jpg",
 ];
 
 const inksLakeImage = "/manus-storage/pasted_file_gFjMIt_TXUSInksLakeSP6_e96af79f_93801767.jpg";
@@ -422,23 +424,14 @@ export default function Home() {
 
         <section id="services" className="section-shell bg-[#f8f8f8]">
           <div className="container">
-            <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-              <div>
-                <p className="eyebrow">Our Services</p>
-                <h2 className="section-title max-w-xl text-base sm:text-lg">
-                  Practical reuse, industrial capability, and custom wood solutions.
-                </h2>
-                <p className="section-copy mt-6 max-w-lg">
-                  We turn reclaimed wood into custom solutions—with the engineering to do it right, the care of a family-owned business, and a commitment to preserving hardwood craftsmanship as a lost art.
-                </p>
-              </div>
-              <div className="overflow-hidden border-2 border-[#8b7355] bg-card shadow-[0_25px_60px_rgba(11,18,9,0.25)]">
-                <img
-                  src={serviceImage}
-                  alt="Texas Urban Sawmill service and CNC surfacing work"
-                  className="h-full min-h-[280px] w-full object-cover"
-                />
-              </div>
+            <div className="mx-auto text-center">
+              <p className="eyebrow">Our Services</p>
+              <h2 className="section-title max-w-xl text-base sm:text-lg mx-auto">
+                Practical reuse, industrial capability, and custom wood solutions.
+              </h2>
+              <p className="section-copy mt-6 max-w-lg mx-auto">
+                We turn reclaimed wood into custom solutions—with the engineering to do it right, the care of a family-owned business, and a commitment to preserving hardwood craftsmanship as a lost art.
+              </p>
             </div>
 
             <div className="mt-10 grid gap-0 md:grid-cols-2 xl:grid-cols-3">
@@ -484,8 +477,23 @@ export default function Home() {
         </section>
 
         <section id="furniture" className="section-shell bg-[#f5f5f5]">
-          <div className="container grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
-            <div className="flex flex-col gap-5">
+          <div className="container">
+            <div className="mx-auto text-center mb-12 max-w-3xl">
+              <p className="eyebrow">Our Fallen and Forgotten Trees Reimagined</p>
+              <h2 className="section-title max-w-xl text-base sm:text-lg mx-auto">
+                Heirloom furniture that retains the story of the rescued tree.
+              </h2>
+              <div className="mt-8 text-center">
+                <Button asChild className="hero-button">
+                  <a href="/portfolio">See Our Portfolio</a>
+                </Button>
+              </div>
+              <p className="section-copy mt-6 mx-auto">
+                Every piece starts with a tree that still has a story to carry forward, and a commitment to do right by the land it came from. Through persistence, hard work and an undying commitment to our mission, we carry that story forward and maintain the legacy of our fallen trees as transformational, highly sustainable wood products.
+              </p>
+            </div>
+
+            <div className="grid gap-8 md:grid-cols-2">
               <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
                 <img
                   src={furnitureImages[0]}
@@ -494,36 +502,30 @@ export default function Home() {
                 />
               </div>
               <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
-                    <img
-                      src={furnitureImages[1]}
-                      alt="SEI bookmatched walnut conference table"
-                      className="h-full min-h-[280px] w-full object-cover"
-                    />
+                <img
+                  src={furnitureImages[1]}
+                  alt="SEI bookmatched walnut conference table"
+                  className="h-full min-h-[280px] w-full object-cover"
+                />
+              </div>
+              <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
+                <img
+                  src={furnitureImages[2]}
+                  alt="Womack Island & Bar Back"
+                  className="h-full min-h-[280px] w-full object-cover"
+                />
+              </div>
+              <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
+                <img
+                  src={furnitureImages[3]}
+                  alt="Stinson Walnut Table"
+                  className="h-full min-h-[280px] w-full object-cover"
+                />
               </div>
             </div>
-            <div>
-              <p className="eyebrow">Our Fallen and Forgotten Trees Reimagined</p>
-                <h2 className="section-title max-w-xl text-base sm:text-lg">
-                Heirloom furniture that retains the story of the rescued tree.
-              </h2>
-              <p className="section-copy mt-6">
-                Every piece starts with a tree that still has a story to carry forward, and a commitment to do right by the land it came from. Through persistence, hard work and an undying commitment to our mission, we carry that story forward and maintain the legacy of our fallen trees as transformational, highly sustainable wood products.
-              </p>
 
-              <div className="mt-8 space-y-4">
-                {featuredFurniture.map((piece) => (
-                  <article key={piece.title} className="feature-row">
-                    <h3 className="font-display text-xl uppercase tracking-[0.04em] text-[color:var(--ink-strong)]">
-                      {piece.title}
-                    </h3>
-                    <p className="mt-2 font-sans text-[15px] leading-7 text-[color:var(--ink-soft)]">
-                      {piece.body}
-                    </p>
-                  </article>
-                ))}
-              </div>
-
-              <Button asChild className="mt-8 hero-button">
+            <div className="mt-12 text-center">
+              <Button asChild className="hero-button">
                 <a href="/portfolio">See More Furniture</a>
               </Button>
             </div>
