@@ -342,7 +342,7 @@ export default function Home() {
                 A community sawmill built around family, stewardship, reuse, and traditional craftsmanship.
               </h2>
               <p className="section-copy mt-6">
-                As the community sawmill of Central Texas, we transform rescued urban trees into custom lumber, heirloom furniture, and climate-smart products. Through urban wood utilization and full circle forestry practices, we transform salvaged trees into lasting pieces to be shared for generations
+                We provide full-service urban wood utilization for Central Texas, converting salvaged trees into usable lumber, custom millwork, and one-of-a-kind finished products. Our capabilities bridge sustainable material recovery with precision manufacturing and traditional craftsmanship.
               </p>
               <img
                 src="/manus-storage/team_photo_web_5972aded_dbac91fb.webp"
