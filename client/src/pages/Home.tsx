@@ -328,7 +328,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#fafafa]">
+        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#fafafa] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <motion.div
               initial="hidden"
@@ -338,7 +338,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <p className="eyebrow">Welcome to Texas Urban Sawmill</p>
-              <h2 className="section-title max-w-2xl text-base sm:text-lg">
+              <h2 className="section-title max-w-2xl text-2xl sm:text-3xl">
                 A community sawmill built around family, stewardship, reuse, and traditional craftsmanship.
               </h2>
               <p className="section-copy mt-6">
@@ -389,7 +389,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-shell pt-12 sm:pt-16 lg:pt-20 bg-[#f0f0f0]">
+        <section className="section-shell pt-12 sm:pt-16 lg:pt-20 bg-[#f0f0f0] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="flex flex-col gap-8 border-y border-[color:var(--line-strong)] py-12 sm:py-16">
               <div className="flex flex-col items-center justify-center gap-4 text-center">
@@ -422,11 +422,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="services" className="section-shell bg-[#f8f8f8]">
+        <section id="services" className="section-shell bg-[#f8f8f8] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mx-auto text-center">
               <p className="eyebrow">Our Services</p>
-              <h2 className="section-title max-w-xl text-base sm:text-lg mx-auto">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl mx-auto">
                 Practical reuse, industrial capability, and custom wood solutions.
               </h2>
               <p className="section-copy mt-6 max-w-lg mx-auto">
@@ -476,11 +476,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="furniture" className="section-shell bg-[#f5f5f5]">
+        <section id="furniture" className="section-shell bg-[#f5f5f5] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mx-auto text-center mb-12 max-w-3xl">
               <p className="eyebrow">Our Fallen and Forgotten Trees Reimagined</p>
-              <h2 className="section-title max-w-xl text-base sm:text-lg mx-auto">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl mx-auto">
                 Heirloom furniture that retains the story of the rescued tree.
               </h2>
               <div className="mt-8 text-center">
@@ -532,11 +532,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-shell bg-[#2a2a2a]">
+        <section className="section-shell bg-[#2a2a2a] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
               <p className="eyebrow text-[#217938]">Climate Smart Wood™</p>
-              <h2 className="section-title max-w-xl text-[#d7a469] text-base sm:text-lg">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl">
                 Net carbon benefit, local production, and climate-smart manufacturing.
               </h2>
             </div>
@@ -649,11 +649,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="section-shell border-t-2 border-stone-300 pt-12 sm:pt-16 lg:pt-20 bg-[#f9f9f9]">
+        <section id="about" className="section-shell border-t-2 border-stone-400 border-b-2 border-stone-400 pt-12 sm:pt-16 lg:pt-20 bg-[#f9f9f9]">
           <div className="container grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
             <div>
               <p className="eyebrow">About Us</p>
-              <h2 className="section-title max-w-xl text-base sm:text-lg">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl">
                 A small family-owned business with a wide practical skill set.
               </h2>
               <p className="section-copy mt-6">
@@ -720,11 +720,89 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="section-shell bg-[color:var(--surface-tint)]">
+        <section className="relative overflow-hidden px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
+          <div className="container">
+            <div className="mb-16 lg:mb-20">
+              <p className="eyebrow text-center">The Makers</p>
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl mx-auto text-center">
+                Meet the Craftsman
+              </h2>
+            </div>
+            
+            <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
+              {/* Team Member 1: Sarah Ginther */}
+              <div>
+                <div className="relative overflow-hidden bg-stone-100 mb-8 border-2 border-[#8b7355] shadow-[0_30px_70px_rgba(0,0,0,0.35)]">
+                  <div className="aspect-square">
+                    <img
+                      src="/manus-storage/SarahHeadshot_07208f28_4b44cdce.jpg"
+                      alt="Sarah Ginther, Co-Founder and Lead Sawyer"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 className="font-display text-2xl text-stone-950">
+                  Sarah Ginther
+                </h3>
+                <p className="mt-2 text-sm lg:text-base uppercase tracking-[0.24em] text-stone-600">
+                  Co-Founder, Lead Sawyer & CFO
+                </p>
+                <p className="mt-4 text-base leading-8 text-stone-700 text-left lg:text-lg">
+                  One of the few women sawyers in the country, Sarah brings a discerning eye to the mill that few can match. She hand-selects and mills every log, identifying the character and grain that define each piece. As CFO, she balances hands-on artistry with financial stewardship, ensuring our mission remains sustainable and our Tree-to-Table process remains the gold standard.
+                </p>
+              </div>
+              
+              {/* Team Member 2: Jesse Mahoney */}
+              <div>
+                <div className="relative overflow-hidden bg-stone-100 mb-8 border-2 border-[#8b7355] shadow-[0_30px_70px_rgba(0,0,0,0.35)]">
+                  <div className="aspect-square">
+                    <img
+                      src="/manus-storage/JesseHeadshot_f5af6ed9_2121f513.jpg"                   alt="Jesse Mahoney, Lead Designer and Production Manager"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 className="font-display text-2xl text-stone-950">
+                  Jesse Mahoney
+                </h3>
+                <p className="mt-2 text-sm lg:text-base uppercase tracking-[0.24em] text-stone-600">
+                  Lead Designer & Production Mgr
+                </p>
+                <p className="mt-4 text-base leading-8 text-stone-700 text-left lg:text-lg">
+                  Jesse brings a background in computer science and hardware innovation from his tenure in the semiconductor industry, including time at Apple. He translates that technical discipline into his role as a master craftsman, conceiving and executing product designs with precision and structural integrity that defines our work.
+                </p>
+              </div>
+              
+              {/* Team Member 3: Devin Ginther */}
+              <div>
+                <div className="relative overflow-hidden bg-stone-100 mb-8 border-2 border-[#8b7355] shadow-[0_30px_70px_rgba(0,0,0,0.35)]">
+                  <div className="aspect-square">
+                    <img
+                      src="/manus-storage/DevinHeadshot_aba8be4f_e3604300.jpg"
+                      alt="Devin Ginther, Founder and CEO"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 className="font-display text-2xl text-stone-950">
+                  Devin Ginther
+                </h3>
+                <p className="mt-2 text-sm lg:text-base uppercase tracking-[0.24em] text-stone-600">
+                  Co-Founder & CEO
+                </p>
+                <p className="mt-4 text-base leading-8 text-stone-700 text-left lg:text-lg">
+                  Founder and visionary behind Texas Urban Sawmill, Devin brings technical rigor from his background as a certified Project Management Professional (PMP), R&D biomedical engineer, and holder of multiple patents. He applies this inventive precision to every phase of material selection, milling, and kiln stabilization, transforming each rescued tree into a structurally sound, legacy-grade masterpiece.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" className="section-shell bg-[color:var(--surface-tint)] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
             <div>
               <p className="eyebrow">Stay in Touch</p>
-              <h2 className="section-title max-w-xl text-base sm:text-lg">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl">
                 Join Our Monthly Newsletter
               </h2>
               <p className="section-copy mt-6 max-w-2xl">
