@@ -119,7 +119,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/TXUSSarah&Dogs-AsheJuniper-AusinHabitatforHumanity_00a231bf.jpg"
                       alt="Lumber"
@@ -152,7 +152,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/TXUSOakBeam_f9cc7e55.webp"
                       alt="Beams"
@@ -185,7 +185,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/TXUSEnglishWalnutMantle5_d288d81d.jpg"
                       alt="Mantles"
@@ -218,7 +218,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/TXUS-CindyWalnutGoldOBase16_41c05dce.jpg"
                       alt="Cookies"
@@ -251,7 +251,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/CustomMilled_03fc4026.webp"
                       alt="Custom"
@@ -284,7 +284,7 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-4 border-[#8b7355]">
                     <img
                       src="/manus-storage/Texas_Urban_Sawmilll_31_6a41e9b9.webp"
                       alt="Slabs"
