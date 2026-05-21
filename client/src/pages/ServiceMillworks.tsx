@@ -88,7 +88,7 @@ export default function ServiceMillworks() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   Transform your vision into reality with our state-of-the-art CNC routing and laser engraving capabilities. From intricate woodworking details to custom signage and personalized gifts, we combine precision technology with expert craftsmanship to deliver exceptional results on every project.
@@ -108,7 +108,7 @@ export default function ServiceMillworks() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="CNC Routing Services"
@@ -126,7 +126,7 @@ export default function ServiceMillworks() {
                     <p className="text-[#6d5d50] mb-6">
                       Whether you need intricate designs, repeatable patterns, or precision cuts, our CNC capabilities deliver professional-grade results with exceptional accuracy and efficiency.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST CNC QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -140,7 +140,7 @@ export default function ServiceMillworks() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="Laser Engraving Services"
@@ -158,7 +158,7 @@ export default function ServiceMillworks() {
                     <p className="text-[#6d5d50] mb-6">
                       With our rotary setup for round objects and cylinders, we can laser engrave everything from wooden boxes to wine bottles, creating stunning personalized products for any occasion.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST LASER QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>

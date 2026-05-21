@@ -126,7 +126,7 @@ export default function ServiceTreeReuse() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-lg border-2 border-black"
+              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
             >
               <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                 TXUS specializes in providing Climate Smart Project™ solutions for construction and land improvement projects. Our work delivers measurable sustainability outcomes, including net-negative carbon impacts that help accelerate environmental goals. To date, we have helped save Texans over 1,000,000 lbs of CO₂e — making TXUS one of the few carbon-negative businesses in Texas.
@@ -141,7 +141,7 @@ export default function ServiceTreeReuse() {
               variants={fadeUp}
               className="mb-10 mt-10"
             >
-              <a href="#adaptive-process" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-black">
+              <a href="#adaptive-process" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                 View Our Process
                 <ArrowRight className="h-4 w-4" />
               </a>
@@ -156,7 +156,7 @@ export default function ServiceTreeReuse() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                   <img
                     src="/manus-storage/AustinStateHospital-TreeSurvey35_cab1ad1f.webp"
                     alt="PMP Project Management - Tree Survey"
@@ -173,7 +173,7 @@ export default function ServiceTreeReuse() {
                   <p className="text-[#6d5d50] mb-4">
                     The Texas Urban Sawmill is the only business in Texas and among the few in North America providing complete start-to-finish support for Adaptive Tree ReUse projects. Led by a certified Project Management Professional with over 20 years of global commercialization experience, TXUS delivers expert planning, scope management, scheduling, cost control, and quality assurance to help clients successfully execute complex, sustainability-driven projects.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Project Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>
@@ -187,7 +187,7 @@ export default function ServiceTreeReuse() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                   <img
                     src="/manus-storage/AustinStateHospital-TreeSurvey60_31935268.webp"
                     alt="Adaptive Tree Re-Use Projects - Log Processing"
@@ -204,7 +204,7 @@ export default function ServiceTreeReuse() {
                   <p className="text-[#6d5d50] mb-4">
                     These Adaptive Tree ReUse projects offer a unique opportunity for clients to make a significant impact on environmental sustainability. By using trees that would typically be part of the waste stream or chipped or mulched, clients can create powerful and meaningful experiences for residents and customers. From these rescued trees, we produce Climate Smart Wood™ for our clients—the most sustainable form of lumber with net negative carbon benefits.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Project Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>
@@ -239,7 +239,7 @@ export default function ServiceTreeReuse() {
             <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
               Partner with us to become part of the solution to a greener future!
             </h3>
-            <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+            <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
               Contact Us Today
               <ArrowRight className="h-4 w-4" />
             </a>
