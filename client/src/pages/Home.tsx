@@ -562,12 +562,12 @@ export default function Home() {
 
         <section className="relative overflow-hidden bg-[#f5f1e8] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
-            <div className="mb-12 lg:mb-14 mx-auto text-center">
-              <p className="eyebrow text-[#217938]">Educational Series</p>
-              <h2 className="section-title mt-6 text-2xl sm:text-3xl text-stone-950 mx-auto max-w-2xl">
+            <div className="mx-auto text-center mb-12 max-w-3xl">
+              <p className="eyebrow">Educational Series</p>
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl mx-auto">
                 USDA Forest Service Wood Innovations Grant Project
               </h2>
-              <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-stone-700 lg:text-lg">
+              <p className="section-copy mt-6 mx-auto">
                 Together with the USDA Forest Service, Texas Urban Sawmill is turning wildfire mitigation into education, sustainable craftsmanship, and a full-circle, innovative approach to forestry across Texas.
               </p>
             </div>
