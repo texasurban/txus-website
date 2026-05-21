@@ -536,7 +536,7 @@ export default function Home() {
           <div className="container grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
               <p className="eyebrow text-[#217938]">Climate Smart Wood™</p>
-              <h2 className="section-title max-w-xl text-2xl sm:text-3xl">
+              <h2 className="section-title max-w-xl text-2xl sm:text-3xl text-white">
                 Net carbon benefit, local production, and climate-smart manufacturing.
               </h2>
             </div>
