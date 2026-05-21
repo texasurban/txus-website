@@ -563,7 +563,7 @@ export default function Home() {
         <section className="relative overflow-hidden bg-[#f5f1e8] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mb-12 lg:mb-14 mx-auto text-center">
-              <p className="eyebrow text-stone-600">Educational Series</p>
+              <p className="eyebrow text-[#217938]">Educational Series</p>
               <h2 className="section-title mt-6 text-2xl sm:text-3xl text-stone-950 mx-auto max-w-2xl">
                 USDA Forest Service Wood Innovations Grant Project
               </h2>
