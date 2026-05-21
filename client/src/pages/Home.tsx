@@ -463,7 +463,7 @@ export default function Home() {
                     {service.body}
                   </p>
                   {service.cta && (
-                    <Button asChild className="mt-6 w-full border-2 border-black text-white" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
+                    <Button asChild className="mt-6 w-full border-2 border-[#8b7355] text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
                       <a href={service.cta.href}>
                         {service.cta.label}
                         <ArrowRight className="ml-2 h-4 w-4" />
