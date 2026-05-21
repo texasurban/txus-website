@@ -484,7 +484,7 @@ export default function Home() {
                 Heirloom furniture that retains the story of the rescued tree.
               </h2>
               <div className="mt-8 text-center">
-                <Button asChild className="hero-button">
+                <Button asChild className="hero-button border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                   <a href="/portfolio">See Our Portfolio</a>
                 </Button>
               </div>
@@ -525,7 +525,7 @@ export default function Home() {
             </div>
 
             <div className="mt-12 text-center">
-              <Button asChild className="hero-button">
+              <Button asChild className="hero-button border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                 <a href="/portfolio">See More Furniture</a>
               </Button>
             </div>
@@ -823,7 +823,7 @@ export default function Home() {
                     className="mt-3 w-full border border-[color:var(--line-strong)] bg-white px-4 py-4 text-base text-[color:var(--ink-strong)] outline-none transition focus:border-primary"
                   />
                 </label>
-                <Button type="submit" className="hero-button w-full sm:w-auto">
+                <Button type="submit" className="hero-button w-full sm:w-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                   Sign Up
                 </Button>
               </form>
