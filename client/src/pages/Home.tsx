@@ -299,7 +299,7 @@ export default function Home() {
                 Full Circle Urban Sawmill
               </h1>
               <p className="mt-5 max-w-xl font-sans leading-[1.9] text-white/92" style={{fontSize: '1.03rem'}}>
-                We offer custom sawmilling, native Texas lumber, specialized millworks, and heirloom-quality furniture for homes and businesses. As a Texas Benefit Company, we're committed to our community and environment—rescuing trees, investing in education, and giving back charitable donations. Through urban wood utilization and climate-smart, full-circle forestry practices, we transform what would be wasted into something to be shared for future generations.
+                We offer custom sawmilling, native Texas lumber, specialty millwork, and heirloom-quality furniture for homes and businesses. As a Texas Benefit Company, we rescue trees, support community education, and give back through charitable donations. Through urban wood utilization and climate-smart forestry practices, we transform salvaged trees into lasting pieces to be shared for generations
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Button asChild variant="outline" className="hero-button-outline">
