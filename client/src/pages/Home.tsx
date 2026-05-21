@@ -563,13 +563,9 @@ export default function Home() {
         <section className="relative overflow-hidden bg-[#f5f1e8] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mb-12 lg:mb-14">
-              <a className="block text-center text-base lg:text-lg uppercase tracking-[0.32em] text-stone-600 hover:text-stone-700 transition-colors" href="https://www.txurbansawmill.com/" rel="noreferrer" target="_blank">
-                Educational Series
-              </a>
-              <h2 className="mt-6 text-center font-display text-7xl leading-[1.1] text-stone-950 sm:text-8xl lg:text-9xl">
-                <a className="hover:text-[#d7a469] transition-colors" href="https://www.fs.usda.gov/sites/default/files/Wood-Innovations-Overview.pdf" rel="noreferrer" target="_blank">
-                  USDA Forest Service Wood Innovations Grant Project
-                </a>
+              <p className="eyebrow text-stone-600">Educational Series</p>
+              <h2 className="section-title mt-6 text-center text-2xl sm:text-3xl text-stone-950">
+                USDA Forest Service Wood Innovations Grant Project
               </h2>
               <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-stone-700 lg:text-lg">
                 Together with the USDA Forest Service, Texas Urban Sawmill is turning wildfire mitigation into education, sustainable craftsmanship, and a full-circle, innovative approach to forestry across Texas.
