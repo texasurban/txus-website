@@ -115,7 +115,7 @@ export default function ServiceTreeCare() {
                       <p className="italic text-sm">Expert certified arborist tree care and removal</p>
                     </div>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Professional Tree Care & Removal</h3>
                     <p className="text-[#6d5d50] mb-4">
                       Our certified arborist and specialized tree crew handle removals with expertise and care. We prioritize the highest and best utilization of wood, ensuring that valuable timber is rescued rather than wasted.
@@ -147,7 +147,7 @@ export default function ServiceTreeCare() {
                       <p className="italic text-sm">Sustainable land clearing and forestry management</p>
                     </div>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Sustainable Land Services</h3>
                     <p className="text-[#6d5d50] mb-4">
                       We provide the most sustainable land services in Texas with careful planning and execution. Our selective land clearing preserves natural habitats and protects local wildlife while maximizing wood utilization.

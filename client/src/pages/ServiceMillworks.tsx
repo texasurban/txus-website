@@ -118,7 +118,7 @@ export default function ServiceMillworks() {
                       <p className="italic text-sm">Precision CNC routing for custom woodworking</p>
                     </div>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">CNC Routing & Surfacing</h3>
                     <p className="text-[#6d5d50] mb-4">
                       Our Camaster Cobra CNC machine features a 6 ft x 16 ft cutting bed, enabling precise routing, surfacing, and shaping of wood and composite materials. Perfect for detailed architectural elements, furniture components, and custom millwork.
@@ -150,7 +150,7 @@ export default function ServiceMillworks() {
                       <p className="italic text-sm">Custom laser engraving and cutting services</p>
                     </div>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Laser Engraving & Cutting</h3>
                     <p className="text-[#6d5d50] mb-4">
                       Our large-format CO2 laser system features dual 70W and 180W laser heads, capable of engraving and cutting materials up to 42" wide x 32" deep. Perfect for signage, personalized gifts, awards, and decorative elements.
