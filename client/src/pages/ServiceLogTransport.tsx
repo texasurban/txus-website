@@ -133,7 +133,7 @@ export default function ServiceLogTransport() {
                       className="w-full h-96 object-cover"
                     />
                   </div>
-                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px]">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Equipment & Capabilities</h3>
                     <p className="text-[#6d5d50] mb-4">
                       We are the only sawmill in Texas that operates a 20-ton national crane truck—a low emissions certified vehicle designed with a 14-foot flat bed for easier access into tight spaces. We can haul logs up to 16 feet long on the truck deck.
@@ -162,7 +162,7 @@ export default function ServiceLogTransport() {
                       className="w-full h-96 object-cover"
                     />
                   </div>
-                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px]">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Site Preparation & Access</h3>
                     <p className="text-[#6d5d50] mb-4">
                       Our crane truck requires an overhead clearance of over 13 feet along driveways and access points. During the craning process, we need clear line of sight to the sky or a minimum of 30 feet of overhead clearance to safely lift logs onto the truck deck.
