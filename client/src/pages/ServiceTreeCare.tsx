@@ -117,8 +117,12 @@ export default function ServiceTreeCare() {
                 className="mt-6 flex justify-center"
               >
                 <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
-                  <h4 className="text-lg font-bold text-[#1b1612] mb-2">Placeholder Title</h4>
-                  <p className="text-[#6d5d50] text-sm">Placeholder text for the description box. This will be replaced with your content.</p>
+                  <h4 className="text-xl font-bold text-[#1b1612] mb-3">Power in Partnership</h4>
+                  <div className="text-[#6d5d50] text-base space-y-3">
+                    <p>At Texas Urban Sawmill, we've always believed that every tree has value—even after it comes down. That's why we continue to partner with purpose! Our urban and community tree service partnership with Wilder Tree Service, a forward-thinking tree care company that shares our commitment to sustainability, craftsmanship, and community impact.</p>
+                    <p>Together, we're bringing Central Texas a smarter, more responsible alternative to traditional tree removal—one that reduces waste, lowers costs, and creates lasting value from every tree.</p>
+                    <p>If you're in need of expert tree services—whether it's trimming, health assessments, removals, or full-scale tree reuse projects—we invite you to reach out.</p>
+                  </div>
                 </div>
               </motion.div>
             </div>
