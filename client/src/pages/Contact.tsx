@@ -46,6 +46,15 @@ const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/company/texas-urban-sawmill", icon: Linkedin },
 ];
 
+const projectTypes = [
+  "Private / Residential",
+  "Commercial / Hospitality",
+  "Tree Re-Use / Sawmilling",
+  "Forestry / Tree Service",
+  "Partnership / Collaboration",
+  "Other",
+];
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -254,17 +263,22 @@ export default function Contact() {
                     <label htmlFor="subject" className="block text-xs font-semibold uppercase tracking-[0.18em] text-[#1b1612]">
                       Subject
                     </label>
-                    <input
-                      type="text"
+                    <select
                       id="subject"
                       name="subject"
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
                       disabled={isSubmitting}
-                      className="mt-2 w-full border border-[#d7a469] bg-white px-3 py-2 text-sm text-[#1b1612] placeholder-[#a08860] focus:border-[#d7a469] focus:outline-none focus:ring-1 focus:ring-[#d7a469] disabled:opacity-50"
-                      placeholder="e.g., Custom Sawmilling Inquiry"
-                    />
+                      className="mt-2 w-full border border-[#d7a469] bg-white px-3 py-2 text-sm text-[#1b1612] focus:border-[#d7a469] focus:outline-none focus:ring-1 focus:ring-[#d7a469] disabled:opacity-50"
+                    >
+                      <option value="">Select a subject...</option>
+                      {projectTypes.map((type) => (
+                        <option key={type} value={type}>
+                          {type}
+                        </option>
+                      ))}
+                    </select>
                   </div>
                 </div>
 

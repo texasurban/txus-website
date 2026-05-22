@@ -46,8 +46,13 @@
   - Increased pricing font size for readability
 - [x] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
   - Added 4 full-width, full-height images to gallery section
-  - Images display with object-contain to preserve aspect ratio
-  - Gallery positioned between service cards and sustainability section
+  - Redesigned with side-by-side layout (image left, text right)
+  - Added caption overlay below image with brown background
+  - Top-aligned boxes for visual balance
+  - 4 service cards with images and descriptions
+  - Updated 4th card title to "Sustainable Land Services"
+  - Increased fonts 25% for better readability
+  - Added Eric Wilder partnership details
 - [x] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery
 - [x] Verify all 6 service pages render correctly with consistent styling
 

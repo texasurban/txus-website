@@ -281,7 +281,7 @@ export default function ServiceLogTransport() {
                     </div>
                     
                     <div>
-                      <h4 className="font-bold text-[#1b1612] mb-2">Baker Sawmill (Max 32" diameter, 28 ft long)</h4>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Baker Sawmill (Max 32&quot; diameter, 28 ft long)</h4>
                       <ul className="list-disc list-inside space-y-1 ml-2">
                         <li>$200/hr (minimum $100)</li>
                         <li>Minimum log length: 36"</li>
@@ -293,7 +293,7 @@ export default function ServiceLogTransport() {
                     </div>
                     
                     <div>
-                      <h4 className="font-bold text-[#1b1612] mb-2">Wood-Hizer WM1000 (Max 67" diameter, 24 ft long)</h4>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Wood-Hizer WM1000 (Max 67&quot; diameter, 24 ft long)</h4>
                       <ul className="list-disc list-inside space-y-1 ml-2">
                         <li>$300/hr (minimum $300)</li>
                         <li>Minimum log length: 48"</li>

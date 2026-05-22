@@ -42,10 +42,10 @@ export const appRouter = router({
             message: input.message,
           });
 
-          // Send notification to owner
+          // Send notification to owner with obvious subject line including the selected category
           const notificationSent = await notifyOwner({
-            title: `New Contact Form Submission from ${input.name}`,
-            content: `Email: ${input.email}\nPhone: ${input.phone || "Not provided"}\nSubject: ${input.subject}\n\nMessage:\n${input.message}`,
+            title: `TXUS Website Customer Inquiry - ${input.subject}`,
+            content: `From: ${input.name}\nEmail: ${input.email}\nPhone: ${input.phone || "Not provided"}\nProject Type: ${input.subject}\n\nMessage:\n${input.message}`,
           });
 
           return {
