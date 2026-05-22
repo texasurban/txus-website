@@ -110,7 +110,7 @@ export default function ServiceLogTransport() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#d7a469]"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   Professional log transport and heavy-lift crane services. Moving logs safely and efficiently from site to sawmill. Expert handling of large timber.
@@ -130,13 +130,13 @@ export default function ServiceLogTransport() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="20-Ton Crane Truck with Logs"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
+                    <div className="bg-[#d7a469] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Professional crane truck loading large logs</p>
                     </div>
                   </div>
@@ -148,7 +148,7 @@ export default function ServiceLogTransport() {
                     <p className="text-[#6d5d50] mb-6">
                       For higher volume rescue projects, we offer additional trucks, trailers, and construction equipment to handle large-scale operations efficiently and sustainably.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST TRANSPORT QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -162,7 +162,7 @@ export default function ServiceLogTransport() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="Site Preparation for Tree Rescue"
@@ -180,7 +180,7 @@ export default function ServiceLogTransport() {
                     <p className="text-[#6d5d50] mb-6">
                       The truck is 29 feet long and 102 inches wide. We work closely with clients to ensure access requirements are met before arrival, and we offer onsite assessments and consultation appointments to evaluate tree reuse opportunities.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       SCHEDULE SITE ASSESSMENT
                       <ArrowRight className="h-4 w-4" />
                     </a>

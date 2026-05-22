@@ -89,7 +89,7 @@ export default function ServiceLumber() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#d7a469]"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   Texas Urban Sawmill provides precision‑milled lumber, beams, mantles, cookies, and fully custom milling solutions for any log brought to our facility. With advanced CNC capabilities and specialty processing, we transform reclaimed Texas hardwoods into high‑quality, project‑ready materials tailored to exact specifications.
@@ -104,7 +104,7 @@ export default function ServiceLumber() {
                 variants={fadeUp}
                 className="mb-10 mt-10"
               >
-                <a href="/shop" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)]">
+                <a href="/shop" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-base lg:text-lg font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)]">
                   Shop Now
                   <ArrowRight className="h-4 w-4" />
                 </a>
@@ -119,14 +119,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/TXUSSarah&Dogs-AsheJuniper-AusinHabitatforHumanity_00a231bf.jpg"
                       alt="Lumber"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Milled Ashe Juniper for Austin Habitat for Humanity ReStore—USDA FS Wood Innovations Project
                     </p>
@@ -136,7 +136,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       We can mill virtually any fractional dimension to meet your project's needs. The most common thicknesses are 4/4, 6/4, 8/4, and 10/4, which equate to approximately 1 inch, 1.5 inches, 2 inches, and 3 inches respectively. Each board is precisely sawn, and we can also offer kiln‑drying services.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/shop">
                         Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
@@ -152,14 +152,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/TXUSOakBeam_f9cc7e55.webp"
                       alt="Beams"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Post Oak beam—milled up to 28 feet long with tight grain and exceptional stability
                     </p>
@@ -169,7 +169,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       Our beams are milled from reclaimed logs and cut to a wide range of sizes and profiles. Whether structural or decorative, we produce solid timbers with exceptional character, stability, and craftsmanship. Each beam can undergo millwork, planing, or CNC shaping for custom architectural applications and exposed timber features.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/shop">
                         Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
@@ -185,14 +185,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/TXUSEnglishWalnutMantle5_d288d81d.jpg"
                       alt="Mantles"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       English Walnut mantle milled to reveal the most appealing grains and natural shapes
                     </p>
@@ -202,7 +202,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       We craft fireplace mantles from select slabs and beams chosen for their grain and figure. Each mantle is flattened, sanded, and finished to your specifications for a precise fit. Options include live‑edge, squared, or custom profiles. Every mantle is built as a standout feature in your space.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/shop">
                         Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
@@ -218,14 +218,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/TXUS-CindyWalnutGoldOBase16_41c05dce.jpg"
                       alt="Cookies"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Rare Mesquite cookie burls being finished out for display and functional use
                     </p>
@@ -235,7 +235,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       Cookies (also called rounds) are cross‑sectional slices cut from logs, showing the full growth‑ring pattern of the tree. We cut cookies perpendicular to the trunk to produce clean, stable rounds in a variety of diameters. Each piece can be flattened, stabilized, and sanded to your specifications for display or functional use.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/shop">
                         Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />
@@ -251,14 +251,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/CustomMilled_03fc4026.webp"
                       alt="Custom"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Custom milled components—CNC shaping, surfacing, and specialty cuts
                     </p>
@@ -268,7 +268,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       For projects beyond standard milling, we provide custom processing tailored to the character and purpose of each log. Our capabilities include CNC shaping, surfacing, flattening, specialty cuts, custom molding, and precision profile matching or replication. We work with irregular or meaningful material to create functional, one-of-a-kind components with lasting value.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/contact">
                         Request Quote
                         <ArrowRight className="ml-2 h-3 w-3" />
@@ -284,14 +284,14 @@ export default function ServiceLumber() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                     <img
                       src="/manus-storage/Texas_Urban_Sawmilll_31_6a41e9b9.webp"
                       alt="Slabs"
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Live edge slabs preserving natural contours, grain, and organic edge profiles
                     </p>
@@ -301,7 +301,7 @@ export default function ServiceLumber() {
                     <p className="text-[#6d5d50] mb-6 text-sm flex-grow">
                       Live edge slabs preserve the natural contours of the tree, showcasing the full grain structure and organic edge profile. Cut in common thicknesses—4/4, 6/4, 8/4, and 10/4 (approximately 1", 1.5", 2", and 3")—each slab is flattened, sanded, and finished to your specifications.
                     </p>
-                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <Button asChild className="bg-[#217938] text-white hover:bg-[#1a5a2a] text-xs mt-auto border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       <a href="/shop">
                         Shop Now
                         <ArrowRight className="ml-2 h-3 w-3" />

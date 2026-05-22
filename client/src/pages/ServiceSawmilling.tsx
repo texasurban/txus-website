@@ -148,7 +148,7 @@ export default function ServiceSawmilling() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#d7a469]"
             >
               <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                 Texas Urban Sawmill transforms logs, beams, and timbers into high-end, climate-smart lumber ready for any application. As the only sawmill in Texas operating 480V electric industrial sawmills, we deliver high-efficiency, zero-emission processing—ensuring every log is handled with technical precision and environmental care. From custom dimensions to construction-grade stock, our advanced milling and kiln-drying capabilities produce consistent, high-quality material at scale.
@@ -164,14 +164,14 @@ export default function ServiceSawmilling() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                   <img
                     src="/manus-storage/sawmilling-hero-wm1000-final_e97520f2_490e46b9.webp"
                     alt="Custom Sawmilling"
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Sarah Ginther is the Lead Sawyer and stands ready to mill on the Woodmizer WM1000, one of the largest sawmills in Texas built in Poland. It can mill a 67" diameter log with a length up to 25 feet.
                   </p>
@@ -181,7 +181,7 @@ export default function ServiceSawmilling() {
                   <p className="text-[#6d5d50] mb-4">
                     We mill logs of all sizes with precision and consistency. Our Baker industrial sawmill is built for production, while the Wood-Mizer WM1000 allows us to process large-diameter logs and specialized cuts others can't. With capacity up to 50,000 board feet per month, we handle everything from one-off jobs to large-scale commercial orders. Powered by 480V electric industrial sawmills, our operation delivers high-efficiency, zero-emission processing at scale.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Sawmilling Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>
@@ -195,14 +195,14 @@ export default function ServiceSawmilling() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
                   <img
                     src="/manus-storage/kiln-drying-chamber-final_3e08b431_d77bef5d.webp"
                     alt="Kiln Drying Services"
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#d7a469] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Our traditional dehumidification (DH) kiln can dry up to 6,000 board feet of lumber per cycle, with sterilization temperatures exceeding 180°F to ensure quality, stability, and pest-free material.
                   </p>
@@ -212,7 +212,7 @@ export default function ServiceSawmilling() {
                   <p className="text-[#6d5d50] mb-4">
                     We operate two advanced kiln systems for efficient, high-quality lumber drying. Our Nyle dehumidification (DH) kiln provides consistent, controlled drying for general lumber, while the high-frequency (HF) vacuum kiln rapidly dries higher-value material with reduced turnaround times. Depending on species and thickness, drying cycles range from 2–6 weeks in the HF kiln and 2–3 months in the DH kiln, allowing us to balance speed, stability, and craftsmanship across projects of all sizes.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Kiln Drying Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>
