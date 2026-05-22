@@ -126,7 +126,7 @@ export default function ServiceMillworks() {
                     <p className="text-[#6d5d50] mb-6">
                       Whether you need intricate designs, repeatable patterns, or precision cuts, our CNC capabilities deliver professional-grade results with exceptional accuracy and efficiency.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST CNC QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -158,7 +158,7 @@ export default function ServiceMillworks() {
                     <p className="text-[#6d5d50] mb-6">
                       With our rotary setup for round objects and cylinders, we can laser engrave everything from wooden boxes to wine bottles, creating stunning personalized products for any occasion.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST LASER QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>

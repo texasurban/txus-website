@@ -181,7 +181,7 @@ export default function ServiceSawmilling() {
                   <p className="text-[#6d5d50] mb-4">
                     We mill logs of all sizes with precision and consistency. Our Baker industrial sawmill is built for production, while the Wood-Mizer WM1000 allows us to process large-diameter logs and specialized cuts others can't. With capacity up to 50,000 board feet per month, we handle everything from one-off jobs to large-scale commercial orders. Powered by 480V electric industrial sawmills, our operation delivers high-efficiency, zero-emission processing at scale.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Sawmilling Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>
@@ -212,7 +212,7 @@ export default function ServiceSawmilling() {
                   <p className="text-[#6d5d50] mb-4">
                     We operate two advanced kiln systems for efficient, high-quality lumber drying. Our Nyle dehumidification (DH) kiln provides consistent, controlled drying for general lumber, while the high-frequency (HF) vacuum kiln rapidly dries higher-value material with reduced turnaround times. Depending on species and thickness, drying cycles range from 2–6 weeks in the HF kiln and 2–3 months in the DH kiln, allowing us to balance speed, stability, and craftsmanship across projects of all sizes.
                   </p>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                     Request Kiln Drying Quote
                     <ArrowRight className="h-4 w-4" />
                   </a>

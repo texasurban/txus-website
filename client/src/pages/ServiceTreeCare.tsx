@@ -123,7 +123,7 @@ export default function ServiceTreeCare() {
                     <p className="text-[#6d5d50] mb-6">
                       We offer the most competitive rates in Texas without compromising on quality or service. We also work with independent tree service companies to advance sustainable forestry practices across the region.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST TREE CARE QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -155,7 +155,7 @@ export default function ServiceTreeCare() {
                     <p className="text-[#6d5d50] mb-6">
                       Unlike typical clearing companies, we prioritize education and responsible land management. We salvage trees and materials that would otherwise be discarded, processing them into Climate Smart Wood™ products.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       LAND SERVICES ESTIMATE
                       <ArrowRight className="h-4 w-4" />
                     </a>

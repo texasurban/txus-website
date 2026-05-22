@@ -125,7 +125,7 @@ export default function Services() {
                       <p className="text-muted-foreground mb-4">
                         {service.description}
                       </p>
-                      <Button asChild className="w-full border-2 border-[#8b7355] text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
+                      <Button asChild className="w-full text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
                         <a href={service.href}>
                           Learn More
                           <ArrowRight className="ml-2 h-4 w-4" />
@@ -149,7 +149,7 @@ export default function Services() {
                 Contact us today to discuss your project and discover how we can
                 help you achieve your sustainability and design goals.
               </p>
-              <Button asChild size="lg" className="border-2 border-[#8b7355] text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
+              <Button asChild size="lg" className="text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
                 <a href="/contact">
                   Contact Us
                   <ArrowRight className="ml-2 h-5 w-5" />
