@@ -83,34 +83,34 @@ export default function ServiceTreeCare() {
           {/* INTRO SECTION */}
           <section className="bg-[#fafafa] px-6 py-12 lg:px-8 lg:py-16 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
-
               <motion.div
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="mt-12 flex justify-center"
+                className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start"
               >
-                <div className="w-full max-w-2xl bg-white p-8 rounded-lg shadow-md border-2 border-[#8b7355]">
+                {/* Image on the left */}
+                <div className="w-full">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]">
+                    <img
+                      src="/manus-storage/tree-service-team_b4b7aa0b.webp"
+                      alt="Texas Urban Sawmill tree service team with crane truck"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                  <div className="bg-[#8b7355] p-3 -mt-1">
+                    <p className="text-center text-white text-xs italic leading-relaxed">
+                      Devin Ginther and Eric Wilder, alongside Wilder Tree Service's lead climber, working together on a central Austin urban tree removal project focused on safety, efficiency, and sustainable urban timber recovery.
+                    </p>
+                  </div>
+                </div>
+                {/* Text on the right */}
+                <div className="w-full bg-white p-8 rounded-lg shadow-md border-2 border-[#8b7355]">
                   <h4 className="text-2xl font-bold text-[#1b1612] mb-4">Power in Partnership</h4>
                   <div className="text-[#6d5d50] text-lg space-y-4">
                     <p>At Texas Urban Sawmill, we've always believed that every tree has value—even after it comes down. That's why we're proud to partner with Eric Wilder, ISA Certified Arborist and owner of Wilder Tree Service, a forward-thinking tree care company that shares our commitment to sustainability, craftsmanship, and community impact. By recognizing the utilization value of urban timber, this partnership helps maximize the value of every tree removed—creating a more sustainable approach while also helping deliver highly cost-competitive tree services to the community. Together, we're giving urban and community trees a second life through responsible stewardship, smart resource utilization, and purposeful collaboration.</p>
                   </div>
-                </div>
-              </motion.div>
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
-                variants={fadeUp}
-                className="mt-8 flex justify-center"
-              >
-                <div className="w-full max-w-2xl overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]">
-                  <img
-                    src="/manus-storage/tree-service-team_b4b7aa0b.webp"
-                    alt="Texas Urban Sawmill tree service team with crane truck"
-                    className="w-full h-auto object-cover"
-                  />
                 </div>
               </motion.div>
             </div>
@@ -195,7 +195,7 @@ export default function ServiceTreeCare() {
                     />
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
-                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Land Clearing & Wood Chipping</h4>
+                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Sustainable Land Services</h4>
                     <p className="text-[#6d5d50] text-sm">Sustainable land clearing services with wood chipping operations to process debris and maximize material recovery.</p>
                   </div>
                 </motion.div>
