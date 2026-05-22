@@ -128,7 +128,7 @@ export default function ServiceLogTransport() {
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
-                      src="/manus-storage/placeholder-image.webp"
+                      src="/manus-storage/TXUS+20+Ton+Crane+Truck+Clearance_5647d235.webp"
                       alt="20-Ton Crane Truck with Logs"
                       className="w-full h-96 object-cover"
                     />
@@ -160,7 +160,7 @@ export default function ServiceLogTransport() {
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
-                      src="/manus-storage/placeholder-image.webp"
+                      src="/manus-storage/TXUS+20-ton+Crane+Truck+1_594438d0.webp"
                       alt="Site Preparation for Tree Rescue"
                       className="w-full h-96 object-cover"
                     />
