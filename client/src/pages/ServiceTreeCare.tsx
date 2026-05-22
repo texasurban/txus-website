@@ -100,22 +100,24 @@ export default function ServiceTreeCare() {
           {/* IMAGE GALLERY - CARD LAYOUT */}
           <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
             <div className="mx-auto max-w-7xl">
-              <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+              <div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
                 {/* Card 1 */}
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
-                  className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]"
                 >
-                  <img
-                    src="/manus-storage/tree-care-apartments_f4f18c46.webp"
-                    alt="Urban tree removal with crane truck"
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                    <p className="italic text-sm">Urban tree removal with crane truck</p>
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                    <img
+                      src="/manus-storage/tree-care-apartments_f4f18c46.webp"
+                      alt="Urban tree removal with crane truck"
+                      className="w-full h-96 object-cover"
+                    />
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Urban Tree Removal with Crane Truck</h4>
+                    <p className="text-[#6d5d50] text-sm">Professional removal of trees in urban settings using specialized crane equipment for safe and efficient extraction.</p>
                   </div>
                 </motion.div>
 
@@ -125,15 +127,17 @@ export default function ServiceTreeCare() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
-                  className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]"
                 >
-                  <img
-                    src="/manus-storage/tree-care-removal_b6ecda71.webp"
-                    alt="Professional tree removal and rigging"
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                    <p className="italic text-sm">Professional tree removal and rigging</p>
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                    <img
+                      src="/manus-storage/tree-care-removal_b6ecda71.webp"
+                      alt="Professional tree removal and rigging"
+                      className="w-full h-96 object-cover"
+                    />
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Professional Tree Removal & Rigging</h4>
+                    <p className="text-[#6d5d50] text-sm">Expert rigging and removal techniques by certified arborists to safely bring down trees while maximizing lumber recovery.</p>
                   </div>
                 </motion.div>
 
@@ -143,15 +147,17 @@ export default function ServiceTreeCare() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
-                  className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]"
                 >
-                  <img
-                    src="/manus-storage/tree-care-cutting_26d62dc5.webp"
-                    alt="Expert chainsaw work and tree cutting"
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                    <p className="italic text-sm">Expert chainsaw work and tree cutting</p>
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                    <img
+                      src="/manus-storage/tree-care-cutting_26d62dc5.webp"
+                      alt="Expert chainsaw work and tree cutting"
+                      className="w-full h-96 object-cover"
+                    />
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Expert Chainsaw Work & Tree Cutting</h4>
+                    <p className="text-[#6d5d50] text-sm">Skilled chainsaw operation and precise cutting techniques to process trees into manageable sections for transport and milling.</p>
                   </div>
                 </motion.div>
 
@@ -161,15 +167,17 @@ export default function ServiceTreeCare() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
-                  className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]"
                 >
-                  <img
-                    src="/manus-storage/tree-care-chipping_a57cd7b5.webp"
-                    alt="Land clearing and wood chipping operations"
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                    <p className="italic text-sm">Land clearing and wood chipping operations</p>
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                    <img
+                      src="/manus-storage/tree-care-chipping_a57cd7b5.webp"
+                      alt="Land clearing and wood chipping operations"
+                      className="w-full h-96 object-cover"
+                    />
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                    <h4 className="text-lg font-bold text-[#1b1612] mb-2">Land Clearing & Wood Chipping</h4>
+                    <p className="text-[#6d5d50] text-sm">Sustainable land clearing services with wood chipping operations to process debris and maximize material recovery.</p>
                   </div>
                 </motion.div>
               </div>
