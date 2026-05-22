@@ -60,7 +60,7 @@ export default function ServiceTreeCare() {
           {/* HERO BANNER SECTION */}
           <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
             <img
-              src="/manus-storage/placeholder-hero.webp"
+              src="/manus-storage/tree-care-hero_27d9548f.webp"
               alt="Tree Care, Removals & Consulting - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
             />
@@ -107,6 +107,18 @@ export default function ServiceTreeCare() {
                     alt="Texas Urban Sawmill tree service team with crane truck"
                     className="w-full h-auto object-cover"
                   />
+                </div>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.25 }}
+                variants={fadeUp}
+                className="mt-6 flex justify-center"
+              >
+                <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                  <h4 className="text-lg font-bold text-[#1b1612] mb-2">Placeholder Title</h4>
+                  <p className="text-[#6d5d50] text-sm">Placeholder text for the description box. This will be replaced with your content.</p>
                 </div>
               </motion.div>
             </div>
