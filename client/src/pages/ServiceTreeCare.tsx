@@ -94,6 +94,21 @@ export default function ServiceTreeCare() {
                   We are paving the way for change in Texas and believe in a full-circle approach to forestry management and urban tree care. That means we take part in all aspects, from plantings to sustainable reuse of woody materials. We have a certified arborist on our team and a specialized tree crew that handles removals, ensuring the highest and best utilization of the wood.
                 </p>
               </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.25 }}
+                variants={fadeUp}
+                className="mt-12 flex justify-center"
+              >
+                <div className="w-full max-w-2xl overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]">
+                  <img
+                    src="/manus-storage/tree-service-team_b4b7aa0b.webp"
+                    alt="Texas Urban Sawmill tree service team with crane truck"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              </motion.div>
             </div>
           </section>
 
