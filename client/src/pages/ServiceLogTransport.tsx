@@ -102,8 +102,8 @@ export default function ServiceLogTransport() {
             </div>
           </section>
 
-          {/* INTRO TEXT SECTION */}
-          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400">
+          {/* INTRO TEXT & SERVICE CARDS SECTION */}
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <motion.div
                 initial="hidden"
@@ -117,10 +117,6 @@ export default function ServiceLogTransport() {
                 </p>
               </motion.div>
             </div>
-          </section>
-
-          {/* SERVICE CARDS SECTION */}
-          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
             <div className="mx-auto max-w-7xl">
               <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
                 {/* Service 1: Equipment & Capabilities */}
