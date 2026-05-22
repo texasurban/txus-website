@@ -45,6 +45,9 @@
   - Aligned CTAs at bottom of text boxes
   - Increased pricing font size for readability
 - [x] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
+  - Added 4 full-width, full-height images to gallery section
+  - Images display with object-contain to preserve aspect ratio
+  - Gallery positioned between service cards and sustainability section
 - [x] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery
 - [x] Verify all 6 service pages render correctly with consistent styling
 
