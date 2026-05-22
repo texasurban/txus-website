@@ -103,7 +103,7 @@ export default function ServiceLogTransport() {
           </section>
 
           {/* INTRO TEXT SECTION */}
-          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <motion.div
                 initial="hidden"
@@ -120,7 +120,7 @@ export default function ServiceLogTransport() {
           </section>
 
           {/* SERVICE CARDS SECTION */}
-          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 mb-20">
                 {/* Service 1: Equipment & Capabilities */}
@@ -168,7 +168,7 @@ export default function ServiceLogTransport() {
                       alt="Site Preparation for Tree Rescue"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#6d5d50] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Proper site preparation ensures efficient rescue operations</p>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ export default function ServiceLogTransport() {
           </section>
 
           {/* SERVICE AREA & PREPARATION */}
-          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <motion.div
                 initial="hidden"

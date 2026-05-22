@@ -81,7 +81,7 @@ export default function ServiceTreeCare() {
           </section>
 
           {/* SECTION 1: FEATURED SERVICES - WHITE */}
-          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               {/* Section Description */}
               <motion.div
@@ -166,7 +166,7 @@ export default function ServiceTreeCare() {
           </section>
 
           {/* SUSTAINABILITY COMMITMENT */}
-          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <motion.div
                 initial="hidden"
