@@ -171,7 +171,7 @@ export default function ServiceSawmilling() {
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Sarah Ginther is the Lead Sawyer and stands ready to mill on the Woodmizer WM1000, one of the largest sawmills in Texas built in Poland. It can mill a 67" diameter log with a length up to 25 feet.
                   </p>
@@ -202,7 +202,7 @@ export default function ServiceSawmilling() {
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Our traditional dehumidification (DH) kiln can dry up to 6,000 board feet of lumber per cycle, with sterilization temperatures exceeding 180°F to ensure quality, stability, and pest-free material.
                   </p>

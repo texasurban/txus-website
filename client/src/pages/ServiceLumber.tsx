@@ -126,7 +126,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Milled Ashe Juniper for Austin Habitat for Humanity ReStore—USDA FS Wood Innovations Project
                     </p>
@@ -159,7 +159,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Post Oak beam—milled up to 28 feet long with tight grain and exceptional stability
                     </p>
@@ -192,7 +192,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       English Walnut mantle milled to reveal the most appealing grains and natural shapes
                     </p>
@@ -225,7 +225,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Rare Mesquite cookie burls being finished out for display and functional use
                     </p>
@@ -258,7 +258,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Custom milled components—CNC shaping, surfacing, and specialty cuts
                     </p>
@@ -291,7 +291,7 @@ export default function ServiceLumber() {
                       className="w-full h-64 object-cover"
                     />
                   </div>
-                  <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Live edge slabs preserving natural contours, grain, and organic edge profiles
                     </p>

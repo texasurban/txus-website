@@ -114,7 +114,7 @@ export default function ServiceMillworks() {
                       alt="CNC Routing Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Precision CNC routing for custom woodworking</p>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ export default function ServiceMillworks() {
                       alt="Laser Engraving Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Custom laser engraving and cutting services</p>
                     </div>
                   </div>

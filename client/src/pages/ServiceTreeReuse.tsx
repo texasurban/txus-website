@@ -163,7 +163,7 @@ export default function ServiceTreeReuse() {
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     What was once cleared is now preserved. TXUS rescues and reuses trees from the Austin State Hospital project, turning local urban wood into lasting value.
                   </p>
@@ -194,7 +194,7 @@ export default function ServiceTreeReuse() {
                     className="w-full h-96 object-cover"
                   />
                 </div>
-                <div className="bg-[#1b1612] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     In the heart of the Austin State Hospital redevelopment, Devin Ginther is helping preserve the story of Central Texas trees through urban wood recovery and reuse.
                   </p>

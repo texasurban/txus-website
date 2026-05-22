@@ -136,7 +136,7 @@ export default function ServiceLogTransport() {
                       alt="20-Ton Crane Truck with Logs"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Professional crane truck loading large logs</p>
                     </div>
                   </div>
@@ -168,7 +168,7 @@ export default function ServiceLogTransport() {
                       alt="Site Preparation for Tree Rescue"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#6d5d50] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Proper site preparation ensures efficient rescue operations</p>
                     </div>
                   </div>

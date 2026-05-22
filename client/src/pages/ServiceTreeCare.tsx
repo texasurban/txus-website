@@ -111,7 +111,7 @@ export default function ServiceTreeCare() {
                       alt="Professional Tree Care Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Expert certified arborist tree care and removal</p>
                     </div>
                   </div>
@@ -143,7 +143,7 @@ export default function ServiceTreeCare() {
                       alt="Sustainable Land Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#1b1612] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Sustainable land clearing and forestry management</p>
                     </div>
                   </div>
