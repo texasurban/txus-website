@@ -128,13 +128,10 @@ export default function ServiceLogTransport() {
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
-                      src="/manus-storage/TXUS+20+Ton+Crane+Truck+Clearance_5647d235.webp"
+                      src="/manus-storage/TXUS20-tonCraneTruck1_b41c4db2.jpg"
                       alt="20-Ton Crane Truck with Logs"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                      <p className="italic text-sm">Professional crane truck loading large logs</p>
-                    </div>
                   </div>
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Equipment & Capabilities</h3>
@@ -160,13 +157,10 @@ export default function ServiceLogTransport() {
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
-                      src="/manus-storage/TXUS+20-ton+Crane+Truck+1_594438d0.webp"
+                      src="/manus-storage/Texas_Urban_Sawmill_CameronOak-41_e01fadeb.webp"
                       alt="Site Preparation for Tree Rescue"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
-                      <p className="italic text-sm">Proper site preparation ensures efficient rescue operations</p>
-                    </div>
                   </div>
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col">
                     <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Site Preparation & Access</h3>
