@@ -270,7 +270,7 @@ export default function ServiceLogTransport() {
                 <div className="bg-white border-2 border-[#1b1612] p-6 rounded-lg">
                   <h3 className="text-xl font-bold mb-4 text-[#1b1612]">What Are Your Fees?</h3>
                   
-                  <div className="space-y-6 text-[#6d5d50] text-sm">
+                  <div className="space-y-6 text-[#6d5d50] text-base">
                     <div>
                       <h4 className="font-bold text-[#1b1612] mb-2">Crane Truck Pick-Up & Transport</h4>
                       <ul className="list-disc list-inside space-y-1 ml-2">

@@ -37,6 +37,13 @@
 - [x] Remove ServiceFurniture.tsx and redirect /services/furniture to /portfolio
 - [x] Complete ServiceTreeReuse.tsx (Tree Re-Use Construction) with full copy and imagery
 - [x] Complete ServiceLogTransport.tsx (Log Transport & Crane Services) with full copy and imagery
+  - Updated access and clearance requirements section
+  - Added comprehensive site preparation guide
+  - Synced pricing with Sawmilling page
+  - Made email address clickable
+  - Added full-width clearance image
+  - Aligned CTAs at bottom of text boxes
+  - Increased pricing font size for readability
 - [x] Complete ServiceTreeCare.tsx (Tree Care, Removals & Consulting) with full copy and imagery
 - [x] Complete ServiceMillworks.tsx (Millworks, CNC, & Laser) with full copy and imagery
 - [x] Verify all 6 service pages render correctly with consistent styling
