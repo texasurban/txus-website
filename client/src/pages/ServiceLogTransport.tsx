@@ -197,24 +197,20 @@ export default function ServiceLogTransport() {
                   Service Area & Site Preparation
                 </h2>
                 
-                <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 mb-12">
-                  <div>
-                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Service Area</h3>
-                    <p className="text-[#6d5d50] mb-4">
-                      We have the ability to service all areas of Texas, but due to transport costs, we typically rescue trees within a 200-mile radius of Austin, TX. For projects outside this radius, we offer project-based quotes and long-distance mileage discounts.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h3 className="text-xl font-bold mb-4 text-[#1b1612]">How to Prepare Your Site</h3>
-                    <ul className="text-[#6d5d50] space-y-3">
-                      <li><strong>Log Location:</strong> Position logs along a curb or major access point for easy loading.</li>
-                      <li><strong>Log Preparation:</strong> Buck logs to lengths under 16 feet and trim all limbs and branches.</li>
-                      <li><strong>Tree Service:</strong> Consult with us before tree removal to maximize lumber potential.</li>
-                      <li><strong>Ease of Access:</strong> Trim surrounding branches that may interfere with crane clearance.</li>
-                      <li><strong>Plan Early:</strong> Email high-quality pictures to info@txurbansawmill.com for assessment.</li>
-                    </ul>
-                  </div>
+                <div className="mb-12">
+                  <h2 className="text-2xl font-bold mb-6 text-[#1b1612]">What Access and Clearance is Required Before Arriving?</h2>
+                  <p className="text-[#6d5d50] mb-4">
+                    This is VERY IMPORTANT and is a responsibility of the client to confirm access requirements are met. Our crane truck requires an overhead clearance of over 13 feet along any private driveways, roadways, and access points. This sometimes mean that low overhanging branches need to be trimmed, and we must be observant for low hanging communications and electrical lines.
+                  </p>
+                  <p className="text-[#6d5d50] mb-4">
+                    During the craning process, we must have clear line of sight to the sky or a minimum of 30 feet of overhead clearance in order to safely lift the log(s) onto the truck deck. Extremely large and heavy logs require up to 42 feet of clearance. These are typically logs that are 30-36" in diameter or larger. See image below.
+                  </p>
+                  <p className="text-[#6d5d50] mb-4">
+                    The truck is 29 feet long and 102 inches wide. We must have sufficient clearance along drives and thru gates in order to safely access the rescue site. It is basically the size of a cement or 15-cubic yard dump truck.
+                  </p>
+                  <p className="text-[#6d5d50] mb-4">
+                    <strong>NOTE:</strong> Unfortunately, we are still required to charge for a trip, even if the log cannot be accessed or removed. We work very closely with our clients to ensure this does not occur. Additionally, we offer onsite assessments and consultation appointments to evaluate tree reuse opportunities.
+                  </p>
                 </div>
 
                 <div className="mb-12 flex justify-center">
@@ -227,16 +223,89 @@ export default function ServiceLogTransport() {
                   </div>
                 </div>
 
-                <div className="bg-white border-2 border-[#1b1612] p-6 rounded-lg">
-                  <h3 className="text-xl font-bold mb-4 text-[#1b1612]">Pricing & Fees</h3>
-                  <div className="space-y-4 text-[#6d5d50]">
+                <div className="mb-12">
+                  <h2 className="text-2xl font-bold mb-6 text-[#1b1612]">How Can I Best Prepare the Site?</h2>
+                  <p className="text-[#6d5d50] mb-6">
+                    We have experienced a large array of rescue sites and offer services even within the most challenging circumstances. With proper planning and good site preparation, you can keep our service charges to a minimum. If additional site work is necessary to access and safely load logs, beyond our standard 45-minute loading time, we bill at $150/hour.
+                  </p>
+                  
+                  <div className="space-y-6">
                     <div>
-                      <p className="font-semibold text-[#1b1612]">Crane Truck Pick-Up & Transport: $7/mile</p>
-                      <p className="text-sm">Billed round-trip from Dripping Springs. Includes 45 minutes loading time. Additional time: $150/hour.</p>
+                      <h3 className="font-bold text-[#1b1612] mb-2">Log Location</h3>
+                      <p className="text-[#6d5d50]">
+                        In the best case, your log(s) are left along a curb or along a major access point. Avoid a massive, unorganized pile of logs that we are forced to sort through.
+                      </p>
                     </div>
+                    
                     <div>
-                      <p className="font-semibold text-[#1b1612]">Tree Service & Land Improvement</p>
-                      <p className="text-sm">Contact us directly for competitive quotes on sustainable tree removal and land services.</p>
+                      <h3 className="font-bold text-[#1b1612] mb-2">Log Preparation</h3>
+                      <p className="text-[#6d5d50]">
+                        In the best case, the logs are bucked or chainsawed to lengths less than 16 feet long. All limbs and branches are trimmed along the length of the trunk. We always bring a chainsaw and can assist in log preparation. We also suggest that you paint or seal the end of your logs to prevent cracking and checking (any oil or latex paint will suffice in thick application coats).
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h3 className="font-bold text-[#1b1612] mb-2">Tree Felling & Tree Service</h3>
+                      <p className="text-[#6d5d50]">
+                        We can offer highly competitive, certified arborists that specialize in tree removals and reuse. Our tree professionals understand how to take down a tree safety and efficiently while also maximizing the lumber opportunity. We are also happy to work with your own preferred tree service company. In an ideal situation, we are consulted early in the process before the tree is cut up into sections. Please take into consideration that tree service companies will cut and fell trees into small sections, for the benefit of their removal process, but not for the benefit of maximizing the lumber. They haul off this material as green biomass waste and pay associated dump fees.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h3 className="font-bold text-[#1b1612] mb-2">Ease of Access</h3>
+                      <p className="text-[#6d5d50]">
+                        We find that protruding limbs from surrounding trees along the access pathway and near the rescue site tend to interfere with our crane truck clearance. Please do your best to trim any surrounding low handing branches. Remove any major obstacles or equipment that may impede our access. If we are trimming trees along an access point, we are spending valuable loading time to gain access and may need to charge additional fees.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h3 className="font-bold text-[#1b1612] mb-2">Plan Early</h3>
+                      <p className="text-[#6d5d50]">
+                        It appears that in 80% of cases, when we receive a service request to repurpose a tree, the tree service work has already been completed. Moreover, nearly 95% of the time, we discover that the tree service company has significantly damaged the usable lumber. We are delighted to assist our clients by evaluating their trees and offering cutting recommendations. This process is simple and typically only requires emailing us high-quality pictures of the tree and its surroundings for assessment. You can email pictures to <a href="mailto:info@txurbansawmill.com" className="text-[#1b1612] font-semibold hover:underline">info@txurbansawmill.com</a>. We also offer the most competitive rates for tree service removals as we save time, energy and dump fees by upcycling a large mass of the fallen tree. This typically means we offer a savings that helps to cover the log transport fees.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white border-2 border-[#1b1612] p-6 rounded-lg">
+                  <h3 className="text-xl font-bold mb-4 text-[#1b1612]">What Are Your Fees?</h3>
+                  
+                  <div className="space-y-6 text-[#6d5d50] text-sm">
+                    <div>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Crane Truck Pick-Up & Transport</h4>
+                      <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>$7/mile (round-trip from Dripping Springs)</li>
+                        <li>Includes 45 minutes loading time</li>
+                        <li>Additional time: $150/hour</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-bold text-[#1b1612] mb-2">480V Electric Baker Sawmill (Max 32" diameter, 28 ft long)</h4>
+                      <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>Minimum log length: 36"</li>
+                        <li>Recommended minimum diameter: 8-10"</li>
+                        <li>Live Oak: Automatic $50 fee (dulls blades quickly)</li>
+                        <li>Metal hit: $100</li>
+                        <li>Turnaround: 1-2 weeks typically</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-bold text-[#1b1612] mb-2">480V Electric Wood-Hizer WM1000 (Max 67" diameter, 24 ft long)</h4>
+                      <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>Minimum log length: 48"</li>
+                        <li>Ideal for oversized logs and specialty cuts</li>
+                        <li>One of the largest thin-kerf sawmills in Texas</li>
+                        <li>Live Oak: Automatic $225 fee (specialty carbide blades, non-sharpenable)</li>
+                        <li>Metal hit: $225</li>
+                        <li>Turnaround: 1-2 weeks typically</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Tree Service & Land Improvement</h4>
+                      <p className="mb-2">Contact us for quotes. We follow sustainable land and forestry management philosophies.</p>
                     </div>
                   </div>
                 </div>
