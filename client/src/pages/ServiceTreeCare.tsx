@@ -89,7 +89,7 @@ export default function ServiceTreeCare() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#d7a469]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   We are paving the way for change in Texas and believe in a full-circle approach to forestry management and urban tree care. That means we take part in all aspects, from plantings to sustainable reuse of woody materials. We have a certified arborist on our team and a specialized tree crew that handles removals, ensuring the highest and best utilization of the wood.
@@ -105,13 +105,13 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="Professional Tree Care Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#d7a469] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Expert certified arborist tree care and removal</p>
                     </div>
                   </div>
@@ -123,7 +123,7 @@ export default function ServiceTreeCare() {
                     <p className="text-[#6d5d50] mb-6">
                       We offer the most competitive rates in Texas without compromising on quality or service. We also work with independent tree service companies to advance sustainable forestry practices across the region.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST TREE CARE QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -137,13 +137,13 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#d7a469]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
                       src="/manus-storage/placeholder-image.webp"
                       alt="Sustainable Land Services"
                       className="w-full h-96 object-cover"
                     />
-                    <div className="bg-[#d7a469] text-white text-center py-4 px-6">
+                    <div className="bg-[#8b7355] text-white text-center py-4 px-6">
                       <p className="italic text-sm">Sustainable land clearing and forestry management</p>
                     </div>
                   </div>
@@ -155,7 +155,7 @@ export default function ServiceTreeCare() {
                     <p className="text-[#6d5d50] mb-6">
                       Unlike typical clearing companies, we prioritize education and responsible land management. We salvage trees and materials that would otherwise be discarded, processing them into Climate Smart Wood™ products.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#d7a469] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] border-2 border-[#8b7355] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       LAND SERVICES ESTIMATE
                       <ArrowRight className="h-4 w-4" />
                     </a>
