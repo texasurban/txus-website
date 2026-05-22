@@ -133,14 +133,16 @@ export default function ServiceLogTransport() {
                       className="w-full h-96 object-cover"
                     />
                   </div>
-                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px]">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Equipment & Capabilities</h3>
-                    <p className="text-[#6d5d50] mb-4">
-                      We are the only sawmill in Texas that operates a 20-ton national crane truck—a low emissions certified vehicle designed with a 14-foot flat bed for easier access into tight spaces. We can haul logs up to 16 feet long on the truck deck.
-                    </p>
-                    <p className="text-[#6d5d50] mb-6">
-                      For higher volume rescue projects, we offer additional trucks, trailers, and construction equipment to handle large-scale operations efficiently and sustainably.
-                    </p>
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px] justify-between">
+                    <div>
+                      <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Equipment & Capabilities</h3>
+                      <p className="text-[#6d5d50] mb-4">
+                        We are the only sawmill in Texas that operates a 20-ton national crane truck—a low emissions certified vehicle designed with a 14-foot flat bed for easier access into tight spaces. We can haul logs up to 16 feet long on the truck deck.
+                      </p>
+                      <p className="text-[#6d5d50] mb-6">
+                        For higher volume rescue projects, we offer additional trucks, trailers, and construction equipment to handle large-scale operations efficiently and sustainably.
+                      </p>
+                    </div>
                     <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       REQUEST TRANSPORT QUOTE
                       <ArrowRight className="h-4 w-4" />
@@ -162,14 +164,16 @@ export default function ServiceLogTransport() {
                       className="w-full h-96 object-cover"
                     />
                   </div>
-                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px]">
-                    <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Site Preparation & Access</h3>
-                    <p className="text-[#6d5d50] mb-4">
-                      Our crane truck requires an overhead clearance of over 13 feet along driveways and access points. During the craning process, we need clear line of sight to the sky or a minimum of 30 feet of overhead clearance to safely lift logs onto the truck deck.
-                    </p>
-                    <p className="text-[#6d5d50] mb-6">
-                      The truck is 29 feet long and 102 inches wide. We work closely with clients to ensure access requirements are met before arrival, and we offer onsite assessments and consultation appointments to evaluate tree reuse opportunities.
-                    </p>
+                  <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px] justify-between">
+                    <div>
+                      <h3 className="text-2xl font-bold mb-4 text-[#1b1612]">Site Preparation & Access</h3>
+                      <p className="text-[#6d5d50] mb-4">
+                        Our crane truck requires an overhead clearance of over 13 feet along driveways and access points. During the craning process, we need clear line of sight to the sky or a minimum of 30 feet of overhead clearance to safely lift logs onto the truck deck.
+                      </p>
+                      <p className="text-[#6d5d50] mb-6">
+                        The truck is 29 feet long and 102 inches wide. We work closely with clients to ensure access requirements are met before arrival, and we offer onsite assessments and consultation appointments to evaluate tree reuse opportunities.
+                      </p>
+                    </div>
                     <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                       SCHEDULE SITE ASSESSMENT
                       <ArrowRight className="h-4 w-4" />
@@ -211,6 +215,14 @@ export default function ServiceLogTransport() {
                       <li><strong>Plan Early:</strong> Email high-quality pictures to info@txurbansawmill.com for assessment.</li>
                     </ul>
                   </div>
+                </div>
+
+                <div className="mb-12 -mx-6 lg:-mx-8">
+                  <img
+                    src="/manus-storage/TXUS-20-Ton-Crane-Truck-Clearance_fc13e360.webp"
+                    alt="Crane Truck Clearance Requirements"
+                    className="w-full h-[500px] object-cover"
+                  />
                 </div>
 
                 <div className="bg-white border-2 border-[#1b1612] p-6 rounded-lg">
