@@ -281,8 +281,9 @@ export default function ServiceLogTransport() {
                     </div>
                     
                     <div>
-                      <h4 className="font-bold text-[#1b1612] mb-2">480V Electric Baker Sawmill (Max 32" diameter, 28 ft long)</h4>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Baker Sawmill (Max 32" diameter, 28 ft long)</h4>
                       <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>$200/hr (minimum $100)</li>
                         <li>Minimum log length: 36"</li>
                         <li>Recommended minimum diameter: 8-10"</li>
                         <li>Live Oak: Automatic $50 fee (dulls blades quickly)</li>
@@ -292,8 +293,9 @@ export default function ServiceLogTransport() {
                     </div>
                     
                     <div>
-                      <h4 className="font-bold text-[#1b1612] mb-2">480V Electric Wood-Hizer WM1000 (Max 67" diameter, 24 ft long)</h4>
+                      <h4 className="font-bold text-[#1b1612] mb-2">Wood-Hizer WM1000 (Max 67" diameter, 24 ft long)</h4>
                       <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>$300/hr (minimum $300)</li>
                         <li>Minimum log length: 48"</li>
                         <li>Ideal for oversized logs and specialty cuts</li>
                         <li>One of the largest thin-kerf sawmills in Texas</li>
