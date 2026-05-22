@@ -57,7 +57,7 @@ export default function ServiceTreeCare() {
         <Navigation />
 
         <main>
-          {/* HERO BANNER SECTION - CORRECT SPECIFICATION */}
+          {/* HERO BANNER SECTION */}
           <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
             <img
               src="/manus-storage/placeholder-hero.webp"
@@ -165,6 +165,71 @@ export default function ServiceTreeCare() {
             </div>
           </section>
 
+          {/* FULL-WIDTH IMAGE GALLERY */}
+          <section className="bg-white px-0 py-0">
+            <div className="space-y-0">
+              {/* Image 1 - Full Width */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+                variants={fadeUp}
+                className="w-full h-96 lg:h-[500px]"
+              >
+                <img
+                  src="/manus-storage/tree-care-apartments_f4f18c46.webp"
+                  alt="Urban tree removal with crane truck"
+                  className="w-full h-full object-contain bg-gray-100"
+                />
+              </motion.div>
+
+              {/* Image 2 - Full Width */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+                variants={fadeUp}
+                className="w-full h-96 lg:h-[500px]"
+              >
+                <img
+                  src="/manus-storage/tree-care-removal_b6ecda71.webp"
+                  alt="Professional tree removal and rigging"
+                  className="w-full h-full object-contain bg-gray-100"
+                />
+              </motion.div>
+
+              {/* Image 3 - Full Width */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+                variants={fadeUp}
+                className="w-full h-96 lg:h-[500px]"
+              >
+                <img
+                  src="/manus-storage/tree-care-cutting_26d62dc5.webp"
+                  alt="Expert chainsaw work and tree cutting"
+                  className="w-full h-full object-contain bg-gray-100"
+                />
+              </motion.div>
+
+              {/* Image 4 - Full Width */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+                variants={fadeUp}
+                className="w-full h-96 lg:h-[500px]"
+              >
+                <img
+                  src="/manus-storage/tree-care-chipping_a57cd7b5.webp"
+                  alt="Land clearing and wood chipping operations"
+                  className="w-full h-full object-contain bg-gray-100"
+                />
+              </motion.div>
+            </div>
+          </section>
+
           {/* SUSTAINABILITY COMMITMENT */}
           <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
@@ -221,50 +286,21 @@ export default function ServiceTreeCare() {
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Design & Tree Reuse Consultation</h3>
                     <p className="text-[#6d5d50] mb-3">
-                      Our team brings over 30 years of experience in product commercialization and sustainable lumber utilization. We prioritize sustainability by utilizing lumber from rescued trees, offering significant carbon savings compared to other construction materials.
-                    </p>
-                    <p className="text-[#6d5d50]">
-                      We refer to these projects as Climate Smart Projects™ as they focus on accelerating the sustainability goals of our clients. With a certified project management professional on staff, we bridge the gap between desired outcomes and the material science of working with rescued urban wood.
+                      Our team brings over 30 years of experience in product commercialization and sustainable lumber utilization. We prioritize sustainability in every project, working with you to maximize the value of your trees.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
-                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Crane Pick-Up & Log Transport</h3>
+                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Certified Arborist Services</h3>
                     <p className="text-[#6d5d50] mb-3">
-                      The removal and transportation of logs is a significant challenge that prevents many people from salvaging fallen trees. We strive to make the process easier for Texas residents and business owners.
-                    </p>
-                    <p className="text-[#6d5d50]">
-                      Our service fees are typically based on mileage at $7/mile round-trip from Dripping Springs, including up to 45 minutes of loading time. For large-scale projects, we offer project-based quotes and long-distance mileage discounts.
+                      Our certified arborist provides expert guidance on tree health, pruning, and removal strategies. We ensure all work meets industry standards and prioritizes tree preservation where possible.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
-                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Neighborhood Sawmill Services</h3>
+                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Emergency Tree Services</h3>
                     <p className="text-[#6d5d50] mb-3">
-                      We offer top-quality wood milling services to the general public with state-of-the-art sawmills. Our Baker Sawmill has a cutting capacity of up to 28" x 20' and is billed at $200/hour. Our Woodmizer WM-1000 has a cutting capacity of up to 72" x 18' and is billed at $300/hour.
-                    </p>
-                    <p className="text-[#6d5d50]">
-                      Customers are responsible for replacing damaged blades, and turnaround time is usually 1-2 weeks. Contact us for more information or to schedule a drop-off time.
-                    </p>
-                  </div>
-
-                  <div className="border-l-4 border-[#217938] pl-6">
-                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Sustainable Construction Projects</h3>
-                    <p className="text-[#6d5d50] mb-3">
-                      We specialize in providing Climate Smart Project™ solutions in construction and land improvement projects. These projects can offer net negative carbon savings and help accelerate sustainability goals.
-                    </p>
-                    <p className="text-[#6d5d50]">
-                      As a company, we have saved Texans over 1,000,000 lbs of carbon and are one of the few carbon-negative businesses in Texas. By using locally fallen trees, clients can create powerful and meaningful experiences that evoke emotions and demonstrate sustainability commitments.
-                    </p>
-                  </div>
-
-                  <div className="border-l-4 border-[#217938] pl-6">
-                    <h3 className="text-xl font-bold mb-2 text-[#1b1612]">Heirloom Furniture & Climate Smart Wood™</h3>
-                    <p className="text-[#6d5d50] mb-3">
-                      We offer locally made, net-carbon negative furniture products that bring the history of our fallen trees into your home while supporting a sustainable future. Our furniture collection comprises stunning heirloom pieces made from Climate Smart Wood™.
-                    </p>
-                    <p className="text-[#6d5d50]">
-                      Every piece of furniture can be traced back to the rescued trees' original location, and we guarantee the tree's history with a certificate of authenticity. Discover the beauty of our collection and join us in shaping a sustainable future.
+                      Storm damage? We provide rapid response emergency tree removal and cleanup services. Our team is equipped to handle dangerous situations safely and efficiently.
                     </p>
                   </div>
                 </div>
@@ -272,24 +308,24 @@ export default function ServiceTreeCare() {
             </div>
           </section>
 
-          {/* CTA SECTION */}
-          <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-7xl text-center">
+          {/* CONTACT CTA */}
+          <section className="bg-[#217938] px-6 py-16 lg:px-8 lg:py-24">
+            <div className="mx-auto max-w-4xl text-center">
               <motion.div
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
-                  Join the Movement for Sustainable Forestry
-                </h3>
-                <p className="text-lg text-[#6d5d50] mb-8 max-w-2xl mx-auto">
-                  Together, we can make a lasting impact on the environment. Contact us today to learn more about our tree care, removal, and sustainable land services.
+                <h2 className="text-3xl font-bold mb-6 text-white">
+                  Ready to Transform Your Trees?
+                </h2>
+                <p className="text-lg text-white/90 mb-8">
+                  Contact us today for a consultation with our certified arborist and tree care specialists.
                 </p>
-                <a href="/contact" className="inline-flex items-center justify-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a]">
+                <a href="/contact" className="inline-flex items-center justify-center gap-2 bg-white px-8 py-4 text-base font-semibold uppercase tracking-[0.18em] text-[#217938] transition-colors hover:bg-gray-100 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
                   CONTACT US TODAY
-                  <ArrowRight className="h-4 w-4" />
+                  <ArrowRight className="h-5 w-5" />
                 </a>
               </motion.div>
             </div>
