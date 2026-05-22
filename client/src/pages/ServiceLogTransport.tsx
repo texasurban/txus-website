@@ -103,7 +103,7 @@ export default function ServiceLogTransport() {
           </section>
 
           {/* INTRO TEXT SECTION */}
-          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
+          <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <motion.div
                 initial="hidden"
