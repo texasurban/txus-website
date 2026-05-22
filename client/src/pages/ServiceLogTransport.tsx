@@ -217,12 +217,14 @@ export default function ServiceLogTransport() {
                   </div>
                 </div>
 
-                <div className="mb-12 -mx-6 lg:-mx-8">
-                  <img
-                    src="/manus-storage/TXUS-20-Ton-Crane-Truck-Clearance_fc13e360.webp"
-                    alt="Crane Truck Clearance Requirements"
-                    className="w-full h-[500px] object-cover"
-                  />
+                <div className="mb-12 flex justify-center">
+                  <div className="w-3/4 border-2 border-[#8b7355] shadow-[0_30px_60px_rgba(0,0,0,0.4)]">
+                    <img
+                      src="/manus-storage/TXUS-20-Ton-Crane-Truck-Clearance_fc13e360.webp"
+                      alt="Crane Truck Clearance Requirements"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
                 </div>
 
                 <div className="bg-white border-2 border-[#1b1612] p-6 rounded-lg">
