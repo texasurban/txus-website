@@ -306,7 +306,7 @@ export default function ServiceSawmilling() {
         </section>
 
         {/* SECTION 3: KILN TECHNOLOGY - CREAM */}
-        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"
@@ -371,7 +371,7 @@ export default function ServiceSawmilling() {
         </section>
 
         {/* SECTION 4: PROCESS STEPS - WHITE */}
-        <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"
@@ -403,7 +403,7 @@ export default function ServiceSawmilling() {
         </section>
 
         {/* SECTION 5: WHY CHOOSE TXUS - CREAM */}
-        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"
@@ -431,7 +431,7 @@ export default function ServiceSawmilling() {
         </section>
 
         {/* SECTION 6: CALL TO ACTION - GREEN */}
-        <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"

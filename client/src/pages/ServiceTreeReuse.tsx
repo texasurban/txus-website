@@ -215,7 +215,7 @@ export default function ServiceTreeReuse() {
         </section>
 
         {/* SECTION 1.5: PMP PROCESS TIMELINE */}
-        <section id="adaptive-process" className="bg-[#2a3a4a] px-6 py-8 lg:px-8 lg:py-12">
+        <section id="adaptive-process" className="bg-[#2a3a4a] px-6 py-8 lg:px-8 lg:py-12 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <motion.div
               initial="hidden"
@@ -234,7 +234,7 @@ export default function ServiceTreeReuse() {
 
 
         {/* CTA SECTION */}
-        <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24">
+        <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl text-center">
             <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
               Partner with us to become part of the solution to a greener future!
