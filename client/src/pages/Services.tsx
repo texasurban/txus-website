@@ -106,7 +106,7 @@ export default function Services() {
                 return (
                   <div
                     key={service.id}
-                    className="group rounded-lg border border-border bg-card overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                    className="group h-full rounded-lg border border-border bg-card overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
                   >
                     {/* Image with black outline and large shadow */}
                     <div className="relative h-60 overflow-hidden bg-muted border-2 border-[#8b7355]">
@@ -118,14 +118,14 @@ export default function Services() {
                     </div>
 
                     {/* Card content */}
-                    <div className="p-4 pt-3">
+                    <div className="p-4 pt-3 flex flex-col flex-1">
                       <h3 className="text-xl font-semibold mb-2">
                         {service.title}
                       </h3>
-                      <p className="text-muted-foreground mb-4">
+                      <p className="text-muted-foreground mb-4 flex-1">
                         {service.description}
                       </p>
-                      <Button asChild className="w-full text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
+                      <Button asChild className="w-full mt-auto text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]" style={{ background: 'linear-gradient(180deg, rgba(33, 121, 56, 0.9) 0%, rgba(24, 102, 47, 0.9) 100%)' }}>
                         <a href={service.href}>
                           Learn More
                           <ArrowRight className="ml-2 h-4 w-4" />

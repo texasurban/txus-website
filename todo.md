@@ -88,6 +88,9 @@
 - [ ] Create final checkpoint for production baseline
 - [ ] Publish to production
 
+- [x] Align green CTA buttons across all six service cards so their bottom spacing matches the reference cards #3, #4, and #6
+- [x] Apply the same consistent CTA button alignment to the six cards on the main Services page
+
 ## Notes
 - All images have been successfully uploaded to the new project (71 Phase 1 images + 3 hero images + 24 gallery images = 98 total)
 - All Phase 1 source files have been copied and integrated
