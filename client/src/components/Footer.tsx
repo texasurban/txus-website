@@ -10,6 +10,8 @@
  * <Footer />
  */
 
+import React from "react";
+
 export function Footer() {
   return (
     <footer className="bg-[#2a2a2a] text-white">

@@ -72,7 +72,7 @@ const navItems = [
       { label: "Millworks, CNC, & Laser", href: "/services/millworks" },
     ],
   },
-  { label: "Learn More", href: "/learn-more" },
+  { label: "About Us", href: "/about-us" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ]

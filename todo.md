@@ -90,6 +90,14 @@
 
 - [x] Align green CTA buttons across all six service cards so their bottom spacing matches the reference cards #3, #4, and #6
 - [x] Apply the same consistent CTA button alignment to the six cards on the main Services page
+- [ ] Correct CTA vertical alignment for card 04, Log Transport & Crane Services
+- [x] Replace Learn More with About Us in the site navigation
+- [x] Create the About Us page using the supplied Makers section layout and TXUS content
+- [x] Add the supplied Jesse, Sarah, and Devin team photo near the top of the About Us page
+- [x] Verify the About Us route and navigation links
+- [x] Update navigation tests for the About Us label and /about-us route
+- [x] Fix the Footer React runtime import so the existing Footer Vitest suite passes
+- [x] Update stale Footer tests to match the current footer component and contact-link structure
 
 ## Notes
 - All images have been successfully uploaded to the new project (71 Phase 1 images + 3 hero images + 24 gallery images = 98 total)

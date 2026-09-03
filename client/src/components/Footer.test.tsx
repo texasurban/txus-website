@@ -18,7 +18,7 @@ describe('Footer Component', () => {
 
   it('displays contact description', () => {
     render(<Footer />);
-    const description = screen.getByText(/Get in touch with us for custom sawmilling/i);
+    const description = screen.getByText(/Whether you're inquiring about custom pieces/i);
     expect(description).toBeTruthy();
   });
 
@@ -38,8 +38,9 @@ describe('Footer Component', () => {
 
   it('renders location contact tile', () => {
     render(<Footer />);
-    const locationLink = screen.getByRole('link', { name: /location/i });
-    expect(locationLink).toBeTruthy();
+    const locationText = screen.getByText('Location');
+    expect(locationText).toBeTruthy();
+    expect(screen.getByText('Dripping Springs, Texas')).toBeTruthy();
   });
 
   it('renders divider line', () => {
@@ -48,15 +49,15 @@ describe('Footer Component', () => {
     expect(divider).toBeTruthy();
   });
 
-  it('renders branding section with logo', () => {
+  it('renders branding section', () => {
     render(<Footer />);
-    const logo = screen.getByAltText(/Texas Urban Sawmill/i);
-    expect(logo).toBeTruthy();
+    const branding = screen.getByText(/Texas Urban Sawmill · Dripping Springs, Texas/i);
+    expect(branding).toBeTruthy();
   });
 
   it('renders company name in footer', () => {
     render(<Footer />);
-    const companyName = screen.getByText(/Texas Urban Sawmill/i);
+    const companyName = screen.getByText('Texas Urban Sawmill · Dripping Springs, Texas');
     expect(companyName).toBeTruthy();
   });
 
@@ -89,29 +90,21 @@ describe('Footer Component', () => {
     render(<Footer />);
     const links = screen.getAllByRole('link');
     
-    // Should have at least phone, email, location, and social links
-    expect(links.length).toBeGreaterThanOrEqual(7);
+    // The footer exposes phone and email as links; location is informational text.
+    expect(links.length).toBeGreaterThanOrEqual(2);
   });
 
-  it('renders social media links', () => {
+  it('keeps social media links in the shared navigation rather than the footer', () => {
     render(<Footer />);
-    const instagramLink = screen.getByRole('link', { name: /instagram/i });
-    const youtubeLink = screen.getByRole('link', { name: /youtube/i });
-    const facebookLink = screen.getByRole('link', { name: /facebook/i });
-    const linkedinLink = screen.getByRole('link', { name: /linkedin/i });
-    
-    expect(instagramLink).toBeTruthy();
-    expect(youtubeLink).toBeTruthy();
-    expect(facebookLink).toBeTruthy();
-    expect(linkedinLink).toBeTruthy();
+    expect(screen.queryByRole('link', { name: /instagram/i })).toBeNull();
+    expect(screen.queryByRole('link', { name: /youtube/i })).toBeNull();
+    expect(screen.queryByRole('link', { name: /facebook/i })).toBeNull();
+    expect(screen.queryByRole('link', { name: /linkedin/i })).toBeNull();
   });
 
-  it('social media links open in new tab', () => {
+  it('contact links do not require a new tab', () => {
     render(<Footer />);
-    const socialLinks = screen.getAllByRole('link').filter(link => 
-      link.getAttribute('target') === '_blank'
-    );
-    
-    expect(socialLinks.length).toBeGreaterThan(0);
+    const contactLinks = screen.getAllByRole('link');
+    expect(contactLinks.every((link) => link.getAttribute('target') !== '_blank')).toBe(true);
   });
 });

@@ -5,6 +5,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
 import ServiceSawmilling from "./pages/ServiceSawmilling";
 import ServiceLumber from "./pages/ServiceLumber";
 
@@ -60,6 +61,8 @@ function Router() {
       <Route path={"/hillco-gallery"} component={HillcoGallery} />
       <Route path={"/pecan-trestle-gallery"} component={PecanTrestleGallery} />
       <Route path={"/contact"} component={Contact} />
+      <Route path={"/about-us"} component={AboutUs} />
+      <Route path={"/learn-more"} component={() => <Redirect to="/about-us" />} />
       <Route path={"/services"} component={Services} />
       <Route path={"/services/lumber"} component={ServiceLumber} />
       <Route path={"/services/sawmilling"} component={ServiceSawmilling} />

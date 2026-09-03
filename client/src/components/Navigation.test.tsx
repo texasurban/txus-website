@@ -12,23 +12,23 @@ describe('Navigation Component', () => {
 
   it('renders logo image', () => {
     render(<Navigation />);
-    const logo = screen.getByAltText(/Texas Urban Sawmill/i);
-    expect(logo).toBeTruthy();
+    const logos = screen.getAllByAltText(/Texas Urban Sawmill/i);
+    expect(logos.length).toBeGreaterThan(0);
   });
 
   it('renders all main navigation links', () => {
     render(<Navigation />);
     
-    const expectedLinks = ['HOME', 'SHOP', 'PORTFOLIO', 'SERVICES', 'LEARN MORE', 'BLOG', 'CONTACT'];
+    const expectedLinks = ['HOME', 'SHOP', 'PORTFOLIO', 'SERVICES', 'ABOUT US', 'BLOG', 'CONTACT'];
     expectedLinks.forEach(linkText => {
-      const link = screen.queryByText(linkText);
+      const link = screen.getByRole('link', { name: new RegExp(linkText, 'i') });
       expect(link).toBeTruthy();
     });
   });
 
   it('renders services dropdown', () => {
     render(<Navigation />);
-    const servicesLink = screen.getByText('SERVICES');
+    const servicesLink = screen.getByRole('link', { name: /services/i });
     expect(servicesLink).toBeTruthy();
   });
 
@@ -57,8 +57,8 @@ describe('Navigation Component', () => {
 
   it('renders logo as link to home', () => {
     render(<Navigation />);
-    const logoLink = screen.getByRole('link', { name: /Texas Urban Sawmill/i });
-    expect(logoLink.getAttribute('href')).toBe('/');
+    const logoLinks = screen.getAllByRole('link', { name: /Texas Urban Sawmill/i });
+    expect(logoLinks.some((link) => link.getAttribute('href') === '/')).toBe(true);
   });
 
   it('all navigation links have correct hrefs', () => {
@@ -68,11 +68,12 @@ describe('Navigation Component', () => {
       'HOME': '/',
       'SHOP': '/shop',
       'PORTFOLIO': '/portfolio',
+      'ABOUT US': '/about-us',
       'CONTACT': '/contact'
     };
     
     Object.entries(links).forEach(([text, href]) => {
-      const link = screen.getByRole('link', { name: text });
+      const link = screen.getByRole('link', { name: new RegExp(text, 'i') });
       expect(link.getAttribute('href')).toBe(href);
     });
   });
