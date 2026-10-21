@@ -86,6 +86,12 @@
   --ink-soft: oklch(0.43 0.016 83.8);
   --accent-bright: oklch(0.82 0.19 129.8);
   --line-strong: oklch(0.855 0.012 88.9);
+
+  /* Approved TXUS page-section design standard */
+  --txus-section-bg-1: #f0f0f0;
+  --txus-section-bg-2: #f5f1e8;
+  --txus-section-divider: #a8a29e;
+  --txus-section-divider-width: 2px;
 }
 
 .dark {
@@ -167,6 +173,19 @@
   .section-shell {
     padding-top: 4.75rem;
     padding-bottom: 4.75rem;
+  }
+
+  .txus-section-bg-1 {
+    background-color: var(--txus-section-bg-1);
+  }
+
+  .txus-section-bg-2 {
+    background-color: var(--txus-section-bg-2);
+  }
+
+  .txus-section-divider {
+    border-top: var(--txus-section-divider-width) solid var(--txus-section-divider);
+    border-bottom: var(--txus-section-divider-width) solid var(--txus-section-divider);
   }
 
   .eyebrow {
