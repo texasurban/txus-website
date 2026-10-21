@@ -92,6 +92,7 @@ export default function Portfolio() {
         title="Custom Heirloom Furniture Portfolio - Texas Urban Sawmill"
         description="Explore our collection of custom dining tables, conference tables, and heirloom furniture crafted from rescued Texas trees. Each piece is unique and built to last generations."
         url="https://txurbansawmill.com/portfolio"
+        image="/manus-storage/portfolio-hero-cropped_a8f3310a_9061f348.webp"
       />
       <Navigation />
 
@@ -102,7 +103,7 @@ export default function Portfolio() {
             src={hero.image}
             alt="Custom Heirloom Furniture Portfolio"
             className="absolute inset-0 h-full w-full object-cover object-center"
-            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(13,10,8,0.82)_0%,rgba(13,10,8,0.54)_42%,rgba(13,10,8,0.3)_72%,rgba(13,10,8,0.56)_100%)]" />
 
@@ -173,7 +174,7 @@ export default function Portfolio() {
                           alt={project.name}
                           className="aspect-square w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
                           loading="lazy"
-                        />
+                         decoding="async"/>
                       </div>
                     </div>
                   </a>
@@ -208,7 +209,7 @@ export default function Portfolio() {
                     alt="Owners, Devin and Sarah Ginther standing next to kilned dried pecan boules"
                     className="w-full h-auto object-cover"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                 </div>
                 <p className="mt-3 text-sm text-[#8d755f] italic">
                   Owners, Devin and Sarah Ginther standing next to kilned dried pecan boules.
@@ -253,7 +254,7 @@ export default function Portfolio() {
                   alt="Custom furniture craftsmanship detail"
                   className="w-full h-auto object-cover"
                   loading="lazy"
-                />
+                 decoding="async"/>
               </div>
             </div>
           </div>

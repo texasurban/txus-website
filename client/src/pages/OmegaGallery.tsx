@@ -37,7 +37,7 @@ export default function OmegaGallery() {
               src="/manus-storage/HickmanWalnutComposite_5b15122d_63d19e6e.jpg"
               alt="Stainless Omega Walnut Table - Modern industrial furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
-            />
+             decoding="async"/>
           </a>
         </div>
 

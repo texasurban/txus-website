@@ -37,7 +37,7 @@ export default function FamilyLegacyGallery() {
               src="/manus-storage/WomackPecanComposite_d92e3597_6233c744.jpg"
               alt="Family Legacy Pecan Kitchen Island - Custom kitchen furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
-            />
+             decoding="async"/>
           </a>
         </div>
 

@@ -41,7 +41,8 @@ export default function AboutUs() {
       <SEOHead
         title="About Us | Texas Urban Sawmill"
         description="Meet the family and makers behind Texas Urban Sawmill, a Central Texas community sawmill built around stewardship, reuse, and traditional craftsmanship."
-        canonical="https://www.txurbansawmill.com/about-us"
+        canonical="https://txurbansawmill.com/about-us"
+        image="/manus-storage/Jesse,Sarah&Devin-MeettheMakers_81ab58a5.webp"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -78,7 +79,7 @@ export default function AboutUs() {
                   src={teamPhoto}
                   alt="Jesse, Sarah, and Devin with a finished Texas Urban Sawmill table"
                   className="h-auto max-h-[520px] w-full object-contain"
-                />
+                 decoding="async"/>
               </motion.div>
             </div>
           </section>
@@ -132,7 +133,7 @@ export default function AboutUs() {
                           alt={maker.alt}
                           className="h-full w-full object-cover"
                           loading="lazy"
-                        />
+                         decoding="async"/>
                       </div>
                     </div>
                     <h3 className="font-display text-2xl text-stone-950">{maker.name}</h3>

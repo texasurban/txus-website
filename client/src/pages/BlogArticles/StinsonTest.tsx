@@ -81,9 +81,9 @@ export default function StinsonTest() {
                   <div className="flex justify-center">
                     <img
                       src="/manus-storage/stinson_walnut_slab_raw_7e4cc9d5_6f092572.webp"
-                      alt="The massive 300-year-old walnut slab from Oregon"
+                      alt="The massive 300-year-old walnut slab from Oregon - Texas Urban Sawmill"
                       className="w-2/3 max-w-2xl rounded-lg border-2 border-[#1a4d2e] shadow-2xl"
-                    />
+                     decoding="async"/>
                   </div>
                   <p className="text-center text-sm text-[#666] mt-2 italic">
                     The massive 300-year-old walnut slab from Oregon—over 70 inches in diameter and 3 inches thick
@@ -108,9 +108,9 @@ export default function StinsonTest() {
                 <div className="flex justify-center">
                     <img
                       src="/manus-storage/stinson_steel_base_fabrication_f45666e3_86105e2d.webp"
-                      alt="The steel base design inspired by the Stinson family name"
+                      alt="The steel base design inspired by the Stinson family name - Texas Urban Sawmill"
                       className="w-2/3 max-w-2xl rounded-lg border-2 border-[#1a4d2e] shadow-2xl"
-                    />
+                     decoding="async" loading="lazy"/>
                 </div>
                 <p className="text-center text-sm text-[#666] mt-2 italic">
                   The steel base design inspired by the Stinson family name—13 components seamlessly integrated through precision TIG and MIG welding
@@ -143,9 +143,9 @@ export default function StinsonTest() {
                   <div className="flex justify-center">
                     <img
                       src="/manus-storage/stinson_walnut_finishing_samples_b59439b7_5c9a205c.webp"
-                      alt="Extra care and attention to the final finish"
+                      alt="Extra care and attention to the final finish - Texas Urban Sawmill"
                       className="w-2/3 max-w-2xl rounded-lg border-2 border-[#1a4d2e] shadow-2xl"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <p className="text-center text-sm text-[#666] mt-2 italic">
                     Extra care and attention to the final finish—maximizing rich color tones and highlighting the dramatic grain character
@@ -178,9 +178,9 @@ export default function StinsonTest() {
                 <div className="flex justify-center">
                     <img
                       src="/manus-storage/stinson_final_home_family_ded41447_d38ca067.webp"
-                      alt="The finished 800-pound masterpiece installed in the Stinson family home"
+                      alt="The finished 800-pound masterpiece installed in the Stinson family home - Texas Urban Sawmill"
                       className="w-2/3 max-w-2xl rounded-lg border-2 border-[#1a4d2e] shadow-2xl"
-                    />
+                     decoding="async" loading="lazy"/>
                 </div>
                 <p className="text-center text-sm text-[#666] mt-2 italic">
                   The finished 800-pound masterpiece installed in the Stinson family's home—a generational work of functional art

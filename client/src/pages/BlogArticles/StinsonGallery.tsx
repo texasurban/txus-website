@@ -113,7 +113,7 @@ export default function StinsonGallery() {
                     alt={galleryImages[0].alt}
                     className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <div className="w-2/3 mx-auto mt-1">
                     <p className="text-sm text-[#666] italic text-center">{galleryImages[0].caption}</p>
                   </div>
@@ -148,7 +148,7 @@ export default function StinsonGallery() {
                   alt={galleryImages[1].alt}
                   className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <div className="w-2/3 mx-auto mt-1">
                   <p className="text-sm text-[#666] italic text-center">{galleryImages[1].caption}</p>
                 </div>
@@ -179,7 +179,7 @@ export default function StinsonGallery() {
                     alt={galleryImages[2].alt}
                     className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <div className="w-2/3 mx-auto mt-1">
                     <p className="text-sm text-[#666] italic text-center">{galleryImages[2].caption}</p>
                   </div>
@@ -210,7 +210,7 @@ export default function StinsonGallery() {
                   alt={galleryImages[3].alt}
                   className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <div className="w-2/3 mx-auto mt-1">
                   <p className="text-sm text-[#666] italic text-center">{galleryImages[3].caption}</p>
                 </div>

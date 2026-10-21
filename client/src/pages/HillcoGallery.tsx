@@ -36,7 +36,7 @@ export default function HillcoGallery() {
                 src="/manus-storage/HillcoPartners-17FootPecanQuadMatch75_10aeadf3_86caba2b.jpg"
                 alt="Hillco Pecan Slabs in Workshop - Production Process"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async"/>
             </a>
           </div>
 
@@ -52,7 +52,7 @@ export default function HillcoGallery() {
                 src="/manus-storage/HillcoPartners-17FootPecanQuadMatch1_c07b8296_50946ead.jpg"
                 alt="Certificate of Authenticity - Hillco Partners"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export default function HillcoGallery() {
                 src="/manus-storage/HillcoPartners-17FootPecanQuadMatch89_512f043c_6b483791.jpg"
                 alt="Hillco Table in Conference Room"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function HillcoGallery() {
               src="/manus-storage/HillcoPartners-17FootPecanQuadMatch,16to9Ratio_4b880936_1099e1d3.jpg"
               alt="Hillco Table with Team Members"
               className="w-full h-auto object-contain"
-            />
+             decoding="async" loading="lazy"/>
           </a>
         </div>
 

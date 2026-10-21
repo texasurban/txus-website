@@ -84,6 +84,7 @@ export default function ServiceTreeReuse() {
         title="Climate-Smart Tree Re-Use Construction Projects | Texas Urban Sawmill"
         description="Adaptive tree re-use construction solutions that reduce waste and meet real-world building demands. Climate-smart material-driven solutions for sustainable projects."
         url="https://txurbansawmill.com/services/tree-reuse"
+        image="/manus-storage/20200427_123813_d1beef85.webp"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -95,7 +96,7 @@ export default function ServiceTreeReuse() {
             src="/manus-storage/20200427_123813_d1beef85.webp"
             alt="Climate-Smart Tree Re-Use Construction Projects - Texas Urban Sawmill"
             className="absolute inset-0 h-full w-full object-cover object-center"
-          />
+           decoding="async"/>
 
           <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
             <motion.div
@@ -161,7 +162,7 @@ export default function ServiceTreeReuse() {
                     src="/manus-storage/AustinStateHospital-TreeSurvey35_cab1ad1f.webp"
                     alt="PMP Project Management - Tree Survey"
                     className="w-full h-96 object-cover"
-                  />
+                   decoding="async" loading="lazy"/>
                 </div>
                 <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
@@ -192,7 +193,7 @@ export default function ServiceTreeReuse() {
                     src="/manus-storage/AustinStateHospital-TreeSurvey60_31935268.webp"
                     alt="Adaptive Tree Re-Use Projects - Log Processing"
                     className="w-full h-96 object-cover"
-                  />
+                   decoding="async" loading="lazy"/>
                 </div>
                 <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
@@ -227,7 +228,7 @@ export default function ServiceTreeReuse() {
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663535745618/CAHtb59ZUNY7YiqafFtZ8m/pmp-process-mockup-9YWVpCJLpB26SD93nPkMUA.webp"
                 alt="Adaptive Tree Re-Use Process Timeline"
                 className="w-full rounded-lg shadow-2xl"
-              />
+               decoding="async" loading="lazy"/>
             </motion.div>
           </div>
         </section>

@@ -98,7 +98,7 @@ export function Navigation() {
             src={logoUrl}
             alt="Texas Urban Sawmill"
             className="h-14 w-auto object-contain sm:h-16 drop-shadow-md"
-          />
+           decoding="async"/>
         </a>
 
         {/* Navigation links centered */}
@@ -162,7 +162,7 @@ export function Navigation() {
             src={logoUrl}
             alt="Texas Urban Sawmill"
             className="h-14 w-auto object-contain sm:h-16"
-          />
+           decoding="async" loading="lazy"/>
         </a>
 
         <button

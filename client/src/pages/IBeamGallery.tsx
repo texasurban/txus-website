@@ -36,7 +36,7 @@ export default function IBeamGallery() {
                 src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab_f0ccafa1.jpg"
                 alt="I-Beam Walnut Table in Workshop"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async"/>
             </a>
           </div>
 
@@ -52,7 +52,7 @@ export default function IBeamGallery() {
                 src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-58_98b79a8f_09cba683.jpg"
                 alt="Bookmatched Walnut Table Detail"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export default function IBeamGallery() {
                 src="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-94_ccd49edc_39c96252.jpg"
                 alt="I-Beam Walnut Table in Conference Room"
                 className="w-full h-auto object-contain"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
         </div>

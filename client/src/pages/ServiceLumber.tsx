@@ -52,6 +52,7 @@ export default function ServiceLumber() {
         title="Lumber, Beams, Mantels & Slabs - Rescued Texas Wood | Texas Urban Sawmill"
         description="Locally rescued wood, milled, kiln-dried, and prepared for long-term use. From architectural millwork to fine furniture. Premium quality lumber."
         url="https://txurbansawmill.com/services/lumber"
+        image="/manus-storage/TXUSHeroBannerWebsite1920x600_a3cb474e.png"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -63,7 +64,7 @@ export default function ServiceLumber() {
             src="/manus-storage/TXUSHeroBannerWebsite1920x600_a3cb474e.png"
             alt="Lumber Milling Services - Texas Urban Sawmill"
             className="absolute inset-0 h-full w-full object-cover object-center"
-          />
+           decoding="async"/>
 
             <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
               <motion.div
@@ -125,7 +126,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/TXUSSarah&Dogs-AsheJuniper-AusinHabitatforHumanity_00a231bf.jpg"
                       alt="Lumber"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
@@ -159,7 +160,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/TXUSOakBeam_f9cc7e55.webp"
                       alt="Beams"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
@@ -193,7 +194,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/TXUSEnglishWalnutMantle5_d288d81d.jpg"
                       alt="Mantles"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
@@ -227,7 +228,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/TXUS-CindyWalnutGoldOBase16_41c05dce.jpg"
                       alt="Cookies"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
@@ -261,7 +262,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/CustomMilled_03fc4026.webp"
                       alt="Custom"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
@@ -295,7 +296,7 @@ export default function ServiceLumber() {
                       src="/manus-storage/Texas_Urban_Sawmilll_31_6a41e9b9.webp"
                       alt="Slabs"
                       className="w-full h-64 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">

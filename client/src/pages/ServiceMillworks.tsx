@@ -52,6 +52,7 @@ export default function ServiceMillworks() {
         title="Millworks, CNC & Laser Services - Precision Woodworking | Texas Urban Sawmill"
         description="Professional CNC routing, laser engraving, and precision millworks services. Camaster CNC machine and large-format CO2 laser for custom projects."
         url="https://txurbansawmill.com/services/millworks"
+        image="/manus-storage/20260507_121057_bd6dc2e7.jpg"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -63,7 +64,7 @@ export default function ServiceMillworks() {
               src="/manus-storage/20260507_121057_bd6dc2e7.jpg"
               alt="Millworks, CNC & Laser Services - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
-            />
+             decoding="async"/>
 
             <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
               <motion.div
@@ -112,7 +113,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/TXUSCNCServices_d7715daf.jpg"
                         alt="CNC Routing Gallery"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
@@ -129,7 +130,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260508_105250_676b21d1.jpg"
                         alt="Architectural Millwork"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Architectural Millwork</h4>
@@ -146,7 +147,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260423_150042_29fd5f52.jpg"
                         alt="Laser Engraved Coasters"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Custom Laser Engraving</h4>
@@ -163,7 +164,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/TXUSDripNaturalSigns_4ce82498.jpg"
                         alt="Laser Engraving Gallery"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CO2 Laser Services</h4>
@@ -180,7 +181,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/Texas_Urban_Sawmill_Team-137_1de71412.jpg"
                         alt="Personalized Products"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
@@ -195,7 +196,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260508_110854_489d1428.jpg"
                         alt="CNC Brush Detail Work"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision Structural Timber Machining</h4>
@@ -210,7 +211,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260507_154809_76af8f02.jpg"
                         alt="CNC Decorative Piece"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Beam End Profiling</h4>
@@ -225,7 +226,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260406_110142_2461b5a9.jpg"
                         alt="Laser Engraved Water Bottles"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Water Bottles</h4>
@@ -240,7 +241,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260417_155829_2268ef7c.jpg"
                         alt="CNC Curved Woodwork"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Arch</h4>
@@ -255,7 +256,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260417_145707_8cd935ee.jpg"
                         alt="CNC Decorative Elements"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Elements</h4>
@@ -270,7 +271,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260419_181047_b4bc96a5.jpg"
                         alt="CNC Spindle Production"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">A Family-Driven Business</h4>
@@ -285,7 +286,7 @@ export default function ServiceMillworks() {
                         src="/manus-storage/20260420_090741_a048ffe3.jpg"
                         alt="Laser Engraved Baseball Bat"
                         className="w-full h-80 object-cover"
-                      />
+                       decoding="async" loading="lazy"/>
                     </div>
                     <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-[#8b7355] shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Baseball Bat</h4>

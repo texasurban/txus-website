@@ -104,4 +104,16 @@ describe('SEOHead Component', () => {
     );
     expect(container).toBeTruthy();
   });
+
+  it('supports no-index metadata for internal routes', () => {
+    const { container } = render(
+      <SEOHead
+        title="Internal Route"
+        description="Internal route"
+        url="https://example.com/internal"
+        noindex
+      />
+    );
+    expect(container).toBeTruthy();
+  });
 });

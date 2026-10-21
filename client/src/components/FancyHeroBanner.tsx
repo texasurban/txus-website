@@ -33,7 +33,7 @@ export function FancyHeroBanner({
         src={imageUrl}
         alt={imageAlt}
         className="absolute inset-0 h-full w-full object-cover object-center"
-      />
+       decoding="async"/>
 
       <div className={`relative mx-auto ${minHeight} max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center`}>
         <motion.div
@@ -49,7 +49,7 @@ export function FancyHeroBanner({
               alt={mainTitle}
               className={`w-5/8 h-auto mx-auto shadow-2xl ${hideBackground ? 'border border-white' : 'border-none'}`}
               loading="lazy"
-            />
+             decoding="async"/>
           ) : (
             <div className="flex flex-col gap-3">
               <h1 className="font-display text-2xl font-semibold leading-tight text-white sm:text-3xl lg:text-4xl">

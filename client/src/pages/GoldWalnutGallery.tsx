@@ -37,7 +37,7 @@ export default function GoldWalnutGallery() {
               src="/manus-storage/GoldWalnutComposite_99c6497e_cc14ebaa.jpg"
               alt="1-Ton Gold Walnut Table - Massive statement furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
-            />
+             decoding="async"/>
           </a>
         </div>
 

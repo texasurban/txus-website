@@ -151,9 +151,9 @@ export default function AustinStateHospital() {
               <div className="my-8 flex flex-col items-center justify-center">
                 <img
                   src="/manus-storage/ash_building_ribbon_cutting_45371dc6_3f2d06d1.webp"
-                  alt="Devin Ginther with Mayor Kirk Watson at Austin State Hospital ribbon cutting"
+                  alt="Devin Ginther with Mayor Kirk Watson at Austin State Hospital ribbon cutting - Texas Urban Sawmill"
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
-                />
+                 decoding="async"/>
                 <div className="w-2/3 mt-3">
                   <p className="text-sm text-[#666] italic text-center">Devin Ginther with Mayor Kirk Watson at the Austin State Hospital ribbon cutting ceremony</p>
                 </div>
@@ -185,9 +185,9 @@ export default function AustinStateHospital() {
                 <div className="my-8 flex flex-col items-center justify-center">
                   <img
                     src="/manus-storage/ash_conference_table_correct_ca510450_2acedc50.webp"
-                    alt="ASH Board Room Pecan Conference Table"
+                    alt="ASH Board Room Pecan Conference Table - Texas Urban Sawmill"
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
-                  />
+                   decoding="async" loading="lazy"/>
                   <div className="w-2/3 mt-3">
                   <p className="text-sm text-[#666] italic text-center">The 5 ft × 30 ft pecan conference table crafted from rescued trees</p>
                 </div>
@@ -223,7 +223,7 @@ export default function AustinStateHospital() {
                       alt="Natural Exploratory Areas Uvalde - Texas Urban Sawmill"
                       loading="lazy"
                       className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
-                    />
+                     decoding="async"/>
                     <div className="w-2/3 mt-3">
                   <p className="text-sm text-[#666] italic text-center">Natural Exploratory Area in Uvalde, material donated by the Texas Urban Sawmill</p>
                 </div>
@@ -282,9 +282,9 @@ export default function AustinStateHospital() {
                 <div className="my-8 flex flex-col items-center justify-center">
                   <img
                     src="/manus-storage/ash_integration_correct_31ad93f5_0c93a177.webp"
-                    alt="Integration of natural wood into Austin State Hospital interior"
+                    alt="Integration of natural wood into Austin State Hospital interior - Texas Urban Sawmill"
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
-                  />
+                   decoding="async" loading="lazy"/>
                   <div className="w-2/3 mt-3">
                   <p className="text-sm text-[#666] italic text-center">The integration of rescued wood creates a therapeutic environment throughout the hospital</p>
                 </div>

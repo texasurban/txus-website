@@ -74,6 +74,7 @@ export default function ServiceLogTransport() {
         title="Log Transport & Crane Services - Heavy-Lift Solutions | Texas Urban Sawmill"
         description="Professional log transport and heavy-lift crane services. Moving logs safely and efficiently from site to sawmill. Expert handling of large timber."
         url="https://txurbansawmill.com/services/log-transport"
+        image="/manus-storage/pasted_file_1NUlMM_TXUS20-tonCraneTruck1_b41c4db2.jpg"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -85,7 +86,7 @@ export default function ServiceLogTransport() {
               src="/manus-storage/pasted_file_1NUlMM_TXUS20-tonCraneTruck1_b41c4db2.jpg"
               alt="Log Transport & Crane Services - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
-            />
+             decoding="async"/>
 
             <div className="relative mx-auto min-h-[50vh] max-w-7xl px-6 py-16 lg:px-8 lg:py-20 flex items-center justify-center">
               <motion.div
@@ -132,7 +133,7 @@ export default function ServiceLogTransport() {
                       src="/manus-storage/TXUS-20-ton-Crane-Truck-1_c58fd3b0.webp"
                       alt="20-Ton Crane Truck with Logs"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px] justify-between">
                     <div>
@@ -164,7 +165,7 @@ export default function ServiceLogTransport() {
                       src="/manus-storage/Texas_Urban_Sawmill_CameronOak-41_e01fadeb.webp"
                       alt="Site Preparation for Tree Rescue"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="mt-8 bg-white p-6 rounded-lg shadow-md flex flex-col min-h-[320px] justify-between">
                     <div>
@@ -221,7 +222,7 @@ export default function ServiceLogTransport() {
                       src="/manus-storage/TXUS-20-Ton-Crane-Truck-Clearance_fc13e360.webp"
                       alt="Crane Truck Clearance Requirements"
                       className="w-full h-auto object-contain"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                 </div>
 

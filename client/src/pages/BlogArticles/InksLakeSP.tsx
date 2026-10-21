@@ -106,7 +106,7 @@ export default function InksLakeSP() {
               alt="Mesquite cabinetry at Inks Lake State Park - Texas Urban Sawmill"
               loading="lazy"
               className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
-            />
+             decoding="async"/>
             <p className="text-sm text-[#666] italic mt-1 text-center">Custom mesquite cabinetry produced from rescued trees at Inks Lake State Park</p>
           </div>
 
@@ -127,7 +127,7 @@ export default function InksLakeSP() {
               alt="Post oak interior with staff at Inks Lake State Park - Texas Urban Sawmill"
               loading="lazy"
               className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
-            />
+             decoding="async"/>
             <p className="text-sm text-[#666] italic mt-1 text-center">Post oak entry bench and interior tables crafted for Inks Lake State Park staff</p>
           </div>
         </section>
@@ -149,7 +149,7 @@ export default function InksLakeSP() {
               alt="Over 40 rescued trees from Inks Lake State Park construction site - Texas Urban Sawmill"
               loading="lazy"
               className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
-            />
+             decoding="async"/>
             <p className="text-sm text-[#666] italic mt-1 text-center">Over 40 rescued trees from the Inks Lake State Park construction site</p>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function InksLakeSP() {
               alt="Devin Ginther at Texas Urban Sawmill headquarters - Texas Urban Sawmill"
               loading="lazy"
               className="w-2/3 max-w-2xl h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
-            />
+             decoding="async"/>
             <p className="text-sm text-[#666] italic mt-1 text-center">Devin Ginther at the Texas Urban Sawmill headquarters</p>
           </div>
         </section>

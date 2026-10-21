@@ -126,7 +126,7 @@ export default function HillcoPartners() {
                   alt="Hillco Partners team with 17-foot pecan conference table in modern office - Texas Urban Sawmill"
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">TXUS team with the completed 17-foot pecan conference table</p>
               </div>
 
@@ -166,7 +166,7 @@ export default function HillcoPartners() {
                     alt={galleryImages[0].alt}
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[0].caption}</p>
                 </div>
               </div>
@@ -191,7 +191,7 @@ export default function HillcoPartners() {
                   alt={galleryImages[1].alt}
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[1].caption}</p>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function HillcoPartners() {
                     alt={galleryImages[2].alt}
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[2].caption}</p>
                 </div>
               </div>
@@ -241,7 +241,7 @@ export default function HillcoPartners() {
                   alt={galleryImages[3].alt}
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[3].caption}</p>
               </div>
             </div>
@@ -266,7 +266,7 @@ export default function HillcoPartners() {
                     alt={galleryImages[4].alt}
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[4].caption}</p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function HillcoPartners() {
                   alt={galleryImages[5].alt}
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[5].caption}</p>
               </div>
             </div>
@@ -316,7 +316,7 @@ export default function HillcoPartners() {
                     alt={galleryImages[6].alt}
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[6].caption}</p>
                 </div>
               </div>
@@ -341,7 +341,7 @@ export default function HillcoPartners() {
                   alt={galleryImages[7].alt}
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[7].caption}</p>
               </div>
             </div>
@@ -365,7 +365,7 @@ export default function HillcoPartners() {
                   alt="Team maneuvering table leg through freight elevator - Texas Urban Sawmill"
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <div className="w-2/3 mt-3">
                   <p className="text-sm text-[#666] italic text-center">The table was designed specifically to maximize the freight elevator, we had less than 1" of clearance.</p>
                 </div>
@@ -392,7 +392,7 @@ export default function HillcoPartners() {
                     alt={galleryImages[8].alt}
                     className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[8].caption}</p>
                 </div>
               </div>
@@ -419,7 +419,7 @@ export default function HillcoPartners() {
                   alt={galleryImages[11].alt}
                   className="w-2/3 h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e] mx-auto"
                   loading="lazy"
-                />
+                 decoding="async"/>
                 <p className="text-sm text-[#666] italic mt-3 text-center">{galleryImages[11].caption}</p>
               </div>
             </div>

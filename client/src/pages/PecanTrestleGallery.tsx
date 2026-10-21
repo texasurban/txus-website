@@ -42,7 +42,7 @@ export default function PecanTrestleGallery() {
                 src="/manus-storage/Brad&KerryPecanTrestleTable47_94111cec_bebd8d24.jpg"
                 alt="Pecan Trestle Table - Team installation"
                 className="w-full h-full object-cover"
-              />
+               decoding="async"/>
             </a>
             {/* Center Image - Brad & Kerry */}
             <a
@@ -55,7 +55,7 @@ export default function PecanTrestleGallery() {
                 src="/manus-storage/Brad&KerryPecanTrestleTable45_17014b2e_280733e2.jpg"
                 alt="Pecan Trestle Table - Brad and Kerry with finished piece"
                 className="w-full h-full object-cover"
-              />
+               decoding="async" loading="lazy"/>
             </a>
             {/* Right Image */}
             <a
@@ -68,7 +68,7 @@ export default function PecanTrestleGallery() {
                 src="/manus-storage/Brad&KerryPecanTrestleTable18_1856bb6b_3275a96b.jpg"
                 alt="Pecan Trestle Table - Installation in timber frame home"
                 className="w-full h-full object-cover"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
         </div>

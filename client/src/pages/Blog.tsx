@@ -146,6 +146,7 @@ export default function Blog() {
         title="The TXUS Wood Journal | Texas Urban Sawmill"
         description="Explore our latest projects, case studies, and insights into sustainable forestry, custom furniture, and climate-smart construction."
         canonical="https://txurbansawmill.com/blog"
+        image={blogHeroImage}
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -158,7 +159,7 @@ export default function Blog() {
               alt="The TXUS Wood Journal - Forest and logs background"
               className="absolute inset-0 h-full w-full object-cover object-center"
               loading="lazy"
-            />
+             decoding="async"/>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 flex items-center justify-center min-h-[54vh] px-4">
               <img
@@ -166,7 +167,7 @@ export default function Blog() {
                 alt="The TXUS Wood Journal - Lines of Grain, Acts of Stewardship"
                 className="max-w-[60%] h-auto max-h-[30vh] object-contain border-2 border-white"
                 loading="lazy"
-              />
+               decoding="async"/>
             </div>
           </section>
 
@@ -239,7 +240,7 @@ export default function Blog() {
                           alt={article.title}
                           className="h-full w-full object-contain group-hover:scale-105 transition-transform duration-300"
                           loading="lazy"
-                        />
+                         decoding="async"/>
                       </div>
                       <div className="p-6 bg-white">
                         <h3 className="text-lg sm:text-xl font-bold text-[#1b1612] mb-2 group-hover:text-[#d7a469] transition-colors">

@@ -348,7 +348,7 @@ export default function Home() {
                 src="/manus-storage/team_photo_web_5972aded_dbac91fb.webp"
                 alt="Texas Urban Sawmill Team"
                 className="mt-8 w-full rounded-lg shadow-lg object-cover"
-              />
+               decoding="async"/>
               <p className="mt-4 text-center text-sm sm:text-base text-[color:var(--ink-soft)] italic">
                 The soul of Texas Urban Sawmill is built on the calloused hands and relentless hard work of Devin Ginther, Sarah Ginther, and Jesse Mahoney. Through long days, skilled craftsmanship, and an unwavering commitment to quality and stewardship, they have transformed overlooked timber into enduring products that reflect both hard-earned labor and lasting value for their community.
               </p>
@@ -413,7 +413,7 @@ export default function Home() {
                         alt={partner.name}
                         className="h-28 w-28 object-contain mix-blend-multiply sm:h-36 sm:w-36"
                         style={{ transform: partner.scale ? `scale(${partner.scale})` : 'scale(1)' }}
-                      />
+                       decoding="async" loading="lazy"/>
                     </a>
                   ))}
                 </div>
@@ -450,7 +450,7 @@ export default function Home() {
                       src={serviceImages[index]}
                       alt={service.title}
                       className="h-48 w-full object-cover rounded-sm shadow-[0_25px_60px_rgba(11,18,9,0.25)]"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="mb-5 flex items-center justify-between">
                     <span className="service-index">0{index + 1}</span>
@@ -499,28 +499,28 @@ export default function Home() {
                   src={furnitureImages[0]}
                   alt="Hillco Partners 17-foot Pecan Quad Match table"
                   className="h-full min-h-[280px] w-full object-cover"
-                />
+                 decoding="async" loading="lazy"/>
               </div>
               <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
                 <img
                   src={furnitureImages[1]}
                   alt="SEI bookmatched walnut conference table"
                   className="h-full min-h-[280px] w-full object-cover"
-                />
+                 decoding="async" loading="lazy"/>
               </div>
               <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
                 <img
                   src={furnitureImages[2]}
                   alt="Womack Island & Bar Back"
                   className="h-full min-h-[280px] w-full object-cover"
-                />
+                 decoding="async" loading="lazy"/>
               </div>
               <div className="overflow-hidden border-2 border-[#8b7355] shadow-[0_40px_80px_rgba(11,18,9,0.35)]">
                 <img
                   src={furnitureImages[3]}
                   alt="Stinson Walnut Table"
                   className="h-full min-h-[280px] w-full object-cover"
-                />
+                 decoding="async" loading="lazy"/>
               </div>
             </div>
 
@@ -576,7 +576,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <a aria-label="Watch Part 1: Doing the RIGHT THING on YouTube" className="group relative w-full overflow-hidden transition-all duration-300" href="https://youtu.be/bEc_CQ_hYW8?si=eXe6jSCyybxrpKZb" rel="noreferrer" target="_blank">
                     <div className="bg-stone-200 relative overflow-hidden border-2 border-black shadow-[0_30px_70px_rgba(0,0,0,0.35)]" style={{ aspectRatio: '1.5 / 1' }}>
-                      <img alt="Part 1: Doing the RIGHT THING" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-[0_30px_70px_rgba(0,0,0,0.35)]" src="/manus-storage/TXUSUSDAWoodInnovationsVideo1_5055760d_eda7e1a6_d7e0f144.png" />
+                      <img alt="Part 1: Doing the RIGHT THING" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-[0_30px_70px_rgba(0,0,0,0.35)]" src="/manus-storage/TXUSUSDAWoodInnovationsVideo1_5055760d_eda7e1a6_d7e0f144.png"  decoding="async" loading="lazy"/>
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-300">
                         <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[#d7a469] to-[#22863a] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 shadow-md">
                           <svg className="w-7 h-7 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
@@ -591,7 +591,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <a aria-label="Watch Part 2: Realities of DEVELOPMENT on YouTube" className="group relative w-full overflow-hidden transition-all duration-300" href="https://youtu.be/0gdHg3KUKrw?si=XYF-88by6uP8xbMo" rel="noreferrer" target="_blank">
                     <div className="bg-stone-200 relative overflow-hidden border-2 border-black shadow-[0_30px_70px_rgba(0,0,0,0.35)]" style={{ aspectRatio: '1.5 / 1' }}>
-                      <img alt="Part 2: Realities of DEVELOPMENT" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo2_b14eb930_ae8b9e6e_c9af2b62.png" />
+                      <img alt="Part 2: Realities of DEVELOPMENT" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo2_b14eb930_ae8b9e6e_c9af2b62.png"  decoding="async" loading="lazy"/>
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-300">
                         <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#d7a469] to-[#22863a] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 shadow-md">
                           <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
@@ -604,7 +604,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <a aria-label="Watch Part 3: Fire MITIGATION on YouTube" className="group relative w-full overflow-hidden transition-all duration-300" href="https://youtu.be/5bAgA9TorkQ?si=_xUvwTVy3P_1SnMa" rel="noreferrer" target="_blank">
                     <div className="bg-stone-200 relative overflow-hidden border-2 border-black shadow-[0_30px_70px_rgba(0,0,0,0.35)]" style={{ aspectRatio: '1.5 / 1' }}>
-                      <img alt="Part 3: Fire MITIGATION" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo3_83a6a534_7e583308_0a7912a1.png" />
+                      <img alt="Part 3: Fire MITIGATION" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo3_83a6a534_7e583308_0a7912a1.png"  decoding="async" loading="lazy"/>
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-300">
                         <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#d7a469] to-[#22863a] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 shadow-md">
                           <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
@@ -617,7 +617,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <a aria-label="Watch Part 4: Circular Economy on YouTube" className="group relative w-full overflow-hidden transition-all duration-300" href="https://youtu.be/aQEepiDk0og?si=kIQlteoV_TWLFtpu" rel="noreferrer" target="_blank">
                     <div className="bg-stone-200 relative overflow-hidden border-2 border-black shadow-[0_30px_70px_rgba(0,0,0,0.35)]" style={{ aspectRatio: '1.5 / 1' }}>
-                      <img alt="Part 4: Circular Economy" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo4_25518123_cdd95b23_57dd1ff8.png" />
+                      <img alt="Part 4: Circular Economy" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo4_25518123_cdd95b23_57dd1ff8.png"  decoding="async" loading="lazy"/>
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-300">
                         <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#d7a469] to-[#22863a] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 shadow-md">
                           <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
@@ -630,7 +630,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <a aria-label="Watch Part 5: Repurposed Beauty on YouTube" className="group relative w-full overflow-hidden transition-all duration-300" href="https://youtu.be/UiM2ojKEUdc?si=AGtJARIXkPJPDkBG" rel="noreferrer" target="_blank">
                     <div className="bg-stone-200 relative overflow-hidden border-2 border-black shadow-[0_30px_70px_rgba(0,0,0,0.35)]" style={{ aspectRatio: '1.5 / 1' }}>
-                      <img alt="Part 5: Repurposed Beauty" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo5_fe058513_ed4f0fc1_caf11f14.png" />
+                      <img alt="Part 5: Repurposed Beauty" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 shadow-2xl" src="/manus-storage/TXUSUSDAWoodInnovationsVideo5_fe058513_ed4f0fc1_caf11f14.png"  decoding="async" loading="lazy"/>
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-300">
                         <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#d7a469] to-[#22863a] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 shadow-md">
                           <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
@@ -666,7 +666,7 @@ export default function Home() {
                   src={inksLakeImage}
                   alt="Jesse admires the mesquite cabinetry at Inks Lake State Park"
                   className="w-full h-auto object-cover rounded-sm shadow-lg border-2 border-[#8b7355]"
-                />
+                 decoding="async" loading="lazy"/>
                 <p className="mt-3 text-sm text-stone-600 italic">
                   Jesse admires the mesquite cabinetry, once part of the landscape at Inks Lake State Park and now thoughtfully repurposed in the new headquarters.
                 </p>
@@ -711,7 +711,7 @@ export default function Home() {
                 src={aboutImage}
                 alt="Texas Urban Sawmill team portrait in the workshop - Texas Parks & Wildlife Trailblazer"
                 className="h-full min-h-[420px] w-full object-cover shadow-lg"
-              />
+               decoding="async" loading="lazy"/>
             </a>
           </div>
         </section>
@@ -734,7 +734,7 @@ export default function Home() {
                       src="/manus-storage/SarahHeadshot_07208f28_4b44cdce.jpg"
                       alt="Sarah Ginther, Co-Founder and Lead Sawyer"
                       className="h-full w-full object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                 </div>
                 <h3 className="font-display text-2xl text-stone-950">
@@ -755,7 +755,7 @@ export default function Home() {
                     <img
                       src="/manus-storage/JesseHeadshot_f5af6ed9_2121f513.jpg"                   alt="Jesse Mahoney, Lead Designer and Production Manager"
                       className="h-full w-full object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                 </div>
                 <h3 className="font-display text-2xl text-stone-950">
@@ -777,7 +777,7 @@ export default function Home() {
                       src="/manus-storage/DevinHeadshot_aba8be4f_e3604300.jpg"
                       alt="Devin Ginther, Founder and CEO"
                       className="h-full w-full object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                 </div>
                 <h3 className="font-display text-2xl text-stone-950">

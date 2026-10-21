@@ -37,7 +37,7 @@ export default function PecanBunkerGallery() {
               src="/manus-storage/PecanBunkerComposite_4d5f2f52_35f6af16.jpg"
               alt="24ft Pecan Bunker Conference Table - Executive furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
-            />
+             decoding="async"/>
           </a>
         </div>
 

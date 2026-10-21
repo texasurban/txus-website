@@ -52,6 +52,7 @@ export default function ServiceTreeCare() {
         title="Tree Care, Removals & Consulting - Stewardship-Focused Services | Texas Urban Sawmill"
         description="Experienced tree care and removal services that prioritize reuse, stewardship, and lasting value. Expert consulting for sustainable tree management."
         url="https://txurbansawmill.com/services/tree-care"
+        image="/manus-storage/tree-care-hero_27d9548f.webp"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -63,7 +64,7 @@ export default function ServiceTreeCare() {
               src="/manus-storage/tree-care-hero_27d9548f.webp"
               alt="Tree Care, Removals & Consulting - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
-            />
+             decoding="async"/>
 
             <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
               <motion.div
@@ -97,7 +98,7 @@ export default function ServiceTreeCare() {
                       src="/manus-storage/tree-service-team_b4b7aa0b.webp"
                       alt="Texas Urban Sawmill tree service team with crane truck"
                       className="w-full h-auto object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-[#8b7355] p-3 -mt-1">
                     <p className="text-center text-white text-xs italic leading-relaxed">
@@ -132,7 +133,7 @@ export default function ServiceTreeCare() {
                       src="/manus-storage/tree-care-apartments_f4f18c46.webp"
                       alt="Urban tree removal with crane truck"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Urban Tree Removal with Crane Truck</h4>
@@ -152,7 +153,7 @@ export default function ServiceTreeCare() {
                       src="/manus-storage/tree-care-removal_b6ecda71.webp"
                       alt="Professional tree removal and rigging"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Professional Tree Removal & Rigging</h4>
@@ -172,7 +173,7 @@ export default function ServiceTreeCare() {
                       src="/manus-storage/tree-care-cutting_26d62dc5.webp"
                       alt="Expert chainsaw work and tree cutting"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Expert Chainsaw Work & Tree Cutting</h4>
@@ -192,7 +193,7 @@ export default function ServiceTreeCare() {
                       src="/manus-storage/tree-care-chipping_a57cd7b5.webp"
                       alt="Land clearing and wood chipping operations"
                       className="w-full h-96 object-cover"
-                    />
+                     decoding="async" loading="lazy"/>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Sustainable Land Services</h4>

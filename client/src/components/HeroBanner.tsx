@@ -25,7 +25,7 @@ export function HeroBanner({
         src={imageUrl}
         alt={imageAlt}
         className="absolute inset-0 h-full w-full object-cover object-center"
-      />
+       decoding="async"/>
 
       <div className="relative mx-auto min-h-[54vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
         <motion.div

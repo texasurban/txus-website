@@ -63,7 +63,7 @@ export default function WoodInnovationsGrant() {
               alt="Forest and road background - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
               loading="lazy"
-            />
+             decoding="async"/>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 flex items-center justify-center min-h-[54vh] px-4">
               <img
@@ -71,7 +71,7 @@ export default function WoodInnovationsGrant() {
                 alt="2022 USDA Forest Service Wood Innovations Grant Award Recipient - Texas Urban Sawmill with ESG Participating Partners"
                 className="max-w-[60%] h-auto max-h-[30vh] object-contain border-2 border-white"
                 loading="lazy"
-              />
+               decoding="async"/>
             </div>
           </section>
 
@@ -98,7 +98,7 @@ export default function WoodInnovationsGrant() {
                     alt="TXUS and Austin Habitat for Humanity team loading mountain cedar lumber - Texas Urban Sawmill"
                     className="w-full h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">This photo reflects the power of strong partnerships, with the Texas Urban Sawmill and Austin Habitat for Humanity loading the first shipment of mountain cedar lumber. Proceeds from the rescued timber support habitat restoration, canopy expansion, and wildfire risk mitigation—demonstrating a true full-circle forestry model.</p>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function WoodInnovationsGrant() {
                       alt="TXUS team with USDA Wood Innovations Grant Award - Texas Urban Sawmill"
                       className="w-full h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                       loading="lazy"
-                    />
+                     decoding="async"/>
                     <p className="text-sm text-[#666] italic mt-3 text-center">The Texas Urban Sawmill was the first Texas-based company to receive a Wood Innovations award in the history of the program, reinforcing our commitment to innovative forestry solutions.</p>
                   </div>
                 </div>
@@ -181,7 +181,7 @@ export default function WoodInnovationsGrant() {
                     alt="Sarah extracting ashe juniper with hydraulic grappler - Texas Urban Sawmill"
                     className="w-full h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                     loading="lazy"
-                  />
+                   decoding="async"/>
                   <p className="text-sm text-[#666] italic mt-3 text-center">Sarah stands ready to extract more ashe juniper from the site with a hydraulic grappler. Her remarkable contributions make her an inspiring role model for the next generation of female leaders in forestry utilization.</p>
                 </div>
               </div>
@@ -246,7 +246,7 @@ export default function WoodInnovationsGrant() {
                       alt="TXUS team chainsawing ashe juniper on WUI property - Texas Urban Sawmill"
                       className="w-full h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                       loading="lazy"
-                    />
+                     decoding="async"/>
                     <p className="text-sm text-[#666] italic mt-3 text-center">This Wildland Urban Interface (WUI) property had not seen forestry activity in over 100 years. Ashe juniper, commonly called Texas mountain cedar, is typically chipped or burned in Texas, despite producing stable, aromatic lumber with tight grain, rich red color, and excellent exterior durability.</p>
                   </div>
                 </div>

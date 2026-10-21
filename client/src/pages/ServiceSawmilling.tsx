@@ -111,6 +111,7 @@ export default function ServiceSawmilling() {
         title="Sawmilling & Kiln Drying Services - Custom Lumber Milling | Texas Urban Sawmill"
         description="Professional sawmilling and kiln drying services for custom lumber production. Locally rescued wood, milled and kiln-dried for long-term use. Learn more."
         url="https://txurbansawmill.com/services/sawmilling"
+        image="/manus-storage/hero-sawmill-timber-edge_e2f38fbf_c180a6f2.webp"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -122,7 +123,7 @@ export default function ServiceSawmilling() {
             src="/manus-storage/hero-sawmill-timber-edge_e2f38fbf_c180a6f2.webp"
             alt="Sawmilling & Kiln Drying Services - Texas Urban Sawmill"
             className="absolute inset-0 h-full w-full object-cover object-center"
-          />
+           decoding="async"/>
 
           <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
             <motion.div
@@ -169,7 +170,7 @@ export default function ServiceSawmilling() {
                     src="/manus-storage/sawmilling-hero-wm1000-final_e97520f2_490e46b9.webp"
                     alt="Custom Sawmilling"
                     className="w-full h-96 object-cover"
-                  />
+                   decoding="async" loading="lazy"/>
                 </div>
                 <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
@@ -200,7 +201,7 @@ export default function ServiceSawmilling() {
                     src="/manus-storage/kiln-drying-chamber-final_3e08b431_d77bef5d.webp"
                     alt="Kiln Drying Services"
                     className="w-full h-96 object-cover"
-                  />
+                   decoding="async" loading="lazy"/>
                 </div>
                 <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
@@ -264,7 +265,7 @@ export default function ServiceSawmilling() {
 
                   {/* Baker Sawmill Image */}
                   <div className="mt-8 rounded-lg overflow-hidden">
-                    <img src="/manus-storage/Sarah_Baker_optimized_d4406d7c_e59994a8.webp" alt="Baker Sawmill" loading="lazy" className="w-full h-auto object-cover rounded-lg" />
+                    <img src="/manus-storage/Sarah_Baker_optimized_d4406d7c_e59994a8.webp" alt="Baker Sawmill" loading="lazy" className="w-full h-auto object-cover rounded-lg"  decoding="async"/>
                   </div>
                 </div>
 
@@ -297,7 +298,7 @@ export default function ServiceSawmilling() {
 
                   {/* WM1000 Sawmill Image */}
                   <div className="mt-8 rounded-lg overflow-hidden">
-                    <img src="/manus-storage/WM1000_new_optimized_b6c172ae_75642c76.webp" alt="WM1000 Sawmill" loading="lazy" className="w-full h-auto object-cover rounded-lg" />
+                    <img src="/manus-storage/WM1000_new_optimized_b6c172ae_75642c76.webp" alt="WM1000 Sawmill" loading="lazy" className="w-full h-auto object-cover rounded-lg"  decoding="async"/>
                   </div>
                 </div>
               </div>

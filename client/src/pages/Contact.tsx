@@ -138,6 +138,7 @@ export default function Contact() {
         title="Contact Texas Urban Sawmill - Custom Sawmill & Sustainable Services"
         description="Get in touch with Texas Urban Sawmill. Contact us for custom sawmilling, heirloom furniture, tree reuse construction, and sustainable forestry services in Central Texas."
         url="https://txurbansawmill.com/contact"
+        image="/manus-storage/TXUSHeroBannerWebsite1920x600_3c5a40ee_767c8a62.png"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -148,7 +149,7 @@ export default function Contact() {
           src="/manus-storage/TXUSHeroBannerWebsite1920x600_3c5a40ee_767c8a62.png"
           alt="Contact Hero"
           className="absolute inset-0 h-full w-full object-cover object-center"
-        />
+         decoding="async"/>
 
         <div className="relative mx-auto min-h-[40vh] max-w-7xl px-6 py-12 lg:px-8 lg:py-14 flex items-center justify-center">
           <motion.div

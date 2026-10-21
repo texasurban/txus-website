@@ -153,6 +153,21 @@
 - A follow-up asset-byte pass should download or otherwise inspect approved storage objects, then record dimensions, file size, format, quality, and any intentional exception.
 - No assets were downloaded, resized, recompressed, renamed, replaced, or removed during this pass.
 
+## Approved invisible remediation pass
+
+The following website changes were approved after the inventory pass and were implemented without changing visible copy, layout, image placement, navigation, footer, or design:
+
+- Added page-specific Open Graph/Twitter images to the core, service, portfolio, About Us, Contact, and Blog pages using existing project assets.
+- Added shared `og:site_name` metadata for Texas Urban Sawmill.
+- Added no-index support and applied it to the internal Component Showcase and 404 routes.
+- Added `decoding="async"` to image elements and `loading="lazy"` to appropriate non-primary images.
+- Corrected the Portfolio primary hero so it is not lazy-loaded.
+- Applied the approved blog alt-text suffix to remaining meaningful article images.
+- Standardized the About Us and Services canonical URLs to the approved non-`www` production domain.
+- Deferred all external image URL migration until the actual production domain is published.
+
+Tests and production build should be re-run after this pass before the next checkpoint.
+
 ## Proposed next step — approval required
 
 After Dev reviews this inventory, choose one of:

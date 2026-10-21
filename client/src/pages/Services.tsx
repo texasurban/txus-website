@@ -78,7 +78,8 @@ export default function Services() {
       <SEOHead
         title="Services | Texas Urban Sawmill"
         description="Explore our comprehensive services: custom sawmilling, furniture design, tree reuse construction, log transport, tree care, and precision fabrication."
-        canonical="https://www.txurbansawmill.com/services"
+        canonical="https://txurbansawmill.com/services"
+        image="/manus-storage/services-hero-optimized_2ca3ad5d_670d8eb2.webp"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -114,7 +115,7 @@ export default function Services() {
                         src={service.image}
                         alt={service.title}
                         className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
-                      />
+                       decoding="async"/>
                     </div>
 
                     {/* Card content */}

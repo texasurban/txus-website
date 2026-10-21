@@ -37,7 +37,7 @@ export default function StinsonGallery() {
               src="/manus-storage/StinsonWalnutComposite_e04c8d8a_49846453.jpg"
               alt="Stinson S-Base Walnut Table - Rescued wood furniture by Texas Urban Sawmill"
               className="w-full h-auto object-contain"
-            />
+             decoding="async"/>
           </a>
         </div>
 

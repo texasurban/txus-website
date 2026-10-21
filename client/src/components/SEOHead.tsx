@@ -9,6 +9,7 @@ interface SEOHeadProps {
   image?: string;
   type?: 'website' | 'article';
   schema?: Record<string, any>;
+  noindex?: boolean;
 }
 
 /**
@@ -34,6 +35,7 @@ export function SEOHead({
   image,
   type = 'website',
   schema,
+  noindex = false,
 }: SEOHeadProps) {
   // Prefer an explicit canonical URL; fall back to the page URL.
   const canonicalUrl = canonical || url || (typeof window !== 'undefined' ? window.location.href : '');
@@ -45,12 +47,14 @@ export function SEOHead({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
+      <meta property="og:site_name" content="Texas Urban Sawmill" />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
