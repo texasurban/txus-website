@@ -21,7 +21,7 @@ interface SEOHeadProps {
  * <SEOHead
  *   title="Sawmilling Services - Custom Lumber Milling | Texas Urban Sawmill"
  *   description="Professional sawmilling services for custom lumber production..."
- *   url="https://txsawmill-hnwf9q8m.manus.space/services/sawmilling"
+ *   url="https://txurbansawmill.com/services/sawmilling"
  *   image="https://cdn.../sawmilling-hero.webp"
  *   schema={localBusinessSchema}
  * />
@@ -30,12 +30,13 @@ export function SEOHead({
   title,
   description,
   url = typeof window !== 'undefined' ? window.location.href : '',
+  canonical,
   image,
   type = 'website',
   schema,
 }: SEOHeadProps) {
-  // Extract domain for canonical URL
-  const canonicalUrl = url || (typeof window !== 'undefined' ? window.location.href : '');
+  // Prefer an explicit canonical URL; fall back to the page URL.
+  const canonicalUrl = canonical || url || (typeof window !== 'undefined' ? window.location.href : '');
 
   return (
     <Helmet>

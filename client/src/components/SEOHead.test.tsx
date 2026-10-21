@@ -37,6 +37,18 @@ describe('SEOHead Component', () => {
     expect(container).toBeTruthy();
   });
 
+  it('accepts an explicit canonical URL separate from the page URL', () => {
+    const { container } = render(
+      <SEOHead
+        title="Test Page"
+        description="Test description"
+        url="https://preview.example.com/test-page"
+        canonical="https://www.example.com/test-page"
+      />
+    );
+    expect(container).toBeTruthy();
+  });
+
   it('renders Open Graph tags for social sharing', () => {
     const { container } = render(
       <SEOHead

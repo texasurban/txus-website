@@ -88,7 +88,10 @@ export default function HillcoPartners() {
       <SEOHead
         title="Hillco Partners - Net Carbon Negative Conference Table | TXUS"
         description="Explore Texas Urban Sawmill's custom 18-foot pecan conference table for Hillco Partners. A net carbon negative project showcasing sustainable craftsmanship and precision engineering."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/hillco-partners"
+        url="https://txurbansawmill.com/blog/hillco-partners"
+        image={heroImage}
+      
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

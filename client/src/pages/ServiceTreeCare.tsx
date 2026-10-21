@@ -51,7 +51,7 @@ export default function ServiceTreeCare() {
       <SEOHead
         title="Tree Care, Removals & Consulting - Stewardship-Focused Services | Texas Urban Sawmill"
         description="Experienced tree care and removal services that prioritize reuse, stewardship, and lasting value. Expert consulting for sustainable tree management."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/tree-care"
+        url="https://txurbansawmill.com/services/tree-care"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

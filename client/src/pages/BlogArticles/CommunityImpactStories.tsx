@@ -20,7 +20,10 @@ export default function CommunityImpactStories() {
       <SEOHead
         title="Community Impact Stories | Texas Urban Sawmill"
         description="Discover how Texas Urban Sawmill is making a difference in Central Texas through sustainable practices, educational initiatives, and community partnerships that transform urban wood into lasting value."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/community-impact-stories"
+        url="https://txurbansawmill.com/blog/community-impact-stories"
+        image={heroImage}
+      
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

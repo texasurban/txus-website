@@ -137,7 +137,7 @@ export default function Contact() {
       <SEOHead
         title="Contact Texas Urban Sawmill - Custom Sawmill & Sustainable Services"
         description="Get in touch with Texas Urban Sawmill. Contact us for custom sawmilling, heirloom furniture, tree reuse construction, and sustainable forestry services in Central Texas."
-        url="https://txsawmill-hnwf9q8m.manus.space/contact"
+        url="https://txurbansawmill.com/contact"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />

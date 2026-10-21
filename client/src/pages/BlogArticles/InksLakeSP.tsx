@@ -2,13 +2,24 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Leaf } from "lucide-react";
 import { Link } from "wouter";
 import { FancyHeroBanner } from "@/components/FancyHeroBanner";
+import { SEOHead } from "@/components/SEOHead";
+
+const heroImage = "/manus-storage/InksLakeRenderingwebp_29e8b629_4dc08ee4.webp";
 
 export default function InksLakeSP() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <>
+      <SEOHead
+        title="Inks Lake State Park Climate-Smart Construction | Texas Urban Sawmill"
+        description="Explore TXUS adaptive tree reuse at Inks Lake State Park, including rescued Texas mesquite and post oak used in climate-smart construction and custom interiors."
+        url="https://txurbansawmill.com/blog/inks-lake-sp"
+        image={heroImage}
+        type="article"
+      />
+      <div className="min-h-screen bg-background text-foreground">
       {/* Hero Banner */}
       <FancyHeroBanner
-        imageUrl="/manus-storage/InksLakeRenderingwebp_29e8b629_4dc08ee4.webp"
+        imageUrl={heroImage}
         mainTitle="Inks Lake State Park"
         subtitle="Climate Smart Construction Project"
         imageAlt="Inks Lake State Park new headquarters architectural rendering - Texas Urban Sawmill"
@@ -190,6 +201,7 @@ export default function InksLakeSP() {
           </Link>
         </div>
       </main>
-    </div>
+      </div>
+    </>
   );
 }

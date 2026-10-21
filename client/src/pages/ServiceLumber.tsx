@@ -51,7 +51,7 @@ export default function ServiceLumber() {
       <SEOHead
         title="Lumber, Beams, Mantels & Slabs - Rescued Texas Wood | Texas Urban Sawmill"
         description="Locally rescued wood, milled, kiln-dried, and prepared for long-term use. From architectural millwork to fine furniture. Premium quality lumber."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/lumber"
+        url="https://txurbansawmill.com/services/lumber"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

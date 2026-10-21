@@ -20,7 +20,9 @@ export default function ClimateSmartProjects() {
       <SEOHead
         title="Climate-Smart Construction Projects | Texas Urban Sawmill"
         description="Discover how Texas Urban Sawmill integrates adaptive tree re-use and sustainable materials into climate-smart construction projects that reduce waste and environmental impact."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/climate-smart-projects"
+        url="https://txurbansawmill.com/blog/climate-smart-projects"
+        image={heroImage}
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

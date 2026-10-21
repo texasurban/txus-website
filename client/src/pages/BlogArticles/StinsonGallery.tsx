@@ -48,7 +48,10 @@ export default function StinsonGallery() {
       <SEOHead
         title="Stinson Gallery - Custom Walnut Dining Table | TXUS"
         description="Discover Texas Urban Sawmill's masterpiece: an 800-pound custom walnut dining table with handcrafted steel base. Six months of meticulous craftsmanship in one-of-a-kind furniture."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/stinson-gallery"
+        url="https://txurbansawmill.com/blog/stinson-gallery"
+        image={heroImage}
+      
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

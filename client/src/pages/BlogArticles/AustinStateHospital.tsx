@@ -57,7 +57,10 @@ export default function AustinStateHospital() {
       <SEOHead
         title="Austin State Hospital - Adaptive Tree Re-Use Project | TXUS"
         description="Explore Texas Urban Sawmill's largest adaptive tree re-use project in Texas. Discover how 60+ old growth trees were transformed into sustainable hospital interiors with 199,000+ lbs of carbon stored."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/austin-state-hospital"
+        url="https://txurbansawmill.com/blog/austin-state-hospital"
+        image={heroImage}
+      
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

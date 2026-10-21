@@ -267,7 +267,7 @@ export default function Home() {
       <SEOHead
         title="Texas Urban Sawmill - Full Circle Urban Sawmill & Sustainable Forestry"
         description="Full-circle urban sawmill offering custom lumber, heirloom furniture, tree reuse construction, and sustainable services. Central Texas's community sawmill. Learn more."
-        url="https://txsawmill-hnwf9q8m.manus.space"
+        url="https://txurbansawmill.com"
         image="/manus-storage/city-of-austin-skyline_aa4fd65d.jpg"
       />
       <div className="min-h-screen bg-background text-foreground">

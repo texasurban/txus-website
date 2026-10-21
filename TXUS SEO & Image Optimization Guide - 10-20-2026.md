@@ -17,6 +17,20 @@ TXUS SEO should communicate three things clearly:
 2. **Where TXUS works:** Central Texas, with location language used naturally and accurately.
 3. **Why TXUS is different:** family-driven craftsmanship, responsible tree reuse, material stewardship, precision manufacturing, and community-scale service.
 
+### Ranking objective and priority order
+
+The business objective is to earn strong first-page visibility in Texas for high-intent searches related to TXUS services, materials, and product solutions. Search rankings cannot be guaranteed, but the website can be deliberately structured around the markets and topics that matter most.
+
+Prioritize the work in this order:
+
+1. **Central Texas service intent:** Austin, Dripping Springs, Blanco, Wimberley, Fredericksburg, and nearby communities for urban wood recovery, sawmilling, lumber, slabs, tree reuse, log transport, tree care, and millwork.
+2. **Texas-wide service and product intent:** statewide searches for custom lumber, live-edge slabs, urban wood, architectural millwork, CNC routing, laser engraving, timber components, and related solutions that can be delivered or coordinated across Texas.
+3. **National furniture and finished-product intent:** selective national visibility for custom furniture, heirloom pieces, finished millwork, and other products that can be shipped or delivered outside Texas.
+
+Build authority by making the core service pages exceptionally complete before multiplying location pages. One authoritative Texas-wide page with strong Central Texas relevance is preferable to many thin city pages that compete with one another.
+
+Track progress by topic cluster, not only by one broad keyword. Important measures include impressions, clicks, qualified contact submissions, phone/email inquiries, local visibility, trade inquiries, and conversions from furniture shoppers outside Texas.
+
 SEO should support the Civic Industrial Stewardship design philosophy rather than replace it with generic keyword-heavy copy. Write for people first, then make the page structure easy for search engines to understand.
 
 ### Core content principles
@@ -52,6 +66,9 @@ For local-intent copy:
 - Mention Central Texas as the primary service area where relevant.
 - Use city and regional modifiers naturally, not in lists repeated across every page.
 - Tie geographic language to a real service condition: tree recovery, delivery radius, site access, crane logistics, local material sourcing, or project location.
+- Spread city references across the site by purpose: use a small number on the homepage, the most relevant cities on each service page, and project-specific locations in case studies and blog articles.
+- Vary the sentence structure and do not place the same Austin/Dripping Springs/Blanco/Wimberley/Fredericksburg list in every title, heading, paragraph, alt attribute, and footer.
+- Prefer wording such as “serving Central Texas, including Austin and the Hill Country” when a broad regional statement is enough; use a specific city only when it improves clarity or reflects a real project or service area.
 - Use specific regional material references only when they are accurate, such as a Blanco River bald cypress project or a Central Texas urban oak recovery.
 - Add a dedicated regional page only when TXUS can provide original content and a clear next step for that market.
 - Keep `areaServed` in structured data aligned with actual operating coverage; do not mark the entire United States for local tree services because furniture can ship nationally.
@@ -90,6 +107,63 @@ Every indexable page should have the following:
 - Relevant structured data where the page type supports it.
 - Descriptive internal links to related TXUS pages.
 - A useful browser title that makes sense when bookmarked or shared.
+
+### The invisible SEO layer
+
+Many of the most important ranking and sharing signals are not visible as ordinary page text. Treat these as deliberate engineering and publishing fields:
+
+- `<title>` and meta description.
+- Canonical URL and the final production-domain version of the URL.
+- Open Graph and Twitter/X image metadata.
+- JSON-LD structured data.
+- Image filename, `alt`, width, height, and loading behavior.
+- Descriptive anchor text and the internal-link relationship between services, products, projects, and blog articles.
+- `robots.txt`, sitemap coverage, redirect behavior, and indexability rules.
+- Stable image URLs and correct status codes for pages and assets.
+
+These fields should reinforce the page topic without turning visible copy, filenames, or schema into keyword lists. Search engines may use these signals differently over time, so accuracy, consistency, and crawlability matter more than repeating the same phrase as often as possible.
+
+### Additional SEO rules and strategy
+
+#### 1. Map search intent to a page before creating content
+
+Maintain a simple keyword-and-intent map with one primary page owner for each important topic. Separate local service intent, Texas-wide product intent, trade/B2B intent, and national furniture intent. Do not create several pages that all target the same phrase unless they serve clearly different search needs.
+
+#### 2. Protect against keyword cannibalization
+
+The main Services page should explain the service family and link to the individual service pages. Each service page should own its own topic. The Portfolio and Blog should support those pages with project evidence and educational context rather than competing with them for the same title and description.
+
+#### 3. Build local trust, not only local keywords
+
+Keep TXUS business information consistent across the website, approved business profiles, directories, and partner references. Encourage genuine customer and trade-partner reviews when appropriate. Reviews and project references should describe real work, real locations, and real outcomes; never manufacture locations or testimonials for SEO.
+
+#### 4. Show first-hand expertise
+
+Make it easy for search engines and people to see that TXUS performs the work: identify the team, explain equipment and process, show project photography, provide accurate material and dimension details, and connect articles to the relevant service pages. This is especially important for structural timber, crane/log transport, tree care, and commercial project content.
+
+#### 5. Use a deliberate internal-link architecture
+
+Every important page should be reachable from the navigation, a relevant category, or another contextual page. Use service pages as the core, project pages as evidence, and blog articles as supporting education. Avoid orphan pages and repeated generic “read more” links when a descriptive phrase is possible.
+
+#### 6. Measure inquiries, not only rankings
+
+Track qualified contact submissions, quote requests, phone clicks, email clicks, portfolio visits, and furniture inquiries from outside Texas. A page that ranks well but does not produce relevant inquiries may need a clearer offer, stronger internal links, or better conversion placement—not simply more keywords.
+
+#### 7. Keep templated pages meaningfully unique
+
+Each indexable page needs its own title, description, H1, opening paragraph, canonical URL, image metadata, and schema context. Reusing the same city list or service paragraph across multiple pages weakens differentiation and can create doorway-page patterns.
+
+#### 8. Earn authority through real relationships
+
+Prioritize legitimate links and mentions from Texas partners, architects, builders, conservation groups, parks, municipalities, trade organizations, project owners, and local media. Favor project stories and useful resources over generic directory submissions or purchased link packages.
+
+#### 9. Keep technical hygiene continuous
+
+Review crawl errors, broken links, redirect chains, missing images, duplicate titles, no-index mistakes, sitemap coverage, mobile usability, and Core Web Vitals at a regular cadence. Fix the cause rather than repeatedly adding new pages.
+
+#### 10. Review SEO quarterly and after every major release
+
+Use a quarterly review to compare impressions, clicks, queries, landing pages, locations, qualified leads, and conversions. Recheck metadata and structured data after route changes, domain changes, new blog articles, image migrations, and production deployments.
 
 ### Recommended title format
 

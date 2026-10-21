@@ -83,7 +83,7 @@ export default function ServiceTreeReuse() {
       <SEOHead
         title="Climate-Smart Tree Re-Use Construction Projects | Texas Urban Sawmill"
         description="Adaptive tree re-use construction solutions that reduce waste and meet real-world building demands. Climate-smart material-driven solutions for sustainable projects."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/tree-reuse"
+        url="https://txurbansawmill.com/services/tree-reuse"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />

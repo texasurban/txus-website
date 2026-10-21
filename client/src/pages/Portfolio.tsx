@@ -91,7 +91,7 @@ export default function Portfolio() {
       <SEOHead
         title="Custom Heirloom Furniture Portfolio - Texas Urban Sawmill"
         description="Explore our collection of custom dining tables, conference tables, and heirloom furniture crafted from rescued Texas trees. Each piece is unique and built to last generations."
-        url="https://txsawmill-hnwf9q8m.manus.space/portfolio"
+        url="https://txurbansawmill.com/portfolio"
       />
       <Navigation />
 

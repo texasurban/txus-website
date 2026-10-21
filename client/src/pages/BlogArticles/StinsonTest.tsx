@@ -20,7 +20,10 @@ export default function StinsonTest() {
       <SEOHead
         title="Stinson Gallery - Custom Walnut Dining Table | Texas Urban Sawmill"
         description="An 800-pound masterpiece: The Stinson S-Base Walnut Table, designed and built entirely in-house by Texas Urban Sawmill. A one-of-a-kind creation featuring a 300-year-old walnut slab and custom-fabricated steel base."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/stinson-test"
+        url="https://txurbansawmill.com/blog/stinson-test"
+        image={heroImage}
+      
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

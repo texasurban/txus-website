@@ -145,7 +145,7 @@ export default function Blog() {
       <SEOHead
         title="The TXUS Wood Journal | Texas Urban Sawmill"
         description="Explore our latest projects, case studies, and insights into sustainable forestry, custom furniture, and climate-smart construction."
-        canonical="https://txsawmill-hnwf9q8m.manus.space/blog"
+        canonical="https://txurbansawmill.com/blog"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

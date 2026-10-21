@@ -51,7 +51,7 @@ export default function ServiceMillworks() {
       <SEOHead
         title="Millworks, CNC & Laser Services - Precision Woodworking | Texas Urban Sawmill"
         description="Professional CNC routing, laser engraving, and precision millworks services. Camaster CNC machine and large-format CO2 laser for custom projects."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/millworks"
+        url="https://txurbansawmill.com/services/millworks"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

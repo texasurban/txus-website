@@ -110,7 +110,7 @@ export default function ServiceSawmilling() {
       <SEOHead
         title="Sawmilling & Kiln Drying Services - Custom Lumber Milling | Texas Urban Sawmill"
         description="Professional sawmilling and kiln drying services for custom lumber production. Locally rescued wood, milled and kiln-dried for long-term use. Learn more."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/sawmilling"
+        url="https://txurbansawmill.com/services/sawmilling"
       />
       <div className="min-h-screen bg-background text-foreground">
       <Navigation />

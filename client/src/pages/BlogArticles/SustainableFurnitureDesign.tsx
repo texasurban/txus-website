@@ -20,7 +20,9 @@ export default function SustainableFurnitureDesign() {
       <SEOHead
         title="Sustainable Furniture Design | Texas Urban Sawmill"
         description="Discover the art and science of sustainable furniture design. Learn how Texas Urban Sawmill creates heirloom-quality pieces from reclaimed urban wood that last generations."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/sustainable-furniture-design"
+        url="https://txurbansawmill.com/blog/sustainable-furniture-design"
+        image={heroImage}
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

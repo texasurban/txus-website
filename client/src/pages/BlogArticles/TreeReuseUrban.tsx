@@ -20,7 +20,9 @@ export default function TreeReuseUrban() {
       <SEOHead
         title="Tree Reuse in Urban Development | Texas Urban Sawmill"
         description="Discover how adaptive tree reuse transforms urban development. Learn how rescued urban trees become valuable building materials, reducing waste and supporting sustainable cities."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/tree-reuse-urban-development"
+        url="https://txurbansawmill.com/blog/tree-reuse-urban-development"
+        image={heroImage}
+        type="article"
       />
 
       <div className="min-h-screen bg-background text-foreground">

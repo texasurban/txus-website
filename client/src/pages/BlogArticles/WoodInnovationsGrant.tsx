@@ -23,7 +23,7 @@ const articleSchema = {
   "@type": "Article",
   "headline": "USDA Wood Innovations Grant Award | Texas Urban Sawmill",
   "description": "Texas Urban Sawmill received USDA Forest Service Wood Innovations Grant Awards in 2022 and 2024 for the Full Circle Woodland Forestry project, demonstrating innovative approaches to urban wood utilization, wildfire mitigation, and climate-smart forestry.",
-  "url": "https://txsawmill-hnwf9q8m.manus.space/blog/wood-innovations-grant",
+  "url": "https://txurbansawmill.com/blog/wood-innovations-grant",
   "image": "https://images.squarespace-cdn.com/content/v1/63e239416016765b92d685ac/49fac2ec-734b-4e8c-a1c4-561aafccfc03/USDA+FS+Grant+Recipient+%26+Sponsors.jpg",
   "author": {
     "@type": "Organization",
@@ -34,7 +34,7 @@ const articleSchema = {
     "name": "Texas Urban Sawmill",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://txsawmill-hnwf9q8m.manus.space/logo.png"
+      "url": "https://txurbansawmill.com/logo.png"
     }
   },
   "datePublished": "2024-05-07",
@@ -47,7 +47,7 @@ export default function WoodInnovationsGrant() {
       <SEOHead
         title="USDA Wood Innovations Grant Award - Texas Urban Sawmill"
         description="TXUS won USDA Wood Innovations Grants in 2022 & 2024 for Full Circle Woodland Forestry. Learn about our climate-smart urban wood utilization project. Explore our award-winning sustainable forestry solutions."
-        url="https://txsawmill-hnwf9q8m.manus.space/blog/wood-innovations-grant"
+        url="https://txurbansawmill.com/blog/wood-innovations-grant"
         type="article"
         schema={articleSchema}
       />

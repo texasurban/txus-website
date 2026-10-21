@@ -73,7 +73,7 @@ export default function ServiceLogTransport() {
       <SEOHead
         title="Log Transport & Crane Services - Heavy-Lift Solutions | Texas Urban Sawmill"
         description="Professional log transport and heavy-lift crane services. Moving logs safely and efficiently from site to sawmill. Expert handling of large timber."
-        url="https://txsawmill-hnwf9q8m.manus.space/services/log-transport"
+        url="https://txurbansawmill.com/services/log-transport"
       />
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
@@ -125,6 +125,7 @@ export default function ServiceLogTransport() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
+                  className="h-full"
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
@@ -143,7 +144,7 @@ export default function ServiceLogTransport() {
                         For higher volume rescue projects, we offer additional trucks, trailers, and construction equipment to handle large-scale operations efficiently and sustainably.
                       </p>
                     </div>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="mt-auto inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                       REQUEST TRANSPORT QUOTE
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -156,6 +157,7 @@ export default function ServiceLogTransport() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
+                  className="h-full"
                 >
                   <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
                     <img
@@ -174,7 +176,7 @@ export default function ServiceLogTransport() {
                         The truck is 29 feet long and 102 inches wide. We work closely with clients to ensure access requirements are met before arrival, and we offer onsite assessments and consultation appointments to evaluate tree reuse opportunities.
                       </p>
                     </div>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
+                    <a href="/contact" className="mt-auto inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                       SCHEDULE SITE ASSESSMENT
                       <ArrowRight className="h-4 w-4" />
                     </a>
