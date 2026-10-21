@@ -3,6 +3,7 @@ import { ArrowRight, Leaf } from "lucide-react";
 import { Link } from "wouter";
 import { FancyHeroBanner } from "@/components/FancyHeroBanner";
 import { SEOHead } from "@/components/SEOHead";
+import { Footer } from "@/components/Footer";
 
 const heroImage = "/manus-storage/InksLakeRenderingwebp_29e8b629_4dc08ee4.webp";
 
@@ -201,6 +202,7 @@ export default function InksLakeSP() {
           </Link>
         </div>
       </main>
+      <Footer />
       </div>
     </>
   );

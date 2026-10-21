@@ -71,7 +71,7 @@
 - [x] Test breadcrumb navigation (not applicable; no public breadcrumb system is currently implemented)
 
 ## Phase 7: Verify Global Styling Consistency Across All Pages
-- [ ] Verify dark charcoal footer (#2a2a2a) appears on all pages
+- [x] Verify dark charcoal footer (#2a2a2a) appears on all public pages (shared Footer now renders on every public page component)
 - [ ] Verify gold accents (#d7a469) are consistent across all pages
 - [ ] Verify light grey alternating section backgrounds on all pages
 - [ ] Verify Civic Industrial Stewardship typography is consistent
