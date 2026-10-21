@@ -28,8 +28,8 @@
 - [x] Download all 24 CloudFront images
 - [x] Upload all 24 images to Manus storage
 - [x] Update 9 gallery/portfolio files with new Manus storage paths
-- [ ] Create placeholder hero images for the 3 missing blog articles (Climate-Smart, Tree Reuse, Sustainable Furniture)
-- [ ] Upload placeholder images to project storage
+- [x] Select confirmed existing internal hero images as placeholders for the 3 missing blog articles (dedicated replacement assets remain optional)
+- [x] Use confirmed existing project-storage images; no new upload was required for the temporary placeholders
 - [x] Update blog article components to reference new storage paths
 
 ## Phase 4: Complete Placeholder Service Pages

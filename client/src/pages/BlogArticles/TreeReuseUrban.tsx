@@ -12,7 +12,7 @@ import { FancyHeroBanner } from "@/components/FancyHeroBanner";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-const heroImage = "/manus-storage/tree_reuse_urban_development_hero.jpg";
+const heroImage = "/manus-storage/20200427_123813_d1beef85.webp";
 
 export default function TreeReuseUrban() {
   return (

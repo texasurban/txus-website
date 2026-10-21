@@ -97,6 +97,16 @@
 - [x] Standardize the About Us and Services canonical URLs to the approved non-`www` production domain.
 - [x] Run the complete test suite and production build: 53 tests passed and the build succeeded.
 
+## Open findings from the bounded verification pass
+
+- [ ] Decide whether the existing `/shop` links should remain placeholders or receive a real route; no link destination was changed automatically.
+- [ ] Decide whether the internal `/components` showcase route should remain available; it is no-indexed but is not part of the public route set.
+- [ ] Review `InksLakeSP.tsx`, which does not currently render the shared Footer; no visible layout change was made automatically.
+- [ ] Complete an actual browser walkthrough of public pages, navigation, back behavior, contact submission, social links, responsive states, and image rendering before launch.
+- [ ] Complete accessibility review with keyboard navigation and screen-reader checks before launch.
+- [x] Verify the three newer blog articles render with confirmed internal TXUS hero assets.
+- [ ] Optionally replace the temporary blog hero assets with dedicated production artwork after visual approval.
+
 ## Current status
 
 - **Inventory audit:** Complete; report available as `TXUS Image Asset Audit - 10-20-2026.md`.

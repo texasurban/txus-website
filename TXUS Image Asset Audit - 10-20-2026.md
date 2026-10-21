@@ -164,6 +164,7 @@ The following website changes were approved after the inventory pass and were im
 - Corrected the Portfolio primary hero so it is not lazy-loaded.
 - Applied the approved blog alt-text suffix to remaining meaningful article images.
 - Standardized the About Us and Services canonical URLs to the approved non-`www` production domain.
+- Replaced three non-rendering dedicated blog hero references with confirmed internal TXUS storage assets; dedicated replacement artwork remains optional and approval-gated.
 - Deferred all external image URL migration until the actual production domain is published.
 
 Tests and production build should be re-run after this pass before the next checkpoint.

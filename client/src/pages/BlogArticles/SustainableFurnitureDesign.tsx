@@ -12,7 +12,7 @@ import { FancyHeroBanner } from "@/components/FancyHeroBanner";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-const heroImage = "/manus-storage/sustainable_furniture_design_hero.jpg";
+const heroImage = "/manus-storage/portfolio-hero-cropped_a8f3310a_9061f348.webp";
 
 export default function SustainableFurnitureDesign() {
   return (

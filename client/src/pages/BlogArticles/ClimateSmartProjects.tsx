@@ -12,7 +12,7 @@ import { FancyHeroBanner } from "@/components/FancyHeroBanner";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-const heroImage = "/manus-storage/climate_smart_projects_hero.jpg";
+const heroImage = "/manus-storage/forestry-hero_e181aabc_fe653e22.jpeg";
 
 export default function ClimateSmartProjects() {
   return (
