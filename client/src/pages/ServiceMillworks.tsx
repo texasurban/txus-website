@@ -59,7 +59,7 @@ export default function ServiceMillworks() {
 
         <main>
           {/* HERO BANNER SECTION */}
-          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh] border-t-2 border-b-2 border-stone-400">
             <img
               src="/manus-storage/20260507_121057_bd6dc2e7.jpg"
               alt="Millworks, CNC & Laser Services - Texas Urban Sawmill"

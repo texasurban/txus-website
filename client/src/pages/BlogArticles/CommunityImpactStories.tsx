@@ -38,7 +38,7 @@ export default function CommunityImpactStories() {
           />
 
           {/* Introduction Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Making a Difference in Central Texas
@@ -55,7 +55,7 @@ export default function CommunityImpactStories() {
           </section>
 
           {/* Educational Partnerships Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -78,7 +78,7 @@ export default function CommunityImpactStories() {
           </section>
 
           {/* Charitable Giving Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Giving Back to Our Community
@@ -99,7 +99,7 @@ export default function CommunityImpactStories() {
           </section>
 
           {/* Recognition & Awards Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -122,7 +122,7 @@ export default function CommunityImpactStories() {
           </section>
 
           {/* Call to Action Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Join Us in Making a Difference

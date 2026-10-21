@@ -28,7 +28,7 @@ export default function InksLakeSP() {
 
       <main className="container py-12 sm:py-16 lg:py-20">
         {/* Climate-Smart Construction Intro */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-foreground">
             Climate-Smart Construction at Inks Lake
           </h2>
@@ -44,7 +44,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Environmental Impact Section - White Background */}
-        <section className="bg-white py-12 sm:py-16 px-4 sm:px-6 rounded-lg mb-12 sm:mb-16">
+        <section className="bg-white py-12 sm:py-16 px-4 sm:px-6 rounded-lg mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-8 text-foreground text-center">
             Environmental Impact
           </h2>
@@ -77,7 +77,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Sustainability Message with Leaf Icons */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <div className="bg-[#f0f0f0] border-l-4 border-[#1a4d2e] px-6 py-4 mb-6">
             <p className="text-base font-semibold text-[#1a4d2e] flex items-center gap-2">
               <Leaf className="h-5 w-5" />
@@ -94,7 +94,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Mesquite Revival Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-foreground">
             Mesquite Revival at Inks Lake State Park
           </h2>
@@ -115,7 +115,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Locally Rescued Post Oak Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-foreground">
             Locally Rescued Post Oak – Crafted with Purpose
           </h2>
@@ -134,7 +134,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Construction Site Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-foreground">
             Trash or Treasure?
           </h2>
@@ -156,7 +156,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Roots and Purpose Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-foreground">
             Roots and Purpose: A First Visit
           </h2>
@@ -178,7 +178,7 @@ export default function InksLakeSP() {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-primary/5 py-12 sm:py-16 px-6 sm:px-8 rounded-lg text-center mb-12 sm:mb-16">
+        <section className="bg-primary/5 py-12 sm:py-16 px-6 sm:px-8 rounded-lg text-center mb-12 sm:mb-16 border-t-2 border-b-2 border-stone-400">
           <h3 className="font-display text-2xl sm:text-3xl font-semibold mb-4 text-foreground">
             Embark on Your Sustainable Journey
           </h3>

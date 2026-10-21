@@ -81,7 +81,7 @@ export default function ServiceLogTransport() {
 
         <main>
           {/* HERO BANNER SECTION */}
-          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh] border-t-2 border-b-2 border-stone-400">
             <img
               src="/manus-storage/pasted_file_1NUlMM_TXUS20-tonCraneTruck1_b41c4db2.jpg"
               alt="Log Transport & Crane Services - Texas Urban Sawmill"
@@ -319,7 +319,7 @@ export default function ServiceLogTransport() {
           </section>
 
           {/* CTA SECTION */}
-          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl text-center">
               <motion.div
                 initial="hidden"

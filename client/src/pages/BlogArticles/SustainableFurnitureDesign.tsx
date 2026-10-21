@@ -38,7 +38,7 @@ export default function SustainableFurnitureDesign() {
           />
 
           {/* Project Overview Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 The Art of Sustainable Furniture: Design Principles for Lasting Value
@@ -58,7 +58,7 @@ export default function SustainableFurnitureDesign() {
           </section>
 
           {/* The Problem with Disposable Furniture Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -89,7 +89,7 @@ export default function SustainableFurnitureDesign() {
           </section>
 
           {/* Core Principles Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Core Principles of Sustainable Furniture Design
@@ -142,7 +142,7 @@ export default function SustainableFurnitureDesign() {
           </section>
 
           {/* The Design Process Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -194,7 +194,7 @@ export default function SustainableFurnitureDesign() {
           </section>
 
           {/* The Long-Term Value Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 The Long-Term Value of Sustainable Furniture
@@ -220,7 +220,7 @@ export default function SustainableFurnitureDesign() {
           </section>
 
           {/* CTA Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Ready to Invest in Sustainable Furniture?

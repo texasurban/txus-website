@@ -48,7 +48,7 @@ export default function AboutUs() {
         <Navigation />
 
         <main>
-          <section className="border-b-2 border-stone-400 bg-[#1a4d2e] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="border-b-2 border-stone-400 bg-[#1a4d2e] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="container grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
               <motion.div
                 initial="hidden"
@@ -84,7 +84,7 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="border-b-2 border-stone-400 bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <motion.div
                 initial="hidden"
@@ -106,7 +106,7 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="relative overflow-hidden border-b-2 border-stone-400 bg-white px-6 py-20 lg:px-8 lg:py-28">
+          <section className="relative overflow-hidden bg-white px-6 py-20 lg:px-8 lg:py-28 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="mb-16 lg:mb-20">
                 <p className="text-center text-sm uppercase tracking-[0.32em] text-stone-600 lg:text-base">
@@ -149,7 +149,7 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#fbf8f3] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="border-b-2 border-stone-400 bg-[#fbf8f3] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="container grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
               <div>
                 <p className="text-sm uppercase tracking-[0.32em] text-stone-600">Our commitment</p>

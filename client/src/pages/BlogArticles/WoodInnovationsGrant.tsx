@@ -57,7 +57,7 @@ export default function WoodInnovationsGrant() {
 
         <main>
           {/* Hero Banner - Centered Image with White Border (Option A) */}
-          <section className="relative w-full min-h-[54vh] overflow-hidden">
+          <section className="relative w-full min-h-[54vh] overflow-hidden border-t-2 border-b-2 border-stone-400">
             <img
               src={heroBackgroundImage}
               alt="Forest and road background - Texas Urban Sawmill"
@@ -76,7 +76,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Project Overview Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Pioneering Urban Wood Innovation: USDA Recognition
@@ -120,7 +120,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* What is the USDA FS "WIG" Grant Program Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6 text-center">
@@ -157,7 +157,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Full Circle Woodland Forestry Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6 text-center">
                 Full Circle Woodland Forestry: A Circular Economic Project
@@ -189,7 +189,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Climate-Smart and Carbon-Smart Goals Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6 text-center">
@@ -255,7 +255,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Strength in Our Partnerships Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6 text-center">
                 Strength in Our Partnerships
@@ -282,7 +282,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* CTA Section */}
-          <section className="bg-white py-16 sm:py-20 lg:py-24 border-t border-[#e0e0e0]">
+          <section className="bg-white py-16 sm:py-20 lg:py-24 border-t border-[#e0e0e0] border-t-2 border-b-2 border-stone-400">
             <div className="container max-w-3xl mx-auto">
               <div className="text-center">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6 text-center">
@@ -305,7 +305,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Related Links Section for SEO */}
-          <section className="bg-[#f5f5f5] py-8 sm:py-12">
+          <section className="bg-[#f5f5f5] py-8 sm:py-12 border-t-2 border-b-2 border-stone-400">
             <div className="container max-w-3xl mx-auto">
               <div className="space-y-4">
                 <div>

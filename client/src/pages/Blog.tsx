@@ -153,7 +153,7 @@ export default function Blog() {
 
         <main>
           {/* Hero Banner - Centered Image with White Border (Option A) */}
-          <section className="relative w-full min-h-[54vh] overflow-hidden">
+          <section className="relative w-full min-h-[54vh] overflow-hidden border-t-2 border-b-2 border-stone-400">
             <img
               src={blogHeroImage}
               alt="The TXUS Wood Journal - Forest and logs background"
@@ -215,7 +215,7 @@ export default function Blog() {
                 id={categoryId}
                 className={`mb-20 sm:mb-28 ${
                   index % 2 === 0 ? "bg-[#fafafa]" : "bg-white"
-                } rounded-lg p-8 sm:p-12 scroll-mt-20`}
+                } rounded-lg border-t-2 border-b-2 border-stone-400 p-8 sm:p-12 scroll-mt-20`}
               >
                 <div className="mb-12">
                   <h2 className="text-4xl sm:text-5xl font-bold uppercase tracking-[0.04em] text-[#1b1612] mb-4">
@@ -263,7 +263,7 @@ export default function Blog() {
           </div>
 
           {/* CTA Section */}
-          <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-[#404040] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <div className="text-center">
                 <h3 className="text-3xl font-bold mb-4 text-[#d7a469]">Ready to Learn More?</h3>

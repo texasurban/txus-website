@@ -118,7 +118,7 @@ export default function ServiceSawmilling() {
 
       <main>
         {/* HERO BANNER SECTION - CORRECT SPECIFICATION */}
-        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh] border-t-2 border-b-2 border-stone-400">
           <img
             src="/manus-storage/hero-sawmill-timber-edge_e2f38fbf_c180a6f2.webp"
             alt="Sawmilling & Kiln Drying Services - Texas Urban Sawmill"

@@ -90,7 +90,7 @@ export default function Services() {
           mainTitle="Our Services"
         />
 
-        <section className="section-shell py-16 sm:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="section-shell bg-[#fafafa] py-16 sm:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mb-16 text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -140,7 +140,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="section-shell bg-muted py-16 sm:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="section-shell bg-[#f0f0f0] py-16 sm:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">

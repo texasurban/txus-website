@@ -59,7 +59,7 @@ export default function ServiceTreeCare() {
 
         <main>
           {/* HERO BANNER SECTION */}
-          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+          <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh] border-t-2 border-b-2 border-stone-400">
             <img
               src="/manus-storage/tree-care-hero_27d9548f.webp"
               alt="Tree Care, Removals & Consulting - Texas Urban Sawmill"
@@ -118,7 +118,7 @@ export default function ServiceTreeCare() {
           </section>
 
           {/* IMAGE GALLERY - CARD LAYOUT */}
-          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24">
+          <section className="bg-white px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="mx-auto max-w-7xl">
               <div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
                 {/* Card 1 */}

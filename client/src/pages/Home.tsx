@@ -532,34 +532,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-shell bg-[#2a2a2a] border-t-2 border-stone-400 border-b-2 border-stone-400">
-          <div className="container grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-            <div>
-              <p className="eyebrow text-[#217938]">Climate Smart Wood™</p>
-              <h2 className="section-title max-w-xl text-2xl sm:text-3xl text-white">
-                Net carbon benefit, local production, and climate-smart manufacturing.
-              </h2>
-            </div>
-            <div className="grid gap-5 sm:grid-cols-3">
-              <div className="metric-card bg-[#3a3a3a] border-l-4 border-[#217938] p-6 rounded-lg">
-                <ShieldCheck className="h-6 w-6 text-[#217938] mb-3" />
-                <p className="metric-value text-[#d7a469] text-xl font-bold mb-2">250 mi</p>
-                <p className="metric-copy text-[#d7a469] text-sm leading-relaxed">We source, mill, and deliver within a 250‑mile radius, working intentionally within a regional circular economy. Trees recovered from Texas communities are processed close to where they grew and transformed into functional lumber, allowing us to offer uniquely beautiful native Texas wood with a clear sense of place.</p>
-              </div>
-              <div className="metric-card bg-[#3a3a3a] border-l-4 border-[#217938] p-6 rounded-lg">
-                <Leaf className="h-6 w-6 text-[#217938] mb-3" />
-                <p className="metric-value text-[#d7a469] text-xl font-bold mb-2">CO₂e+</p>
-                <p className="metric-copy text-[#d7a469] text-sm leading-relaxed">Wood products store biogenic carbon captured during tree growth for the duration of their service life. Through local sourcing, milling, and delivery, TXUS reduces emissions from transportation and energy‑intensive manufacturing—and as of 2026, we have stored over 500,000 lbs of CO₂e in rescued and salvaged urban wood.</p>
-              </div>
-              <div className="metric-card bg-[#3a3a3a] border-l-4 border-[#217938] p-6 rounded-lg">
-                <Trees className="h-6 w-6 text-[#217938] mb-3" />
-                <p className="metric-value text-[#d7a469] text-xl font-bold mb-2">Tree to Home</p>
-                <p className="metric-copy text-[#d7a469] text-sm leading-relaxed">A full‑circle process moves recovered trees from rescue and local milling into carefully crafted final products designed for long‑term use. By keeping each stage—from recovery through production—within a regional system, TXUS maintains material integrity, reduces waste, and ensures urban wood remains in productive circulation.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="relative overflow-hidden bg-[#f5f1e8] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mx-auto text-center mb-12 max-w-3xl">
@@ -716,7 +688,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative overflow-hidden px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="relative overflow-hidden bg-[#f0f0f0] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mb-16 lg:mb-20">
               <p className="eyebrow text-center">The Makers</p>

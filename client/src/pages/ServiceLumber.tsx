@@ -59,7 +59,7 @@ export default function ServiceLumber() {
 
         <main>
           {/* HERO BANNER SECTION - CORRECT SPECIFICATION */}
-        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh]">
+        <section className="relative isolate overflow-hidden bg-[#1a4d2e] min-h-[40vh] border-t-2 border-b-2 border-stone-400">
           <img
             src="/manus-storage/TXUSHeroBannerWebsite1920x600_a3cb474e.png"
             alt="Lumber Milling Services - Texas Urban Sawmill"

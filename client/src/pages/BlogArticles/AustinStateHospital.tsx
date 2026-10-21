@@ -78,7 +78,7 @@ export default function AustinStateHospital() {
           />
 
           {/* Project Overview Section */}
-          <section className="container py-16 sm:py-20 lg:py-24">
+          <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 Climate-Smart Construction in Action
@@ -102,7 +102,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Environmental Impact Section */}
-          <section className="bg-white py-16 sm:py-20">
+          <section className="bg-white py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-12">
@@ -133,7 +133,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Historical Pecan Trees Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                 We Proudly Saved Historical Pecan Trees
@@ -162,7 +162,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* ASH Board Room Conference Table Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -197,7 +197,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Mental Health Benefits Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
                   The Mental Health Benefits of Natural Wood Elements
@@ -259,7 +259,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Integration Section */}
-          <section className="bg-[#f0f0f0] py-16 sm:py-20">
+          <section className="bg-[#f0f0f0] py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
@@ -294,7 +294,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Call-to-Action Section */}
-          <section className="container py-16 sm:py-20">
+          <section className="container py-16 sm:py-20 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-display text-3xl sm:text-4xl uppercase tracking-[0.04em] text-[#1b1612] mb-4">
                 Ready to Tell Your Sustainability Story?
@@ -314,7 +314,7 @@ export default function AustinStateHospital() {
           </section>
 
           {/* Back to Blog Navigation */}
-          <section className="container py-12">
+          <section className="container py-12 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <Link href="/blog">
                 <a className="inline-flex items-center gap-2 text-[#1a4d2e] hover:text-[#0f3620] font-semibold transition-colors">
