@@ -314,7 +314,7 @@ The archive includes the following page files as the canonical exact-copy source
 
 ## 8. Asset manifest and restoration policy
 
-The complete source-referenced manifest is in `manifests/asset-manifest.csv`, with **152 unique image references** and **168 source reference rows**.
+The complete source-referenced manifest is in `manifests/asset-manifest.csv`, with **152 unique image references** and **168 source reference rows**. A download pass successfully captured all 152 unique referenced images into `assets/referenced/`; use `manifests/asset-download-status.csv` to map each original URL to its local package path.
 
 ### Local binary assets included in the package
 
@@ -338,7 +338,8 @@ The complete source-referenced manifest is in `manifests/asset-manifest.csv`, wi
 
 1. **Project storage:** `/manus-storage/...` references. Preserve keys and use the same paths after reconstructing the project. If a new project cannot resolve an existing key, upload the corresponding source binary and update only the reference that is explicitly approved.
 2. **External CDN:** CloudFront, Squarespace CDN, or other external references. Preserve the URL and attribution/behavior from the source snapshot unless the user explicitly requests migration.
-3. **Local uploaded assets:** Included under `assets/local-upload/` for reuse or comparison. These are not automatically substituted for production images.
+3. **Downloaded referenced assets:** The package includes every accessible project-storage and external image under `assets/referenced/`, preserving the original URL in `manifests/asset-download-status.csv`.
+4. **Local uploaded assets:** Included under `assets/local-upload/` for reuse or comparison. These are not automatically substituted for production images.
 
 Do not silently replace an existing image because a local upload has a similar filename. Match by page, subject, crop, and manifest reference.
 
