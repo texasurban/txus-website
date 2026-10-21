@@ -30,7 +30,7 @@
 - [x] Update 9 gallery/portfolio files with new Manus storage paths
 - [ ] Create placeholder hero images for the 3 missing blog articles (Climate-Smart, Tree Reuse, Sustainable Furniture)
 - [ ] Upload placeholder images to project storage
-- [ ] Update blog article components to reference new storage paths
+- [x] Update blog article components to reference new storage paths
 
 ## Phase 4: Complete Placeholder Service Pages
 - [x] Complete ServiceLumber.tsx (Lumber, Beams, Mantels & Slabs) using ServiceSawmilling.tsx as template
@@ -57,11 +57,11 @@
 - [x] Verify all 6 service pages render correctly with consistent styling
 
 ## Phase 5: Finalize Remaining Blog Articles
-- [ ] Complete ClimateSmartProjects.tsx blog article with full content
-- [ ] Complete TreeReuseUrbanDevelopment.tsx blog article with full content
-- [ ] Complete SustainableFurnitureDesign.tsx blog article with full content
-- [ ] Verify all 3 blog articles match established blog article standard
-- [ ] Ensure all blog articles have proper hero images and metadata
+- [x] Complete ClimateSmartProjects.tsx blog article with full content
+- [x] Complete TreeReuseUrbanDevelopment.tsx blog article with full content
+- [x] Complete SustainableFurnitureDesign.tsx blog article with full content
+- [x] Verify all 3 blog articles match established blog article standard
+- [x] Ensure all blog articles have proper hero images and metadata
 
 ## Phase 6: Fix Services Dropdown Navigation and Verify All Routes
 - [x] Test Services dropdown menu opens/closes correctly
@@ -79,18 +79,18 @@
 - [ ] Verify all images load correctly and display properly
 
 ## Phase 8: Test, Verify, and Publish the Completed Baseline
-- [ ] Run all unit tests and ensure they pass
+- [x] Run all unit tests and ensure they pass
 - [ ] Perform full site walkthrough (all pages, all links, all images)
 - [ ] Test contact form functionality
 - [ ] Test social media links
-- [ ] Verify SEO meta tags on all pages
+- [x] Verify SEO meta tags on all public pages (internal ComponentShowcase and NotFound routes are intentionally no-indexed)
 - [ ] Check accessibility (keyboard navigation, screen readers)
 - [ ] Create final checkpoint for production baseline
 - [ ] Publish to production
 
 - [x] Align green CTA buttons across all six service cards so their bottom spacing matches the reference cards #3, #4, and #6
 - [x] Apply the same consistent CTA button alignment to the six cards on the main Services page
-- [ ] Correct CTA vertical alignment for card 04, Log Transport & Crane Services
+- [x] Correct CTA vertical alignment for card 04, Log Transport & Crane Services
 - [x] Replace Learn More with About Us in the site navigation
 - [x] Create the About Us page using the supplied Makers section layout and TXUS content
 - [x] Add the supplied Jesse, Sarah, and Devin team photo near the top of the About Us page
