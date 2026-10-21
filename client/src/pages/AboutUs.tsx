@@ -84,7 +84,7 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+          <section className="border-b-2 border-stone-400 bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="container">
               <motion.div
                 initial="hidden"
@@ -149,7 +149,7 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#fbf8f3] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+          <section className="border-b-2 border-stone-400 bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="container grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
               <div>
                 <p className="text-sm uppercase tracking-[0.32em] text-stone-600">Our commitment</p>

@@ -144,7 +144,7 @@ export default function Portfolio() {
         </section>
 
         {/* FEATURED PROJECTS SECTION */}
-        <section className="bg-[#fbf8f3] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <div className="grid gap-10 border-b border-[#e8ddd1] pb-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(18rem,0.85fr)] lg:items-end">
               <div className="max-w-5xl">
@@ -193,7 +193,7 @@ export default function Portfolio() {
         </section>
 
         {/* CUSTOM FURNITURE SECTION */}
-        <section className="bg-[#faf6f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+        <section className="bg-[#f5f1e8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start lg:gap-16">
             <div>
               <p className="text-[0.7rem] uppercase tracking-[0.38em] text-[#8d755f]">
@@ -234,7 +234,7 @@ export default function Portfolio() {
         </section>
 
         {/* FULLY CUSTOM-MADE SECTION */}
-        <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center lg:gap-16">
               <div>
@@ -261,7 +261,7 @@ export default function Portfolio() {
         </section>
 
         {/* TREE-TO-HOME PROCESS SECTION */}
-        <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
+        <section className="bg-[#f5f1e8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             <div className="mb-12 border-b border-[#e8ddd1] pb-10">
               <p className="text-[0.7rem] uppercase tracking-[0.38em] text-[#8d755f]">

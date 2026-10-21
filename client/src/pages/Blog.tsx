@@ -214,7 +214,7 @@ export default function Blog() {
                 key={category.title}
                 id={categoryId}
                 className={`mb-20 sm:mb-28 ${
-                  index % 2 === 0 ? "bg-[#fafafa]" : "bg-white"
+                  index % 2 === 0 ? "bg-[#f0f0f0]" : "bg-[#f5f1e8]"
                 } rounded-lg border-t-2 border-b-2 border-stone-400 p-8 sm:p-12 scroll-mt-20`}
               >
                 <div className="mb-12">

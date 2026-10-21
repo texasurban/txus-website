@@ -119,7 +119,7 @@ export default function ServiceTreeReuse() {
         </section>
 
         {/* SECTION 1: FEATURED SERVICES - WHITE */}
-        <section className="bg-[#fafafa] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl">
             {/* Section Description */}
             <motion.div
@@ -235,7 +235,7 @@ export default function ServiceTreeReuse() {
 
 
         {/* CTA SECTION */}
-        <section className="bg-[#f8f8f8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="bg-[#f5f1e8] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="mx-auto max-w-7xl text-center">
             <h3 className="text-3xl font-bold mb-8 text-[#1b1612]">
               Partner with us to become part of the solution to a greener future!

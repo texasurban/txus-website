@@ -305,7 +305,7 @@ export default function WoodInnovationsGrant() {
           </section>
 
           {/* Related Links Section for SEO */}
-          <section className="bg-[#f5f5f5] py-8 sm:py-12 border-t-2 border-b-2 border-stone-400">
+          <section className="bg-[#f0f0f0] py-8 sm:py-12 border-t-2 border-b-2 border-stone-400">
             <div className="container max-w-3xl mx-auto">
               <div className="space-y-4">
                 <div>

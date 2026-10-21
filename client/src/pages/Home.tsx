@@ -276,7 +276,7 @@ export default function Home() {
       <main>
         <section
           id="home"
-          className="relative isolate overflow-hidden bg-neutral-900 text-white"
+          className="relative isolate overflow-hidden bg-neutral-900 text-white border-b-2 border-stone-400"
         >
           <div
             className="absolute inset-0 bg-cover"
@@ -328,7 +328,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#fafafa] border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#f5f1e8] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <motion.div
               initial="hidden"
@@ -422,7 +422,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="services" className="section-shell bg-[#f8f8f8] border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section id="services" className="section-shell bg-[#f5f1e8] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mx-auto text-center">
               <p className="eyebrow">Our Services</p>
@@ -476,7 +476,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="furniture" className="section-shell bg-[#f5f5f5] border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section id="furniture" className="section-shell bg-[#f0f0f0] border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mx-auto text-center mb-12 max-w-3xl">
               <p className="eyebrow">Our Fallen and Forgotten Trees Reimagined</p>
@@ -617,7 +617,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="section-shell border-t-2 border-stone-400 border-b-2 border-stone-400 pt-12 sm:pt-16 lg:pt-20 bg-[#f9f9f9]">
+        <section id="about" className="section-shell border-t-2 border-stone-400 border-b-2 border-stone-400 pt-12 sm:pt-16 lg:pt-20 bg-[#f0f0f0]">
           <div className="container grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
             <div>
               <p className="eyebrow">About Us</p>
@@ -688,7 +688,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative overflow-hidden bg-[#f0f0f0] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="relative overflow-hidden bg-[#f5f1e8] px-0 py-20 lg:py-28 border-t-2 border-stone-400 border-b-2 border-stone-400">
           <div className="container">
             <div className="mb-16 lg:mb-20">
               <p className="eyebrow text-center">The Makers</p>
