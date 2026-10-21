@@ -347,6 +347,23 @@ Preferred formats:
 - **PNG:** transparent graphics or images that require lossless edges; do not use it by default for photographs.
 - **JPEG:** acceptable fallback for photographic assets when WebP is not practical.
 
+### TXUS image-sizing defaults
+
+- Default standard website images to approximately **1200 × 1200 pixels at 72 DPI**, unless the layout or source composition requires another aspect ratio.
+- Preserve the source composition for banners, wide project photography, team photos, and product images when a square crop would remove important context.
+- Use larger, higher-resolution originals only when the user can open the image separately in a new tab or dedicated viewer. Do not embed oversized originals in normal page sections.
+
+### Blog-image standard
+
+- Blog images must be delivered in **WebP** format.
+- Maximum blog-image width: **1000 pixels**.
+- Target export quality: approximately **85**.
+- Medium blog-image target: **50–150 KB**.
+- Large blog-image target: **150–300 KB**.
+- Blog alt text should follow the format: **`[Description] - Texas Urban Sawmill`** while remaining descriptive and truthful.
+
+These are TXUS defaults, not reasons to damage important wood grain, species detail, faces, engraved work, or craftsmanship. When a source image needs a different ratio or a slightly larger file to remain useful, preserve the visual evidence and document the exception.
+
 Compression guidance:
 
 - Export photographs at a quality level that preserves wood grain, engraved detail, and faces without visible artifacting.
@@ -390,6 +407,8 @@ CO2 laser engraving a custom baseball bat
 - If the image is decorative and adds no information, use an empty alt attribute: `alt=""`.
 - For a linked image, make the alt text describe the destination or action when that is more useful.
 - Do not duplicate a nearby caption word-for-word unless the duplication is necessary for comprehension.
+
+For blog pages, use the TXUS suffix format—`[Description] - Texas Urban Sawmill`—unless the image is decorative and uses `alt=""`.
 
 Every meaningful `<img>` element must have an `alt` value. This is both an accessibility requirement and a useful content-quality check.
 
