@@ -276,7 +276,7 @@ export default function Home() {
       <main>
         <section
           id="home"
-          className="relative isolate overflow-hidden bg-neutral-900 text-white border-b-2 border-stone-400"
+          className="relative isolate overflow-hidden bg-neutral-900 text-white"
         >
           <div
             className="absolute inset-0 bg-cover"
@@ -322,13 +322,13 @@ export default function Home() {
             <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="h-full w-full">
               <path
                 d="M0,68 C220,112 360,118 540,96 C720,74 900,28 1120,40 C1260,48 1368,76 1440,88 L1440,120 L0,120 Z"
-                fill="var(--background)"
+                fill="var(--txus-section-bg-2)"
               />
             </svg>
           </div>
         </section>
 
-        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#f5f1e8] border-t-2 border-stone-400 border-b-2 border-stone-400">
+        <section className="section-shell -mt-10 pt-12 sm:pt-20 bg-[#f5f1e8] border-b-2 border-stone-400">
           <div className="container grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <motion.div
               initial="hidden"
