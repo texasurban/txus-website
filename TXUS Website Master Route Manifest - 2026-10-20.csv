@@ -1,0 +1,36 @@
+route,component_or_target,type
+/?,Home,direct route
+/blog,Blog,direct route
+/blog/austin-state-hospital,AustinStateHospital,direct route
+/blog/inks-lake-sp,InksLakeSP,direct route
+/blog/hillco-partners,HillcoPartners,direct route
+/blog/stinson-gallery,StinsonGalleryBlog,direct route
+/blog/wood-innovations-grant,WoodInnovationsGrant,direct route
+/blog/climate-smart-projects,ClimateSmartProjects,direct route
+/blog/tree-reuse-urban-development,TreeReuseUrban,direct route
+/blog/sustainable-furniture-design,SustainableFurnitureDesign,direct route
+/blog/stinson-test,StinsonTest,direct route
+/blog/community-impact-stories,CommunityImpactStories,direct route
+/portfolio,Portfolio,direct route
+/stinson-gallery,StinsonGallery,direct route
+/omega-gallery,OmegaGallery,direct route
+/ibeam-gallery,IBeamGallery,direct route
+/pecan-bunker-gallery,PecanBunkerGallery,direct route
+/family-legacy-gallery,FamilyLegacyGallery,direct route
+/gold-walnut-gallery,GoldWalnutGallery,direct route
+/hillco-gallery,HillcoGallery,direct route
+/pecan-trestle-gallery,PecanTrestleGallery,direct route
+/contact,Contact,direct route
+/about-us,AboutUs,direct route
+/learn-more,"() => <Redirect to=""/about-us"" />",direct route
+/services,Services,direct route
+/services/lumber,ServiceLumber,direct route
+/services/sawmilling,ServiceSawmilling,direct route
+/services/furniture,"() => <Redirect to=""/portfolio"" />",direct route
+/services/tree-reuse,ServiceTreeReuse,direct route
+/services/log-transport,ServiceLogTransport,direct route
+/services/tree-care,ServiceTreeCare,direct route
+/services/millworks,ServiceMillworks,direct route
+/404,NotFound,direct route
+/learn-more,Redirect -> /about-us,redirect
+/services/furniture,Redirect -> /portfolio,redirect
