@@ -102,6 +102,8 @@
 - [ ] Decide whether the existing `/shop` links should remain placeholders or receive a real route; no link destination was changed automatically.
 - [ ] Decide whether the internal `/components` showcase route should remain available; it is no-indexed but is not part of the public route set.
 - [ ] Review `InksLakeSP.tsx`, which does not currently render the shared Footer; no visible layout change was made automatically.
+- [ ] Review external social URLs before launch; the shared navigation currently includes an `http` Facebook URL and profile URLs should be confirmed against the official accounts.
+- [ ] Review external partner-logo image URLs after the production domain is live; retain or migrate them only after asset ownership and visual intent are confirmed.
 - [ ] Complete an actual browser walkthrough of public pages, navigation, back behavior, contact submission, social links, responsive states, and image rendering before launch.
 - [ ] Complete accessibility review with keyboard navigation and screen-reader checks before launch.
 - [x] Verify the three newer blog articles render with confirmed internal TXUS hero assets.
