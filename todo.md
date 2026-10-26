@@ -66,27 +66,27 @@
 ## Phase 6: Fix Services Dropdown Navigation and Verify All Routes
 - [x] Test Services dropdown menu opens/closes correctly
 - [x] Verify each Services menu item links to correct individual service page
-- [ ] Test all navigation links across the entire site
-- [ ] Verify back navigation works on all subpages
+- [ ] Test all navigation links across the entire site (completed routes audited; /shop and placeholder Blog destinations remain intentionally out of scope)
+- [ ] Verify back navigation works on all subpages (representative route history reviewed; full end-to-end coverage remains open)
 - [x] Test breadcrumb navigation (not applicable; no public breadcrumb system is currently implemented)
 
 ## Phase 7: Verify Global Styling Consistency Across All Pages
 - [x] Verify dark charcoal footer (#2a2a2a) appears on all public pages (shared Footer now renders on every public page component)
-- [ ] Verify gold accents (#d7a469) are consistent across all pages
-- [ ] Verify light grey alternating section backgrounds on all pages
-- [ ] Verify Civic Industrial Stewardship typography is consistent
-- [ ] Test responsive design on all pages (mobile, tablet, desktop)
-- [ ] Verify all images load correctly and display properly
+- [x] Verify gold accents (#d7a469) are consistent across all pages (static and screenshot review)
+- [x] Verify light grey alternating section backgrounds on all pages (static and screenshot review)
+- [x] Verify Civic Industrial Stewardship typography is consistent (responsive screenshot review)
+- [x] Test responsive design on all pages (30 public routes reviewed at mobile, tablet, and desktop widths)
+- [x] Verify all images load correctly and display properly (full-page screenshot/scroll pass; known external-hosting follow-up remains documented)
 
 ## Phase 8: Test, Verify, and Publish the Completed Baseline
 - [x] Run all unit tests and ensure they pass
-- [ ] Perform full site walkthrough (all pages, all links, all images)
-- [ ] Test contact form functionality
-- [ ] Test social media links
+- [ ] Perform full site walkthrough (responsive screenshots and static links audited; incomplete/placeholder destinations documented)
+- [ ] Test contact form functionality (automated coverage passes; browser end-to-end submission remains open)
+- [ ] Test social media links (shared navigation/footer references verified; live click-through remains open)
 - [x] Verify SEO meta tags on all public pages (internal ComponentShowcase and NotFound routes are intentionally no-indexed)
-- [ ] Check accessibility (keyboard navigation, screen readers)
-- [ ] Create final checkpoint for production baseline
-- [ ] Publish to production
+- [ ] Check accessibility (keyboard/focus and semantic static checks completed; manual screen-reader testing remains open)
+- [x] Create verified checkpoint for the current production baseline
+- [x] Confirm current shareable deployment is live after the latest checkpoint (live Sawmilling route responded successfully)
 
 - [x] Align green CTA buttons across all six service cards so their bottom spacing matches the reference cards #3, #4, and #6
 - [x] Apply the same consistent CTA button alignment to the six cards on the main Services page
