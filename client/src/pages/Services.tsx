@@ -110,7 +110,7 @@ export default function Services() {
                     className="group h-full rounded-lg border border-border bg-card overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
                   >
                     {/* Image with black outline and large shadow */}
-                    <div className="relative h-60 overflow-hidden bg-muted border-2 border-[#8b7355]">
+                    <div className="relative h-60 overflow-hidden bg-muted border-2 border-black">
                       <img
                         src={service.image}
                         alt={service.title}
