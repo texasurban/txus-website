@@ -12,21 +12,21 @@ const makers = [
     role: "Co-Founder, Lead Sawyer & CFO",
     image: "/manus-storage/SarahHeadshot_b87f6c24.jpg",
     alt: "Sarah Ginther, Co-Founder and Lead Sawyer",
-    bio: "Sarah brings a discerning eye to the mill, hand-selecting and milling logs to reveal the character and grain that define each piece. She balances hands-on artistry with financial stewardship, helping keep our mission sustainable and our Tree-to-Table process focused on lasting value.",
+    bio: "One of the few women sawyers in the country, Sarah brings a discerning eye to the mill that few can match. She hand-selects and mills every log, identifying the character and grain that define each piece. As CFO, she balances hands-on artistry with financial stewardship, ensuring our mission remains sustainable and our Tree-to-Table process remains the gold standard.",
   },
   {
     name: "Jesse Mahoney",
     role: "Lead Designer & Production Manager",
     image: "/manus-storage/JesseHeadshot_f56f3dd8.jpg",
     alt: "Jesse Mahoney, Lead Designer and Production Manager",
-    bio: "Jesse brings technical discipline and a maker's mindset to production. He translates ideas into carefully considered designs and helps guide each project from concept through fabrication with precision and structural integrity.",
+    bio: "Jesse brings a background in computer science and hardware innovation from his tenure in the semiconductor industry, including time at Apple. He translates that technical discipline into his role as a master craftsman, conceiving and executing product designs with precision and structural integrity that defines our work.",
   },
   {
     name: "Devin Ginther",
     role: "Co-Founder & CEO",
     image: "/manus-storage/DevinHeadshot_2715b832.jpg",
     alt: "Devin Ginther, Co-Founder and CEO",
-    bio: "Devin brings technical rigor from his background as an R&D biomedical engineer, certified project manager, and inventor to every phase of material selection, milling, and fabrication. His focus is turning rescued trees into structurally sound, legacy-grade products.",
+    bio: "Founder and visionary behind Texas Urban Sawmill, Devin brings technical rigor from his background as a certified Project Management Professional (PMP), R&D biomedical engineer, and holder of multiple patents. He applies this inventive precision to every phase of material selection, milling, and kiln stabilization, transforming each rescued tree into a structurally sound, legacy-grade masterpiece.",
   },
 ];
 
@@ -176,4 +176,3 @@ export default function AboutUs() {
     </>
   );
 }
-
