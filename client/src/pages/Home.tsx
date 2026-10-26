@@ -17,10 +17,8 @@ import {
   Leaf,
   Linkedin,
   Mail,
-  MapPin,
   Phone,
   ShieldCheck,
-  Trees,
   Youtube,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -34,8 +32,6 @@ const serviceImage =
   "/manus-storage/Stinsonwalnuttable(1)_b16011bc_d23806d2.jpg";
 const furnitureImage =
   "/manus-storage/walnut-hybrid-v-table_7d305618.jpg";
-const aboutImage =
-  "/manus-storage/devin-and-article_4238cb04.jpg";
 
 const serviceImages = [
   "/manus-storage/TXUS-Devin&SarahASHDelivery_2b8a6df7_b6b1a081.webp",
@@ -52,8 +48,6 @@ const furnitureImages = [
   "/manus-storage/WomackIsland&BarBack_bbc26660_fc14df84.webp",
   "/manus-storage/Stinsonwalnuttable(1)_a5cacfd6.jpg",
 ];
-
-const inksLakeImage = "/manus-storage/pasted_file_gFjMIt_TXUSInksLakeSP6_e96af79f_93801767.jpg";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -614,77 +608,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section id="about" className="section-shell border-t-2 border-stone-400 border-b-2 border-stone-400 pt-12 sm:pt-16 lg:pt-20 bg-[#f0f0f0]">
-          <div className="container grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
-            <div>
-              <p className="eyebrow">About Us</p>
-              <h2 className="section-title max-w-xl text-2xl sm:text-3xl">
-                A small family-owned business with a wide practical skill set.
-              </h2>
-              <p className="section-copy mt-6">
-                Texas Urban Sawmill is a family-owned business built by engineers, educators, veterans, athletes, and makers—a mix that keeps us hands-on in the work and always looking for better ways to do it. We combine practical experience with the use of modern tools and technology, allowing us to approach each project with both precision and adaptability.
-              </p>
-              <p className="section-copy mt-4">
-                We take on the challenges others avoid, working through difficult problems to find real solutions. From complex reuse scenarios to unconventional materials, we figure out what's possible—and then make it work. The result is practical, lasting solutions that carry value forward instead of letting it go to waste.
-              </p>
-              <p className="section-copy mt-4">
-                Recognized as a Texas Parks & Wildlife Trailblazer, Texas Urban Sawmill is part of a small group leading new approaches to conservation and land stewardship in Texas. This recognition highlights a rare, full-circle model—giving new life to fallen trees while balancing environmental responsibility, community impact, and craftsmanship. By keeping valuable material in use and reconnecting people to the story of the land, this work represents a different path forward for how we value our natural resources. It's not common—and that's exactly the point.
-              </p>
-              <div className="mt-8">
-                <img
-                  src={inksLakeImage}
-                  alt="Jesse admires the mesquite cabinetry at Inks Lake State Park"
-                  className="w-full h-auto object-cover rounded-sm shadow-lg border-2 border-[#8b7355]"
-                 decoding="async" loading="lazy"/>
-                <p className="mt-3 text-sm text-stone-600 italic">
-                  Jesse admires the mesquite cabinetry, once part of the landscape at Inks Lake State Park and now thoughtfully repurposed in the new headquarters.
-                </p>
-              </div>
-              <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                <div className="info-chip">
-                  <MapPin className="h-4 w-4 text-primary" />
-                  <span>Dripping Springs, Texas</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>Community sawmill open to the public</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>ISA Certified Arborist</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>Texas Benefit Company</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>20+ Years Experience</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>Architectural Millwork Services</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>Sustainable Construction & Forestry Practices</span>
-                </div>
-                <div className="info-chip">
-                  <Trees className="h-4 w-4 text-primary" />
-                  <span>Tree Re-Use & Forestry Consultations</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://tpwmagazine.com/archive/2023/dec/scout10_trailblazers/" target="_blank" rel="noreferrer" className="overflow-hidden border-2 border-[#8b7355] shadow-[0_18px_40px_rgba(11,18,9,0.08)] block hover:shadow-[0_24px_48px_rgba(11,18,9,0.15)] transition-shadow duration-300 cursor-pointer">
-              <img
-                src={aboutImage}
-                alt="Texas Urban Sawmill team portrait in the workshop - Texas Parks & Wildlife Trailblazer"
-                className="h-full min-h-[420px] w-full object-cover shadow-lg"
-               decoding="async" loading="lazy"/>
-            </a>
           </div>
         </section>
 
