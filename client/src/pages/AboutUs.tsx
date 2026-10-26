@@ -59,11 +59,8 @@ export default function AboutUs() {
                 transition={{ duration: 0.6 }}
                 className="order-2 text-white lg:order-1"
               >
-                <p className="text-sm uppercase tracking-[0.32em] text-white/75">
+                <h1 className="font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
                   The People Behind the Work
-                </p>
-                <h1 className="mt-5 font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
-                  About Us
                 </h1>
                 <p className="mt-7 max-w-2xl text-lg leading-8 text-white/90 lg:text-xl">
                   A community sawmill built around family, stewardship, reuse, and traditional craftsmanship.
