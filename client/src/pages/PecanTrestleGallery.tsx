@@ -16,7 +16,8 @@ export default function PecanTrestleGallery() {
       <SEOHead
         title="PecanTrestle - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/pecantrestlegallery"
+        canonical="https://txurbansawmill.com/pecan-trestle-gallery"
+        image="/manus-storage/Brad&KerryPecanTrestleTable47_94111cec_bebd8d24.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

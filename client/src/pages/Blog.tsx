@@ -92,7 +92,7 @@ const blogCategories = [
         id: "usda-grant",
         title: "USDA Forest Service Wood Innovations Grant",
         excerpt: "Award recipients 2022 and 2024 - Turning wildfire mitigation into education",
-        image: "https://images.squarespace-cdn.com/content/v1/63e239416016765b92d685ac/49fac2ec-734b-4e8c-a1c4-561aafccfc03/USDA+FS+Grant+Recipient+%26+Sponsors.jpg",
+        image: "/manus-storage/USDA-FS-Grant-Recipients-Sponsors_c38bbcc8_f43000c1.webp",
         link: "/blog/wood-innovations-grant",
       },
       {
@@ -162,6 +162,7 @@ export default function Blog() {
              decoding="async"/>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 flex items-center justify-center min-h-[54vh] px-4">
+              <h1 className="sr-only">The TXUS Wood Journal</h1>
               <img
                 src={bannerTextImage}
                 alt="The TXUS Wood Journal - Lines of Grain, Acts of Stewardship"

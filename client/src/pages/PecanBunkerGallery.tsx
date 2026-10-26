@@ -13,7 +13,8 @@ export default function PecanBunkerGallery() {
       <SEOHead
         title="PecanBunker - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/pecanbunkergallery"
+        canonical="https://txurbansawmill.com/pecan-bunker-gallery"
+        image="/manus-storage/PecanBunkerComposite_4d5f2f52_35f6af16.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

@@ -164,6 +164,19 @@ The master TXUS SEO strategy supports Central Texas first, Texas statewide secon
 8. Resolve Blog placeholder links after content decisions.
 9. Re-run tests, build, representative live DOM checks, and the three-viewport screenshot pass.
 
+## Approved correction pass — October 26, 2026
+
+The following changes were implemented after review of the audit findings:
+
+- The Sawmilling & Kiln Drying page now has a black outline around its two featured image cards and black caption bars with white text. This is an isolated preview only; no other service page received this visual change.
+- The eight portfolio gallery pages now use canonical URLs that match their actual hyphenated routes and include their existing project images in Open Graph/Twitter metadata.
+- The Blog index now includes a non-visual H1 for document hierarchy without changing the visible hero design.
+- The Wood Innovations article now prioritizes its primary hero image, exposes its existing internal project image in social metadata and JSON-LD, and no longer uses the confirmed external USDA image reference.
+- The Blog index’s confirmed USDA image reference now uses the internal project-storage asset.
+- Incomplete or approval-gated routes, including the Shop destination and unfinished Blog cards, were not changed.
+
+Verification after this pass: **53 tests passed** and the production build completed successfully.
+
 ## Audit conclusion
 
 The responsive visual presentation is in good shape and does not need a design rewrite. The next work should be a focused technical compliance pass, starting with the broken Shop navigation destination and gallery metadata corrections. The visible design and approved content can remain locked while these invisible or routing-level issues are resolved.

@@ -13,7 +13,8 @@ export default function HillcoGallery() {
       <SEOHead
         title="Hillco - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/hillcogallery"
+        canonical="https://txurbansawmill.com/hillco-gallery"
+        image="/manus-storage/HillcoPartners-17FootPecanQuadMatch75_10aeadf3_86caba2b.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

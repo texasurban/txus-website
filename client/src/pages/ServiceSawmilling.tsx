@@ -165,14 +165,14 @@ export default function ServiceSawmilling() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                   <img
                     src="/manus-storage/sawmilling-hero-wm1000-final_e97520f2_490e46b9.webp"
                     alt="Custom Sawmilling"
                     className="w-full h-96 object-cover"
                    decoding="async" loading="lazy"/>
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Sarah Ginther is the Lead Sawyer and stands ready to mill on the Woodmizer WM1000, one of the largest sawmills in Texas built in Poland. It can mill a 67" diameter log with a length up to 25 feet.
                   </p>
@@ -196,14 +196,14 @@ export default function ServiceSawmilling() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                   <img
                     src="/manus-storage/kiln-drying-chamber-final_3e08b431_d77bef5d.webp"
                     alt="Kiln Drying Services"
                     className="w-full h-96 object-cover"
                    decoding="async" loading="lazy"/>
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     Our traditional dehumidification (DH) kiln can dry up to 6,000 board feet of lumber per cycle, with sterilization temperatures exceeding 180°F to ensure quality, stability, and pest-free material.
                   </p>

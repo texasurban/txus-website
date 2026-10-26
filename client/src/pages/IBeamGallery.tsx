@@ -13,7 +13,8 @@ export default function IBeamGallery() {
       <SEOHead
         title="IBeam - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/ibeamgallery"
+        canonical="https://txurbansawmill.com/ibeam-gallery"
+        image="/manus-storage/Texas_Urban_Sawmill_Billet_OmegaWalnut-56_b496c9ab_f0ccafa1.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

@@ -13,7 +13,8 @@ export default function FamilyLegacyGallery() {
       <SEOHead
         title="FamilyLegacy - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/familylegacygallery"
+        canonical="https://txurbansawmill.com/family-legacy-gallery"
+        image="/manus-storage/WomackPecanComposite_d92e3597_6233c744.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

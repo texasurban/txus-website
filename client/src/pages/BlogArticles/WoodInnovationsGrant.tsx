@@ -24,7 +24,7 @@ const articleSchema = {
   "headline": "USDA Wood Innovations Grant Award | Texas Urban Sawmill",
   "description": "Texas Urban Sawmill received USDA Forest Service Wood Innovations Grant Awards in 2022 and 2024 for the Full Circle Woodland Forestry project, demonstrating innovative approaches to urban wood utilization, wildfire mitigation, and climate-smart forestry.",
   "url": "https://txurbansawmill.com/blog/wood-innovations-grant",
-  "image": "https://images.squarespace-cdn.com/content/v1/63e239416016765b92d685ac/49fac2ec-734b-4e8c-a1c4-561aafccfc03/USDA+FS+Grant+Recipient+%26+Sponsors.jpg",
+  "image": "https://txurbansawmill.com/manus-storage/USDA-FS-Grant-Recipients-Sponsors_c38bbcc8_f43000c1.webp",
   "author": {
     "@type": "Organization",
     "name": "Texas Urban Sawmill"
@@ -48,6 +48,7 @@ export default function WoodInnovationsGrant() {
         title="USDA Wood Innovations Grant Award - Texas Urban Sawmill"
         description="TXUS won USDA Wood Innovations Grants in 2022 & 2024 for Full Circle Woodland Forestry. Learn about our climate-smart urban wood utilization project. Explore our award-winning sustainable forestry solutions."
         url="https://txurbansawmill.com/blog/wood-innovations-grant"
+        image={bannerAwardImage}
         type="article"
         schema={articleSchema}
       />
@@ -62,7 +63,6 @@ export default function WoodInnovationsGrant() {
               src={heroBackgroundImage}
               alt="Forest and road background - Texas Urban Sawmill"
               className="absolute inset-0 h-full w-full object-cover object-center"
-              loading="lazy"
              decoding="async"/>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 flex items-center justify-center min-h-[54vh] px-4">
@@ -131,7 +131,7 @@ export default function WoodInnovationsGrant() {
                 <div className="my-8 flex flex-col items-center justify-center">
                   <div className="w-2/3">
                     <img
-                      src="https://images.squarespace-cdn.com/content/v1/63e239416016765b92d685ac/49fac2ec-734b-4e8c-a1c4-561aafccfc03/USDA+FS+Grant+Recipient+%26+Sponsors.jpg"
+                      src={bannerAwardImage}
                       alt="TXUS team with USDA Wood Innovations Grant Award - Texas Urban Sawmill"
                       className="w-full h-auto rounded-lg shadow-2xl border-2 border-[#1a4d2e]"
                       loading="lazy"

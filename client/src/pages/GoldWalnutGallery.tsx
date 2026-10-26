@@ -13,7 +13,8 @@ export default function GoldWalnutGallery() {
       <SEOHead
         title="GoldWalnut - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/goldwalnutgallery"
+        canonical="https://txurbansawmill.com/gold-walnut-gallery"
+        image="/manus-storage/GoldWalnutComposite_99c6497e_cc14ebaa.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

@@ -13,7 +13,8 @@ export default function StinsonGallery() {
       <SEOHead
         title="Stinson - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/stinsongallery"
+        canonical="https://txurbansawmill.com/stinson-gallery"
+        image="/manus-storage/StinsonWalnutComposite_e04c8d8a_49846453.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">

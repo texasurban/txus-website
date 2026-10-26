@@ -13,7 +13,8 @@ export default function OmegaGallery() {
       <SEOHead
         title="Omega - Texas Urban Sawmill"
         description="Custom handcrafted furniture by Texas Urban Sawmill"
-        url="https://txurbansawmill.com/omegagallery"
+        canonical="https://txurbansawmill.com/omega-gallery"
+        image="/manus-storage/HickmanWalnutComposite_5b15122d_63d19e6e.jpg"
       />
       <Navigation />
       <div className="min-h-screen bg-white text-[#1b1612] p-8 lg:p-16">
