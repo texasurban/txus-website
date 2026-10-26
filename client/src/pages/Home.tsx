@@ -645,7 +645,7 @@ export default function Home() {
                 </Button>
               </form>
 
-              <div className="mt-8 space-y-4 border-t border-[color:var(--line-strong)] pt-6">
+              <div className="mt-8 flex flex-col gap-4 border-t border-[color:var(--line-strong)] pt-6">
                 <a href="tel:+15127625898" className="contact-link">
                   <Phone className="h-4 w-4" />
                   <span>(512) 762-5898</span>
