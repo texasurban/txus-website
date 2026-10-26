@@ -179,10 +179,7 @@ export default function Portfolio() {
                     </div>
                   </a>
                   <div className="border-b border-[#e8ddd1] pb-4 pt-5 text-center">
-                    <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#a38b75]">
-                      0{index + 1}
-                    </p>
-                    <p className="mt-3 font-serif text-xl leading-snug text-[#1c1714] sm:text-2xl">
+                    <p className="font-serif text-xl leading-snug text-[#1c1714] sm:text-2xl">
                       {project.name}
                     </p>
                   </div>
