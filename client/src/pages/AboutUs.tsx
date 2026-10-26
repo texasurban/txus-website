@@ -86,71 +86,6 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
-            <div className="container">
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
-                variants={fadeUp}
-                className="mx-auto max-w-4xl text-center"
-              >
-                <p className="text-sm uppercase tracking-[0.32em] text-stone-600">
-                  Welcome to Texas Urban Sawmill
-                </p>
-                <h2 className="mt-5 font-display text-4xl leading-tight text-stone-950 sm:text-5xl">
-                  Rooted in family. Built for lasting value.
-                </h2>
-                <p className="mt-7 text-lg leading-8 text-stone-700 lg:text-xl">
-                  We provide full-service urban wood utilization for Central Texas, converting salvaged trees into usable lumber, custom millwork, and one-of-a-kind finished products. Our capabilities bridge sustainable material recovery with precision manufacturing and traditional craftsmanship.
-                </p>
-              </motion.div>
-            </div>
-          </section>
-
-          <section className="relative overflow-hidden bg-white px-6 py-20 lg:px-8 lg:py-28 border-t-2 border-b-2 border-stone-400">
-            <div className="container">
-              <div className="mb-16 lg:mb-20">
-                <p className="text-center text-sm uppercase tracking-[0.32em] text-stone-600 lg:text-base">
-                  The Makers
-                </p>
-                <h2 className="mt-6 text-center font-display text-5xl leading-[1.1] text-stone-950 sm:text-6xl lg:text-7xl">
-                  Meet the Craftsman
-                </h2>
-              </div>
-
-              <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
-                {makers.map((maker) => (
-                  <motion.div
-                    key={maker.name}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.2 }}
-                    variants={fadeUp}
-                  >
-                    <div className="relative mb-8 overflow-hidden border-2 border-[#d7a469] bg-stone-100 shadow-[0_18px_36px_rgba(11,18,9,0.16)]">
-                      <div className="aspect-square">
-                        <img
-                          src={maker.image}
-                          alt={maker.alt}
-                          className="h-full w-full object-cover"
-                          loading="lazy"
-                         decoding="async"/>
-                      </div>
-                    </div>
-                    <h3 className="font-display text-2xl text-stone-950">{maker.name}</h3>
-                    <p className="mt-2 text-sm uppercase tracking-[0.24em] text-stone-600 lg:text-base">
-                      {maker.role}
-                    </p>
-                    <p className="mt-4 text-left text-base leading-8 text-stone-700 lg:text-lg">
-                      {maker.bio}
-                    </p>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </section>
-
           <section id="about" className="section-shell border-t-2 border-stone-400 border-b-2 border-stone-400 pt-12 sm:pt-16 lg:pt-20 bg-[#f0f0f0]">
             <div className="container grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
               <div>
@@ -231,26 +166,49 @@ export default function AboutUs() {
             </div>
           </section>
 
-          <section className="border-b-2 border-stone-400 bg-[#f0f0f0] px-6 py-16 lg:px-8 lg:py-24 border-t-2 border-b-2 border-stone-400">
-            <div className="container grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
-              <div>
-                <p className="text-sm uppercase tracking-[0.32em] text-stone-600">Our commitment</p>
-                <h2 className="mt-4 font-display text-4xl text-stone-950 sm:text-5xl">
-                  Every tree has more than one life.
-                </h2>
-                <p className="mt-5 max-w-3xl text-lg leading-8 text-stone-700">
-                  From rescue and transport to milling, design, and finishing, we keep useful Texas wood in circulation and make its story part of the finished work.
+          <section className="relative overflow-hidden bg-white px-6 py-20 lg:px-8 lg:py-28 border-t-2 border-b-2 border-stone-400">
+            <div className="container">
+              <div className="mb-16 lg:mb-20">
+                <p className="text-center text-sm uppercase tracking-[0.32em] text-stone-600 lg:text-base">
+                  The Makers
                 </p>
+                <h2 className="mt-6 text-center font-display text-5xl leading-[1.1] text-stone-950 sm:text-6xl lg:text-7xl">
+                  Meet the Craftsman
+                </h2>
               </div>
-              <a
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-[#217938] px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] transition-colors hover:bg-[#1a5a2a] hover:shadow-[0_40px_80px_rgba(0,0,0,0.5)]"
-              >
-                Contact Us
-                <ArrowRight className="h-4 w-4" />
-              </a>
+
+              <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
+                {makers.map((maker) => (
+                  <motion.div
+                    key={maker.name}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.2 }}
+                    variants={fadeUp}
+                  >
+                    <div className="relative mb-8 overflow-hidden border-2 border-[#d7a469] bg-stone-100 shadow-[0_18px_36px_rgba(11,18,9,0.16)]">
+                      <div className="aspect-square">
+                        <img
+                          src={maker.image}
+                          alt={maker.alt}
+                          className="h-full w-full object-cover"
+                          loading="lazy"
+                         decoding="async"/>
+                      </div>
+                    </div>
+                    <h3 className="font-display text-2xl text-stone-950">{maker.name}</h3>
+                    <p className="mt-2 text-sm uppercase tracking-[0.24em] text-stone-600 lg:text-base">
+                      {maker.role}
+                    </p>
+                    <p className="mt-4 text-left text-base leading-8 text-stone-700 lg:text-lg">
+                      {maker.bio}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
           </section>
+
         </main>
 
         <Footer />
