@@ -111,7 +111,7 @@ export default function ServiceLogTransport() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-black"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   Professional log transport and heavy-lift crane services. Moving logs safely and efficiently from site to sawmill. Expert handling of large timber.
@@ -128,7 +128,7 @@ export default function ServiceLogTransport() {
                   variants={fadeUp}
                   className="h-full"
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/TXUS-20-ton-Crane-Truck-1_c58fd3b0.webp"
                       alt="20-Ton Crane Truck with Logs"
@@ -160,7 +160,7 @@ export default function ServiceLogTransport() {
                   variants={fadeUp}
                   className="h-full"
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/Texas_Urban_Sawmill_CameronOak-41_e01fadeb.webp"
                       alt="Site Preparation for Tree Rescue"
@@ -217,7 +217,7 @@ export default function ServiceLogTransport() {
                 </div>
 
                 <div className="mb-12 flex justify-center">
-                  <div className="w-3/4 border-2 border-[#8b7355] shadow-[0_30px_60px_rgba(0,0,0,0.4)]">
+                  <div className="w-3/4 border-2 border-black shadow-[0_30px_60px_rgba(0,0,0,0.4)]">
                     <img
                       src="/manus-storage/TXUS-20-Ton-Crane-Truck-Clearance_fc13e360.webp"
                       alt="Crane Truck Clearance Requirements"

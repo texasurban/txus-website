@@ -90,7 +90,7 @@ export default function ServiceLumber() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
-                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+                className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-black"
               >
                 <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                   Texas Urban Sawmill provides precision‑milled lumber, beams, mantles, cookies, and fully custom milling solutions for any log brought to our facility. With advanced CNC capabilities and specialty processing, we transform reclaimed Texas hardwoods into high‑quality, project‑ready materials tailored to exact specifications.
@@ -121,14 +121,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/TXUSSarah&Dogs-AsheJuniper-AusinHabitatforHumanity_00a231bf.jpg"
                       alt="Lumber"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Milled Ashe Juniper for Austin Habitat for Humanity ReStore—USDA FS Wood Innovations Project
                     </p>
@@ -155,14 +155,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/TXUSOakBeam_f9cc7e55.webp"
                       alt="Beams"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Post Oak beam—milled up to 28 feet long with tight grain and exceptional stability
                     </p>
@@ -189,14 +189,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/TXUSEnglishWalnutMantle5_d288d81d.jpg"
                       alt="Mantles"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       English Walnut mantle milled to reveal the most appealing grains and natural shapes
                     </p>
@@ -223,14 +223,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/TXUS-CindyWalnutGoldOBase16_41c05dce.jpg"
                       alt="Cookies"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Rare Mesquite cookie burls being finished out for display and functional use
                     </p>
@@ -257,14 +257,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/CustomMilled_03fc4026.webp"
                       alt="Custom"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Custom milled components—CNC shaping, surfacing, and specialty cuts
                     </p>
@@ -291,14 +291,14 @@ export default function ServiceLumber() {
                   variants={fadeUp}
                   className="h-full flex flex-col"
                 >
-                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                     <img
                       src="/manus-storage/Texas_Urban_Sawmilll_31_6a41e9b9.webp"
                       alt="Slabs"
                       className="w-full h-64 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                  <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                     <p className="italic text-sm">
                       Live edge slabs preserving natural contours, grain, and organic edge profiles
                     </p>

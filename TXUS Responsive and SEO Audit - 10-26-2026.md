@@ -168,7 +168,8 @@ The master TXUS SEO strategy supports Central Texas first, Texas statewide secon
 
 The following changes were implemented after review of the audit findings:
 
-- The Sawmilling & Kiln Drying page now has a black outline around its two featured image cards and black caption bars with white text. This is an isolated preview only; no other service page received this visual change.
+- The Sawmilling & Kiln Drying page was first updated with a black outline around its two featured image cards and black caption bars with white text as the requested isolated preview.
+- After review of the Sawmilling preview, the same black image-outline treatment was applied across all six service pages. Existing image-caption bars were changed to black with white text, and the dark-brown outlines on service introductory/content boxes were changed to black. Navigation, footer, section structure, copy, and CTA alignment were preserved.
 - The eight portfolio gallery pages now use canonical URLs that match their actual hyphenated routes and include their existing project images in Open Graph/Twitter metadata.
 - The Blog index now includes a non-visual H1 for document hierarchy without changing the visible hero design.
 - The Wood Innovations article now prioritizes its primary hero image, exposes its existing internal project image in social metadata and JSON-LD, and no longer uses the confirmed external USDA image reference.

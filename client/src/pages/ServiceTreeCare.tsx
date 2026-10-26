@@ -93,21 +93,21 @@ export default function ServiceTreeCare() {
               >
                 {/* Image on the left */}
                 <div className="w-full">
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-black">
                     <img
                       src="/manus-storage/tree-service-team_b4b7aa0b.webp"
                       alt="Texas Urban Sawmill tree service team with crane truck"
                       className="w-full h-auto object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-[#8b7355] p-3 -mt-1">
+                  <div className="bg-black p-3 -mt-1">
                     <p className="text-center text-white text-xs italic leading-relaxed">
                       Devin Ginther and Eric Wilder, alongside Wilder Tree Service's lead climber, working together on a central Austin urban tree removal project focused on safety, efficiency, and sustainable urban timber recovery.
                     </p>
                   </div>
                 </div>
                 {/* Text on the right */}
-                <div className="w-full bg-white p-8 rounded-lg shadow-md border-2 border-[#8b7355]">
+                <div className="w-full bg-white p-8 rounded-lg shadow-md border-2 border-black">
                   <h4 className="text-2xl font-bold text-[#1b1612] mb-4">Power in Partnership</h4>
                   <div className="text-[#6d5d50] text-lg space-y-4">
                     <p>At Texas Urban Sawmill, we've always believed that every tree has value—even after it comes down. That's why we're proud to partner with Eric Wilder, ISA Certified Arborist and owner of Wilder Tree Service, a forward-thinking tree care company that shares our commitment to sustainability, craftsmanship, and community impact. By recognizing the utilization value of urban timber, this partnership helps maximize the value of every tree removed—creating a more sustainable approach while also helping deliver highly cost-competitive tree services to the community. Together, we're giving urban and community trees a second life through responsible stewardship, smart resource utilization, and purposeful collaboration.</p>
@@ -128,14 +128,14 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black mb-4">
                     <img
                       src="/manus-storage/tree-care-apartments_f4f18c46.webp"
                       alt="Urban tree removal with crane truck"
                       className="w-full h-96 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-black">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Urban Tree Removal with Crane Truck</h4>
                     <p className="text-[#6d5d50] text-sm">Professional removal of trees in urban settings using specialized crane equipment for safe and efficient extraction.</p>
                   </div>
@@ -148,14 +148,14 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black mb-4">
                     <img
                       src="/manus-storage/tree-care-removal_b6ecda71.webp"
                       alt="Professional tree removal and rigging"
                       className="w-full h-96 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-black">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Professional Tree Removal & Rigging</h4>
                     <p className="text-[#6d5d50] text-sm">Expert rigging and removal techniques by certified arborists to safely bring down trees while maximizing lumber recovery.</p>
                   </div>
@@ -168,14 +168,14 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black mb-4">
                     <img
                       src="/manus-storage/tree-care-cutting_26d62dc5.webp"
                       alt="Expert chainsaw work and tree cutting"
                       className="w-full h-96 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-black">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Expert Chainsaw Work & Tree Cutting</h4>
                     <p className="text-[#6d5d50] text-sm">Skilled chainsaw operation and precise cutting techniques to process trees into manageable sections for transport and milling.</p>
                   </div>
@@ -188,14 +188,14 @@ export default function ServiceTreeCare() {
                   viewport={{ once: true, amount: 0.25 }}
                   variants={fadeUp}
                 >
-                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355] mb-4">
+                  <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black mb-4">
                     <img
                       src="/manus-storage/tree-care-chipping_a57cd7b5.webp"
                       alt="Land clearing and wood chipping operations"
                       className="w-full h-96 object-cover"
                      decoding="async" loading="lazy"/>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#8b7355]">
+                  <div className="bg-white p-6 rounded-lg shadow-md border-2 border-black">
                     <h4 className="text-lg font-bold text-[#1b1612] mb-2">Sustainable Land Services</h4>
                     <p className="text-[#6d5d50] text-sm">Sustainable land clearing services with wood chipping operations to process debris and maximize material recovery.</p>
                   </div>

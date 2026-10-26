@@ -127,7 +127,7 @@ export default function ServiceTreeReuse() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-black"
             >
               <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                 TXUS specializes in providing Climate Smart Project™ solutions for construction and land improvement projects. Our work delivers measurable sustainability outcomes, including net-negative carbon impacts that help accelerate environmental goals. To date, we have helped save Texans over 1,000,000 lbs of CO₂e — making TXUS one of the few carbon-negative businesses in Texas.
@@ -157,14 +157,14 @@ export default function ServiceTreeReuse() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                   <img
                     src="/manus-storage/AustinStateHospital-TreeSurvey35_cab1ad1f.webp"
                     alt="PMP Project Management - Tree Survey"
                     className="w-full h-96 object-cover"
                    decoding="async" loading="lazy"/>
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     What was once cleared is now preserved. TXUS rescues and reuses trees from the Austin State Hospital project, turning local urban wood into lasting value.
                   </p>
@@ -188,14 +188,14 @@ export default function ServiceTreeReuse() {
                 viewport={{ once: true, amount: 0.25 }}
                 variants={fadeUp}
               >
-                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-[#8b7355]">
+                <div className="overflow-hidden rounded-lg mb-0 shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                   <img
                     src="/manus-storage/AustinStateHospital-TreeSurvey60_31935268.webp"
                     alt="Adaptive Tree Re-Use Projects - Log Processing"
                     className="w-full h-96 object-cover"
                    decoding="async" loading="lazy"/>
                 </div>
-                <div className="bg-[#8b7355] text-white text-center py-4 px-6 rounded-b-lg">
+                <div className="bg-black text-white text-center py-4 px-6 rounded-b-lg">
                   <p className="italic text-sm">
                     In the heart of the Austin State Hospital redevelopment, Devin Ginther is helping preserve the story of Central Texas trees through urban wood recovery and reuse.
                   </p>

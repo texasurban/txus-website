@@ -149,7 +149,7 @@ export default function ServiceSawmilling() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={fadeUp}
-              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-[#8b7355]"
+              className="text-center mb-8 -mt-12 bg-[#fbf8f3] px-8 py-6 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-2 border-black"
             >
               <p className="text-lg lg:text-xl text-[#1b1612] max-w-6xl mx-auto font-bold leading-relaxed">
                 Texas Urban Sawmill transforms logs, beams, and timbers into high-end, climate-smart lumber ready for any application. As the only sawmill in Texas operating 480V electric industrial sawmills, we deliver high-efficiency, zero-emission processing—ensuring every log is handled with technical precision and environmental care. From custom dimensions to construction-grade stock, our advanced milling and kiln-drying capabilities produce consistent, high-quality material at scale.
