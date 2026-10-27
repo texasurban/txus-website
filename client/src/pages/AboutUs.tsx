@@ -72,7 +72,7 @@ export default function AboutUs() {
                 animate="visible"
                 variants={fadeUp}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="order-1 overflow-hidden border-2 border-[#d7a469] bg-[#fbf8f3] p-2 shadow-[0_30px_60px_rgba(0,0,0,0.4)] lg:order-2"
+                className="order-1 overflow-hidden rounded-sm border-2 border-[#8b7355] shadow-lg lg:order-2"
               >
                 <img
                   src={teamPhoto}
