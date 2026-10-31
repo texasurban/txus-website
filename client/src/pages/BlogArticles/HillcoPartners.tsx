@@ -94,98 +94,118 @@ export default function HillcoPartners() {
                 We help our customers tell a powerful story about unmatched sustainability practices and carbon savings.
               </div>
 
-              <div className="space-y-6 border-t border-[#b9b9b9] pt-6">
-                <StoryImage
-                  src={storyImages.rescuedTree}
-                  alt="Rescued pecan tree from 3rd Street in Austin - Texas Urban Sawmill"
-                  caption="This is the very pecan tree that was rescued from 3rd Street in Austin, TX in 2021."
-                />
-                <StoryText>
-                  Jesse studies the grain patterns—a critical and often complex step in crafting a true “Quad-Match” table, where precision and visual harmony are everything.
-                </StoryText>
+              <div className="grid grid-cols-1 gap-x-8 gap-y-8 border-t border-[#b9b9b9] pt-6 md:grid-cols-2">
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.rescuedTree}
+                    alt="Rescued pecan tree from 3rd Street in Austin - Texas Urban Sawmill"
+                    caption="This is the very pecan tree that was rescued from 3rd Street in Austin, TX in 2021."
+                  />
+                  <StoryText>
+                    Jesse studies the grain patterns—a critical and often complex step in crafting a true “Quad-Match” table, where precision and visual harmony are everything.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.grain}
-                  alt="Jesse studying grain patterns for the Hillco quad-match pecan table - Texas Urban Sawmill"
-                  caption="Precision and visual harmony begin with understanding the grain."
-                />
-                <StoryText>
-                  At TXUS, we take pride in the quiet craft of design meditation—mindfully considering every detail of our solid hardwood creations. To build with intention, we must first listen to the wood. Be one with the wood!
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.grain}
+                    alt="Jesse studying grain patterns for the Hillco quad-match pecan table - Texas Urban Sawmill"
+                    caption="Precision and visual harmony begin with understanding the grain."
+                  />
+                  <StoryText>
+                    At TXUS, we take pride in the quiet craft of design meditation—mindfully considering every detail of our solid hardwood creations. To build with intention, we must first listen to the wood. Be one with the wood!
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.meditation}
-                  alt="Jesse working with pecan wood in the TXUS workshop - Texas Urban Sawmill"
-                  caption="The quiet craft of design meditation."
-                />
-                <StoryText>
-                  The table was crafted in two 9-foot sections, with each piece meticulously integrated to achieve perfect harmony and continuity. No detail is overlooked, and we prioritize quality over deadlines, ensuring that every product we create meets the highest standards.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.meditation}
+                    alt="Jesse working with pecan wood in the TXUS workshop - Texas Urban Sawmill"
+                    caption="The quiet craft of design meditation."
+                  />
+                  <StoryText>
+                    The table was crafted in two 9-foot sections, with each piece meticulously integrated to achieve perfect harmony and continuity. No detail is overlooked, and we prioritize quality over deadlines, ensuring that every product we create meets the highest standards.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.sections}
-                  alt="Two 9-foot sections of the Hillco pecan conference table - Texas Urban Sawmill"
-                  caption="Two 9-foot sections, meticulously integrated."
-                />
-                <StoryText>
-                  Our tables are finished with a modified version of a French Polish. Though time-consuming, this meticulous process enhances the natural beauty of the wood, resulting in a finish that truly showcases its rich grain and character.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.sections}
+                    alt="Two 9-foot sections of the Hillco pecan conference table - Texas Urban Sawmill"
+                    caption="Two 9-foot sections, meticulously integrated."
+                  />
+                  <StoryText>
+                    Our tables are finished with a modified version of a French Polish. Though time-consuming, this meticulous process enhances the natural beauty of the wood, resulting in a finish that truly showcases its rich grain and character.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.frenchPolish}
-                  alt="French Polish finishing on the Hillco pecan conference table - Texas Urban Sawmill"
-                  caption="A finish that showcases the wood’s rich grain and character."
-                />
-                <StoryText>
-                  Our soft-touch media ports are the best in the industry. Installing them correctly required an immense amount of precision and care—because with a design this intricate, you only get one chance to do it right. Power? USB charging? HDMI? We’ve got you covered—seamlessly integrated and ready for anything.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.frenchPolish}
+                    alt="French Polish finishing on the Hillco pecan conference table - Texas Urban Sawmill"
+                    caption="A finish that showcases the wood’s rich grain and character."
+                  />
+                  <StoryText>
+                    Our soft-touch media ports are the best in the industry. Installing them correctly required an immense amount of precision and care—because with a design this intricate, you only get one chance to do it right. Power? USB charging? HDMI? We’ve got you covered—seamlessly integrated and ready for anything.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.mediaPorts}
-                  alt="Integrated power, USB, and HDMI media ports in the Hillco table - Texas Urban Sawmill"
-                  caption="Soft-touch media ports, seamlessly integrated."
-                />
-                <StoryText>
-                  Our bases are expertly engineered to allow for seamless routing of media cables, completely concealed from the floor plate to the top, maintaining a clean and uncluttered design. This 8&quot;x8&quot; vertical post is crafted from 2&quot; thick pecan, expertly glued to create a seamless, solid structure.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.mediaPorts}
+                    alt="Integrated power, USB, and HDMI media ports in the Hillco table - Texas Urban Sawmill"
+                    caption="Soft-touch media ports, seamlessly integrated."
+                  />
+                  <StoryText>
+                    Our bases are expertly engineered to allow for seamless routing of media cables, completely concealed from the floor plate to the top, maintaining a clean and uncluttered design. This 8&quot;x8&quot; vertical post is crafted from 2&quot; thick pecan, expertly glued to create a seamless, solid structure.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.cableRouting}
-                  alt="Hidden cable routing in the Hillco table base - Texas Urban Sawmill"
-                  caption="Efficient cable routing without compromising the design."
-                />
-                <StoryText>
-                  We never compromise quality for speed. Every component is meticulously finished before final assembly, ensuring a flawless, long-lasting result that stands the test of time. Not a single screw was used in the construction of this one-of-a-kind conference table, with the exception of stainless steel fasteners used to attach the bases and media ports.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.cableRouting}
+                    alt="Hidden cable routing in the Hillco table base - Texas Urban Sawmill"
+                    caption="Efficient cable routing without compromising the design."
+                  />
+                  <StoryText>
+                    We never compromise quality for speed. Every component is meticulously finished before final assembly, ensuring a flawless, long-lasting result that stands the test of time. Not a single screw was used in the construction of this one-of-a-kind conference table, with the exception of stainless steel fasteners used to attach the bases and media ports.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.quadMatch}
-                  alt="Quad-matched pecan surface on the finished Hillco conference table - Texas Urban Sawmill"
-                  caption="Virtually seamless across four matched planks from a single tree."
-                />
-                <StoryText>
-                  The most challenging aspect of this table was the central joint line. To ensure strength and a flawless fit, we incorporated four hidden mortise-and-tenon joints along with specialized concealed clamps—balancing precision engineering with seamless design.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.quadMatch}
+                    alt="Quad-matched pecan surface on the finished Hillco conference table - Texas Urban Sawmill"
+                    caption="Virtually seamless across four matched planks from a single tree."
+                  />
+                  <StoryText>
+                    The most challenging aspect of this table was the central joint line. To ensure strength and a flawless fit, we incorporated four hidden mortise-and-tenon joints along with specialized concealed clamps—balancing precision engineering with seamless design.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.assembly}
-                  alt="Final assembly of the two 9-foot Hillco table sections - Texas Urban Sawmill"
-                  caption="Final assembly of the two 9-foot halves requires precision and teamwork."
-                />
-                <StoryText>
-                  Installation and final assembly took a full day—an effort well worth it, especially with an incredible view of the Texas State Capitol as the backdrop. Final assembly of the two 9-foot halves took time, precision—and plenty of hours spent on our backs. Craftsmanship isn’t always glamorous, but the result is always worth it.
-                </StoryText>
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.assembly}
+                    alt="Final assembly of the two 9-foot Hillco table sections - Texas Urban Sawmill"
+                    caption="Final assembly of the two 9-foot halves requires precision and teamwork."
+                  />
+                  <StoryText>
+                    Installation and final assembly took a full day—an effort well worth it, especially with an incredible view of the Texas State Capitol as the backdrop. Final assembly of the two 9-foot halves took time, precision—and plenty of hours spent on our backs. Craftsmanship isn’t always glamorous, but the result is always worth it.
+                  </StoryText>
+                </div>
 
-                <StoryImage
-                  src={storyImages.capitol}
-                  alt="Finished Hillco pecan conference table with Texas State Capitol view - Texas Urban Sawmill"
-                  caption="Not a bad view of the Texas State Capitol—we definitely prefer to sit on this side!"
-                />
-                <StoryImage
-                  src={storyImages.finalAssembly}
-                  alt="Final assembly of the Hillco conference table halves - Texas Urban Sawmill"
-                  caption="A lasting, functional work of art from a rescued Texas pecan."
-                />
+                <div className="space-y-2">
+                  <StoryImage
+                    src={storyImages.capitol}
+                    alt="Finished Hillco pecan conference table with Texas State Capitol view - Texas Urban Sawmill"
+                    caption="Not a bad view of the Texas State Capitol—we definitely prefer to sit on this side!"
+                  />
+                  <StoryImage
+                    src={storyImages.finalAssembly}
+                    alt="Final assembly of the Hillco conference table halves - Texas Urban Sawmill"
+                    caption="A lasting, functional work of art from a rescued Texas pecan."
+                  />
+                </div>
               </div>
 
               <div className="mt-8 border-t border-[#b9b9b9] pt-7 text-center">
