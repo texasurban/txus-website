@@ -66,7 +66,7 @@ const blogCategories = [
         id: "hillco",
         title: "Hillco Partners - Quad Matched Pecan Table",
         excerpt: "Net carbon negative custom furniture project",
-        image: "/manus-storage/Hillco-TXUS_Team_b909193b_d9e9a683.webp",
+        image: "/manus-storage/HillcoPartners-17FootPecanQuadMatch95_8c731067_ea305289.jpg",
         link: "/blog/hillco-partners",
       },
     ],

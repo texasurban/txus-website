@@ -25,3 +25,9 @@ The following legacy pages were used as source material for the new TXUS article
    - Key themes: circular economy, reduce/reuse/recycle, full-circle forestry, wildfire mitigation, economic value, community benefit, and future tree-canopy expansion.
 
 The new pages use internal TXUS assets already present in project storage. External legacy image URLs were not copied directly into the new page components.
+
+## Hillco Reference Revision
+
+- Reference page: https://www.txurbansawmill.com/hillco
+- The Hillco page remains the reference for project-story presentation: image-led chronological sections, concise captions, narrow reading column, and near-verbatim project narrative.
+- Key wording retained in the current Hillco page includes: “The Hillco Partners Texas Pecan Table: A Legacy Rooted in Austin,” “Crafted and designed by the Texas Urban Sawmill,” the rescued 3rd Street Austin pecan origin, the two 9-foot sections, modified French Polish, integrated media ports, hidden cable routing, quad-match construction, and final Capitol-view installation.

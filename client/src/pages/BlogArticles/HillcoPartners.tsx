@@ -102,8 +102,8 @@ export default function HillcoPartners() {
         <main>
           {/* Hero Banner */}
           <FancyHeroBanner
-            mainTitle="Hillco Partners"
-            subtitle="Net Carbon Negative Conference Table"
+            mainTitle="The Hillco Partners Texas Pecan Table"
+            subtitle="A Legacy Rooted in Austin"
             imageUrl={heroImage}
             imageAlt="Hillco Partners 17-foot pecan conference table in modern office with Capitol view - Texas Urban Sawmill"
           />
@@ -112,11 +112,11 @@ export default function HillcoPartners() {
           <section className="container py-16 sm:py-20 lg:py-24 border-t-2 border-b-2 border-stone-400">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-display text-4xl sm:text-5xl uppercase tracking-[0.04em] text-[#1b1612] mb-6">
-                An 18-Foot Pecan Conference Table: From Tree to Treasure
+                The Hillco Partners Texas Pecan Table: A Legacy Rooted in Austin
               </h1>
               
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                Hillco Partners commissioned an 18-foot pecan conference table—a net carbon negative project that showcases the highest standards of sustainable craftsmanship. From tree to table, every step—from sourcing and milling to final construction—was completed within 40 miles of Austin, making this one of our most environmentally responsible projects to date.
+                Crafted and designed by the Texas Urban Sawmill, the Hillco Partners conference table is more than just furniture—it’s a story of local heritage and sustainability. This stunning quad-matched showpiece was handcrafted from a rescued Texas pecan tree that once stood less than two miles from Hillco’s downtown Austin office.
               </p>
 
               {/* Photo: Hillco Partners Table with Team */}
@@ -131,7 +131,7 @@ export default function HillcoPartners() {
               </div>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                The table not only preserves the natural beauty and rich history of a native Texas pecan, but also symbolizes Hillco's commitment to excellence and environmental stewardship. This is more than furniture—it's a statement of values.
+                From tree to table, every step—from sourcing and milling to final construction—was completed within 40 miles of Austin, making this one of our most environmentally responsible, carbon-negative projects to date. The table preserves the natural beauty and rich history of a native Texas pecan while symbolizing Hillco’s commitment to excellence.
               </p>
 
               <div className="bg-[#f0f0f0] border-l-4 border-[#1a4d2e] px-6 py-4 my-8">
@@ -142,7 +142,7 @@ export default function HillcoPartners() {
               </div>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d]">
-                This project is a great example of our sustainability promises being put to practice. By rescuing this tree and integrating it into Hillco's custom conference table, we've prevented significant waste while creating a functional work of art for their downtown Austin office.
+                This is the very pecan tree that was rescued from 3rd Street in Austin, TX in 2021—and later transformed into the Hillco Partners conference table. It’s hard to believe that this magnificent tree was once destined for the landfill until it was rescued and given a second life as a lasting, functional work of art.
               </p>
             </div>
           </section>
@@ -181,7 +181,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                Jesse studies the grain patterns—a critical and often complex step in crafting a true "Quad-Match" table, where precision and visual harmony are everything. This meticulous process ensures that every detail of the wood's natural character is celebrated and perfectly aligned.
+                Jesse studies the grain patterns—a critical and often complex step in crafting a true "Quad-Match" table, where precision and visual harmony are everything. At TXUS, we take pride in the quiet craft of design meditation—mindfully considering every detail of our solid hardwood creations. To build with intention, we must first listen to the wood. Be one with the wood!
               </p>
 
               {/* Photo: Grain Patterns */}
@@ -206,7 +206,7 @@ export default function HillcoPartners() {
                 </h2>
 
                 <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                  At TXUS, we take pride in the quiet craft of design meditation—mindfully considering every detail of our solid hardwood creations. To build with a design this intricate, you only get one chance to do it right. This philosophy guides every decision, every cut, and every finish.
+                  The table was crafted in two 9-foot sections, with each piece meticulously integrated to achieve perfect harmony and continuity. No detail is overlooked, and we prioritize quality over deadlines, ensuring that every product we create meets the highest standards.
                 </p>
 
                 {/* Photo: Design Meditation */}
@@ -231,7 +231,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                The table was crafted in two 9-foot sections, with each piece meticulously integrated to achieve perfect harmony and precision. This engineering approach ensures strength and a flawless, long-lasting result that stands the test of time.
+                Our tables are finished with a modified version of a French Polish. Though time-consuming, this meticulous process enhances the natural beauty of the wood, resulting in a finish that truly showcases its rich grain and character.
               </p>
 
               {/* Photo: Two Sections */}
@@ -256,7 +256,7 @@ export default function HillcoPartners() {
                 </h2>
 
                 <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                  Our tables are finished with a modified version of a French Polish—a time-consuming, meticulous process that enhances the natural beauty of the wood, resulting in a finish that truly showcases its rich grain and character. This traditional technique produces a depth and warmth that no modern finish can replicate.
+                  Our soft-touch media ports are the best in the industry. Installing them correctly required an immense amount of precision and care—because with a design this intricate, you only get one chance to do it right. Power? USB charging? HDMI? We’ve got you covered—seamlessly integrated and ready for anything. This media console is designed to be easily upgradeable and future-proof, ensuring long-term functionality without compromising design.
                 </p>
 
                 {/* Photo: French Polish */}
@@ -281,7 +281,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                We've got you covered—seamlessly integrated and ready for anything. This media console is designed to be fully upgradeable and future-proof, ensuring long-term functionality without compromising design.
+                Our bases are expertly engineered to allow for seamless routing of media cables, completely concealed from the floor plate to the top, maintaining a clean and uncluttered design.
               </p>
 
               {/* Photo: Power USB HDMI */}
@@ -306,7 +306,7 @@ export default function HillcoPartners() {
                 </h2>
 
                 <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                  Our bases are expertly engineered to allow for seamless routing of media cables, completely concealed from the floor plate to the top. This maintains a clean and uncluttered design while ensuring all technology is accessible and organized.
+                  This 8"x8" vertical post is crafted from 2" thick pecan, expertly glued to create a seamless, solid structure. It’s designed to allow for efficient cable routing, blending form and function flawlessly.
                 </p>
 
                 {/* Photo: Cable Routing */}
@@ -331,7 +331,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                This half of the quad-match is virtually seamless across four matched pieces. A feat that can only be achieved through sequential cuts from a single tree, ensuring perfect alignment and harmony. This is woodworking at its finest.
+                This half of the quad-match is virtually seamless across four matched planks, a feat that can only be achieved through sequential cuts from a single tree, ensuring perfect alignment and harmony.
               </p>
 
               {/* Photo: Quad-Match Seamless */}
@@ -355,7 +355,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                Installation and final assembly took a full day—an effort well worth it, especially with an incredible view of the Texas State Capitol as the backdrop. This meticulous approach ensures both strength and seamless beauty.
+                Installation and final assembly took a full day—an effort well worth it, especially with an incredible view of the Texas State Capitol as the backdrop. Final assembly of the two 9-foot halves took time, precision—and plenty of hours spent on our backs. Craftsmanship isn’t always glamorous, but the result is always worth it.
               </p>
 
               {/* Photo: Installation */}
@@ -409,7 +409,7 @@ export default function HillcoPartners() {
               </h2>
 
               <p className="text-lg leading-relaxed text-[#3d3d3d] mb-8">
-                Not a bad view of the Texas State Capitol—we definitely prefer to sit on this side! The table's placement offers an inspiring backdrop for strategic conversations and meaningful work.
+                Not a bad view of the Texas State Capitol—we definitely prefer to sit on this side!
               </p>
 
               {/* Photo: Capitol View */}
