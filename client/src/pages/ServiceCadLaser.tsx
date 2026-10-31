@@ -47,11 +47,13 @@ const projectCards = [
     title: "For Individuals",
     body: "Personalized gifts, custom engraving, signage, art, and decor for projects that deserve a distinctive finish.",
     cta: "REQUEST A PROJECT ESTIMATE",
+    subject: "Laser Quote",
   },
   {
     title: "For Businesses & Trade Partners",
     body: "CAD/CAM support, prototypes, architectural models, signage, and precision CNC services for designers, builders, makers, and commercial project teams.",
     cta: "DISCUSS YOUR PROJECT",
+    subject: "CNC Quote",
   },
 ];
 
@@ -137,7 +139,7 @@ export default function ServiceCadLaser() {
                     <p>
                       Our team of designers will help bring your vision to life with high-quality and accurate results. We also offer CAD/CAM services and precision CNC.
                     </p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 bg-[#217938] px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
+                    <a href="/contact?subject=CAD%2C%20CNC%2C%20Laser%20Services" className="inline-flex items-center justify-center gap-2 bg-[#217938] px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                       Contact Us for a Project Estimate
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -158,7 +160,7 @@ export default function ServiceCadLaser() {
                     <div className="bg-white p-6 rounded-lg shadow-md border-x-2 border-b-2 border-black border-t-0 flex flex-col flex-1">
                       <h2 className="text-xl font-bold mb-3 text-[#1b1612]">{capability.title}</h2>
                       <p className="text-[#6d5d50] flex-grow">{capability.description}</p>
-                      <a href="/contact" className="mt-6 inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
+                    <a href={`/contact?subject=${encodeURIComponent(capability.title === "CAD/CAM & Precision CNC" ? "CNC Quote" : "Laser Quote")}`} className="mt-6 inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                         PROJECT ESTIMATE
                         <ArrowRight className="h-4 w-4" />
                       </a>
@@ -176,7 +178,7 @@ export default function ServiceCadLaser() {
                   <div key={card.title} className="bg-white p-6 rounded-lg shadow-md flex flex-col h-full border-2 border-black">
                     <h2 className="text-2xl font-bold mb-4 text-[#1b1612]">{card.title}</h2>
                     <p className="text-[#6d5d50] mb-6 flex-grow">{card.body}</p>
-                    <a href="/contact" className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
+                    <a href={`/contact?subject=${encodeURIComponent(card.subject)}`} className="inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                       {card.cta}
                       <ArrowRight className="h-4 w-4" />
                     </a>
@@ -190,7 +192,7 @@ export default function ServiceCadLaser() {
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#1b1612] mb-6">Precision Technology, Practical Craftsmanship</h2>
               <p className="text-lg text-[#6d5d50] mb-8">From a detailed engraving to a complex fabricated component, our team combines digital tools with hands-on craftsmanship to help turn a clear idea into a finished result.</p>
-              <a href="/contact" className="inline-flex items-center justify-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
+              <a href="/contact?subject=CAD%2C%20CNC%2C%20Laser%20Services" className="inline-flex items-center justify-center gap-2 bg-[#217938] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
                 CONTACT US FOR A PROJECT ESTIMATE
                 <ArrowRight className="h-4 w-4" />
               </a>

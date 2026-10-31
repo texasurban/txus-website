@@ -51,17 +51,26 @@ const projectTypes = [
   "Commercial / Hospitality",
   "Tree Re-Use / Sawmilling",
   "Forestry / Tree Service",
+  "CAD, CNC, Laser Services",
+  "CNC Quote",
+  "Laser Quote",
   "Partnership / Collaboration",
   "Other",
 ];
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
+  const [formData, setFormData] = useState(() => {
+    const requestedSubject = typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("subject")
+      : null;
+
+    return {
+      name: "",
+      email: "",
+      phone: "",
+      subject: requestedSubject && projectTypes.includes(requestedSubject) ? requestedSubject : "",
+      message: "",
+    };
   });
 
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
