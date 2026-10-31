@@ -115,7 +115,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
                       <p className="text-[#6d5d50]">Our Camaster Cobra CNC machine can handle jobs as large as 72" wide x 184" long. Here we are surfacing a larger Texas Bald Cypress Slab. It can utilize up to 10 different bits within a project file.</p>
                     </div>
@@ -132,7 +132,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Architectural Millwork</h4>
                       <p className="text-[#6d5d50]">Precision-routed trim, molding, panels, and custom architectural components for residential and commercial projects. We produce clean, repeatable parts with the flexibility to support one-of-a-kind designs and complex fabrication needs.</p>
                     </div>
@@ -149,7 +149,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Custom Laser Engraving</h4>
                       <p className="text-[#6d5d50]">Our dual-head CO₂ laser system creates personalized products ranging from custom signage and engraved gifts to decorative architectural elements. Equipped with both 70W and 130W lasers, we handle everything from fine-detail engraving to precision cutting of thicker materials.</p>
                     </div>
@@ -166,7 +166,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CO2 Laser Services</h4>
                       <p className="text-[#6d5d50]">Precision laser engraving and cutting for detailed patterns, custom components, branding, and decorative applications across a wide range of materials and project types.</p>
                     </div>
@@ -183,7 +183,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
                       <p className="text-[#6d5d50]">Devin Ginther preparing custom CNC toolpaths for precision architectural millwork and specialty fabrication projects. With more than 25 years of experience working with CNC technology dating back to his time as an R&D engineer within a Johns Hopkins University technology incubator.</p>
                     </div>
@@ -198,7 +198,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision Structural Timber Machining</h4>
                       <p className="text-[#6d5d50]">We manufacture detailed timber frame profiles on beams up to 10 inches thick using specialized tooling with indexable carbide inserts for precision, consistency, and clean finishes. This advanced tooling allows for efficient production of complex architectural details, joinery, and custom beam profiles.</p>
                     </div>
@@ -213,7 +213,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Beam End Profiling</h4>
                       <p className="text-[#6d5d50]">A series of four matched beam-end profiles designed to add intricate architectural detail and craftsmanship to the exterior of a custom-built home.</p>
                     </div>
@@ -228,7 +228,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Water Bottles</h4>
                       <p className="text-[#6d5d50]">Custom laser engraving on water bottles creates personalized gifts and promotional items with detailed graphics and text.</p>
                     </div>
@@ -243,7 +243,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Arch</h4>
                       <p className="text-[#6d5d50]">This finished piece was precision CNC-machined to serve as a decorative architectural arch for the exterior of a timber frame home, combining detailed craftsmanship with structural-scale fabrication.</p>
                     </div>
@@ -258,7 +258,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Elements</h4>
                       <p className="text-[#6d5d50]">CNC routing produces decorative trim, molding, and architectural details that add character and elegance to any project.</p>
                     </div>
@@ -273,7 +273,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">A Family-Driven Business</h4>
                       <p className="text-[#6d5d50]">The entire Ginther family plays a role in supporting our business. Our two boys, Ryker and Boden, especially enjoy helping develop new products and exploring the creativity of working with lasers, 3D printers, and CNC technology.</p>
                     </div>
@@ -288,7 +288,7 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-6 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Baseball Bat</h4>
                       <p className="text-[#6d5d50]">Custom laser engraving on sports equipment creates personalized commemorative pieces, team awards, and one-of-a-kind gifts for players, coaches, and special events. At TXUS, we are proud supporters of the Dripping Springs High School Baseball Booster Club and enjoy creating custom engraved items that celebrate the athletes, families, and community behind the program.</p>
                     </div>

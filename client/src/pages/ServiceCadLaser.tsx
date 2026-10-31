@@ -155,7 +155,7 @@ export default function ServiceCadLaser() {
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img src={capability.image} alt={capability.alt} className="w-full h-80 object-cover" decoding="async" loading="lazy" />
                     </div>
-                    <div className="mt-6 bg-white p-6 rounded-lg shadow-md border-2 border-black flex flex-col flex-1">
+                    <div className="mt-3 bg-white p-6 rounded-lg shadow-md border-2 border-black flex flex-col flex-1">
                       <h2 className="text-xl font-bold mb-3 text-[#1b1612]">{capability.title}</h2>
                       <p className="text-[#6d5d50] flex-grow">{capability.description}</p>
                       <a href="/contact" className="mt-6 inline-flex items-center justify-center gap-2 w-full bg-[#217938] px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition-colors hover:bg-[#1a5a2a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#217938] focus-visible:ring-offset-2">
