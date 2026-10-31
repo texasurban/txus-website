@@ -13,6 +13,7 @@ import ServiceTreeReuse from "./pages/ServiceTreeReuse";
 import ServiceLogTransport from "./pages/ServiceLogTransport";
 import ServiceTreeCare from "./pages/ServiceTreeCare";
 import ServiceMillworks from "./pages/ServiceMillworks";
+import ServiceCadLaser from "./pages/ServiceCadLaser";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import StinsonGallery from "./pages/StinsonGallery";
@@ -71,6 +72,7 @@ function Router() {
       <Route path={"/services/log-transport"} component={ServiceLogTransport} />
       <Route path={"/services/tree-care"} component={ServiceTreeCare} />
       <Route path={"/services/millworks"} component={ServiceMillworks} />
+      <Route path={"/services/cad-laser-services"} component={ServiceCadLaser} />
       <Route path={"/404"} component={NotFound} />      {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>

@@ -10,12 +10,12 @@
 
 ## Main findings
 
-There are four issues to address before the new site replaces the legacy site:
+There are three in-scope issues to address before the new site replaces the legacy site. The Shop/cart family is intentionally excluded because it is being handled in a separate Shopping Cart task:
 
 1. The current live site’s `robots.txt` points to the legacy sitemap, and the current sitemap itself lists legacy-domain URLs. This is the most urgent technical issue because search engines are being directed to `txurbansawmill.com` instead of a sitemap owned by the new deployment. [1] [2]
 2. Several visible homepage links still point to legacy paths. Some already have equivalent new blog or service routes, while others require new Phase II pages. [3] [4]
 3. The legacy sitemap contains 57 distinct public paths. The current application declares approximately 30 public content routes, leaving multiple articles, project pages, service/information pages, and store pages unrepresented. [5] [6]
-4. The existing site still contains known unresolved destinations, including the shared `/shop` link and unfinished Blog cards. These should be handled separately from the legacy-page migration where appropriate. [7]
+4. The existing site still contains unfinished Blog cards. The shared `/shop` destination is intentionally deferred to the separate Shopping Cart task and is not treated as an action item in this audit. [7]
 
 ## Legacy links that already have current equivalents
 
@@ -132,16 +132,18 @@ These pages confirm that the future catalog will need product detail, category, 
 
 ## Current broken or unresolved destinations
 
-### Shared Shop destination
+### Shared Shop destination — intentionally deferred
 
 The current shared navigation includes `/shop`, but the current route map does not declare a Shop page. The same unresolved path also appears in the Wood Innovations article and Lumber service source. The prior live audit confirmed that `/shop` resolves to the application’s not-found experience. [7]
 
-This should remain a separate decision:
+**Scope decision:** No action is required under this legacy-page audit. Shop, cart, merchandise, product detail, and inventory routes are being handled in the separate Shopping Cart task.
+
+When the Shopping Cart task is ready, its implementation can decide whether to:
 
 - Create the future inventory/shop landing page under the Shopping Cart task; or
 - Temporarily remove or rename the Shop navigation item until that page exists.
 
-It should not silently point to an unrelated page.
+Until then, it should not be treated as a missing legacy blog/service page or silently mapped to an unrelated page.
 
 ### Blog placeholder destinations
 
@@ -178,7 +180,7 @@ This is not a missing-page issue, but it must be corrected during the launch-dom
 3. Decide whether the Climate Smart project pages should be separate project pages or consolidated into blog articles.
 4. Replace homepage links that already have current equivalents.
 5. Decide how the five unresolved Blog cards map to the approved migration pages.
-6. Keep store, merchandise, and cart paths in the separate Shopping Cart and Inventory task.
+6. Keep store, merchandise, cart, and Shop paths in the separate Shopping Cart and Inventory task.
 7. Correct the final production `robots.txt`, sitemap host, and canonical host during launch preparation.
 8. After page blueprints are approved, implement pages one at a time and run tests/build after each bounded batch.
 
