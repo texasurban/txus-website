@@ -2,7 +2,7 @@
 
 Date: 2026-10-31
 
-The following legacy pages were used as source material for the new TXUS article set. Visible copy was adapted from the legacy text while the new pages use the approved TXUS navigation, section backgrounds, dividers, CTA behavior, metadata, and internal project-storage images.
+The following legacy pages were used as source material for the new TXUS article set. The revised pages use near-verbatim legacy wording wherever practical, while the new pages retain the approved TXUS navigation, compact Hillco-style project-story structure, alternating section backgrounds, dividers, CTA behavior, metadata, and internal project-storage images.
 
 1. Texas Parks & Wildlife — Texas Trailblazer
    - Source: https://www.txurbansawmill.com/articles/texas-parks-wildlife-new-life-for-fallen-trees

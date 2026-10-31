@@ -1,6 +1,7 @@
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { FancyHeroBanner } from "@/components/FancyHeroBanner";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { Leaf } from "lucide-react";
@@ -33,20 +34,20 @@ export type LegacyArticleSpec = {
 };
 
 const divider = "border-t-2 border-b-2 border-stone-400";
-const sectionOne = `bg-[#f0f0f0] ${divider} py-12 sm:py-16 lg:py-20`;
-const sectionTwo = `bg-[#f5f1e8] ${divider} py-12 sm:py-16 lg:py-20`;
+const sectionOne = `bg-[#f0f0f0] ${divider} py-16 sm:py-20`;
+const sectionTwo = `container py-16 sm:py-20 ${divider}`;
 
 function ArticleImageBlock({ image }: { image: ArticleImage }) {
   return (
-    <figure className="mt-8">
+    <figure className="my-8 flex flex-col items-center justify-center">
       <img
         src={image.src}
         alt={image.alt}
         loading="lazy"
         decoding="async"
-        className="w-full h-auto rounded-lg border-2 border-black shadow-lg"
+        className="w-2/3 h-auto rounded-lg border-2 border-[#1a4d2e] shadow-2xl"
       />
-      <figcaption className="mt-3 text-center text-sm italic leading-relaxed text-[#666]">
+      <figcaption className="mt-3 w-2/3 text-center text-sm italic leading-relaxed text-[#666]">
         {image.caption}
       </figcaption>
     </figure>
@@ -77,36 +78,22 @@ export function LegacyArticlePage({ article }: { article: LegacyArticleSpec }) {
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />
         <main>
-          <section className={`relative w-full min-h-[54vh] overflow-hidden ${divider}`}>
-            <img
-              src={article.heroImage.src}
-              alt={article.heroImage.alt}
-              className="absolute inset-0 h-full w-full object-cover object-center"
-              loading="eager"
-              decoding="async"
-            />
-            <div className="absolute inset-0 bg-black/45" />
-            <div className="relative z-10 flex min-h-[54vh] items-center justify-center px-4 py-16">
-              <div className="max-w-4xl border-2 border-white bg-black/25 px-6 py-8 text-center backdrop-blur-sm sm:px-10">
-                <h1 className="font-display text-3xl uppercase tracking-[0.04em] text-white sm:text-5xl lg:text-6xl">
-                  {article.heroTitle}
-                </h1>
-                <p className="mt-3 font-display text-lg italic font-bold text-[#d7a469] sm:text-xl">
-                  {article.subtitle}
-                </p>
-              </div>
-            </div>
-          </section>
+          <FancyHeroBanner
+            mainTitle={article.heroTitle}
+            subtitle={article.subtitle}
+            imageUrl={article.heroImage.src}
+            imageAlt={article.heroImage.alt}
+          />
 
-          <section className={`px-6 lg:px-8 ${sectionOne}`}>
-            <div className="container max-w-4xl">
-              <h2 className="font-display text-3xl uppercase tracking-[0.04em] text-[#1b1612] sm:text-4xl">
+          <section className={`container ${sectionTwo}`}>
+            <div className="max-w-3xl mx-auto">
+              <h1 className="font-display text-4xl uppercase tracking-[0.04em] text-[#1b1612] sm:text-5xl">
                 {article.introHeading}
-              </h2>
+              </h1>
               <div className="mt-6 space-y-5 text-lg leading-relaxed text-[#3d3d3d]">
                 {article.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               </div>
-              <div className="mt-8 flex items-start gap-3 border-l-4 border-[#1a4d2e] bg-white/70 px-5 py-4 text-[#1a4d2e]">
+              <div className="my-8 flex items-start gap-3 border-l-4 border-[#1a4d2e] bg-[#f0f0f0] px-6 py-4 text-[#1a4d2e]">
                 <Leaf className="mt-1 h-5 w-5 shrink-0" />
                 <p className="font-semibold">We help our customers tell a powerful story about unmatched sustainability practices and carbon savings.</p>
               </div>
@@ -114,8 +101,8 @@ export function LegacyArticlePage({ article }: { article: LegacyArticleSpec }) {
           </section>
 
           {article.sections.map((section, index) => (
-            <section key={section.heading} className={`px-6 lg:px-8 ${index % 2 === 0 ? sectionTwo : sectionOne}`}>
-              <div className="container max-w-4xl">
+            <section key={section.heading} className={index % 2 === 0 ? sectionOne : sectionTwo}>
+              <div className="max-w-3xl mx-auto">
                 <h2 className="font-display text-3xl uppercase tracking-[0.04em] text-[#1b1612] sm:text-4xl">
                   {section.heading}
                 </h2>
@@ -132,32 +119,34 @@ export function LegacyArticlePage({ article }: { article: LegacyArticleSpec }) {
             </section>
           ))}
 
-          <section className={`px-6 text-center lg:px-8 ${sectionTwo}`}>
+          <section className={`bg-[#f0f0f0] ${divider} py-16 sm:py-20`}>
             <div className="container max-w-3xl">
               <h2 className="font-display text-3xl uppercase tracking-[0.04em] text-[#1b1612] sm:text-4xl">
                 {article.ctaHeading}
               </h2>
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-[#3d3d3d]">{article.ctaText}</p>
-              <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-                <Button asChild className="bg-[#1a4d2e] text-white hover:bg-[#0f2e1f]">
-                  <Link href="/contact">Start a Conversation</Link>
-                </Button>
-                <Button asChild variant="outline" className="border-black text-[#1b1612] hover:bg-white">
-                  <Link href="/blog">Back to Blog</Link>
+              <div className="flex justify-center">
+                <Button asChild size="lg" className="gap-2">
+                  <Link href="/contact">Contact Us Today</Link>
                 </Button>
               </div>
             </div>
           </section>
         </main>
         <Footer />
+        <div className="container border-t border-border py-8">
+          <Link href="/blog" className="flex items-center gap-2 text-[#1a4d2e] hover:underline">
+            ← Back to Blog
+          </Link>
+        </div>
       </div>
     </>
   );
 }
 
 export const texasParksWildlifeArticle: LegacyArticleSpec = {
-  title: "Texas Parks & Wildlife Trailblazer | Texas Urban Sawmill",
-  heroTitle: "Texas Parks & Wildlife — Texas Trailblazer",
+  title: "Texas Parks & WildLife Magazine - Texas Trailblazer | TXUS",
+  heroTitle: "Texas Parks & WildLife Magazine - Texas Trailblazer",
   subtitle: "New Life for Fallen Trees",
   description: "Texas Urban Sawmill’s Texas Parks & Wildlife feature explores full-circle forestry, rescued trees, sequestered carbon, and sustainable public-space projects.",
   url: "https://txurbansawmill.com/blog/texas-parks-wildlife-award",
@@ -254,8 +243,8 @@ export const treeRemovalArticle: LegacyArticleSpec = {
 };
 
 export const urbanWoodBenefitsArticle: LegacyArticleSpec = {
-  title: "Why Urban Wood Beats Reclaimed Wood | TXUS",
-  heroTitle: "Why Urban Wood Is Better Than Reclaimed Wood",
+  title: "Why Is Urban and Rescued Wood a More Sustainable Choice Than Reclaimed? | TXUS",
+  heroTitle: "Why Is Urban and Rescued Wood a More Sustainable Choice Than Reclaimed?",
   subtitle: "Local, Rescued, and Climate-Smart",
   description: "Compare urban and rescued wood with reclaimed wood, including local availability, quality, supply, safety, energy use, and sustainability.",
   url: "https://txurbansawmill.com/blog/urbanwoodbenefits",
@@ -264,17 +253,17 @@ export const urbanWoodBenefitsArticle: LegacyArticleSpec = {
     alt: "Large rescued Texas pecan tree used for urban wood products",
     caption: "Sharing the history found within a rescued pecan tree offers a climate-smart solution with unmatched beauty and appeal.",
   },
-  introHeading: "Benefits of Urban and Rescued Wood",
+  introHeading: "Benefits to Using Urban and Rescued Wood vs Reclaimed Wood",
   intro: [
     "Reclaimed lumber is a very sustainable material, especially when processed locally. It helps conserve natural resources, reduce waste, and minimize energy consumption and carbon emissions associated with new lumber production.",
     "This article explores the proposed benefits of urban and rescued wood compared to reclaimed wood. Urban wood is most often produced locally from locally rescued trees, while reclaimed wood is typically a secondary material recovered from deconstructed buildings or manufactured structures.",
   ],
   sections: [
     {
-      heading: "Local Availability and Higher Quality",
+      heading: "Local Availability",
       paragraphs: [
-        "Urban wood is most often produced locally from locally rescued trees, which means transportation emissions can be minimized compared to reclaimed wood that is shipped for secondary processing and end-good manufacturing to other regions of the United States.",
-        "Urban wood harvested from trees that have been properly maintained and cared for can result in higher quality wood with fewer defects. There is also typically a much larger variety of rescued tree species available, allowing for a wider range of use applications.",
+        "Urban wood is most often produced locally from locally rescued trees, which means transportation emissions can be minimized compared to reclaimed wood, which is often shipped for secondary processing and end-good manufacturing to other regions of the United States.",
+        "Due to the high transportation costs of logs, most urban sawmills rescue and process their lumber and products within a 250-mile radius. While reclaimed wood can be processed locally, rescued wood production tends to be hyper-local.",
       ],
       image: {
         src: "/manus-storage/HillcoPartners-17FootPecanQuadMatch95_8c731067_ea305289.jpg",
@@ -283,29 +272,55 @@ export const urbanWoodBenefitsArticle: LegacyArticleSpec = {
       },
     },
     {
-      heading: "Supply, Safety, and Fewer Physical Hazards",
+      heading: "Higher Quality",
       paragraphs: [
-        "Urban wood can come from both community and rural trees, which are maintained and replaced regularly, and can be a more reliable supply source compared to reclaimed wood. Fallen, dead, hazard-prone, or diseased trees are in abundance across North America.",
-        "Some reclaimed lumber may contain nails, screws, lead, asbestos, mold, or historic preservatives. Urban and rescued wood comes directly from trees with an extremely remote chance of toxic chemical exposure and typically contains fewer metal hazards for sawyers and woodworkers.",
-      ],
-      bullets: [
-        "Urban wood is often hyper-local and can reduce transportation emissions.",
-        "Rescued trees provide a larger range of regional species and sizes.",
-        "Material can be assessed and processed by a trained local crew.",
-        "The tree’s story and stored carbon remain part of the finished product.",
+        "Urban wood harvested from trees that have been properly maintained and cared for can result in higher quality wood with fewer defects. Additionally, there are typically a much larger variety of rescued tree species available, allowing for a wider range of use applications.",
       ],
     },
     {
-      heading: "Minimize Waste and Save Energy",
+      heading: "Greater Potential Supply",
       paragraphs: [
-        "By using urban and rescued wood, we minimize waste and promote sustainability by repurposing trees that might otherwise be discarded. Urban lumber requires less energy to produce than reclaimed lumber because it does not require the same extensive deconstruction, cleaning, and processing.",
-        "Natural products made directly from fallen and diseased trees, often rescued within 100 miles of processors, offer an innovative climate-smart solution for individuals, builders, designers, and architects.",
+        "Urban wood can come from both community and rural trees, which are maintained and replaced regularly, and can be a more reliable supply source compared to reclaimed wood, which can be limited in availability.",
+        "Fallen, dead, hazard-prone, or diseased trees are in an overabundance across North America. In fact, the State of Texas alone lost over 300 million trees in a single year due to a singular cause, drought.",
       ],
       image: {
         src: "/manus-storage/pecan-bunker-conference-table-clean_e24a8899_ca056166.png",
         alt: "Custom conference table made from rescued Texas pecan",
-        caption: "Furniture produced from locally rescued trees offers beauty, quality, and durability while preserving the story of the material.",
+        caption: "Furniture produced from locally rescued trees offers unmatched beauty, quality, and durability.",
       },
+    },
+    {
+      heading: "Safer and Chemical Free",
+      paragraphs: [
+        "Some reclaimed lumber is exposed to various contaminants, such as lead, asbestos, or mold, which can cause health problems if not handled properly. These contaminants can be introduced into the environment when the wood is cut, sanded, or burned.",
+        "Reclaimed lumber may have been treated with chemicals or preservatives, such as creosote, pentachlorophenol, or chromated copper arsenate (CCA), which can pose a health hazard. Urban and rescued wood comes directly from trees with an extremely remote chance of toxic chemical exposure.",
+      ],
+    },
+    {
+      heading: "Fewer Physical Hazards",
+      paragraphs: [
+        "Reclaimed lumber is more difficult to work with compared to urban lumber because it contains far more nails, screws, or other metal pieces that can damage saw blades or cause injury if they become projectiles while cutting.",
+        "Urban lumber tends to have fewer potential hazards because it is sourced from trees that are grown in a natural environment free of contaminants and chemicals that can be present in reclaimed lumber. Additionally, urban trees are usually harvested by a trained crew that can assess the structural integrity of each tree, reducing the risk of physical hazards during sawing or processing.",
+      ],
+    },
+    {
+      heading: "Minimize Waste & Save Energy",
+      paragraphs: [
+        "By using urban and rescued wood, we can minimize waste and promote sustainability by repurposing trees that might be otherwise discarded. Urban lumber requires less energy to produce than reclaimed lumber since it does not require the extensive processing that reclaimed lumber goes through and it tends to be hyper-local.",
+        "Reclaimed lumber, on the other hand, involves labor-intensive and time-consuming processes such as deconstruction, cleaning, and processing in a mill. Additionally, reclaimed lumber has limited availability, both in terms of quantity and type of wood species, which can make it more difficult to work with and result in higher costs.",
+      ],
+      image: {
+        src: "/manus-storage/pecan-bunker-conference-table-clean_e24a8899_ca056166.png",
+        alt: "Custom conference table made from rescued Texas pecan",
+        caption: "Furniture produced from locally rescued trees offers unmatched beauty, quality, and durability.",
+      },
+    },
+    {
+      heading: "Conclusion",
+      paragraphs: [
+        "While reclaimed wood remains a viable option for sustainable building materials, urban and rescued wood provides a reliable and locally sourced alternative that promotes sustainability, is naturally chemical free, reduces environmental impact, and helps minimize waste.",
+        "Urban and rescued wood should be considered as a highly sustainable alternative for individuals, builders, designers, and architects looking to make climate-smart choices for building projects and ESG goals.",
+      ],
     },
   ],
   ctaHeading: "Choose a More Local Wood Story",
@@ -391,14 +406,14 @@ export const circularEconomyArticle: LegacyArticleSpec = {
   introHeading: "What Is a Circular Economy?",
   intro: [
     "The circular economy is a model of production and consumption that aims to minimize waste and conserve natural resources by keeping materials in use for as long as possible.",
-    "For Texas Urban Sawmill, this means recovering trees from communities and landscapes, processing them into valuable products, and creating a full-circle forestry model that supports climate-smart construction, local economies, and future tree canopies.",
+    "The model aims to minimize waste, maximize resource efficiency, and create sustainable value. The central idea is to keep resources in use for as long as possible, extract maximum value from them while in use, and recover and regenerate products and materials at the end of their service life.",
   ],
   sections: [
     {
-      heading: "From Wildfire Mitigation to Community Value",
+      heading: "The Rise of the Circular Economy",
       paragraphs: [
-        "Texas is the second most disaster-prone state in the United States after California according to FEMA disaster declarations. Rapid population growth, unsustainable forest management, and expansion into the wildland-urban interface have increased wildfire risk across Central Texas.",
-        "Texas Urban Sawmill’s Full Circle Woodland Forestry project investigates an economic approach that utilizes excess wood material, reduces wildfire threats, and generates revenue that can support replanting and tree-canopy expansion.",
+        "The circular economy is a regenerative, waste-free economic system that provides social, environmental and economic benefits. The model aims to minimize waste, maximize resource efficiency, and create sustainable value.",
+        "In this concept, waste is seen as a design flaw, and the focus is on creating products and processes that are restorative and regenerative. It involves shifting from the traditional linear \"take-make-dispose\" approach to one that focuses on reducing, reusing, and recycling materials, while promoting regenerative practices and collaborative efforts.",
       ],
       image: {
         src: "/manus-storage/TXUS-Ashe-Chainsaw-WUI-Property_30c2da2a_e8005384.webp",
@@ -407,34 +422,61 @@ export const circularEconomyArticle: LegacyArticleSpec = {
       },
     },
     {
-      heading: "Reduce, Reuse, and Recycle—In That Order",
+      heading: "Reduce Consumption: The First Step",
       paragraphs: [
-        "Conserving resources by reducing consumption, reusing products, and recycling materials helps reduce waste and conserve natural resources. Reducing consumption should be prioritized as the most effective of the three fundamental principles of sustainability.",
-        "Supporting local businesses that promote sustainability and purchasing locally sourced urban wood, rescued wood, or reclaimed wood products are practical ways individuals and organizations can participate in a more sustainable future.",
-      ],
-      bullets: [
-        "Keep valuable wood in use instead of sending it to a landfill.",
-        "Reduce transportation emissions through regional processing.",
-        "Support local arborists, sawyers, builders, designers, and craftspeople.",
-        "Use project value to support tree-canopy expansion and community benefit.",
+        "The idea behind the circular economy is to reduce waste at the source, by reducing consumption before repairing and recycling. An effective reduction of waste starts with the adoption of a consumption model that prioritizes reducing the amount of materials used, increasing the lifespan of products, and encouraging repair and reuse.",
       ],
       image: {
         src: "/manus-storage/TXUS-AHFH-Team-Cedar-Lumber_7b70e406_c5ee29ea.webp",
         alt: "Texas Urban Sawmill and Habitat for Humanity team with rescued lumber",
-        caption: "The full-circle model connects recovered material with affordable housing, canopy expansion, and community partnerships.",
+        caption: "Supporting local communities keeps recovered material in use and creates lasting value.",
       },
     },
     {
-      heading: "The Full-Circle Forestry Model",
+      heading: "Repair: The More Sustainable Approach",
       paragraphs: [
-        "Wood recovered from project sites can be milled and offered as retail lumber, furniture material, architectural components, or other lasting products. The resulting value can support community organizations, tree-canopy expansion, education, and wildfire-risk mitigation.",
-        "This approach demonstrates that economic activity and environmental stewardship can reinforce each other. A removed tree is not simply a disposal problem; it is a material, a story, a carbon store, and an opportunity to build a more resilient future.",
+        "Repairing items is an excellent way to extend their lifespan and reduce waste. Repairing items, from clothing to electronics, can provide significant benefits for both the environment and the economy.",
+        "When we repair rather than discard a product, we can conserve the resources that went into making it, reduce the amount of waste sent to landfills or incineration, and save the energy required to manufacture a new product. Repairing products also creates jobs, supports local economies, and preserves the skills and knowledge required to fix items.",
       ],
       image: {
         src: "/manus-storage/TXUS-USDA-Sarah-Hydraulic-Grappler_a3fd1af9_bd711baf.webp",
         alt: "Sarah Ginther supporting full-circle forestry work with a hydraulic grappler",
         caption: "The people behind the work make circular forestry practical—from recovery and processing to community use.",
       },
+    },
+    {
+      heading: "Reuse: Breathing New Life into Old Products",
+      paragraphs: [
+        "Reusing items is another fundamental aspect of the circular economy. Repurposing items, giving older items to someone, donating them to a charity, or finding creative ways to make use of our old stuff reduces waste, conserves resources, and provides value to the community.",
+        "Beyond keeping products out of landfills, reuse can also provide significant social benefits, supporting low-income families and creating opportunities for entrepreneurship.",
+      ],
+    },
+    {
+      heading: "How It Relates to Resource Optimization",
+      paragraphs: [
+        "The circular economy promotes resource efficiency by encouraging businesses and industries to rethink their use of resources. By adopting strategies such as recycling, reusing, and remanufacturing, the circular economy ensures that resources are utilized to their fullest potential, reducing the need for extracting and processing new raw materials.",
+      ],
+    },
+    {
+      heading: "Closing the Loop",
+      paragraphs: [
+        "The circular economy emphasizes closing the loop of resource flows by designing products and systems that enable materials to circulate within the economy for as long as possible. This should be done at the very early phases of product design and includes strategies like product reuse, refurbishment, recycling and product life cycle.",
+        "By closing the loop, the circular economy minimizes the loss of valuable resources and reduces the reliance on virgin materials, thus enhancing resource efficiency.",
+      ],
+    },
+    {
+      heading: "Innovation and Collaboration",
+      paragraphs: [
+        "Innovation, collaboration, and systemic thinking are critical attributes for success. Developing new technologies, business models, and collaborative networks are essential to drive resource efficiency and implement circular economy strategies effectively.",
+        "These efforts can lead to breakthroughs in eco-design, material recycling, waste management, and resource recovery.",
+      ],
+    },
+    {
+      heading: "Conclusion",
+      paragraphs: [
+        "The circular economy strives for resource efficiency, waste reduction, and sustainability. By shifting from a linear model to one focused on reducing, reusing, and recycling, it offers benefits such as resource conservation, economic growth, and enhanced resilience.",
+        "Through product design, material reuse, and regenerative practices, the circular economy promotes a sustainable future while minimizing environmental impact and reliance on finite resources.",
+      ],
     },
   ],
   ctaHeading: "Build a More Circular Future",
