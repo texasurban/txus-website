@@ -14,17 +14,34 @@ export const contactProjectTypes = [
   "Other",
 ];
 
+export function getDefaultContactSubject(pathname = "", ctaText = "") {
+  const context = `${pathname} ${ctaText}`.toLowerCase();
+
+  if (context.includes("cnc") || context.includes("laser") || context.includes("millwork") || context.includes("cad")) {
+    return "CAD, CNC, Laser Services";
+  }
+  if (context.includes("tree care") || context.includes("tree-care") || context.includes("log transport") || context.includes("forestry")) {
+    return "Forestry / Tree Service";
+  }
+  if (context.includes("tree reuse") || context.includes("tree-reuse") || context.includes("sawmill") || context.includes("sawmilling") || context.includes("lumber")) {
+    return "Tree Re-Use / Sawmilling";
+  }
+
+  return "Private / Residential";
+}
+
 type ContactFormModalProps = {
   subject: string;
   onClose: () => void;
 };
 
 export function ContactFormModal({ subject, onClose }: ContactFormModalProps) {
+  const selectedSubject = contactProjectTypes.includes(subject) ? subject : getDefaultContactSubject();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    subject,
+    subject: selectedSubject,
     message: "",
   });
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
@@ -69,7 +86,7 @@ export function ContactFormModal({ subject, onClose }: ContactFormModalProps) {
         message: formData.message,
       });
       setSuccessMessage(result.message);
-      setFormData({ name: "", email: "", phone: "", subject, message: "" });
+      setFormData({ name: "", email: "", phone: "", subject: selectedSubject, message: "" });
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Failed to submit form. Please try again.");
     } finally {
@@ -78,7 +95,7 @@ export function ContactFormModal({ subject, onClose }: ContactFormModalProps) {
   };
 
   const handleClear = () => {
-    setFormData({ name: "", email: "", phone: "", subject, message: "" });
+    setFormData({ name: "", email: "", phone: "", subject: selectedSubject, message: "" });
     setSuccessMessage(null);
     setErrorMessage(null);
   };
@@ -199,7 +216,7 @@ export function ContactModalLinkBridge() {
       const url = new URL(link.href, window.location.origin);
       event.preventDefault();
       event.stopPropagation();
-      setSubject(url.searchParams.get("subject") || "");
+      setSubject(url.searchParams.get("subject") || getDefaultContactSubject(window.location.pathname, link.textContent || ""));
     };
 
     document.addEventListener("click", handleDocumentClick, true);
