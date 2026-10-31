@@ -105,9 +105,9 @@ export default function ServiceMillworks() {
                 variants={fadeUp}
                 className="mb-20"
               >
-                <div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
+                <div className="grid gap-12 grid-cols-1 lg:grid-cols-2 items-stretch">
                   {/* Gallery Item 1 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/TXUSCNCServices_d7715daf.jpg"
@@ -115,16 +115,16 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
-                      <p className="text-[#6d5d50]">Our Camaster Cobra CNC machine can handle jobs as large as 72" wide x 184" long. Here we are surfacing a larger Texas Bald Cypress Slab. It can utilize up to 10 different bits within a project file.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Our Camaster Cobra CNC machine can handle jobs as large as 72" wide x 184" long. Here we are surfacing a larger Texas Bald Cypress Slab. It can utilize up to 10 different bits within a project file.</p>
                     </div>
                   </div>
 
                   
                   
                   {/* Gallery Item 3 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260508_105250_676b21d1.jpg"
@@ -132,16 +132,16 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Architectural Millwork</h4>
-                      <p className="text-[#6d5d50]">Precision-routed trim, molding, panels, and custom architectural components for residential and commercial projects. We produce clean, repeatable parts with the flexibility to support one-of-a-kind designs and complex fabrication needs.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Precision-routed trim, molding, panels, and custom architectural components for residential and commercial projects. We produce clean, repeatable parts with the flexibility to support one-of-a-kind designs and complex fabrication needs.</p>
                     </div>
                   </div>
 
                   
                   
                   {/* Gallery Item 5 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260423_150042_29fd5f52.jpg"
@@ -149,16 +149,16 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Custom Laser Engraving</h4>
-                      <p className="text-[#6d5d50]">Our dual-head CO₂ laser system creates personalized products ranging from custom signage and engraved gifts to decorative architectural elements. Equipped with both 70W and 130W lasers, we handle everything from fine-detail engraving to precision cutting of thicker materials.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Our dual-head CO₂ laser system creates personalized products ranging from custom signage and engraved gifts to decorative architectural elements. Equipped with both 70W and 130W lasers, we handle everything from fine-detail engraving to precision cutting of thicker materials.</p>
                     </div>
                   </div>
 
                   
                   
                   {/* Gallery Item 2 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/TXUSDripNaturalSigns_4ce82498.jpg"
@@ -166,16 +166,16 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CO2 Laser Services</h4>
-                      <p className="text-[#6d5d50]">Precision laser engraving and cutting for detailed patterns, custom components, branding, and decorative applications across a wide range of materials and project types.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Precision laser engraving and cutting for detailed patterns, custom components, branding, and decorative applications across a wide range of materials and project types.</p>
                     </div>
                   </div>
 
                   
                   
                   {/* Gallery Item 4 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/Texas_Urban_Sawmill_Team-137_1de71412.jpg"
@@ -183,14 +183,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision CNC Routing</h4>
-                      <p className="text-[#6d5d50]">Devin Ginther preparing custom CNC toolpaths for precision architectural millwork and specialty fabrication projects. With more than 25 years of experience working with CNC technology dating back to his time as an R&D engineer within a Johns Hopkins University technology incubator.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Devin Ginther preparing custom CNC toolpaths for precision architectural millwork and specialty fabrication projects. With more than 25 years of experience working with CNC technology dating back to his time as an R&D engineer within a Johns Hopkins University technology incubator.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 6 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260508_110854_489d1428.jpg"
@@ -198,14 +198,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Precision Structural Timber Machining</h4>
-                      <p className="text-[#6d5d50]">We manufacture detailed timber frame profiles on beams up to 10 inches thick using specialized tooling with indexable carbide inserts for precision, consistency, and clean finishes. This advanced tooling allows for efficient production of complex architectural details, joinery, and custom beam profiles.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">We manufacture detailed timber frame profiles on beams up to 10 inches thick using specialized tooling with indexable carbide inserts for precision, consistency, and clean finishes. This advanced tooling allows for efficient production of complex architectural details, joinery, and custom beam profiles.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 7 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260507_154809_76af8f02.jpg"
@@ -213,14 +213,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Beam End Profiling</h4>
-                      <p className="text-[#6d5d50]">A series of four matched beam-end profiles designed to add intricate architectural detail and craftsmanship to the exterior of a custom-built home.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">A series of four matched beam-end profiles designed to add intricate architectural detail and craftsmanship to the exterior of a custom-built home.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 8 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260406_110142_2461b5a9.jpg"
@@ -228,14 +228,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Water Bottles</h4>
-                      <p className="text-[#6d5d50]">Custom laser engraving on water bottles creates personalized gifts and promotional items with detailed graphics and text.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Custom laser engraving on water bottles creates personalized gifts and promotional items with detailed graphics and text.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 9 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260417_155829_2268ef7c.jpg"
@@ -243,14 +243,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Arch</h4>
-                      <p className="text-[#6d5d50]">This finished piece was precision CNC-machined to serve as a decorative architectural arch for the exterior of a timber frame home, combining detailed craftsmanship with structural-scale fabrication.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">This finished piece was precision CNC-machined to serve as a decorative architectural arch for the exterior of a timber frame home, combining detailed craftsmanship with structural-scale fabrication.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 10 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260417_145707_8cd935ee.jpg"
@@ -258,14 +258,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">CNC Decorative Elements</h4>
-                      <p className="text-[#6d5d50]">CNC routing produces decorative trim, molding, and architectural details that add character and elegance to any project.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">CNC routing produces decorative trim, molding, and architectural details that add character and elegance to any project.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 11 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260419_181047_b4bc96a5.jpg"
@@ -273,14 +273,14 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">A Family-Driven Business</h4>
-                      <p className="text-[#6d5d50]">The entire Ginther family plays a role in supporting our business. Our two boys, Ryker and Boden, especially enjoy helping develop new products and exploring the creativity of working with lasers, 3D printers, and CNC technology.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">The entire Ginther family plays a role in supporting our business. Our two boys, Ryker and Boden, especially enjoy helping develop new products and exploring the creativity of working with lasers, 3D printers, and CNC technology.</p>
                     </div>
                   </div>
 
                   {/* Gallery Item 12 */}
-                  <div className="flex flex-col">
+                  <div className="flex flex-col h-full">
                     <div className="overflow-hidden rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] hover:shadow-[0_50px_100px_rgba(0,0,0,0.6)] transition-all duration-300 transform hover:-translate-y-3 border-2 border-black">
                       <img
                         src="/manus-storage/20260420_090741_a048ffe3.jpg"
@@ -288,9 +288,9 @@ export default function ServiceMillworks() {
                         className="w-full h-80 object-cover"
                        decoding="async" loading="lazy"/>
                     </div>
-                    <div className="mt-3 bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md">
+                    <div className="bg-[#fbf8f3] p-6 rounded-lg border-2 border-black shadow-md flex flex-col flex-1">
                       <h4 className="text-xl font-bold mb-3 text-[#1b1612]">Laser Engraved Baseball Bat</h4>
-                      <p className="text-[#6d5d50]">Custom laser engraving on sports equipment creates personalized commemorative pieces, team awards, and one-of-a-kind gifts for players, coaches, and special events. At TXUS, we are proud supporters of the Dripping Springs High School Baseball Booster Club and enjoy creating custom engraved items that celebrate the athletes, families, and community behind the program.</p>
+                      <p className="text-[#6d5d50] flex-grow leading-relaxed">Custom laser engraving on sports equipment creates personalized commemorative pieces, team awards, and one-of-a-kind gifts for players, coaches, and special events. At TXUS, we are proud supporters of the Dripping Springs High School Baseball Booster Club and enjoy creating custom engraved items that celebrate the athletes, families, and community behind the program.</p>
                     </div>
                   </div>
 
@@ -348,42 +348,42 @@ export default function ServiceMillworks() {
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Custom Signage</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Professional laser-cut and engraved signs for businesses, homes, and events. Create lasting impressions with precision-crafted custom signage.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Personalized Gifts</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Unique, personalized gifts including engraved boxes, wine glasses, cutting boards, and more. Perfect for weddings, anniversaries, and corporate gifts.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Architectural Millwork</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Precision-routed architectural elements including trim, molding, decorative panels, and custom details for high-end residential and commercial projects.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Furniture Components</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Custom-routed furniture parts, inlays, and decorative elements. From simple cuts to complex designs, we bring your furniture vision to life.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Awards & Recognition</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Custom-engraved awards, plaques, and recognition items. Celebrate achievements with professionally crafted, personalized pieces.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-[#217938] pl-6">
                     <h3 className="text-lg font-bold mb-2 text-[#1b1612]">Decorative Elements</h3>
-                    <p className="text-[#6d5d50]">
+                    <p className="text-[#6d5d50] flex-grow leading-relaxed">
                       Wall art, decorative panels, and custom designs. Transform your space with precision-crafted, uniquely personalized decorative pieces.
                     </p>
                   </div>
