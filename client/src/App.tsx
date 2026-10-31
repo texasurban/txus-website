@@ -2,6 +2,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { ContactModalLinkBridge } from "./components/ContactFormModal";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -93,6 +94,7 @@ function App() {
       >
         <TooltipProvider>
           <Router />
+          <ContactModalLinkBridge />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

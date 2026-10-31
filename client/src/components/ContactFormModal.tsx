@@ -184,3 +184,28 @@ export function ContactFormTrigger({ subject, children, className }: ContactForm
     </>
   );
 }
+
+export function ContactModalLinkBridge() {
+  const [subject, setSubject] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleDocumentClick = (event: MouseEvent) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const link = target.closest<HTMLAnchorElement>('a[href^="/contact"]');
+      if (!link || link.closest("header, nav, footer")) return;
+
+      const url = new URL(link.href, window.location.origin);
+      event.preventDefault();
+      event.stopPropagation();
+      setSubject(url.searchParams.get("subject") || "");
+    };
+
+    document.addEventListener("click", handleDocumentClick, true);
+    return () => document.removeEventListener("click", handleDocumentClick, true);
+  }, []);
+
+  if (subject === null) return null;
+  return <ContactFormModal subject={subject} onClose={() => setSubject(null)} />;
+}
