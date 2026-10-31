@@ -107,3 +107,13 @@
 - Navigation and Footer components are rendering correctly
 - All external CloudFront URLs have been migrated to Manus storage
 - Custom Heirloom Furniture now links directly to Portfolio page
+
+## Legacy Article Migration
+- [x] Add Texas Parks & Wildlife — Texas Trailblazer article page
+- [x] Add Redefining Tree Removal in Central Texas article page
+- [x] Add Why Urban Wood Is Better Than Reclaimed Wood article page
+- [x] Add What Is Urban, Rescued, Salvaged, and Reclaimed Wood article page
+- [x] Add Sustainable Future: Principles of the Circular Economy article page
+- [x] Register all five article routes in the application
+- [x] Add all five articles to the Blog index and production sitemap
+- [x] Verify desktop and phone layouts, internal images, tests, and production build

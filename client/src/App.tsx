@@ -36,6 +36,11 @@ import TreeReuseUrban from "./pages/BlogArticles/TreeReuseUrban";
 import SustainableFurnitureDesign from "./pages/BlogArticles/SustainableFurnitureDesign";
 import StinsonTest from "./pages/BlogArticles/StinsonTest";
 import CommunityImpactStories from "./pages/BlogArticles/CommunityImpactStories";
+import LegacyTexasParksWildlife from "./pages/BlogArticles/LegacyTexasParksWildlife";
+import LegacyTreeRemoval from "./pages/BlogArticles/LegacyTreeRemoval";
+import LegacyUrbanWoodBenefits from "./pages/BlogArticles/LegacyUrbanWoodBenefits";
+import LegacyWoodDefinitions from "./pages/BlogArticles/LegacyWoodDefinitions";
+import LegacyCircularEconomy from "./pages/BlogArticles/LegacyCircularEconomy";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -53,6 +58,11 @@ function Router() {
       <Route path={"/blog/sustainable-furniture-design"} component={SustainableFurnitureDesign} />
       <Route path={"/blog/stinson-test"} component={StinsonTest} />
       <Route path={"/blog/community-impact-stories"} component={CommunityImpactStories} />
+      <Route path={"/blog/texas-parks-wildlife-award"} component={LegacyTexasParksWildlife} />
+      <Route path={"/blog/tree-service-partnership"} component={LegacyTreeRemoval} />
+      <Route path={"/blog/urbanwoodbenefits"} component={LegacyUrbanWoodBenefits} />
+      <Route path={"/blog/what-is-urban-rescued-salvaged-reclaimed-wood"} component={LegacyWoodDefinitions} />
+      <Route path={"/blog/circular-economy"} component={LegacyCircularEconomy} />
       <Route path={"/portfolio"} component={Portfolio} />
       <Route path={"/stinson-gallery"} component={StinsonGallery} />
       <Route path={"/omega-gallery"} component={OmegaGallery} />
