@@ -22,6 +22,13 @@
       "when": 1777964199992,
       "tag": "0002_reflective_viper",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1794245632966,
+      "tag": "0003_stiff_mentallo",
+      "breakpoints": true
     }
   ]
 }

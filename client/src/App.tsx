@@ -1,14 +1,15 @@
+import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { CartProvider } from "./lib/cart";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import AboutUs from "./pages/AboutUs";
 import ServiceSawmilling from "./pages/ServiceSawmilling";
 import ServiceLumber from "./pages/ServiceLumber";
-
 import ServiceTreeReuse from "./pages/ServiceTreeReuse";
 import ServiceLogTransport from "./pages/ServiceLogTransport";
 import ServiceTreeCare from "./pages/ServiceTreeCare";
@@ -34,9 +35,15 @@ import TreeReuseUrban from "./pages/BlogArticles/TreeReuseUrban";
 import SustainableFurnitureDesign from "./pages/BlogArticles/SustainableFurnitureDesign";
 import StinsonTest from "./pages/BlogArticles/StinsonTest";
 import CommunityImpactStories from "./pages/BlogArticles/CommunityImpactStories";
+import Shop from "./pages/Shop";
+import ShopLumberSlabs from "./pages/ShopLumberSlabs";
+import ShopListing from "./pages/ShopListing";
+import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import AdminPricing from "./pages/AdminPricing";
 
 function Router() {
-  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/?"} component={Home} />
@@ -71,30 +78,43 @@ function Router() {
       <Route path={"/services/log-transport"} component={ServiceLogTransport} />
       <Route path={"/services/tree-care"} component={ServiceTreeCare} />
       <Route path={"/services/millworks"} component={ServiceMillworks} />
-      <Route path={"/404"} component={NotFound} />      {/* Final fallback route */}
+
+      {/* Shop routes */}
+      <Route path={"/shop"} component={Shop} />
+      <Route path={"/shop/lumber-slabs"} component={ShopLumberSlabs} />
+      <Route path={"/shop/lumber-slabs/slabs"} component={() => <ShopListing category="Slabs" pageTitle="Slabs" pageDesc="Live-edge and natural-edge slabs priced from our master species board-foot table." slug="slabs" />} />
+      <Route path={"/shop/lumber-slabs/mantels"} component={() => <ShopListing category="Mantels" pageTitle="Mantels" pageDesc="Character mantel beams and floating shelves cut from salvaged Texas hardwoods." slug="mantels" />} />
+      <Route path={"/shop/lumber-slabs/cookies-rounds"} component={() => <ShopListing category="Cookies & Rounds" pageTitle="Cookies & Rounds" pageDesc="Cross-cut tree rounds and burl cookies — fixed-price pieces retaining their existing sale prices." slug="cookies-rounds" />} />
+      <Route path={"/shop/lumber-slabs/beams"} component={() => <ShopListing category="Beams" pageTitle="Beams & Timbers" pageDesc="Structural and decorative beams milled from salvaged Texas trees." slug="beams" />} />
+      <Route path={"/shop/lumber-slabs/dimensional-lumber"} component={() => <ShopListing category="Dimensional Lumber" pageTitle="Dimensional Lumber" pageDesc="Kiln-dried lumber priced by board foot." slug="dimensional-lumber" />} />
+      <Route path={"/shop/slabs"} component={() => <Redirect to="/shop/lumber-slabs/slabs" />} />
+      <Route path={"/shop/mantels"} component={() => <Redirect to="/shop/lumber-slabs/mantels" />} />
+      <Route path={"/shop/furniture"} component={() => <Redirect to="/portfolio" />} />
+      <Route path={"/shop/product/:id"} component={ProductDetail} />
+      <Route path={"/cart"} component={Cart} />
+      <Route path={"/checkout"} component={Checkout} />
+
+      {/* Admin */}
+      <Route path={"/admin/pricing"} component={AdminPricing} />
+
+      <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
+      <ThemeProvider defaultTheme="light">
         <TooltipProvider>
-          <Router />
+          <CartProvider>
+            <Router />
+            <Toaster />
+          </CartProvider>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
 }
-
 export default App;

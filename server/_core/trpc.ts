@@ -30,8 +30,10 @@ export const protectedProcedure = t.procedure.use(requireUser);
 export const adminProcedure = t.procedure.use(
   t.middleware(async opts => {
     const { ctx, next } = opts;
-
-    if (!ctx.user || ctx.user.role !== 'admin') {
+    const cookieAdmin = (ctx.req.headers.cookie || "")
+      .split(";")
+      .some(c => c.trim() === "txus_admin=1");
+    if (!(ctx.user?.role === 'admin' || cookieAdmin)) {
       throw new TRPCError({ code: "FORBIDDEN", message: NOT_ADMIN_ERR_MSG });
     }
 

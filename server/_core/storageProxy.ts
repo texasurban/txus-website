@@ -1,5 +1,7 @@
 import type { Express } from "express";
 import { ENV } from "./env";
+import fs from "fs";
+import path from "path";
 
 export function registerStorageProxy(app: Express) {
   app.get("/manus-storage/*", async (req, res) => {
@@ -9,9 +11,19 @@ export function registerStorageProxy(app: Express) {
       return;
     }
 
+    // Try local public manus-storage directory first
+    const candidates = [
+      path.resolve(import.meta.dirname, "../../client/public/manus-storage", key),
+      path.resolve(import.meta.dirname, "../dist/public/manus-storage", key),
+    ];
+    for (const c of candidates) {
+      if (fs.existsSync(c)) {
+        return res.sendFile(c);
+      }
+    }
+
     if (!ENV.forgeApiUrl || !ENV.forgeApiKey) {
-      res.status(500).send("Storage proxy not configured");
-      return;
+      return res.status(404).send("File not found");
     }
 
     try {

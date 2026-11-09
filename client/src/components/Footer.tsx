@@ -91,7 +91,7 @@ export function Footer() {
               Texas Urban Sawmill · Dripping Springs, Texas
             </p>
             <p className="text-stone-500 text-[0.6rem] uppercase tracking-[0.08em]">
-              @ 2026  Texas Urban Sawmill LLC | All Rights Reserved
+              @ 2026  Texas Urban Sawmill LLC | All Rights Reserved · <a href="/admin/pricing" className="hover:text-stone-300">Pricing Manager</a>
             </p>
           </div>
         </div>
