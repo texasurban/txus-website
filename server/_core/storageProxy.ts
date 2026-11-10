@@ -16,7 +16,9 @@ export function registerStorageProxy(app: Express) {
 
     try {
       const forgeUrl = new URL(
-        "v1/storage/presign/get",
+        key.startsWith("txus-inventory/")
+          ? "v1/storage/downloadUrl"
+          : "v1/storage/presign/get",
         ENV.forgeApiUrl.replace(/\/+$/, "") + "/",
       );
       forgeUrl.searchParams.set("path", key);
@@ -38,7 +40,7 @@ export function registerStorageProxy(app: Express) {
         return;
       }
 
-      res.set("Cache-Control", "no-store");
+      res.set("Cache-Control", key.startsWith("txus-inventory/") ? "public, max-age=300" : "no-store");
       res.redirect(307, url);
     } catch (err) {
       console.error("[StorageProxy] failed:", err);

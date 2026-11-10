@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://txurbansawmill.com/sitemap.xml
+Sitemap: https://txurbansawmill.com/api/shop/sitemap.xml

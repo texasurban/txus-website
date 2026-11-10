@@ -42,7 +42,15 @@ import LegacyUrbanWoodBenefits from "./pages/BlogArticles/LegacyUrbanWoodBenefit
 import LegacyWoodDefinitions from "./pages/BlogArticles/LegacyWoodDefinitions";
 import LegacyCircularEconomy from "./pages/BlogArticles/LegacyCircularEconomy";
 import Shop from "./pages/Shop";
-import ShopSlabs from "./pages/ShopSlabs";
+import ShopListing from "./pages/ShopListing";
+import ShopLumberSlabs from "./pages/ShopLumberSlabs";
+import ShopFurniture from "./pages/ShopFurniture";
+import ShopHomeDecor from "./pages/ShopHomeDecor";
+import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import AdminPricing from "./pages/AdminPricing";
+import { CartProvider } from "./lib/cart";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -66,7 +74,20 @@ function Router() {
       <Route path={"/blog/what-is-urban-rescued-salvaged-reclaimed-wood"} component={LegacyWoodDefinitions} />
       <Route path={"/blog/circular-economy"} component={LegacyCircularEconomy} />
       <Route path={"/shop"} component={Shop} />
-      <Route path={"/shop/lumber-slabs/slabs"} component={ShopSlabs} />
+      <Route path={"/shop/lumber-slabs"} component={ShopLumberSlabs} />
+      <Route path={"/shop/lumber-slabs/slabs"} component={() => <ShopListing category="Slabs" pageTitle="Live Edge Slabs" pageDesc="Browse rescued Texas wood slabs with verified photographs, dimensions, and live board-foot pricing. Local pickup in Dripping Springs." slug="slabs" />} />
+      <Route path={"/shop/lumber-slabs/mantels"} component={() => <ShopListing category="Mantels" pageTitle="Wood Mantels" pageDesc="Explore rescued Texas wood mantels with verified dimensions, photographs, and live species pricing for local pickup." slug="mantels" />} />
+      <Route path={"/shop/lumber-slabs/cookies-rounds"} component={() => <ShopListing category="Cookies & Rounds" pageTitle="Cookies & Rounds" pageDesc="Browse approved wood cookies and rounds as complete inventory records become available." slug="cookies-rounds" />} />
+      <Route path={"/shop/lumber-slabs/beams"} component={() => <ShopListing category="Beams" pageTitle="Wood Beams" pageDesc="Browse approved rescued wood beams with complete dimensions, photographs, and pricing." slug="beams" />} />
+      <Route path={"/shop/lumber-slabs/dimensional-lumber"} component={() => <ShopListing category="Dimensional Lumber" pageTitle="Dimensional Lumber" pageDesc="Browse approved dimensional lumber inventory for woodworking and construction projects." slug="dimensional-lumber" />} />
+      <Route path={"/shop/furniture"} component={ShopFurniture} />
+      <Route path={"/shop/home-decor"} component={ShopHomeDecor} />
+      <Route path={"/shop/product/:id"} component={ProductDetail} />
+      <Route path={"/shop/cart"} component={Cart} />
+      <Route path={"/shop/checkout"} component={Checkout} />
+      <Route path={"/cart"} component={Cart} />
+      <Route path={"/checkout"} component={Checkout} />
+      <Route path={"/admin/pricing"} component={AdminPricing} />
       <Route path={"/portfolio"} component={Portfolio} />
       <Route path={"/stinson-gallery"} component={StinsonGallery} />
       <Route path={"/omega-gallery"} component={OmegaGallery} />
@@ -107,8 +128,10 @@ function App() {
         // switchable
       >
         <TooltipProvider>
-          <Router />
-          <ContactModalLinkBridge />
+          <CartProvider>
+            <Router />
+            <ContactModalLinkBridge />
+          </CartProvider>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
