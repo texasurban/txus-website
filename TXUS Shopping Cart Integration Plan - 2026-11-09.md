@@ -3,7 +3,7 @@
 **Project:** TXUS Website – Phase II  
 **Prototype source:** `/home/ubuntu/txusshop`  
 **Planning date:** 2026-11-09  
-**Status:** Planning only; no Phase II website source changed by this plan.
+**Status:** Milestone 1 in progress: preview-only shell-integrated shop landing and slab collection added; no live publishing or baseline save performed.
 
 ## Non-negotiable site-shell requirement
 

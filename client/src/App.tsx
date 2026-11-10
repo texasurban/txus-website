@@ -41,6 +41,8 @@ import LegacyTreeRemoval from "./pages/BlogArticles/LegacyTreeRemoval";
 import LegacyUrbanWoodBenefits from "./pages/BlogArticles/LegacyUrbanWoodBenefits";
 import LegacyWoodDefinitions from "./pages/BlogArticles/LegacyWoodDefinitions";
 import LegacyCircularEconomy from "./pages/BlogArticles/LegacyCircularEconomy";
+import Shop from "./pages/Shop";
+import ShopSlabs from "./pages/ShopSlabs";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -63,6 +65,8 @@ function Router() {
       <Route path={"/blog/urbanwoodbenefits"} component={LegacyUrbanWoodBenefits} />
       <Route path={"/blog/what-is-urban-rescued-salvaged-reclaimed-wood"} component={LegacyWoodDefinitions} />
       <Route path={"/blog/circular-economy"} component={LegacyCircularEconomy} />
+      <Route path={"/shop"} component={Shop} />
+      <Route path={"/shop/lumber-slabs/slabs"} component={ShopSlabs} />
       <Route path={"/portfolio"} component={Portfolio} />
       <Route path={"/stinson-gallery"} component={StinsonGallery} />
       <Route path={"/omega-gallery"} component={OmegaGallery} />
