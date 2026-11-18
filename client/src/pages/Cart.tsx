@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { useCart, roundMoney } from "@/lib/cart";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, RefreshCw, Trash2, ArrowRight, ArrowLeft } from "lucide-react";
+import { imageDeliveryUrl } from "@/components/shop/ProductImage";
 
 export function Cart() {
   const { items, removeItem, updateQuantity, toggleSurfacing, clearCart, subtotal, surfacingTotal, total, count,
@@ -50,7 +51,7 @@ export function Cart() {
                   const fee = item.surfacing ? item.pricingResult?.surfacingFee ?? 0 : 0;
                   const lineTotal = roundMoney(((item.selectedPrice ?? 0) + fee) * item.quantity);
                   return <article key={item.productId} className="flex flex-col gap-5 border border-stone-400 bg-white p-5 sm:flex-row">
-                    {item.image && <img src={item.image} alt={`${item.species} — ${item.productId}`} loading="lazy" className="h-40 w-full border-2 border-black object-contain sm:w-40" />}
+                    {item.image && <img src={imageDeliveryUrl(item.image)} alt={`${item.species} — ${item.productId}`} loading="lazy" className="h-40 w-full border-2 border-black object-contain sm:w-40" />}
                     <div className="flex flex-1 flex-col">
                       <div className="flex flex-wrap justify-between gap-2 text-sm text-muted-foreground"><span>{item.category}</span><span>{item.productId}</span></div>
                       <h2 className="mt-2 text-xl font-bold"><Link href={`/shop/product/${encodeURIComponent(item.productId)}`} className="hover:underline">{item.species}</Link></h2>

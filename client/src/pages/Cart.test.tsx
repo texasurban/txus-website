@@ -17,6 +17,14 @@ beforeEach(() => {
     getItems: () => [item], notices: [], canCheckout: true, revalidating: false, validationError: null, pricingVersion: "v1", lastRevalidated: new Date() };
 });
 describe("cart page", () => {
+  it("delivers existing persisted cart photos without changing their stored image associations", () => {
+    const source = "/manus-storage/txus-inventory/11102026v2/walnut-slab-400_abcd1234.webp";
+    mock.cart.items = [{ ...item, image: source }];
+    render(<Cart />);
+    expect(screen.getByRole("img", { name: "Walnut — 108-001" })).toHaveAttribute("src", "/api/shop-images/txus-inventory/11102026v2/walnut-slab-400_abcd1234.webp");
+    expect(screen.getByRole("img")).toHaveClass("object-contain", "h-40");
+    expect(mock.cart.items[0].image).toBe(source);
+  });
   it("renders cents and per-piece surfacing accurately with current shell imports", () => {
     render(<Cart />);
     expect(screen.getAllByText("$24.66")).toHaveLength(2);

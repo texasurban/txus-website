@@ -18,6 +18,17 @@ export function validImageUrl(value: unknown): value is string {
   );
 }
 
+/** Production gateways intercept /manus-storage. Keep the exact inventory key
+ * and tier, but deliver it through the application's project-aware API route.
+ * Original marketing and external image URLs remain untouched.
+ */
+export function imageDeliveryUrl(src: string): string {
+  const prefix = "/manus-storage/txus-inventory/";
+  return src.startsWith(prefix)
+    ? `/api/shop-images/${src.slice("/manus-storage/".length)}`
+    : src;
+}
+
 /** galleryJson contains verified associations. Source imageCount is not a gallery. */
 export function parseGallery(galleryJson?: string | null): GalleryImage[] {
   if (!galleryJson) return [];
@@ -59,7 +70,10 @@ export function parseGallery(galleryJson?: string | null): GalleryImage[] {
 
 export function absoluteImageUrl(src?: string | null): string | undefined {
   if (!validImageUrl(src)) return undefined;
-  return src.startsWith("/") ? `https://txurbansawmill.com${src}` : src;
+  const delivered = imageDeliveryUrl(src);
+  return delivered.startsWith("/")
+    ? `https://txurbansawmill.com${delivered}`
+    : delivered;
 }
 
 interface ProductImageProps {
@@ -97,7 +111,7 @@ export function ProductImage({
     >
       {usable ? (
         <img
-          src={src}
+          src={imageDeliveryUrl(src)}
           alt={alt}
           width={width}
           height={height}
